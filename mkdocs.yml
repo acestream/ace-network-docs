@@ -60,6 +60,7 @@ nav:
     - Purge Devices: list-of-operations/purge-devices.md
     - Remove Device: list-of-operations/remove-device.md
     - Reward Uploaders: list-of-operations/reward-uploaders.md
+  - Software: software/index.md
   - Словарь:
     - Аккаунты и устройства: glossary/accounts-and-devices.md
     - Операции: glossary/operations.md
