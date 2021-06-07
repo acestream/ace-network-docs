@@ -38,7 +38,7 @@ credit_limit = SystemSettings.traffic_credit_limit - account.traffic_credit_used
 
     Текущий курс XAT/XAC: 1 XAT = 1 XAC.
 
-    Текущая стоимость 1 Гб трафика - 0.01 XAC.
+    Текущая стоимость 1 Гб трафика: 0.01 XAC.
 
     Системный смарт-контракт закрывает кредиты пользователя `UserA`:
 

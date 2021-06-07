@@ -14,6 +14,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.highlight
   - pymdownx.superfences
+  - admonition
 
 nav:
   - Welcome: index.md
@@ -24,6 +25,9 @@ nav:
     - Производительность: get-started/performance.md
     - Безопасность: get-started/security.md
     - Учет трафика и времени: get-started/traffic-time-accounting.md
+  - DAO Ace Stream:
+    - Описание: library/dao-acestream.md
+    - Экономика токенов: library/token-economy.md
   - Системные токены:
     - Overview: system-tokens/index.md
     - Ace Token (XAT): system-tokens/ace-token.md
@@ -49,21 +53,22 @@ nav:
     - Система модерации: services/moderation.md
   - Список операций:
     - Overview: list-of-operations/index.md
+    - Inflation: list-of-operations/inflation.md
     - Ace Asset: list-of-operations/ace-asset.md
     - Ace Deposit: list-of-operations/ace-deposit.md
-    - Add Device: list-of-operations/add-device.md
+    - Create Premium Pool: list-of-operations/create-premium-pool.md
+    - Reward Uploaders: list-of-operations/reward-uploaders.md
     - Buy Single Access: list-of-operations/buy-single-access.md
     - Buy Subscription: list-of-operations/buy-subscription.md
-    - Create Premium Pool: list-of-operations/create-premium-pool.md
     - Distribute Subscriptions: list-of-operations/distribute-subscriptions.md
-    - Inflation: list-of-operations/inflation.md
-    - Purge Devices: list-of-operations/purge-devices.md
+    - Add Device: list-of-operations/add-device.md
     - Remove Device: list-of-operations/remove-device.md
-    - Reward Uploaders: list-of-operations/reward-uploaders.md
+    - Purge Devices: list-of-operations/purge-devices.md
   - Software: software/index.md
   - Словарь:
     - Аккаунты и устройства: glossary/accounts-and-devices.md
     - Операции: glossary/operations.md
+    - Комиссии: glossary/fees.md
     - Транспортный файл: glossary/transport-file.md
     - Идентификатор контента: glossary/content-identifier.md
     - Единица трафика: glossary/traffic-unit.md
@@ -72,3 +77,4 @@ nav:
     - Гео-метка: glossary/geo-tag.md
     - Системные настройки: glossary/system-settings.md
     - Системные смарт-контракты: glossary/system-smart-contracts.md
+    - Ace Stream Foundation: glossary/ace-stream-foundation.md

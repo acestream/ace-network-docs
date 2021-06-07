@@ -1,66 +1,51 @@
 # Distribute Subscriptions
 
-==TODO: rewrite==
+Запускает механизм распределения дохода от подписок в премиум пуле.
 
-Запускает механизм распределения платежей за статус "премиум".
+Эта операция является системным смарт-контрактом.
 
 Операция может быть запущена любым аккаунтом, но сеть примет только одну операцию раз в 24 часа.
 
 
 ## Псевдокод
 
-```bash
-# find all accounts with "premium" status
-premiumAccounts = { get accounts where
-  account.homedomain.startsWith('premium.acestream.network')
-  and account.isLocked()
-}
+```python
 
-# find accounts with finished "premium" status
-targets = for (account in premiumAccounts) {
-  # extract owner account and days from homedomain
-  owner, days = parseDetails(account.homedomain)
-  if (now() - account.lastmodified >= days*86400) {
-    yield { account, owner, days }
-  }
-}
+# Find all unprocessed subscriptions
+subscriptions = [ account.getUnprocessedSubscriptions() in system.accounts if
+  account.hasUnprocessedSubscriptions()
+]
 
-for (target in targets) {
+for subscription in subscriptions:
   # Get watch duration as a list of tuples (broadcaster, duration) where:
   # - broadcaster: broadcaster's account
   # - duration: total duration of watching broadcaster's content by target.owner during the specified period
   # This data is retrieved from the layer 2
-  watchDuration = getWatchDuration(target.owner, target.account.lastmodified, target.days)
+  watchDuration = getWatchDuration(subscription.owner, subscription.createdAt, subscription.duration)
 
-  # get total duration
+  # Get total duration
   totalDuration = 0
-  for ((broadcaster, duration) in watchDuration) {
+  for (broadcaster, duration) in watchDuration:
     totalDuration += duration
-  }
 
+  # The amount of tokens to distribute among broadcasters is stored in
+  # the "broadcastersShare" field of the subscription
+  tokensToDistribute = subscription.broadcastersShare
 
-  # System fee
-  fee = target.account.tokens * NetworkSettings.premium_fee
-  premiumPool.amount += fee
-  # The rest of tokens is distributed among broadcasters
-  totalBroadcasterTokens = target.account.tokens - fee
+  # Distribute tokens to broadcasters proportionally to the watch duration
+  for (broadcaster, duration) in watchDuration:
+    addTokens(broadcaster, tokensToDistribute * duration / totalDuration)
 
-  # distribute tokens to broadcasters proportionally to the watch duration
-  for ((broadcaster, duration) in watchDuration) {
-    addTokens(broadcaster, totalBroadcasterTokens * duration / totalDuration)
-  }
+  # Remove processed subscription from the ledger
+  removeSubscription(subscription.owner, subscription.id)
 
-  deleteAccount(target.account)
-}
 ```
 
 
 ## Описание
 
-- найти все маркеры статуса "премиум" (заблокированные аккаунты с отметкой `premium.acestream.network`)
-- выбрать из них те, срок действия которых закончился
-- с каждый найденным аккаунтом-маркером провести такие операции:
-    - получить из второго уровня информацию о времени просмотра за период действия статуса "премиум" (каких бродкастеров смотрел владелец статуса "премиум" и сколько времени)
-    - 30% токенов на аккаунте-маркере перевести в системный пул `premiumPool`
-    - 70% токенов на аккаунте-маркере распределить между бродкастерами пропорционально времени просмотра
-    - удалить аккаунт-маркер
+- найти все необработанные подписки (это подписки, срок действия которых закончился, но доход от них еще не был распределен между бродкастерами)
+- с каждой найденной подпиской провести такие операции:
+    - получить из второго уровня информацию о времени просмотра за период действия подписки (каких бродкастеров смотрел владелец подписки и сколько времени)
+    - токены в поле `broadcastersShare` подписки распределить между бродкастерами пропорционально времени просмотра
+    - удалить обработанную подписку

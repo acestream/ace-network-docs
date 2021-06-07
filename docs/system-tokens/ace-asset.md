@@ -19,8 +19,9 @@ Ace Asset Token (XAS) - системный токен, который выпол
 
 В момент запуска сети выпускается единоразово 1,000,000,000 XAS
 
-Все токены размещаются на аккаунте, принадлежащем Ace Stream Foundation
+Все XAS размещаются на аккаунте под управлением [Ace Stream Foundation][4]
 
 [1]: ../glossary/system-settings.md#_3
 [2]: ../services/ace-asset.md
 [3]: ../list-of-operations/ace-asset.md
+[4]: ../glossary/ace-stream-foundation.md

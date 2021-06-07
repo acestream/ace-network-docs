@@ -6,14 +6,17 @@
 
 Threshold: medium
 
+
 ## Параметры
 
-- device public key - публичный ключ устройства, которое необходимо привязать
+- `device public key` - публичный ключ устройства, которое необходимо привязать
 
+<!--
 ## Ошибки
 
 - ADD_DEVICE_MALFORMED - неверные входящие данные
 - ADD_DEVICE_UNDERFUNDED - у аккаунта-источника недостаточно средств для совершения операции
 - ADD_DEVICE_ALREADY_ADDED - публичный ключ устройства уже привязан к одному аккаунту в сети
+-->
 
 [1]: ../glossary/system-pools.md#txfeepool
