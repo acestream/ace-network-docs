@@ -56,7 +56,7 @@ nav:
     - Система модерации: services/moderation.md
   - Список операций:
     - Overview: list-of-operations/index.md
-    - Ace Asset: list-of-operations/ace-asset.md
+    - Ace Assets: list-of-operations/ace-asset.md
     - Ace Deposit: list-of-operations/ace-deposit.md
     - Distribute Subscriptions: list-of-operations/distribute-subscriptions.md
     - Inflation: list-of-operations/inflation.md
