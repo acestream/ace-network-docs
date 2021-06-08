@@ -19,9 +19,15 @@ subscriptions = [ account.getUnprocessedSubscriptions() in system.accounts if
 for subscription in subscriptions:
   # Get watch duration as a list of tuples (broadcaster, duration) where:
   # - broadcaster: broadcaster's account
-  # - duration: total duration of watching broadcaster's content by target.owner during the specified period
+  # - duration: total duration of watching broadcaster's content by
+  #   subscription.owner during the specified period
+  #
   # This data is retrieved from the layer 2
-  watchDuration = getWatchDuration(subscription.owner, subscription.createdAt, subscription.duration)
+  watchDuration = getWatchDuration(
+    subscription.pool,
+    subscription.owner,
+    subscription.createdAt,
+    subscription.duration)
 
   # Get total duration
   totalDuration = 0
@@ -46,6 +52,6 @@ for subscription in subscriptions:
 
 - найти все необработанные подписки (это подписки, срок действия которых закончился, но доход от них еще не был распределен между бродкастерами)
 - с каждой найденной подпиской провести такие операции:
-    - получить из второго уровня информацию о времени просмотра за период действия подписки (каких бродкастеров смотрел владелец подписки и сколько времени)
+    - получить из второго уровня информацию о времени просмотра за период действия подписки (каких бродкастеров из данного пула смотрел владелец подписки и сколько времени)
     - токены в поле `broadcastersShare` подписки распределить между бродкастерами пропорционально времени просмотра
     - удалить обработанную подписку

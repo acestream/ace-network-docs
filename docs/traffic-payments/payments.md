@@ -7,6 +7,12 @@
 
 Детали алгоритма оплаты описаны в разделе [Эмиссия XAC][3]
 
+Сеть забирает комиссию 10% от каждого платежа по оплате трафика.
+Комиссию оплачивает получатель платежа.
+Комиссия перечисляется в системный пул [`trafficFeePool`][4]
+
+
 [1]: ../glossary/special-accounts.md#_2
 [2]: ../get-started/traffic-time-accounting.md
 [3]: ../system-tokens/xac-emission.md
+[4]: ../glossary/system-pools.md#trafficfeepool

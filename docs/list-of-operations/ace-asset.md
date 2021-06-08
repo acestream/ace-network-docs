@@ -12,7 +12,7 @@
 ```python
 
 # list of pools that are distributed
-pools = [trafficFeePool, premiumFeePool, unlockedPool]
+pools = [trafficFeePool, premiumFeePool, contentAccessFeePool, unlockedPool]
 
 # find target accounts
 targetAccounts = [ account in system.accounts if
@@ -41,6 +41,7 @@ for pool in pools:
 
 - распределяются такие системные пулы:
     - [`trafficFeePool`][1]
+    - [`contentAccessFeePool`][4]
     - [`premiumFeePool`][2]
     - [`unlockedPool`][3]
 - `ace_asset_adf_share` процентов содержимого пулов перечисляется на аккаунт под управлением Ace Stream Foundation
@@ -53,3 +54,4 @@ for pool in pools:
 [1]: ../glossary/system-pools.md#trafficfeepool
 [2]: ../glossary/system-pools.md#premiumfeepool
 [3]: ../glossary/system-pools.md#unlockedpool
+[4]: ../glossary/system-pools.md#contentaccessfeepool
