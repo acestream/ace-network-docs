@@ -25,9 +25,11 @@ nav:
     - Производительность: get-started/performance.md
     - Безопасность: get-started/security.md
     - Учет трафика и времени: get-started/traffic-time-accounting.md
-  - DAO Ace Stream:
-    - Описание: library/dao-acestream.md
+  - Библиотека:
+    - DAO Ace Stream: library/dao-acestream.md
     - Экономика токенов: library/token-economy.md
+    - Ace DeFi: library/ace-defi.md
+    - Кому это нужно: library/usage.md
   - Системные токены:
     - Overview: system-tokens/index.md
     - Ace Token (XAT): system-tokens/ace-token.md
