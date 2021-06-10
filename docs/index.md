@@ -1,7 +1,4 @@
-# Welcome
-
-Вы читаете гид по сети Ace Network.
-
-Здесь вы найдете общее описание системы и ее компонентов, технические детали, примеры и многое другое.
-
-Во время чтения документации вы можете обнаружить неточности, баги или опечатки. Если такое случилось - пожалуйста, сообщите нам об этом здесь: [https://github.com/acestream/ace-network-docs/issues/new](https://github.com/acestream/ace-network-docs/issues/new)
+---
+template: home.html
+title: Home
+---

@@ -1,12 +1,23 @@
-site_name: Ace Network
+site_name: DAO Ace Stream
 theme:
   name: material
+  custom_dir: templates
+  palette:
+    primary: blue grey
+    accent: blue
   font:
     text: Roboto
     code: Roboto Mono
   features:
     # - navigation.sections
-    # - navigation.tabs
+    - navigation.tabs
+
+extra_javascript:
+  - assets/javascript/main.js
+
+extra_css:
+  - assets/css/colors.css
+  - assets/css/main.css
 
 markdown_extensions:
   - toc:
@@ -14,71 +25,77 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.details
   - admonition
   - attr_list
+  - meta
 
 nav:
-  - Welcome: index.md
-  - Get Started:
-    - Intro: get-started/intro.md
-    - Ace Network Stack: get-started/ace-network-stack.md
-    - Архитектура Сети: get-started/network-architecture.md
-    - Производительность: get-started/performance.md
-    - Безопасность: get-started/security.md
-    - Учет трафика и времени: get-started/traffic-time-accounting.md
-  - Библиотека:
+  - Home: index.md
+  - Описание проекта:
     - DAO Ace Stream: library/dao-acestream.md
-    - Экономика токенов: library/token-economy.md
-    - Ace DeFi: library/ace-defi.md
+    # - Экономика токенов: library/token-economy.md
+    - Финансы и инвестиции: library/finances.md
     - Кому это нужно: library/usage.md
-  - Системные токены:
-    - Overview: system-tokens/index.md
-    - Ace Token (XAT): system-tokens/ace-token.md
-    - Ace Coin (XAC): system-tokens/ace-coin.md
-    - Ace Asset Token (XAS): system-tokens/ace-asset.md
-    - Эмиссия Ace Coin: system-tokens/xac-emission.md
-    - Инфляция: system-tokens/inflation.md
-    - Обмен токенов: system-tokens/exchange.md
-  - Расчеты за трафик:
-    - Цена трафика: traffic-payments/traffic-price.md
-    - Оплата трафика: traffic-payments/payments.md
-    - Кредитный трафик: traffic-payments/credit-trafic.md
-    - Оплата трафика бродкастерами: traffic-payments/broadcaster-payments.md
-  - Участники Сети:
-    - Бродкастеры: network-participants/broadcasters.md
-    - Правообладатели: network-participants/copyright-holders.md
-    - Дистрибьюторы: network-participants/distributors.md
-  - Сервисы:
-    - Overview: services/index.md
-    - Ace Deposit: services/ace-deposit.md
-    - Ace Asset: services/ace-asset.md
-    - Premium Pool: services/premium-pool.md
-    - Пользовательские каналы: services/user-channels.md
-    - Система модерации: services/moderation.md
-  - Список операций:
-    - Overview: list-of-operations/index.md
-    - Ace Assets: list-of-operations/ace-asset.md
-    - Ace Deposit: list-of-operations/ace-deposit.md
-    - Distribute Subscriptions: list-of-operations/distribute-subscriptions.md
-    - Inflation: list-of-operations/inflation.md
-    - Purge Devices: list-of-operations/purge-devices.md
-    - Reward Uploaders: list-of-operations/reward-uploaders.md
-    - Add Device: list-of-operations/add-device.md
-    - Buy Single Access: list-of-operations/buy-single-access.md
-    - Buy Subscription: list-of-operations/buy-subscription.md
-    - Create Premium Pool: list-of-operations/create-premium-pool.md
-    - Remove Device: list-of-operations/remove-device.md
-  - Software: software/index.md
-  - Словарь:
-    - Аккаунты и устройства: glossary/accounts-and-devices.md
-    - Операции: glossary/operations.md
-    - Комиссии: glossary/fees.md
-    - Транспортный файл: glossary/transport-file.md
-    - Идентификатор контента: glossary/content-identifier.md
-    - Единица трафика: glossary/traffic-unit.md
-    - Системные пулы: glossary/system-pools.md
-    - Специальные счета: glossary/special-accounts.md
-    - Гео-метка: glossary/geo-tag.md
-    - Системные настройки: glossary/system-settings.md
-    - Системные смарт-контракты: glossary/system-smart-contracts.md
-    - Ace Stream Foundation: glossary/ace-stream-foundation.md
+    - FAQ: library/faq.md
+  - Ace Network:
+    - Welcome: welcome.md
+    - Get Started:
+      - Intro: get-started/intro.md
+      - Ace Network Stack: get-started/ace-network-stack.md
+      - Архитектура Сети: get-started/network-architecture.md
+      - Производительность: get-started/performance.md
+      - Безопасность: get-started/security.md
+      - Учет трафика и времени: get-started/traffic-time-accounting.md
+    - Системные токены:
+      - Overview: system-tokens/index.md
+      - Ace Token (XAT): system-tokens/ace-token.md
+      - Ace Coin (XAC): system-tokens/ace-coin.md
+      - Ace Asset Token (XAS): system-tokens/ace-asset.md
+      - Классификация токенов: system-tokens/token-classification.md
+      - Эмиссия Ace Coin: system-tokens/xac-emission.md
+      - Инфляция: system-tokens/inflation.md
+      - Обмен токенов: system-tokens/exchange.md
+    - Расчеты за трафик:
+      - Цена трафика: traffic-payments/traffic-price.md
+      - Оплата трафика: traffic-payments/payments.md
+      - Кредитный трафик: traffic-payments/credit-trafic.md
+      - Оплата трафика бродкастерами: traffic-payments/broadcaster-payments.md
+    - Участники Сети:
+      - Бродкастеры: network-participants/broadcasters.md
+      - Правообладатели: network-participants/copyright-holders.md
+      - Дистрибьюторы: network-participants/distributors.md
+    - Сервисы:
+      - Overview: services/index.md
+      - Ace Deposit: services/ace-deposit.md
+      - Ace Asset: services/ace-asset.md
+      - Premium Pool: services/premium-pool.md
+      - Пользовательские каналы: services/user-channels.md
+      - Система модерации: services/moderation.md
+    - Список операций:
+      - Overview: list-of-operations/index.md
+      - Ace Assets: list-of-operations/ace-asset.md
+      - Ace Deposit: list-of-operations/ace-deposit.md
+      - Distribute Subscriptions: list-of-operations/distribute-subscriptions.md
+      - Inflation: list-of-operations/inflation.md
+      - Purge Devices: list-of-operations/purge-devices.md
+      - Reward Uploaders: list-of-operations/reward-uploaders.md
+      - Add Device: list-of-operations/add-device.md
+      - Buy Single Access: list-of-operations/buy-single-access.md
+      - Buy Subscription: list-of-operations/buy-subscription.md
+      - Create Premium Pool: list-of-operations/create-premium-pool.md
+      - Remove Device: list-of-operations/remove-device.md
+    - Software: software/index.md
+    - Словарь:
+      - Аккаунты и устройства: glossary/accounts-and-devices.md
+      - Операции: glossary/operations.md
+      - Комиссии: glossary/fees.md
+      - Транспортный файл: glossary/transport-file.md
+      - Идентификатор контента: glossary/content-identifier.md
+      - Единица трафика: glossary/traffic-unit.md
+      - Системные пулы: glossary/system-pools.md
+      - Специальные счета: glossary/special-accounts.md
+      - Гео-метка: glossary/geo-tag.md
+      - Системные настройки: glossary/system-settings.md
+      - Системные смарт-контракты: glossary/system-smart-contracts.md
+      - Ace Stream Foundation: glossary/ace-stream-foundation.md

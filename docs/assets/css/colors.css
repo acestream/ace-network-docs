@@ -1,0 +1,18 @@
+.md-footer {
+    background-color: var(--md-primary-fg-color--dark);
+}
+
+.md-typeset .admonition.question,
+.md-typeset details.question {
+  border-color: var(--md-primary-fg-color--light);
+}
+
+.md-typeset .question > .admonition-title,
+.md-typeset .question > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+  border-color: var(--md-primary-fg-color--light);
+}
+.md-typeset .question > .admonition-title::before,
+.md-typeset .question > summary::before {
+  background-color: var(--md-primary-fg-color--light);
+}

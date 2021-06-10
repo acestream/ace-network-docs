@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
+  {{ super() }}
+
+  <!-- Additional styles for landing page -->
+  <style>
+
+    body {
+        background: url(https://m.acestream.net/img/md_home_bg.png) no-repeat center center fixed;
+        background-color: rgba(0, 0, 0, 0);
+        background-size: auto;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: #262E36;
+    }
+
+    .mdx-home {
+        padding-top: 10em;
+        text-align: center;
+    }
+
+    .mdx-home .md-button {
+        color: var(--md-primary-bg-color);
+        width: 250px;
+        margin-top: 16px;
+    }
+
+    .mdx-home .md-button.mdx-button--first {
+        margin-right: 0px;
+    }
+
+    .mdx-home .md-button:hover {
+        background-color: var(--md-primary-bg-color);
+        border-color: var(--md-primary-bg-color);
+        color: var(--md-primary-fg-color);
+    }
+
+    .mdx-home__content {
+        color: #fff;
+    }
+
+    .mdx-home__content h1 {
+        color: #fff;
+    }
+
+    /* Application header should be static for the landing page */
+    .md-header {
+      position: initial;
+    }
+
+    /* Remove spacing, as we cannot hide it completely */
+    .md-main__inner {
+      margin: 0;
+    }
+
+    /* Hide main content for now */
+    .md-content {
+      display: none;
+    }
+
+    @media screen and (min-width: 520px) {
+        .mdx-home .md-button {
+            margin-top: 0px;
+        }
+        .mdx-home .md-button.mdx-button--first {
+            margin-right: 16px;
+        }
+    }
+
+    /* Hide table of contents */
+    @media screen and (min-width: 60em) {
+      .md-sidebar--secondary {
+        display: none;
+      }
+    }
+
+    /* Hide navigation */
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    }
+  </style>
+
+  <!-- Home page -->
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-home">
+
+        <!-- Home content -->
+        <div class="mdx-home__content">
+          <h1>DAO Ace Stream - the future of the Internet</h1>
+          <!-- <p>{{ config.site_description }}. Set up in 5 minutes.</p> -->
+          <a
+            href="{{ 'library/dao-acestream' | url }}"
+            class="md-button md-button--primary mdx-button--first"
+          >
+            Описание проекта
+          </a>
+          <a
+            href="{{ 'library/finances' | url }}"
+            class="md-button"
+          >
+            Финансы и инвестиции
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock %}
+
+<!-- Application footer -->
+{% block footer %}{% endblock %}
