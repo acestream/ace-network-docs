@@ -1,70 +1,42 @@
-function xhr(details) {
-    var XHR = window.XMLHttpRequest;
-    var req = new XHR(),
-        timerTimeout = undefined,
-        timedOut = false;
+function getBodyElement() {
+    const result = document.getElementsByTagName('body');
+    return result.length > 0 ? result[0] : null;
+}
 
-    details.method = details.method || 'GET';
-    details.timeout = details.timeout || 10000;
-    if(!details.url) {
-        throw new 'missing url';
+const scrollState = {
+    top: 0,
+    left: 0,
+};
+
+function disableBodyScrolling() {
+    const body = getBodyElement();
+    if(body) {
+        // Save scroll position.
+        //
+        // Changing body overflow to "hidden" will cause scrolling to the top,
+        // thus we need to save current scroll position to restore it later.
+        scrollState.top = window.pageYOffset || document.documentElement.scrollTop;
+        scrollState.left = window.pageXOffset || document.documentElement.scrollLeft,
+
+        body.style.height = '100%';
+        body.style.overflow = 'hidden';
     }
+}
 
-    if(details.url.substring(0, 2) == '//') {
-        details.url = window.location.protocol + details.url;
+function enableBodyScrolling() {
+    const body = getBodyElement();
+    if(body) {
+        body.style.height = 'auto';
+        body.style.overflow = 'auto';
+
+        // restore scroll position
+        window.scrollTo(scrollState.left, scrollState.top);
     }
-
-    function callback(response, err) {
-        if(typeof details.callback === 'function') {
-            details.callback(response, err);
-        }
-    }
-
-    if(details.useCookies) {
-        req.withCredentials = true;
-    }
-
-    req.onreadystatechange = function() {
-        if (timedOut) {
-            callback(null, -1);
-            return;
-        }
-        if (req.readyState === 4) {
-            if ((req.status === 200 || req.status === 201) && req.responseText) {
-                if (timerTimeout) {
-                    clearTimeout(timerTimeout);
-                }
-
-                callback(req.responseText);
-            }
-            else {
-                callback(null, req.status);
-            }
-        }
-    };
-
-    req.open(details.method, details.url);
-
-    // set custom headers
-    if(details.headers) {
-        for(var name in details.headers) {
-            req.setRequestHeader(name, details.headers[name]);
-        }
-    }
-
-    timerTimeout = setTimeout(function() {
-        timedOut = true;
-        req.abort();
-    }, details.timeout);
-
-    var postData = null;
-    if(details.data) {
-        postData = JSON.stringify(details.data);
-    }
-    req.send(postData);
 }
 
 function openPopup(url) {
+    disableBodyScrolling();
+
     const container = document.getElementById('popup-container');
     container.style.display = 'block';
 
@@ -73,6 +45,8 @@ function openPopup(url) {
 }
 
 function closePopup() {
+    enableBodyScrolling();
+
     const container = document.getElementById('popup-container');
     container.style.display = 'none';
 
