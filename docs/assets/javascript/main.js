@@ -34,7 +34,7 @@ function enableBodyScrolling() {
     }
 }
 
-function openPopup(url) {
+function openPopup(url, skipNewState) {
     disableBodyScrolling();
 
     const container = document.getElementById('popup-container');
@@ -42,6 +42,14 @@ function openPopup(url) {
 
     const content = document.getElementById('popup-content');
     content.innerHTML = `<iframe src="${url}"></iframe>`;
+
+    if(!skipNewState) {
+        const state = {
+            'type': 'popup',
+            'url': url,
+        };
+        window.history.pushState(state, '', window.location.pathname + '#popup=' + url);
+    }
 }
 
 function closePopup() {
@@ -67,9 +75,24 @@ function init() {
     const popupClose = document.getElementById('popup-close');
     if(popupClose) {
         popupClose.addEventListener('click', () => {
-            closePopup();
+            if(history.state && history.state.type === 'popup') {
+                history.back();
+            }
+            else {
+                closePopup();
+            }
         }, false);
     }
+
+    window.onpopstate = function(event) {
+        console.log("location: " + document.location + ", state: " + JSON.stringify(event.state));
+        if(!event.state) {
+            closePopup();
+        }
+        else if(event.state.type === 'popup' && event.state.url) {
+            openPopup(event.state.url, true);
+        }
+    };
 }
 
 init();
