@@ -1,0 +1,11 @@
+.md-button.mdx-button--transparent-light {
+    padding: .125em 2em;
+    font-weight: 400;
+}
+
+.md-button.mdx-button--transparent-light:hover,
+.md-button.mdx-button--transparent-light:focus {
+    background-color: var(--md-primary-fg-color);
+    border-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+}

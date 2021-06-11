@@ -16,3 +16,7 @@
 .md-typeset .question > summary::before {
   background-color: var(--md-primary-fg-color--light);
 }
+
+:root > * {
+    --md-typeset-a-color: #4287ff;
+}

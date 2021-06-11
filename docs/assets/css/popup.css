@@ -36,17 +36,20 @@
 
 #popup-close {
     position: fixed;
-    top: 8px;
-    right: 8px;
-    width: 16px;
-    height: 16px;
+    top: 0px;
+    right: 0px;
+    width: 32px;
+    height: 32px;
     cursor: pointer;
     z-index: 1003;
 }
 
 #popup-close img {
-    width: 100%;
-    height: 100%;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
 }
 
 @media screen and (min-width: 60em) {
@@ -57,7 +60,7 @@
         bottom: 32px;
     }
     #popup-close {
-        top: 40px;
-        right: 40px;
+        top: 32px;
+        right: 32px;
     }
 }
