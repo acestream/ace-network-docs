@@ -36,10 +36,11 @@ nav:
   - О проекте:
     - DAO Ace Stream: library/dao-acestream.md
     - Финансы и инвестиции:
-      - Ace DeFi: library/finances.md
+      - Инвестиционные программы, DeFi: library/finances.md
       - Классификация токенов, SEC: system-tokens/token-classification.md
+      - Оценка рисков: library/risk-assessment.md
     - Кому это нужно: library/usage.md
-    - FAQ: library/faq.md
+    - Соответствие условиям DMCA: library/dmca.md
   - Ace Network:
     - Welcome: welcome.md
     - Get Started:
