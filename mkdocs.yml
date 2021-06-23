@@ -34,9 +34,11 @@ markdown_extensions:
 nav:
   - Home: index.md
   - О проекте:
+    - Интернет, о котором мало кто знает: library/intro.md
     - DAO Ace Stream: library/dao-acestream.md
     - Финансы и инвестиции:
       - Инвестиционные программы, DeFi: library/finances.md
+      - Криптоактивы и комиссии Сети: library/crypto-assets-and-fees.md
       - Классификация токенов, SEC: system-tokens/token-classification.md
       - Оценка рисков: library/risk-assessment.md
     - Кому это нужно: library/usage.md

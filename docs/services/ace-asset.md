@@ -1,6 +1,6 @@
 # Программа «Ace Assets»
 
-Ace Assets - это уникальная привилегированная программа. предоставляющая ее участникам права на получение криптоактивов DAO Ace Stream.
+Ace Assets - это уникальная привилегированная программа. предоставляющая ее участникам права на получение [криптоактивов DAO Ace Stream][5].
 
 ## О правах на криптоактивы DAO Ace Stream
 
@@ -55,3 +55,4 @@ Ace Assets - это уникальная привилегированная пр
 [2]: ../list-of-operations/ace-asset.md
 [3]: ../system-tokens/ace-token.md
 [4]: ../system-tokens/ace-asset.md
+[5]: ../library/crypto-assets-and-fees.md

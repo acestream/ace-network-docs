@@ -53,13 +53,15 @@ function openPopup(url, skipNewState) {
 }
 
 function closePopupNoState() {
-    enableBodyScrolling();
-
     const container = document.getElementById('popup-container');
-    container.style.display = 'none';
+    if(container && container.style.display != 'none') {
+        enableBodyScrolling();
 
-    const content = document.getElementById('popup-content');
-    content.innerHTML = '';
+        container.style.display = 'none';
+
+        const content = document.getElementById('popup-content');
+        content.innerHTML = '';
+    }
 }
 
 function closePopup() {
