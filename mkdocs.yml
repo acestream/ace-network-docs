@@ -47,6 +47,7 @@ nav:
     - Welcome: welcome.md
     - Get Started:
       - Intro: get-started/intro.md
+      - Преамбула: get-started/foreword.md
       - Ace Network Stack: get-started/ace-network-stack.md
       - Архитектура Сети: get-started/network-architecture.md
       - Производительность: get-started/performance.md
