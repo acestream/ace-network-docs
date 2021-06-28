@@ -17,6 +17,7 @@
 - [Distribute Subscriptions](distribute-subscriptions.md)
 - [Inflation](inflation.md)
 - [Purge Devices](purge-devices.md)
+- [Purge Subscriptions](purge-subscriptions.md)
 - [Reward Uploaders](reward-uploaders.md)
 
 

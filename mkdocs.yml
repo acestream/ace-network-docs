@@ -85,6 +85,7 @@ nav:
       - Distribute Subscriptions: list-of-operations/distribute-subscriptions.md
       - Inflation: list-of-operations/inflation.md
       - Purge Devices: list-of-operations/purge-devices.md
+      - Purge Subscriptions: list-of-operations/purge-subscriptions.md
       - Reward Uploaders: list-of-operations/reward-uploaders.md
       - Add Device: list-of-operations/add-device.md
       - Buy Single Access: list-of-operations/buy-single-access.md
