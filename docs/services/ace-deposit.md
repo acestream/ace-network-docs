@@ -1,5 +1,7 @@
 # Ace Deposit
 
+==TODO: english version==
+
 ## Описание
 
 Ace Deposit – это сберегательный (депозитный) счет для системных токенов «Ace Token» (XAT), с плавающей ставкой.

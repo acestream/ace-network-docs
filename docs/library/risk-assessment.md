@@ -1,5 +1,6 @@
 # Оценка рисков
 
+==TODO: english version==
 
 ## Надежность проекта DAO Ace Stream
 

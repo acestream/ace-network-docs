@@ -1,5 +1,7 @@
 # Remove device
 
+==TODO: english version==
+
 Отвязать устройство от аккаунта.
 
 Threshold: medium

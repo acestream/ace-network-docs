@@ -4,6 +4,8 @@ template: raw_content.html
 
 # Ace Stream P2P CDN
 
+==TODO: english version==
+
 **
 Экологичный CDN, с безлимитной пропускной способностью и самой низкой стоимостью хранения и доставки данных в мире.
 **

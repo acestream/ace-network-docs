@@ -1,5 +1,7 @@
 # Buy Single Access
 
+==TODO: english version==
+
 Купить разовый доступ к контенту в премиум пуле
 
 Threshold: medium

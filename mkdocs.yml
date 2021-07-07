@@ -31,6 +31,13 @@ markdown_extensions:
   - attr_list
   - meta
 
+plugins:
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        ru: Русский
+
 nav:
   - Home: index.md
   - О проекте:
