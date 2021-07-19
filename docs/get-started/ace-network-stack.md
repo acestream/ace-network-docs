@@ -1,37 +1,23 @@
 # Ace Network Stack
 
-==TODO: english version==
 
-Для создания Ace Network мы используем готовые технологии, проверенные временем и миллионами пользователей. Мы не ставим перед собой задачу создать новый алгоритм консенсуса либо принципиально новый блокчейн. Наша задача - создать надежную и безопасную сеть, способную обеспечить все потребности DAO Ace Stream. Для этого мы объединяем технологии, перечисленные в этом разделе.
+Ace Network is being built with neither the need to re-invent the wheel nor introducing completely new technologies like yet-another-blockchain or yet-another-consensus-algorithm. Our goal is a safe and robust network that would satisfy all needs of Ace Stream DAO, which is perfectly feasible by combining the technologies listed below.
+
 
 ## Ace Stream
 
-Децентрализованная технология P2P-коммуникаций, хранения и передачи мультимедийных данных, ориентированная на онлайн-вещание.
-
-Это основа, вокруг которой создается DAO Ace Stream.
+Backbone technology for the whole network, P2P communication layer optimised for low latency and high throughput streaming.
 
 ## Stellar
 
-Децентрализованная сеть, ориентированная на хранение и перемещение криптоактивов.
+Well-known distributed ledger implementation used in Ace Network to store and transfer crypto-assets (reasons why Stellar fits Ace Stream's needs the best, and other technical details are available in [Network Architecture])
 
-Мы используем Stellar ([www.stellar.org][1]) как технологическую основу для построения блокчейнов первого и второго уровня (подробности в разделе [Архитектура сети][2]).
-
-Почему мы выбрали Stellar:
-
-- высокая скорость обработки транзакций
-- подходящая схема построения сети (на базе доверительных отношений между валидаторами)
-- подходящая архитектура распределенной базы данных
 
 ## Tribler
 
-Проект Tribler ([www.tribler.org][3]) уже много лет занимается исследованиями и разработками в области P2P коммуникаций.
+The veteran project of the P2P area had absorbed plenty of nuances associated with implementation and using P2P software. Ace Stream utilizes some of Tribler’s great features like:
 
-В Ace Network наработки Tribler используются для построения третьего уровня:
-
-- коммуникация между клиентскими узлами (система IPv8)
-- распределенная база данных третьего уровня
-- система выявления злоумышленных действий (фальсификация данных, двойные траты и т.п.)
-
-[1]: https://www.stellar.org/
-[2]: network-architecture.md
-[3]: https://www.tribler.org/
+* P2P overlay network (Tribler’s IPv8)
+* distributed database
+* distributed traffic accounting
+* detecting malicious actions and actors (fake data, double-spending attempts, etc.)
