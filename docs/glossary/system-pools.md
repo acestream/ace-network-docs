@@ -1,73 +1,62 @@
-# Системные пулы
+# System pools
 
-==TODO: english version==
-
-Системный пул - это место аккумуляции токенов из различных источников для их дальнейшего распределения согласно условиям системных смарт-контрактов. Каждый пул - это некий счет, к которому есть доступ только у системных смарт-контрактов. Технически каждый пул представляет собой поле в структуре `LedgerHeader`.
+System pools accumulate tokens for further re-distribution accordingly to conditions specified in system smart contracts. Every pool is the special account accessible only by system smart contracts, technically implemented as a field in `LedgerHeader` structure.
 
 
 ### lockedPool
 
-Токен: [XAT][1]
+Token: [XAT][1]
 
-Пополняется единоразово в момент запуска сети (подробности в разделе [Ace Token][1])
+Filled with tokens by the network's startup procedure (details described in [Ace Token][1])
 
-Данный пул предназначен для контроля количества Ace Token в обороте. Все токены в данном пуле заблокированы - не могут быть использованы ни одним аккаунтом. Токены из данного пула разблокируются (выводятся в оборот) в момент сжигания Ace Token в рамках механизма [эмиссии Ace Coin][2].
+This pool is controlled by the Ace Token supply mechanism. Initially, all tokens in this pool are locked and cannot be used by any accounts until they are unlocked by burning Ace Tokens as [Ace Coins are emitted][2]
 
 
 ### unlockedPool
 
-Токен: [XAT][1]
+Token: [XAT][1]
 
-В данный пул попадают токены из `lockedPool` в момент разблокирования.
+Accumulates unlocked tokens from `lockedPool`
 
-Распределяется смарт-контрактом [Ace Asset][3] в рамках программы [Ace Asset][4]
+Re-distributed by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program
 
 
 ### inflationPool
 
-Токен: [XAT][1]
+Token: [XAT][1]
 
-Пополняется смарт-контрактом [Inflation][5]
+Replenishes by [Inflation][5]  system smart contract
 
-Распределяется смарт-контрактом [Ace Deposit][6] в рамках программы [Ace Deposit][7]
+Re-distributed by [Ace Deposit][6] system smart contract for sake of [Ace Deposit][7] program
 
 
 ### txFeePool
 
-Токен: [XAT][1]
+Token: [XAT][1]
 
-Пополняется за счет комиссий на транзакции между пользователями.
-
-На данный момент не распределяется.
-
-В будущем планируется распределение этого пула между валидаторами второго уровня.
+Accumulates transaction processing fees, is not a subject of re-distribution for now, but will be periodically re-distributed between second layer validators in the future.
 
 
 ### trafficFeePool
 
-Токен: [XAC][8], [XAS][9]
+Tokens: [XAC][8], [XAS][9]
 
-Пополняется за счет комиссий на транзакции по расчету за трафик.
-
-Распределяется смарт-контрактом [Ace Asset][3] в рамках программы [Ace Asset][4]
+Accumulates commissions from traffic fees. Re-distributes by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program.
 
 
 ### contentAccessFeePool
 
-Токен: [XAC][8], [XAS][9]
+Tokens: [XAC][8], [XAS][9]
 
-Пополняется за счет комиссий на транзакции по оплате доступа к контенту.
-
-Распределяется смарт-контрактом [Ace Asset][3] в рамках программы [Ace Asset][4]
+Accumulates commissions from content access fees. Re-distributes by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program.
 
 
 ### premiumFeePool
 
-Токен: [XAT][1], [XAC][8], токены пулов
+Token: [XAT][1], [XAC][8], Tokenы пулов
 
-Пополняется за счет комиссий, связанных с работой премиум пулов.
+Accumulates commissions from premium pools. Re-distributes by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program.
 
-Распределяется смарт-контрактом [Ace Asset][3] в рамках программы [Ace Asset][4]
 
 
 [1]: ../system-tokens/ace-token.md

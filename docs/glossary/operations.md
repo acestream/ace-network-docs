@@ -1,10 +1,8 @@
-# Операции
+# Operations
 
-==TODO: english version==
+Ace Network's operations are the same [operations][1] as means in Stellar.
 
-Операции в Ace Network являются полным аналогом [операций][1] в Stellar.
-
-Помимо [стандартных][2] сеть дополнена специфическими операциями, описанными [здесь][3]
+Besides [standard][2] operations Ace Network introduces its own specific ones described [here][3]
 
 [1]: https://developers.stellar.org/docs/glossary/operations/
 [2]: https://developers.stellar.org/docs/start/list-of-operations/

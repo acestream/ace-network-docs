@@ -1,41 +1,23 @@
-# Производительность
+# Performance considerations
 
-==TODO: english version==
+## Downstream Performance
 
-## Скорость чтения данных
+Nodes consume the data stored in the main blockchain to create valid, up-to-date profiles of their peers. To prevent spikes of queries, shards (the second layer) keep caches of data from the first layer, guaranteeing horizontal scalability of reads.
 
-Основной объем операций чтения данных генерирует третий уровень (клиентские узлы). Узлы составляют профиль друг друга во время обмена данными, и для этого им необходима информация из основного блокчейна. Эту информацию узлы получают от валидаторов второго уровня, которые реплицируют состояние основного блокчейна и обеспечивают горизонтальное масштабирование операций чтения за счет шардинга.
+## Upstream performance
 
-## Скорость записи данных
+### Main blockchain
 
-### Уровень 1
+Since the first layer is a fork of Stellar, it guarantees to perform at least 1000 transactions per second in the worst case [(usually more)](https://www.lumenauts.com/blog/how-many-transactions-per-second-can-stellar-process](https://www.lumenauts.com/blog/how-many-transactions-per-second-can-stellar-process).
 
-На первом уровне скорость записи данных ограничена пропускной способностью основного блокчейна, технические характеристики которого идентичны сети Stellar. Это означает, основной блокчейн может обработать как минимум 1000 транзакций в секунду, причем при некоторой оптимизации эта цифра может быть увеличена до 2000 и выше ([https://www.lumenauts.com/blog/how-many-transactions-per-second-can-stellar-process](https://www.lumenauts.com/blog/how-many-transactions-per-second-can-stellar-process)).
+The second layer tends to clear and consolidate accounting info to that extent when only one transaction per account per day is required to be stored in the main blockchain, so Ace Network could serve approximately 172,800,000 active accounts daily.
 
-В рамках Ace Network это означает, что сеть может обработать до 172,800,000 пользователей в сутки, поскольку алгоритм агрегации транзакций по учету трафика на втором уровне стремится к созданию 1 транзакции на 1 пользователя в сутки (объединив суточный объем транзакций пользователя по учету трафика в одну, для записи в блокчейн первого уровня).
 
-### Уровень 2
+### Shards (the second layer)
 
-Прогнозируемая пропускная способность каждого блокчейна второго уровня такая же, как у основного блокчейна (поскольку в основе лежит Stellar), т.е. от 1000 до 2000 транзакций в секунду. Верхнего порога пропускной способности второго уровня в целом нет, поскольку используется шардинг. Точные цифры по соотношению количества необходимых шард к количеству активных пользователей будут опубликованы после тестового запуска сети.
+Every shard is also a separate Stellar blockchain with the same performance (1000 transactions per second). Sharding policies still need to be defined after several test runs of the main network.
 
-### Уровень 3
 
-Третий уровень не имеет ограничений по пропускной способности, поскольку занимается сбором, агрегацией и хранением данных. Каждый узел хранит и обрабатывает в основном только свои транзакции по обмену трафиком, поэтому при неограниченном росте количества активных пользователей нагрузка на каждый конкретный узел не возрастает.
+### The third layer (peers)
 
-## Шардинг второго уровня
-
-Мы используем максимально простую архитектуру шардинга, достаточную для работоспособности нашей сети.
-
-Каждая шарда второго уровня - это независимый блокчейн на базе Stellar, задача которого - проверять и агрегировать транзакции по учету трафика и времени просмотра, полученные от третьего уровня, и генерировать на их основе транзакции в основном блокчейне.
-
-Каждая шарда обрабытывает данные закрепленного за ней подмножества пользователей системы. Это обеспечивает горизонтальное масштабирование.
-
-Каждая шарда регистрируется в основном блокчейне на уровне оффчейн конфигурации.
-
-## В чем наше основное преимущество
-
-Наше основное преимущество - наличие полноценного узла ([Ace Stream Engine][1]) на клиентских устройствах. Это дает нам возможность масштабировать хранение и первичную обработку микротранзакций по учету трафика и времени просмотра пропорционально количеству клиентов, а также использовать отложенную обработку в основном блокчейне.
-
-Простыми словами, наличие третьего уровня дает нам возможность свести любое количество транзакций по учету трафика к одной транзакции на пользователя в сутки.
-
-[1]: ../software/index.md#ace-stream-engine
+There are no specific performance requirements or limitations for the third layer since nodes store mainly their own transactions, so even explosive growth of accounts' activity would not lead to an increase in the load on separate nodes. At the same time, nodes carry most of the load, and having basic accounting functionality on every node dilutes that burden and allows for deferred transaction processing on upper levels.

@@ -1,39 +1,29 @@
 # Fees
 
-==TODO: english version==
-
-В этом разделе описаны все комиссии, заложенные в Ace Network
+## Transaction fee
 
 
-## Комиссия за транзакции
-
-Это небольшая, как правило, фиксированная комиссия за каждую операцию в сети.
-Механизм работы данной комиссии описан в соответствующем разделе документации Stellar:
-[https://developers.stellar.org/docs/glossary/fees/][1]
+Small fixed fee charged for transaction processing. Documented in Stellar's [https://developers.stellar.org/docs/glossary/fees/][1]
 
 
-## Комиссия за оплату трафика
+## Traffic fee
 
-Комиссия 10% от каждого платежа по оплате трафика.
-Снимается с получателя платежа.
-
-
-## Комиссия за оплату доступа к контенту
-
-Комиссия 30% от каждого платежа по оплате доступа к контенту.
-Снимается с получателя платежа.
+10% of every traffic payment.
 
 
-## Комиссия за создание премиум пула
+## Content access fee
 
-Единоразовая комиссия 1000 XAT за создание премиум пула.
-Снимается с создателя пула.
+30% of every payment charged to provide access to specific content.
 
 
-## Комиссия за выпуск токенов премиум пула
+## Premium pool fee
 
-Единоразовая комиссия за выпуск токенов в премиум пуле - 30% от количества выпущенных токенов.
-Снимается с создателя пула.
+One-time payment of 1000XAT charged from premium pool creator.
+
+
+## Token creation fee
+
+30% of newly created premium pool tokens  
 
 
 [1]: https://developers.stellar.org/docs/glossary/fees/
