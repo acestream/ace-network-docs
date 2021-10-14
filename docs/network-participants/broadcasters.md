@@ -1,9 +1,7 @@
-# Бродкастер
+# The Broadcaster
 
-==TODO: english version==
+A Broadcaster is an account that publishes content on the network.
 
-Бродкастер - аккаунт, публикующий контент в сети.
+Any account can broadcast by creating corresponding transport file that would contain Broadcaster's public key.
 
-Бродкастером может стать любой аккаунт - для этого достаточно добавить публичный ключ бродкастера в транспортный файл при его создании.
-
-Публицация контента осуществляется оффчейн путем распостранения транспортного файла.
+Content is published offchain by distributing the transport file.

@@ -1,10 +1,9 @@
-# Дистрибьюторы
+# Distributors
 
-==TODO: english version==
+Distributors are that accounts which are paid for distributing content.
 
-Дистрибьюторы получают вознаграждение за распостранение контента.
-Как правило, это сайты либо приложения предоставляющие своим пользователям возможность пользоваться услугами Ace Network.
+Usually, these are sites or applications that provide their users with the opportunity to use Ace Network services.
 
-Вознаграждение представляет собой комиссионные отчисления при расчетах за трафик и оплате доступа к контенту в премиум пулах.
+Distributors profit is a commission for traffic billing and payment for access to content in the premium pools.
 
-Технически дистрибьютор - это обычный аккаунт в Сети. Для получения вознаграждения как дистрибьютор владелец данного аккаунта должен зарегистрировать свой публичный ключ при запуске сессий воспроизведения контента на клиентских узлах. Подробное описание этого процесса будет доступно позже.
+Technically, a distributor is an ordinary account on the Network. To be paid as a distributor, the owner of that account has to register his or her public key when launching content playback sessions on client nodes. A detailed description of this process will be available later.

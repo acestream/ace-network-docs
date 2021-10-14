@@ -1,63 +1,48 @@
 # Premium Pool
 
-==TODO: english version==
+A premium pool is one or more broadcasters who share a common billing policy. Technically, a premium pool is a blockchain-stored entity that has the following properties:
 
-Премиум пул - это объединение одного либо более бродкастеров, которое характеризуется общими условиями биллинга. С технической точки зрения премиум пул - это сущность в блокчейне с такими свойствами:
+- list of owners
+- list of broadcasters
+- billing policy
+- income redistribution policy
 
-- список владельцев пула
-- список бродкастеров
-- настройки биллинга
-- настройки распределения доходов
-
-Настройки пула могут быть изменены только путем голосования его владельцев.
+All properties can be changed only through the procedure of voting of pool's owners.
 
 
-## Пулы и правообладатели
+## Copyrights
 
-Каждый премиум пул, созданный участников сети, обязан обладать правами на контент, который распространяется в рамках пула.
-Это означает, что каждый бродкастер, входящий в пул, должен являться правообладателем всего контента, который он распространяет. Если сеть выявит нарушение этого правила, пул будет автоматически закрыт.
-
-
-## Пулы с токенами и без
-
-В сети можно создавать пулы с токенами и без.
-
-В пуле без токенов оплата доступа к контенту выполняется системными токенами.
-
-Пул с токенами работает по такой схеме:
-
-- к пулу привязан уникальный токен
-- эмиссия фиксированного количества токенов пула выполняется в момент создания пула
-- оплата доступа к контенту в рамках пула выполняется токенами пула
-
-Пул с токенами обязан обеспечивать выкуп своих токенов на децентрализованной бирже.
-Если сеть выявит нарушение этого правила, пул будет автоматически закрыт.
+Premium pools may be automatically dismantled if owners fail to provide evidence of copyright ownership. Ace Network has oracles entitled to resolve copyright disputes, and the majority of oracles can decide to stop premium pools because of copyright violations.
 
 
-## Автоматический обмен токенов
+## Pool-specific Tokens
 
-Пользователи могут оплатить услуги премиум пула с токенами как токенами пула,
-так и системные токенами. При оплате системными токенами выполняется [автоматический обмен][11].
+Pools are able to issue their own tokens. In that case, where owners had chosen to have their own token, the full amount of such tokens should be minted as part of the pool's creation procedure.
 
-
-## Создание пула
-
-Создать пул может любой участник Сети. Для этого необходимо:
-
-- заплатить Сети комиссию в 1000 XAT
-- определиться, будет ли это пул с токенами или без
-- утвердить настройки пула
-- определиться, кто оплачивает трафик (бродкастеры либо пользователи)
-
-Если создается пул с токенами, то в момент создания выполняется эмиссия токенов для данного пула.
-30% выпущенных токенов передаются в Сеть в виде комиссии.
-
-Описанные действия выполняются операцией [Create Premium Pool][1]. В результате выполнения этой операции создается специальный аккаунт, который является представлением пула в блокчейне. Настройки пула хранятся в data entry этого аккаунта. Владельцами пула являются подписанты этого аккаунта.
-
-Исключением является [Системный пул][2] - это открытый пул, владельцем которого является сама Сеть.
+The pool may operate minted tokens as with local currency, for example — demand payment for the pool's content in the pool's tokens.
 
 
-## Подключение к пулу
+## Authomated exchange of pool specific-tokens
+
+If a user wishes to pay for the pool's content with system tokens, the pool-specific tokens could be automatically bought on the system's internal [exchange][11].
+
+
+
+## Pool creation
+
+Any Ace Network's account is able to create pools by performing [Create Premium Pool][1] operation, that includes:
+
+- confirming pool's properties
+- deciding who should be billed for pool's traffic (either broadcasters or watchers)
+- deciding if the pool would need its own token or not
+- paying system fee of 1000XAT to create a pool with specified parameters
+
+As a result, a special account to represent the newly created pool and store its parameters will be created. Owners of the pool will be signors of this special account.
+
+
+## Broadcasting from the pools
+
+If brodcaster is listed in pool's settings and want to 
 
 Для подключения к пулу требуется выполнения таких условий:
 

@@ -2,27 +2,27 @@
 
 ==TODO: english version==
 
-**Ace Asset (XAS)** - утилитарный (utility) токен, являющийся производным активом сети Ace Network, предназначенный для управления протоколами и активами DAO Ace Stream.
+**Ace Asset (XAS)** is the utility token purposed to manage other network assets and protocols.
 
-Ace Asset дает доступ ко всем услугам и сервисам сети Ace Network, а также предоставляет своим владельцам следующие привилегированные права:
+Apart from access to all network's services, XAS gives its owners some privileged rights:
 
-- участие в голосованиях по обновлению протоколов и смарт-контрактов DAO Ace Stream (механизм голосования описан [здесь][1])
+- voting for changes in protocols and smart-contracts (described [here][1])
 
-- участие в распределении системных токенов (XAT) и комиссионных сборов получаемых DAO Ace Stream за Услуги и Сервисы, предоставляемые Сетью.
+- participating in network's profit участие в распределении системных токенов (XAT) и комиссионных сборов получаемых DAO Ace Stream за Услуги и Сервисы, предоставляемые Сетью.
 
 !!! info
 
     Для получения прав на активы DAO Ace Stream, владельцам данных токенов необходимо зарегистрироваться в DeFi программе [Ace Assets][2]
 
 
-## Эмиссия
+## Token issuing
 
 Эмиссия XAS осуществляется единоразово, в объеме 1,000,000,000 XAS.
 
 Начальный курс токена XAS на старте продаж: 1 «Ace Asset» = 1$
 
 
-## Первичное размещение
+## Initial offering
 
 Объем первичного размещения - 100 млн. токенов «Ace Asset», из которых: 
 
