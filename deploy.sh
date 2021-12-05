@@ -21,6 +21,6 @@ source ${CURDIR}/deploy.config
 
 DEPLOY_DEST=${TARGET_HOST}:${TARGET_PATH}/${DEPLOY_PATH}
 echo "Deploy to ${DEPLOY_DEST}"
-rsync -a site/ ${DEPLOY_DEST}
+rsync -a --delete site/ ${DEPLOY_DEST}
 
 echo "Done"
