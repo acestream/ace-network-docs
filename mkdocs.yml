@@ -14,6 +14,7 @@ theme:
 
 extra_javascript:
   - assets/javascript/main.js
+  - assets/javascript/redirect-language.js
 
 extra_css:
   - assets/css/colors.css
@@ -33,9 +34,9 @@ markdown_extensions:
 
 plugins:
   - i18n:
-      default_language: en
+      default_language: ru
       languages:
-        en: English
+        # en: English
         ru: Русский
 
 nav:
