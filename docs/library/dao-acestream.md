@@ -4,7 +4,7 @@
     <div id="popup-overlay"></div>
     <div id="popup-content"></div>
     <div id="popup-close">
-        <img src="../../assets/images/close.png" />
+        <img src="{{ close_button_image }}" />
     </div>
 </div>
 

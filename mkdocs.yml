@@ -12,6 +12,9 @@ theme:
     # - navigation.sections
     - navigation.tabs
 
+extra:
+  close_button_image: "/63db9820/assets/images/close.png"
+
 extra_javascript:
   - assets/javascript/main.js
   - assets/javascript/redirect-language.js
@@ -33,6 +36,7 @@ markdown_extensions:
   - meta
 
 plugins:
+  - markdownextradata: {}
   - i18n:
       default_language: ru
       languages:
