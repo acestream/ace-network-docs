@@ -12,7 +12,7 @@
 
 - [Ace Token (XAT)][4] - базовый системный токен Ace Netwok
 - [Ace Coin (XAC)][5] - автоматически генерируемый стейблкойн (stablecoin)
-- [Ace Asset Token (XAS)][6] - токен управления протоколами и активами DAO Ace Stream
+- [Ace Asset (XAS)][6] - токен управления протоколами и активами DAO Ace Stream
 
 !!! info
 

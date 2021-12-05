@@ -68,8 +68,8 @@ nav:
     - Системные токены:
       - Overview: system-tokens/index.md
       - Ace Token (XAT): system-tokens/ace-token.md
+      - Ace Asset (XAS): system-tokens/ace-asset.md
       - Ace Coin (XAC): system-tokens/ace-coin.md
-      - Ace Asset Token (XAS): system-tokens/ace-asset.md
 
       - Эмиссия Ace Coin: system-tokens/xac-emission.md
       - Инфляция: system-tokens/inflation.md
