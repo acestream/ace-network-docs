@@ -15,6 +15,8 @@ XATs are pre-issued during system startup procedure, there issuance is 100,000,0
 
 90% of the tokens from the total issue will initially be locked in a special account ([`lockedPool`][1]), which only the [system smart contracts][2] have access to.
 
+==TODO: english version==
+
 10% of the initially unlocked tokens are distributed to the following programs:
 
 - 5% - for "DAO Ace Stream" development purposes
