@@ -8,7 +8,7 @@ template: raw_content.html
 
 Доля интернет-пользователей, которые все больше обеспокоены своей конфиденциальностью в сети из-за собственного правительства, по состоянию на февраль 2019 г., по странам ([источник](https://www.statista.com/statistics/373900/global-opinion-online-monitoring-government/){target=_blank}).
 
-![alt_text](../../../assets/images/image7.png "image_tooltip")
+![alt_text]({{ assets_root }}/assets/images/image7.png "image_tooltip")
 
 Уважайте и защищайте конфиденциальность и личные данные людей, чтобы завоевать доверие в Интернете! [Principle 5, Contract for the Web](https://contractfortheweb.org/principles/principle-5/){target=_blank}
 

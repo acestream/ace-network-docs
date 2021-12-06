@@ -16,7 +16,7 @@ _Ace Stream выводит на новый уровень Интернет-ве�
 
     К примеру, для сравнения:
 
-    ![alt_text](../../../assets/images/image6.jpg "image_tooltip")
+    ![alt_text]({{ assets_root }}/images/image6.jpg "image_tooltip")
 
 
 **Адресное линейное телевидение в Сети Ace Network**

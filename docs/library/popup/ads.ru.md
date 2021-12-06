@@ -25,7 +25,7 @@ DAO Ace Stream включает в себя программные продук�
     - Видеореклама в стандартных цифровых форматах
     - Другие форматы рекламы, такие как «брендирование», «уведомления» и «системные рекламные сообщения», которые не будут раздражать пользователя, но при этом будут эффективно работать на рекламодателя
 
-![alt_text](../../../assets/images/image11.jpg "image_tooltip")
+![alt_text]({{ assets_root }}/images/image11.jpg "image_tooltip")
 
 **Прогнозируемый объем и расчетная стоимость рекламного инвентаря, при достижении проектом цели охвата 100 млн. уникальных пользователей в месяц:**
 
@@ -39,7 +39,7 @@ DAO Ace Stream включает в себя программные продук�
 
 Распределение расходов на телерекламу в мире в 2019 году по сегментам, согласно данным [Statista](https://www.statista.com/){target=_blank}
 
-![alt_text](../../../assets/images/image8.png "image_tooltip")
+![alt_text]({{ assets_root }}/images/image8.png "image_tooltip")
 
 Телесмотрение – 210 мин. в сутки
 
@@ -74,14 +74,14 @@ DAO Ace Stream включает в себя программные продук�
 
 Ad spending in the Digital Advertising market is projected to reach US$398,329m in 2021
 
-![alt_text](../../../assets/images/image3.png "image_tooltip")
+![alt_text]({{ assets_root }}/images/image3.png "image_tooltip")
 
 > The “Ad Spending” box shows the forecasted development of the selected market (market segment, region) for each year.
 
 
 Revenue Split – Desktop & Mobile
 
-![alt_text](../../../assets/images/image1.png "image_tooltip")
+![alt_text]({{ assets_root }}/images/image1.png "image_tooltip")
 
 > The "Revenue Split box shows the relation of total Advertising revenue in million US dollars depending on the displayed device (Desktop-PC or mobile device) for each year.
 
@@ -90,7 +90,7 @@ Revenue Split – Desktop & Mobile
 
 Ad spending in the Search Advertising segment is projected to reach US$174,975m in 2021.
 
-![alt_text](../../../assets/images/image4.png "image_tooltip")
+![alt_text]({{ assets_root }}/images/image4.png "image_tooltip")
 
 > The “Ad Spending” box shows the forecasted development of the selected market (market segment) for each year.
 
@@ -98,7 +98,7 @@ Ad spending in the Search Advertising segment is projected to reach US$174,975m 
 
 The average ad spending per internet user in the Search Advertising segment is projected to amount to US$36.82 in 2021;
 
-![alt_text](../../../assets/images/image10.png "image_tooltip")
+![alt_text]({{ assets_root }}/images/image10.png "image_tooltip")
 
 > Средние расходы на поисковую рекламу на одного интернет пользователя, за каждый год
 
@@ -125,7 +125,7 @@ Revenue Split – Desktop & Mobile:
 
 Формат видеорекламы "Out-stream" включает: Ad Banners/Display, Rich Media и Sponsorship. Примеры форматов: in-article video (in-text, in-read); native video; interstitial video (межстраничная реклама); in-banner video и т.д.
 
-![alt_text](../../../assets/images/image2.png "image_tooltip")
+![alt_text]({{ assets_root }}/images/image2.png "image_tooltip")
 
 > Расходы на рекламу **In-stream** без учета «Social Media Ad Video» и «Out-stream», по годам
 
@@ -133,7 +133,7 @@ Revenue Split – Desktop & Mobile:
 
 Средние расходы на видеорекламу по прогнозам достигнут US$6,43 на одного пользователя Интернет в 2021
 
-![alt_text](../../../assets/images/image5.png "image_tooltip")
+![alt_text]({{ assets_root }}/images/image5.png "image_tooltip")
 
 > Средние расходы на видеорекламу in-stream (без учета Social Media) на одного интернет-пользователя, за каждый год
 

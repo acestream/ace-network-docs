@@ -30,7 +30,7 @@ template: raw_content.html
 
 По оценкам Кембриджского университета, общее годовое потребление электроэнергии сетью Bitcoin составляет 121.05 тераватт-часов (актуальные данные на [https://cbeci.org](https://cbeci.org))
 
-![alt_text](../../../assets/images/image9.png "image_tooltip")
+![alt_text]({{ assets_root }}/images/image9.png "image_tooltip")
 
 Но самая большая проблема Биткойна, возможно, даже не в его огромном потреблении энергии, а в том факте, что значительная часть майнинговых предприятий расположены в регионах, которые в значительной степени полагаются на угольную энергию (либо напрямую, либо с целью балансировки нагрузки). Проще говоря, по словам исследователя энергетики из Мюнхенского технического университета **Кристиана Столла** (Christian Stoll), **«уголь питает биткойн»** ([https://www.wired.com/story/bitcoins-climate-impact-global-cures-local/](https://www.wired.com/story/bitcoins-climate-impact-global-cures-local/)).
 
