@@ -13,7 +13,7 @@ theme:
     - navigation.tabs
 
 extra:
-  close_button_image: "/63db9820/assets/images/close.png"
+  assets_root: "/63db9820/assets"
 
 extra_javascript:
   - assets/javascript/main.js
