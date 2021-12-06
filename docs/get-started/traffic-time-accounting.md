@@ -1,27 +1,9 @@
-# Учет трафика и времени
+# Traffic and time accounting
 
-==TODO: english version==
+The traffic and time accounting subsystem is an integral and vital part of the Ace Stream stack since traffic and time spent by participants are the core values of the whole network.
 
-Система учета трафика и времени просмотра лежит в основе Ace Network.
-В этом разделе описана архитектура данной системы.
+Ace Stream stores collected accounting data as a sequence of transactions for each pair of interacting nodes. Every transaction is signed by the participant nodes before it is saved in the local database to be aggregated and registered in the second layer blockchain for further processing. To prevent the deception of accounting data, every transaction is sent to a random set of other nodes. [(random gossip)](https://github.com/Tribler/tribler/issues/4634).
 
-Данные по объемам трафика и времени просмотра формируются клиентскими узлами на третьем уровне.
-Эти данные представлены в виде транзакций для каждой пары взаимодействующих узлов.
-Каждая такая транзакция подписывается обеими сторонами и хранится в локальной базе данных каждой из сторон до момента регистрации в блокчейне второго уровня. Также каждая транзакция передается части других клиентских узлов по принципу random gossip. Этот механизм используется для последующей защиты от фальсификации данных ([https://github.com/Tribler/tribler/issues/4634][1])
+Data is rolled up in nodes' local databases and aggregated by merging transactions; this significantly offloads the second layer that needs to process fewer transactions than nodes would generate without additional processing. Aggregated data is sent to second layer blockchains (shards) on a regular basis. The time interval is tuned up by the network according to the network load.
 
-По мере накопления данных клиентские узлы выполняют агрегацию - создают сводные транзакции, которые объединяют предыдущие.
-Каждая сводная транзакция также подписывается двумя сторонами взаимодействия. Такая архитектура позволяет минимизировать количество транзакций, передаваемых на обработку на второй уровень.
-
-Сводные транзакции передаются на второй уровень в виде пакетов транзакций.
-Отправка выполняется периодически.
-Интервал отправки настраивается автоматически в зависимости от нагрузки сети .
-
-Второй уровень - это набор блокчейнов (шард).
-Каждая пара клиентских узлов закреплена за определенной шардой и отправляет данные только в нее.
-Каждая шарда хранит данные по текущему балансу трафика между парами узлов, а также по времени просмотра.
-
-Задача второго уровня - на основе данных по обмену трафиком генерировать транзакции в основном блокчейне (снятие токенов с потребляющей стороны, начисление токенов отдающей стороне), а также хранить информацию о трафике и времени просмотра. Если транзакция по оплате трафика не принимается основным блокчейном, то она также отклоняется вторым уровнем. На этом факте построена основная защита сети от фальсификации данных - весь трафик должен быть оплачен.
-
-На втором уровне используется отложенная обработка - полученные от третьего уровня транзакции накапливаются в очереди и периодически пакетно обрабатываются. Задача алгоритма пакетной обратки транзакций - свести транзакции от третьего уровня к одной транзакции на узел за фиксированный интервал времени. Это позволяет снизить количество транзакций на первом уровне.
-
-[1]: https://github.com/Tribler/tribler/issues/4634
+Every second layer blockchain (the shard) serves its own set of interacting nodes which send its own accounting data to be registered only to this shard (except random gossip sends to perform cross-checks). Accounting records collected by shards are the basis for periodic charges that are performed in the main blockchain. The network guarantees that all resources consumed by nodes are covered by corresponding payments (token transfers) made in the main blockchain.

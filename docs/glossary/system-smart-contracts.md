@@ -1,16 +1,12 @@
-# Системные смарт-контракты
+# System smart contracts
 
-==TODO: english version==
+In Ace Network every system smart contract is represented by separate [operation][1] and serves as basic building blocks of network's economy.
 
-В Ace Network каждый системный смарт-контракт - это отдельная [операция][1].
+"System" means that such smart contracts are an integral part of the network and could be changed only through network's governance procedures.
 
-Мы считаем термин "смарт-контракт" наиболее подходящим для этих операций, поскольку именно они формируют экономику сети.
+System smart contracts code is the part of [Ace Network Core][2] and is publicly accessible.
 
-Термин "системные" означает, что данные операции являются неотъемлемой частью сети. Они заложены в сеть в момент ее запуска и могут быть изменены только голосованием участников сети.
-
-Логика работы системных смарт-контрактов заложена в код [Ace Network Core][2] и является публично доступной информацией.
-
-Полный список системных смарт-контрактов доступен [здесь][3]
+Full list of system smart contracts are available [here][3]
 
 [1]: ../glossary/operations.md
 [2]: ../software/index.md#ace-network-core

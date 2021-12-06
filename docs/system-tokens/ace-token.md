@@ -1,91 +1,90 @@
 # Ace Token (XAT)
 
-==TODO: english version==
+**Ace Token (XAT)** is a utility, native system token asset-backed with an Internet bandwidth, premium content and all Ace Network services.
 
-**Ace Token (XAT)** - утилитарный (utility), базовый (native) системный токен, обеспеченный интернет-каналом с пропускной способностью свыше 100000 Tbps, премиальным контентом и всеми сервисными услугами сети Ace Network.
+Ace Token gives access to all Ace Network services and facilities and is the sole means of payment for Network fees for account registration and transactions between Network members.
 
-Ace Token дает доступ ко всем услугам и сервисам Ace Network и является единственным платежным средством для оплаты комиссионных сборов Сети за регистрацию аккаунтов и проведение транзакций между участниками Сети.
+The starting rate of Ace Token after the initial issuance will be fixed at the level of 1 XAT = $1.
 
-Стартовый курс Ace Token при первичной эмиссии будет зафиксирован на уровне 1 XAT = 1$.
-
-При росте или падении курса Ace Token на биржах, стоимость услуг в системе Ace Stream при их оплате посредством XAT будет корректироваться автоматически, исходя из привязки первоначальной и фактической стоимости услуг к доллару США, а в последующем с привязкой к криптовалюте Ace Coin (XAC), которая будет является основным платежным средством для проведения расчетов в системе Ace Stream.
+While exchange rate of Ace Token changes, the cost of services in the Ace Stream system will be adjusted automatically. Calculations are based on the initial and actual cost of services linked to the U.S. dollar, and furtherly will be linked to the Ace Coin cryptocurrency (XAC), which will be the main means of payment for settlements in Ace Stream system.
 
 
-## Эмиссия
+## Issuing
 
-XAT выпускается единоразово, в момент запуска сети, в объеме 100,000,000,000 XAT.
+XATs are pre-issued during system startup procedure, there issuance is 100,000,000,000 XAT.
 
-90% токенов от общей эмиссии будут изначально заблокированы на специальном счете ([`lockedPool`][1]), доступ к которому есть только у [системных смарт-контрактов][2]
+90% of the tokens from the total issue will initially be locked in a special account ([`lockedPool`][1]), which only the [system smart contracts][2] have access to.
 
-10% изначально разблокированных токенов идут на следующие программы:
+10% of the initially unlocked tokens are distributed to the following programs:
 
-- 5% - на технологическое развитие и разработку программных продуктов DAO Ace Stream
-- 5% - маркетинговые программы
-- 10% - airdrop, по программе стимулирования (поощрение и финансирование) создания и размещения эксклюзивного премиального контента в сети Ace Network
+- 5% - for "DAO Ace Stream" development purposes
+- 5% - marketing programs
+- 10% - airdrop, under the program of incentives (encouragement and funding) for the creation and placement of exclusive premium content in the Ace Network
 - 70% - на стратегическое развитие и расширение сервисной инфраструктуры сети Ace Network (приобретение долей в других компаниях, с целью: обеспечения высокой динамики роста количества пользователей Сети; расширения сервисных и технологических возможностей Сети; приобретения прав на контент для публикации в Сети; обеспечения токена финансовыми оффлайн-механизмами (финансовыми учреждениями), для максимального удобства использования токенов в повседневной жизни, при проведении любых расчетов; др.)
-- 10% - благотворительные и некоммерческие проекты
+- 10% - charity and non-profit projects
 
 
-Все последующие разблокированные токены, распределяются в следующем соотношении:
+All subsequent unlocked tokens are distributed in the following ratio:
 
-- 30% переводятся на счет под управлением Ace Stream Foundation (некоммерческий фонд поддержки и развития Сети), из которых:
+- 30% are transferred to an account managed by the Ace Stream Foundation (a non-profit fund for the support and development of the Network), of which:
+    - 5% - for development purposes
+    - 5% - marketing programs
+    - 10% - airdrop, under the program of incentives (encouragement and funding) for the creation and placement of exclusive premium content in the Ace Network
+    - 10% - charity and non-profit projects
 
-    - 5% - на технологическое развитие и разработку программных продуктов
-    - 5% - маркетинговые программы
-    - 10% - airdrop, по программе стимулирования (поощрение и финансирование) создания и размещения эксклюзивного премиального контента в сети Ace Network
-    - 10% - благотворительные и некоммерческие проекты
-
-- 70% получает смарт-контакт [Ace Asset][3] (путем перевода в [`unlockedPool`][4]) для пропорционального распределения между участниками DeFi программы [Ace Assets][5]
-
-
-## Инфляция
-
-Инфляционная эмиссия будет составлять 1% в год от общего объема активированных (разблокированных) токенов, включая токены, сгенерированные самим процессом инфляции.
-
-Новые XAT генерируются раз в неделю механизмом инфляции.
-
-Распределение инфляционных токенов осуществляется по DeFi программе [Ace Assets][5]
+- 70% gets smart contact [Ace Asset][3] (by transferring to [`unlockedPool`][4]) for pro rata distribution to DeFi program participants [Ace Assets][5]
 
 
-### Алгоритм инфляции
+## Inflation.
 
-Эмиссия инфляционных токенов XAT осуществляется еженедельно, в автоматическом режиме, согласно условиям смарт-контракта [Inflation][9] по следующей формуле:
+Inflationary issue will be 1% per year of the total volume of activated (unlocked) tokens, including tokens generated by the inflation process itself.
+
+New XATs are generated once a week by the inflation mechanism.
+
+Inflation tokens are distributed by the DeFi program [Ace Assets][5]
+
+
+### Inflation Algorithm
+
+XAT inflation tokens are issued weekly, automatically, according to the terms of the [Inflation][9] smart contract that implements the following formula:
 
 ```python
 inflationAmount = (totalTokens - lockedTokens) * 0.000190721
 ```
 
-где
+where
 
-- `inflationAmount` - объем еженедельной эмиссии
-- `totalTokens` - общее количество XAT в системе на момент запуска операции инфляции (100 млрд. + общий объём инфляционных токенов от всех предыдущих эмиссий)
-- `lockedTokens` - количество XAT, которые еще не выпущены в оборот (заблокированы в системном пуле [`lockedPool`][1])
+- `inflationAmount` - volume of weekly issuance
+- `totalTokens` - the total number of XATs in the system at the time of launching the inflation operation (100 billion + the total amount of inflation tokens from all previous issues)
+- `lockedTokens` - the number of XATs that have not yet been released into circulation (locked in the system pool [`lockedPool`][2])
 
-Объем инфляции составляет 1% в год (либо 0.0190721% в неделю) от выпущенных в оборот XAT.
+The inflation is 1% per year (or 0.0190721% per week) of the XATs released into circulation.
 
-Сгенерированные в результате инфляции XAT переводятся в системный пул [`inflationpool`][10]
-для дальнейшего распределения смарт-контрактом [Ace Deposit][11]
+The XATs issued by inflation procedure are transferred to the system pool [`inflation pool`][10]
+and are subjects of further distribution performed by [Ace Deposit][11] smart contract.
 
 
-## Утилизация/сжигание токенов
 
-Токены XAT, используемые для проведения расчетов за трафик, за доступ к контенту либо начисляемые в виде вознаграждения по системным смарт-контрактам, будут утилизироваться (сжигаться) путем направления их на невозвратный адрес в блокчейне, в соответствии с условием, согласно которому: токены, переданные в оплату за вышеуказанные сервисы и услуги, не подлежат повторному использованию и автоматически замещаются на токены XAC.
+## Token recycling/burning
+
+XAT tokens paid for traffic, access to content, or by system smart contracts will be disposed of (burned) by sending them to a non-refundable address on the blockchain, because XAT could only once be used for payment and have to be replaced by XAC tokens.
 
 !!! info
 
-    По факту разблокировки и сжигания всего объема первоначальной эмиссии токенов (100 млрд.) ежегодный уровень инфляционной эмиссии будет составлять 1% от всех эмитированных токенов (100 млрд. + общий объем токенов, выпущенных в процессе инфляции).
+    Once the entire amount of the initial token issue (100 billion) is unlocked and burned, the annual inflation rate will be set to 1% of all tokens issued (100 billion + number of tokens issued by the inflation smart contract).
 
 
-## Разблокирование токенов
+## Unlocking tokens
 
-Токены из [`lockedPool`][1] разблокируются в момент сжигания аналогичного
-количества XAT в рамках механизма [эмиссии Ace Coin][7].
+Tokens from [`lockedPool`][1] are unlocked at the moment of burning a similar
+XATs within the [Ace Coin Issue][7].
 
-Разблокированные токены равномерно распределяются между держателями [Ace Assets (XAS)][8].
-Это выполняется в два этапа:
+The unlocked tokens should be evenly distributed among [Ace Assets (XAS)][8] holders.
+This is done in two steps:
 
-- разблокирование выполняется переводом токенов из [`lockedPool`][1] в [`unlockedPool`][4]
-- ближайший запуск операции [Ace Asset][3] распределяет содержимое [`unlockedPool`][4] между держателями XAS
+- Unlocking is performed by transferring tokens from [`lockedPool`][1] to [`unlockedPool`][4]
+- The next run of the operation [Ace Asset][3] distributes the contents of [`unlockedPool`][4] among the XAS holders
+
 
 
 [1]: ../glossary/system-pools.md#lockedpool
@@ -93,7 +92,7 @@ inflationAmount = (totalTokens - lockedTokens) * 0.000190721
 [3]: ../list-of-operations/ace-asset.md
 [4]: ../glossary/system-pools.md#unlockedpool
 [5]: ../services/ace-asset.md
-[7]: xac-emission.md
+[7]: ../system-tokens/ace-coin.md
 [8]: ../system-tokens/ace-asset.md
 [9]: ../list-of-operations/inflation.md
 [10]: ../glossary/system-pools.md#inflationpool

@@ -1,29 +1,21 @@
-# Специальные счета
+# Special accounts
 
-==TODO: english version==
+Special accounts is the Ace Network [accounts][1] that can act as participants of network's [smart contracts][2].
 
-Специальные счета - это счета ([accounts][1]), которые имеют некоторое специальное предназначение в системе, т.е. фактически участвуют в [системных смарт-контрактах][2]. Каждый специальный счет идентифицируется отметкой в одном из полей аккаунта.
+## Proxy account
 
-
-## Счет для оплаты сервисов
-
-Данный счет предназначен для оплаты таких сервисов:
-
-- оплата за трафик
-- оплата поминутного доступа к контенту
-- автоматическое продление подписок
-
-К этому счету имеют доступ [системные смарт-контракты][2], поэтому не рекомендуется хранить на нем свои основные сбережения.
+Proxy accounts will be charged by network's smart contracts for traffic and time consumption, automated subscription's renewals, etc.
+It is highly recommended to top up such accounts with amounts which are intended to pay for such services.
 
 
-## Счет Ace Asset
+##  Ace Asset Account
 
-Cчет для участия в программе [Ace Asset][3]
+Account to participate in  [Ace Asset][3] program
 
 
 ## Счет Ace Deposit
 
-Cчет для участия в программе [Ace Deposit][4]
+Account to participate in  [Ace Deposit][4] program
 
 
 [1]: accounts-and-devices.md

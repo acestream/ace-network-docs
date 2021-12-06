@@ -1,24 +1,16 @@
-# Пользовательские каналы
+# User channels
 
-==TODO: english version==
-
-Пользователи сети смогут создавать и публиковать свои каналы.
-
-Канал - это логическое объединение любого контента, который можно публиковать в сети (видео, аудио, фото и т.д.).
-Каналы позволяют группировать контент, делиться им с другими пользователями, а также получать оплату за доступ к контенту. Любой пользователь сети может создавать неограниченное количество каналов.
+Users are able to create and publish their own channels, which are named groups of any content that could be published. Channels can be shared with other users and provide useful mechanisms to manage access levels. There are no limits to how many channels can be created per user.
 
 
-## Уровень доступа
 
-По уровню доступа к контенту каналы делятся на такие группы:
+## Access levels
 
-- частный - только для личного использования
-- ограниченный доступ - доступ имеют только пользователи, которым создатель канала передал ключ доступа
-- публичный доступ - доступ имеют все пользователи сети
+- private — only creator can services
+- limited access — only approved accounts have an access (including conditionally approved, for example, those who paid subscription fee)
+- public access — everyone can see
 
 
 ## Оплата доступа
 
-Владелец канала может опционально назначить оплату за доступ к контенту канала.
-Стоимость настраивается индивидуально для каждой единицы контента.
-Например, часть контента канала может быть в бесплатном доступе, а часть распространяться на условиях ежемесячной подписки.
+The channel's owner can assign a payment policy to their content.

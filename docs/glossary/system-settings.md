@@ -1,74 +1,67 @@
-# Системные настройки
+# Basic settings
 
-==TODO: english version==
+System settings that define system's econo,y and system smart contracts' behaviour, like traffic fees, lists of oracles used to validate [content proprietors][1], etc.
 
-Это параметры системы, которые влияют на системные смарт-контракты и экономику сети в целом. Например, размер комиссии при оплате трафика, список оракулов для подключения [правообладателей][1] и т.п.
+Basic settings are stored in the main blockchain (in `ledgerHeader`).
 
-Системные настройки хранятся в основном блокчейне (в `ledgerHeader`).
-
-Изменение системных настроек выполняется путем голосования держателей [Ace Assets (XAS)][6].
+Change of basic settings can only be performed by the network's governance procedures, for example, by voting of [Ace Assets (XAS)][6] owners.
 
 
 ## Список настроек
 
 ### traffic_user_payment_fee
-Доля системы от платежей по взаиморасчету за трафик между пользователями.
-Текущее значение: 10%
+
+Network's commission taken from traffic fees
+Current value: 10%
 
 ### traffic_broadcaster_payment_fee
-Доля системы при оплате трафика бродкастером в премиум пуле.
-Текущее значение: 30%
+Network's commission taken from broadcaster's charges made in premium pool
+Current value: 30%
 
 ### ace_asset_asf_share
-Доля Ace Stream Foundation при распределении токенов в рамках программы [Ace Asset][2].
-Текущее значение: 30%
+Ace Stream Foundation's stake in [Ace Asset][2] token distribution.
+Current value: 30%
 
 ### premium_pool_create_fee
-Размер одноразовой комиссии за создание [премиум пула][5] (в XAT).
-Текущее значение: 1000 XAT
+One-time payment charged to create[the premium pool][5]
+Current value: 1000 XAT
 
 ### premium_pool_emission_fee
-Размер комиссии за выпуск токенов [премиум пула][5] (в процентах).
-Текущее значение: 30%.
+Network's stake in tokens minted by [the premium pool][5]
+Current value: 30%.
 
 ### premium_pool_access_fee
-Доля системы при распределении платежей за доступ к контенту в системном [премиум пуле][5], а также в премиум пулах без собственных токенов.
-Текущее значение: 30%
+Network's stake in content access payments in [the premium pool][5]
+Current value: 30%
 
 ### system_premium_pool_settings
-Настройки биллинга для системного премиум пула (подробное описание будет в отдельном документе)
+System premium pool settings, TBD in separate document
 
 ### ace_asset_min_lock_interval
-Минимальный срок депонирования [XAS][6] для участия в программе [Ace Asset][2].
-Выражается в секундах (целое число).
-Текущее значение: 1209600 (14 дней)
+Minimal depositing term for [XAS][6] to participate in [Ace Asset][2].
+Current value: 1209600 seconds (14 days)
 
 ### ace_deposit_min_lock_interval
-Минимальный срок депонирования XAT для участия в программе [Ace Deposit][4].
-Выражается в секундах (целое число).
-Текущее значение: 2419200 (28 дней)
+Minimal depositing term for XAT to participate in [Ace Deposit][4].
+Current value: 2419200 seconds (28 days)
 
 ### traffic_credit_limit
-Максимальное количество мегабайт, которое аккаунт может взять в кредит.
-Текущее значение: 10240 (10 Гб)
+Maximum amount of traffic units that could be borrowed by the account
+Current value: 10240 (10 GByte)
 
 ### copyright_holder_oracles
-Список оракулов, которые обеспечивают идентификацию правообладателей
+List of oracles that have rights to identify copyright holders
 
 ### add_device_fee
-Оплата за подключение одного устройства к аккаунту
-Текущее значение: 0.1 XAT
+One-time fee to link new node to the account
+Current value: 0.1 XAT
 
-## Голосование
 
-Голосование - это процесс, в рамках которого держатели [Ace Assets (XAS)][6] могут проголосовать за изменение системных настроек.
+## Voting
 
-На первых этапах работы мы планируем использовать схему двухэтапного оффчейн голосования:
+Voting is the self-governance procedure that specifies how [Ace Assets (XAS)][6] holders can change the network. For now voting is expected to get done by third party voting system, decisions made by XAS owners should be implemented by validators as part of [system upgrade][3] process. In future integral voting subsystem should be integrated in Ace Network directly.
 
-- сначала за изменения голосуют держатели [XAS][6], используя для этого стороннюю децентрализованную систему голосования
-- после этого утвержденные изменения внедряют валидаторы (по схеме [обновления сети][3])
 
-В будущем система голосования будет доработана для полноценного ончейн функционирования.
 
 [1]: ../network-participants/copyright-holders.md
 [2]: ../services/ace-asset.md

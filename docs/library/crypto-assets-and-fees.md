@@ -8,85 +8,86 @@
     </div>
 </div>
 
-==TODO: english version==
 
-**Системный токен XAT**
 
-100,000,000,000 [XAT][1], которые будут распределяться между участниками DeFi программы Ace Assets, в соответствии условиям [системных смарт контрактов][2]
+**System token XAT**
 
-**Сервисы и услуги, за которые взымаются комиссии в пользу сети Ace Network, с последующим их распределением между участниками DeFi программы Ace Assets**
+100,000,000,000 [XAT][1] to be distributed among DeFi Ace Assets program participants by the terms of the [system smart contracts][2]
+
+**Services and services for which fees are charged to the Ace Network, with subsequent distribution to Ace Assets DeFi Program members**
 
 
 ### 1. P2P CDN/VPN/Proxy
 
-**Комиссия Сети за услуги P2P CDN - 10% от стоимости трафика**
+**Network fee for P2P CDN services - 10% of the traffic cost**
 
-Краткое пояснение: Эффективность системы Ace Network строится на экономической модели в которой пользователи Сети получают вознаграждение за предоставление Сети своих ресурсов (аппаратных, сетевых и т.д), а также оплачивают потребляемые ими ресурсы. В основе этого находятся децентрализованная система учета трафика, с автоматическим проведением взаиморасчетов.
+Brief explanation: Ace Network's effectiveness is based on an economic model in which Network users are rewarded for providing the Network with their resources (hardware, network, etc.), and also pay for the resources they consume. This is based on a decentralized traffic accounting system, with the automatic settlement
 
-!!! note "К примеру, для оценки"
-    При аудитории 100 млн. пользователей и среднем потребления трафика одним пользователем на уровне 10ГБ в день (что соответствует 2 часам просмотра видео, в относительно хорошем HD качестве), при расчетной цене за трафик 0,01$ за 1ГБ, - **комиссионный сбор Сети будет составлять 365 млн. $ в год**
+!!! note "For example"
+    With an audience of 100 million users and average traffic consumption by one user at 10GB per day (which corresponds to 2 hours of watching a video, in relatively good HD quality), the Network's commission fee will be $365 million per year
 
 
 ### 2. Premium Pool
 
-**Комиссия за дистрибуцию контента в Сети и использования сервиса [Premium Pool][3]:**
+**Commission for Distribution of Content on the Web and Usage of Service [Premium Pool][3]:**
 
-Системный пул – 30% от тарифного плана
+System pool - 30% of the plan
 
-Коммерческие трансляции и частные/индивидуальные пулы - 10% от тарифного плана + разовый фиксированный взнос при подключении сервиса Premium Pool
+Commercial broadcasts and private/individual pools - 10% of the plan + a one-time fixed fee when activating the Premium Pool service.
 
-Предполагаемый уровень вовлеченности аудитории – 30% от всех пользователей
+Assumed level of audience engagement - 30% of all users
 
-Прогнозируемый ARPPU в месяц – 5$
+Forecast ARPPU per month - $5
 
-Прогнозируемый доход Сети, от сервиса Premium Pool - **1,8 млрд.$ в год** (при достижении цели в 100 млн. активных пользователей в месяц).
+A Forecasted Network revenue from the service Premium Pool - **1,8 billion dollars a year ** (when reaching the goal of 100 million monthly active users).
+
+### 3. Decentralized betting/forecasting exchange, Ace Bet
+
+**System commission** - 10% of the every bid.
+
+The anticipated level of audience engagement is 4.5% of the user base.
+
+Forecast ARPPU per month - from $20 to $50
+
+Forecast Network revenue from the Ace Bet service - from $1.08 billion up to $2.7 billion a year (if you reach the goal of 100 million active users per month)
 
 
-### 3. Децентрализованная биржа ставок/прогнозов, Ace Bet
-
-**Комиссия системы** – 10% от суммы ставки
-
-Предполагаемый уровень вовлеченности аудитории – 4,5% от всех пользователей
-
-Прогнозируемый ARPPU в месяц – от 20 до 50$
-
-Прогнозируемый доход Сети, от сервиса Ace Bet - **от 1,08 млрд.$ до 2,7 млрд.$ в год** (при достижении цели в 100 млн. активных пользователей в месяц).
-
-
-### 4. Рекламные площадки
+### 4. Advertising sites
 
 **Комиссия за размещение рекламных материалов в Сети** – 30% от стоимости рекламы
 
-Рекламный инвентарь и его стоимость:
+Commission for advertising materials in the Network - 30% of the cost of the advertising
 
-- **Поисковая контекстная реклама**
+Advertising inventory and its cost:
 
-    Прогнозируемый годовой объем рекламного инвентаря, при достижении цели в 100 млн. активных ежемесячных пользователей приложения Ace Search, на 2023 год - 3,74 млрд.$
+- **Search  ads**
 
-- **Телевизионная реклама (реклама в линейном телевидении)**
+    Projected annual advertising inventory if the goal of 100 million monthly active users of the Ace Search app is reached, for 2023 - $3.74 billion.
 
-    Среднее количество рекламных показов на одного пользователя - 6 841 в год
+- ** TV ads**
+
+The average number of advertising displays per user - 6841 per year
 
     !!! info ""
-        Стоимость размещения рекламного ролика, CPT (цена за 1000 контактов): в России - $2, в Восточной Европе — $4, в Северной Америке — $29, а в среднем по миру — $20. (по данным агентства «Initiative», входящего в группу АДВ)
+The cost of a commercial reel, CPM (price per 1,000 contacts): in Russia - $2, in Eastern Europe - $4, in North America - $29, and the global average - $20. (according to data from "Initiative" agency, a member of the ADV group)
 
 
-    Прогнозируемый годовой объем рекламного инвентаря – 684 101 250 000 показов, общей стоимостью от 1, 36 млрд.$ (CPT 2$) до 13, 68 млрд $ (CPT 20$), в зависимости от распределения аудитории по регионам
+The projected annual advertising inventory - 684,101,250,000 ad views, with a total value of 1.36 billion $ (CPT $ 2) to 13.68 billion $ (CPT $ 20), depending on the distribution of the audience in the regions.
 
-- **Видеореклама в форматах in-stream**
+- **In-stream video ads**
 
-    Среднее количество рекламных показов на одного пользователя - 1314 в год.
+  The average number of ad impressions per user - 1,314 per year.
 
-    Прогнозируемый годовой объем рекламного инвентаря, при достижении цели в 100 млн. пользователей браузера Ace Surf, а также других базовых продуктов DAO Ace Stream - 131 400 000 000 показов, общей стоимостью 657 млн.$, при среднем CPM 5$
+  The projected annual volume of advertising inventory, when reaching the goal of 100 million users of the Ace Surf browser, as well as other basic DAO Ace Stream products - 131,400,000,000 displays, worth $ 657 million, with an average CPM of $ 5.
 
-- **Другие форматы рекламы, такие как «брендирование», «уведомления» и «системные рекламные сообщения»**
+- Other advertising formats, such as "branding," "notifications," and "ads in system notifications"**
 
-    Среднее количество рекламных показов на одного пользователя - 1500 в год
+  The average number of ad impressions per user - 1500 per year
 
-    Прогнозируемый годовой объем рекламного инвентаря – 150 млрд. показов, общей стоимостью 450 млн.$ при среднем CPM 3$
+  Forecasted annual advertising inventory - 150 billion impressions, the total value of $450 million at an average CPM of $3
 
 
-Прогнозируемый доход (комиссия) Сети, от размещения рекламных материалов по всем форматам - **от 1 862 100 000$ до 5 558 100 000$ в год** (при полном заполнении рекламных мест и достижении цели в 100 млн. активных пользователей в месяц, в зависимости от распределения аудитории по регионам).
+The projected income from advertising in all formats is from $1,862,100,000 to $5,558,100,000 per year (when fully filled advertising slots and reaching the goal of 100 million monthly active users, depending on the distribution of the audience in the regions).
 
 <p style="text-align: center">
     <em>
@@ -97,22 +98,22 @@
 </p>
 
 
-### 5. Площадки DAO Ace Stream, для партнерских программ
+### 5. Affiliate programs
 
-Партнерские программы, по направлениям:
+Affiliate programs, by destination:
 
-- Товары
-- Услуги
-- Путешествия
-- Спортивные события
-- Биржи/Обменники
-- Игры/Развлечения
+- Goods
+- Services
+- Travel
+- Sports Events
+- Exchanges
+- Games/Entertainment
 
-Предполагаемый уровень вовлеченности аудитории – 35% от всех пользователей, в месяц.
+The estimated level of audience engagement - 35% of user base
 
-Ориентировочный ARPPU (англ. Average revenue per paying user, средняя выручка на одного платящего пользователя) в месяц, при подключения партнерских программ – от 5 до 10$.
+Approximate ARPPU (Average revenue per paying user) per month, if affiliate programs are connected - from $5 to $10.
 
-Прогнозируемый доход Сети от партнерских программ - **от 2,1 млрд.$ до 4,2 млрд.$ в год**  (при 100% наполнении партнерских программ и достижении цели в 100 млн. активных пользователей в месяц).
+Forecast revenue of the Network from affiliate programs - from $2.1 to $4.2 billion a year (if 100% of filling affiliate programs and reaching the goal of 100 million monthly active users).
 
 <p style="text-align: center">
     <em>

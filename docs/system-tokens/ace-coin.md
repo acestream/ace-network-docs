@@ -1,87 +1,76 @@
 # Ace Coin (XAC)
 
-==TODO: english version==
-
-**Ace Coin (XAC)** - утилитарный (utility), алгоритмический стейблкойн (stablecoin), обеспеченный объемами потребляемого трафика, в соотношении ко времени жизни человека, затраченного на просмотр видео контента.
+**Ace Coin (XAC)** is a utility, algorithmic stablecoin which value is defined by the amount of traffic consumed in relation to that part of person's lifespan which was spent for watching content
 
 
-## Эмиссия
+## Issuance
 
-Первоначальная эмиссия XAC отсутствует.
+There is no initial issuance of XAC.
 
-Эмиссия Ace Coins осуществляется автоматически в объеме, соответствующем **реальной** потребности в данной цифровой валюте, в соответствии с заложенным в систему алгоритмом.
+Ace Coins are issued automatically in the amount corresponding to **real** need for this digital currency, according to the algorithm embedded in the system. Ace Coin are being generated when the Network user consumes traffic, content and services. When user pays for them, Ace Tokens received as payment are burned and then replaced with an equal amount of automatically generated Ace Coins. XAT/XAC are exchanged at the rate obtained from the DEX (decentralized exchange which is the part of the system).
 
-Ace Coins автоматически генерируются (эмитируются) программным кодом ([системными смарт-контрактами][1]), и появляются только тогда, когда пользователь Сети получает трафик, контент и услуги, и в качестве расчета производит оплату Ace Tokens. Полученные в оплату Ace Tokens сжигаются и замещаются на равнозначную сумму автоматически сгенерированных (эмитированных) Ace Coins. Обмен XAT/XAC выполняется по курсу, полученному от подключенной к системе DEX (децентрализованной биржи).
-
-!!! note ""
-
-    По простому: контент и объемы полученного трафика замещаются на время жизни и ресурсы пользователя, которое он затратил на его потребление! И все это оцифровывается, криптуется и превращается в Ace Coin.
-
-Никаким другим способом Ace Coins не создаются, и поэтому все выпущенные Ace Coins будут обеспечены реальными объемами и потребностями пользователей в трафике, в контенте и услугах Сети, в соотношении ко времени пользователей, затраченного на потребление контента.
+There is no other way Ace Coins created. Thus, all Ace Coins will represent the very real users' needs in traffic. content, services, etc. in relation to time, spent for its consumption.
 
 
-### Алгоритм эмиссии
+### Issuance Algorithm
 
-Эмиссия Ace Coin выполняется автоматически во время оплаты сервисов, связанных с генерацией контента.
+Ace Coin is issued automatically as the part of payment process (when paid for services related to content generation).
 
-Такие сервисы могут быть оплачены любым из трех системных токенов: [XAT][6], [XAC][5], [XAS][7]. В первую очередь
-используются токены [XAC][5], но если их недостаточно, то задействуется алгоритм
-оплаты токенами [XAT][6] либо [XAS][7], описанный в этом разделе. В рамках этого алгоритма
-может выполняться автоматическая эмиссия [XAC][5].
-
-Список сервисов:
-
-- оплата за трафик
-- оплата за доступ к контенту (например, в [премиум пуле][2])
-- вознаграждения, выплачиваемые участикам Сетью:
-    - за просмотр рекламы
-    - за дистрибуцию приложений DAO Ace Stream (для производителей устройств, OEMs)
-    - за модерацию контента в Сети
-
-Алгоритм оплаты:
-
-- если на счету достаточно [XAC][5] для оплаты, то используются только [XAC][5]
-- если на счету недостаточно [XAC][5], то разница оплачивается за счет [XAT][6]:
-    - с помощью [модуля обмена][3] токенов рассчитывается необходимое количество [XAT][6]
-    - данное количество [XAT][6] списывается с плательщика и отправляется на невозвратный аккаунт (сжигается)
-    - такое же количество [XAT][6] выводится в оборот из [`lockedPool`][4] (если этот пул не пустой)
-    - получателю платежа зачисляется количество [XAC][5], полученное в результате обмена
-- если на счету недостаточно [XAT][6], то разница оплачивается за счет [XAS][7]
-    - с помощью модуля обмена токенов рассчитывается необходимое количество [XAS][7]
-    - данное количество [XAS][7] списывается с плательщика и зачисляется получателю
+Such services can be paid for by any of three system tokens: [XAT][6], [XAC][5], [XAS][7]. First of all, [XAC][5] tokens are used, but if XAC amount are not enough, then smart contract will charge
+[XAT][6] or [XAS][7] accounts as described below in this section). Issuance of [XAC][5] is the part of this algorithm.
 
 
-### Пример
+Services:
 
-Предположим, пользователь покупает разовый доступ к контенту в системном премиум пуле.
-Для примера возьмем такие входные данные:
+- payment for traffic
+- payments for accessing content (e.g., in the [premium pool][2])
+- rewards paid to members by the Network:
+    - for watching ads
+    - for re-distribution of DAO Ace Stream applications (for device manufacturers, OEMs)
+    - for moderation of content in the Network
 
-- стоимость доступа: 3 XAC
-- на счету для оплаты сервисов пользователя: 1 XAC и 7 XAT
-- курс обмена на системной децентрализованной бирже: 1 XAC = 2 XAT
+Payment algorithm:
 
-У пользователя недостаточно Ace Coins (XAC) для оплаты, поэтому часть стоимости будет оплачена Ace Tokens (XAT).
-Пользователю не хватает 2 XAC.
-Согласно текущему курсу, эквивалентом этой суммы является 4 XAT.
-В момент проведения платежа будут выполнены такие операции:
-
-- с пользователя снимается 1 XAC и 4 XAT
-- полученные от пользователя 4 XAT сжигаются
-- 4 XAT выводятся в оборот: перечисляются из `lockedPool` в `unlockedPool`
-- выполняется эмиссия 2 XAC
-- 0.9 XAC начисляются в системный пул `premiumFeePool` (это комиссия системы от суммы платежа - 3 XAC)
-- получателю платежа (бродкастеру) начисляется 2.1 XAC (3 XAC минус комиссия системы)
+- if the account has enough [XAC][5] to pay, only [XAC][5] is used
+- if there is not enough [XAC][5] on the account, then the difference is being paid by [XAT][6]:
+    - the required amount of [XAT][6] is calculated with using [token exchange module][3]
+    - this amount of [XAT][6] debits from the payer and transfers to the non-refundable account (burnt)
+    - the same amount of [XAT][6] withdraws from [`lockedPool`][4] (if that pool is not empty)
+    - the recipient of the payment receives [XAC][5] tokens, recently exchanged
+- if there is not enough [XAT][6] on the account, the difference is being paid by [XAS][7]
+    - the token exchange module calculates the necessary amount of [XAS][7]
+    - this amount of [XAS][7] debits from the payer's account and credited to the recipient's
 
 
-## Ценообразование
+### An example
 
-Наряду с автоматической эмиссией, в Ace Coin на программном уровне также заложена автоматическая система корректировки ценообразования (без возможности ручного вмешательства) относительно стоимости трафика.
+Suppose that a user buys one-time access to content in the system's premium pool.
+Let's take these inputs as an example:
 
-Формирование стоимости единицы измерения трафика по отношению к Ace Coins будет осуществляться, исходя из расчета соотношения общего объема потребляемого пользователями трафика к затраченному времени на потребление видео информации, содержащейся в этом трафике. Подробности [здесь][8]
+- cost of access: 3 XAC
+- user has 1 XAC and 7 XAT
+- exchange rate on the system's DEX is 1 XAC for 2 XAT
+
+The user does not have enough Ace Coins (XAC) to pay, so part of the cost will be paid in Ace Tokens (XAT).
+The user is short 2 XAC. Accordingly to the current exchange rate, the equivalent of this amount is 4 XAT.
+At the time of the payment, the following operations will be performed:
+
+- 1 XAC and 4 XAT are being charged from user's wallet
+- 4 XATs received from the user are being burned
+- 4 XAT are getting back into circulation by transferring from `lockedPool` to `unlockedPool`
+- 2 XAC are issued
+- 0.9 XAC credits to the system pool `premiumFeePool` (this is the system commission)
+- the receiver of this payment (brodcaster) gets 2.1 XAC (3 XAC minus the system commission)
+
+
+## Pricing
+
+Apart of automatic emission, Ace Coins priced automatically basing on current traffic costs. Details [here][8]
 
 !!! note ""
 
-    В итоге, мы получаем стабильную монету (stablecoin), имеющую обеспечение самым ценным ресурсом мира онлайн - трафиком/контентом, и самым ценным ресурсом мира оффлайн - временем жизни человека, которое он затрачивает на просмотр видеоконтента. Что может быть еще ценнее, надежнее и стабильнее?!
+    As a result, we get a stable coin that has collateral for the most valuable resource of the online world - traffic/content, and the most valuable resource of the offline world - a person's life time spent watching video content.
+
 
 
 [1]: ../glossary/system-smart-contracts.md

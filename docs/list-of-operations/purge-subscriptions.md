@@ -1,7 +1,5 @@
 # Purge subscriptions
 
-==TODO: english version==
+Deletes from the network all expired subscriptions created more than 180 days ago.
 
-Удаляет из сети все завершенные подписки, созданные более 180 дней назад.
-
-Операция может быть запущена любым аккаунтом, но сеть примет только одну операцию раз в 24 часа.
+The operation can be started by any account, but the network will only accept one operation every 24 hours.

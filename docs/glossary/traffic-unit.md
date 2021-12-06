@@ -1,7 +1,3 @@
-# Единица трафика
+# Traffic unit
 
-==TODO: english version==
-
-Единица трафика - минимальный объем данных, за который производятся расчеты.
-
-В Ace Network единицей трафика является 1 Мб (1 048 576 байт).
+The traffic unit is a minimal amount of traffic that is the subject of accounting. In Ace Network traffic unit is one megabyte (1,048,576 bytes).

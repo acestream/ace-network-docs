@@ -1,13 +1,12 @@
-# Reward Uploaders
-
-==TODO: english version==
-
-Запускает механизм ["лотерея"][1].
-
-Операция может быть запущена любым аккаунтом, но сеть примет только одну операцию раз в 28 дней.
+# Rewarding Uploaders
 
 
-## Псевдокод
+The system smart contract that implements the ["lottery"][1] mechanism.
+
+An operation can be initiated by any account, but the network will only accept one attempt every 28 days.
+
+
+## Pseudocode
 
 ```python
 # Find all premium pools where broadcasters pay for traffic
@@ -62,43 +61,44 @@ for broadcaster in broadcasters:
     broadcaster.uploadersRewardPool.reset()
 ```
 
+## Description
 
-## Описание
-
-- смарт-контракт находит все премиум пулы, в которых включена опция "оплата трафика бродкастером"
-- среди всех бродкастеров, входящих в найденные премиум пулы, выбираются бродкастеры с непустым пулом вознаграждений (`uploadersRewardPool`). Если пул вознаграждений бродкастера не пустой, это означает, что по контенту данного бродкастера с момента предыдущего запуска смарт-контракта `Reward Uploaders` был сгенерирован и оплачен трафик
-- для всех найденных бродкастеров выполняются такие действия:
-    - генерируется массив лотов на основе списка кандидатов (`uploaders`) и коэффициента выигрыша (`winFactor`)
-    - список кандитатов - это массив публичных ключей узлов, которые отдавали трафик данного бродкастера с момента предудыщего запуска смарт-контракта `Reward Uploaders`. Для каждого узла в списке хранится количество отданных единиц трафика
-    - коэффициент выигрыша - это целое число, которое хранится в настройках премиум пула. Задает соотношение количества победителей к общему количеству лотов
-    - каждый отданный гигабайт трафика (1024 Мб) приравнивается к одному лоту
-    - в розыгрыше принимают участие только кандидаты, отдавшие >= 1 Гб трафика
-    - количество лотов для одного кандидата не ограничено
-    - определяется количество победителей на основе коэффициента выигрыша (при коэффициенте N победителем является каждый N-тый элемент массива лотов)
-    - если количество лотов меньше коэффициента выигрыша, то выбирается один победитель
-    - смарт-контракт случайным образом выбирает нужное количество победителей из массива лотов
-    - содержимое пула вознаграждений равным образом распределяется между победившими лотами
-    - после розыгрыша пул вознаграждений и список кандитатов обнуляются
+- the smart contract finds all the premium pools where `uploadersRewardPool` option enabled
+- among all the broadcasters included in the found premium pools, the broadcasters with a non-empty reward pool (`uploadersRewardPool`) are selected. If the reward pool of a broadcaster is not empty, it means that the content of this broadcaster since the previous launch of the `Reward Uploaders` smart contract has generated and paid for traffic
+    - the following actions are performed for all found brodcasters
+        - an array of lots is generated based on the list of candidates (`uploaders`) and the winFactor (`winFactor`)
+        - The list of candidates is an array of public keys of nodes, which gave the traffic of the given broadcaster since the previous launch of the `Reward Uploaders` smart contract. For each node, the list stores the number of traffic units given away
+        - win ratio is an integer number stored in the premium pool settings. It sets the ratio of the number of winners to the total number of lots
+        - each Gbyte of traffic uploaded (1024 Mb) is equal to one lot
+        - only candidates who have uploaded >= 1 Gb of traffic participate in the lottery
+        - number of lots for one candidate is unlimited
+        - the number of winners is determined based on the gaining coefficient (at the coefficient N every N-th element of the lots array is a winner)
+        - if the number of lots is less than the odds of winning, then one winner is selected
+        - the smart contract randomly chooses the necessary number of winners from the array of lots
+        - the content of the bounty pool is distributed equally among the winning lots
+        - after the drawing the reward pool and the list of candidates will be reset to zero
 
 
-## Пример
+## Example
 
-Пусть в сети есть один бродкастер, который оплачивает трафик, и аккаунт данного бродкастера на момент запуска смарт-контракта `Reward Uploaders` содержит такие данные:
+        Suppose there is one brodcaster in the network that pays for traffic, and the account of this brodcaster at the time of launching the `Reward Uploaders` smart contract contains the following data:
 
-- пул вознаграждений: 1.1 XAC
-- список кандидатов, которые отдали >= 1 Гб трафика:
-    - userA: отдал 60 Гб
-    - userB: отдал 70 Гб
-    - userC: отдал 2 Гб
-    - userD: отдал 85 Гб
+        - rewards pool: 1.1 XAC
+        - list of candidates who gave >= 1 GB of traffic:
+            - userA: uploaded 60 GB
+            - userB: uploaded 70 GB
+            - userC: uploaded 2 GB
+            - userD: uploaded 85 GB
 
-Пусть коэффициент выигрыша равен 100, тогда:
+        Let the win rate be 100, then:
 
-- общее количество лотов: `60 + 70 + 2 + 85 = 217`
-- количество лотов-победителей: `floor(217 / 2) = 2`
-- выигрыш на один лот: `1.1 / 2 = 0.55 XAC`
+        - total number of lots: `60 + 70 + 2 + 85 = 217`
+        - the number of winning lots: `floor(217 / 2) = 2`.
+        - winnings per lot: ` 1.1 / 2 = 0.55 XAC`.
 
-Смарт-контракт `Reward Uploaders` выбирает случайным образом 2 из 217 лотов и начисляет владельцам этих лотов по 0.55 XAC. Если оба выигрышных лота принадлежат одному владельцу, то он получает 1.1 XAC.
+        The `Reward Uploaders` smart contract randomly selects 2 of the 217 lots and awards 0.55 XAC to the owners of those lots. If both winning lots belong to the same owner, they receives 1.1 XAC.
+
+
 
 
 [1]: ../traffic-payments/broadcaster-payments.md

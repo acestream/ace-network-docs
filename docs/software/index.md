@@ -1,14 +1,14 @@
 # Software
 
-==TODO: english version==
 
 ## Ace Stream Engine
 
-Клиентский узел - узел третьего уровня Ace Network, а также медиасервер и утилита, предназначенная для возможности проигрывания видео и аудио контента.
+Client node - Ace Network layer 3 node as well as a media server and utility designed to allow you to play video and audio content.
 
 
 ## Ace Network Core
 
-Узел первого уровня Ace Network. Может выполнять различные функции (валидатор, архиватор и т.п. - список функций полностью соответствует [stellar core][1]).
+The first level node of the Ace Network. Can perform various functions (validator, archiver, etc. - list of functions fully corresponds to [stellar core][1]).
+
 
 [1]: https://developers.stellar.org/docs/software-and-sdks/#stellar-core

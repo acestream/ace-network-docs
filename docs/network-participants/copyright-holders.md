@@ -1,20 +1,15 @@
-# Правообладатели
+# Copyright holders
 
-==TODO: english version==
+A copyright holder could be assigned to every [Content ID][1] in Ace Network.
 
-В Ace Network к каждому [идентификатору контента][1] может быть привязан правообладатель.
+A copyright holder is an account on the Network that receives a commission if their content gets paid for.
 
-Правообладатель - это аккаунт в Сети, который получает комиссионные отчисления при расчетах за контент, привязанный к данному правообладателю.
+Only a special type of account, oracle, can bind content to the copyright holder.
 
-Привязать контент к правообладателю может только специальный аккаунт - оракул.
-Список оракулов хранится в системных настройках.
-Добавление и удаление оракулов выполняется [голосованием][2] держателей [XAS][3].
+The list of oracles is stored in the system settings.
+Adding and removing oracles is done by [vote][2] of the [XAS][3] holders.
 
-Каждый оракул представлен реальной организацией (оффчейн) с соответствующими правами.
-В рамках Сети требование к аккаунту оракула - наличие в поле `home domain` ссылки на официальный сайт организации.
-
-Данные о привязке контента к правообладателю хранятся в data entry в аккаунте оракула, который выполнил регистрацию данной связки.
-
+Each oracle is represented by a separate business entity that can play such a role (for example a law firm), the valid URL of the website of such entity is mandatory and stores in the 'home domain' field of its account. Oracle's account also stores the log of assignments that had been done up to date.
 
 [1]: ../glossary/content-identifier.md
 [2]: ../glossary/system-settings.md#_3

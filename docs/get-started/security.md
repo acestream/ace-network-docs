@@ -1,24 +1,16 @@
-# Безопасность
-
-==TODO: english version==
-
-## Первый уровень
-
-Первый уровень (основной блокчейн) гарантирует максимальную безопасность, поскольку построен на базе Stellar - одного из лидеров индустрии, проверенного годами работы в продакшн окружении. Именно по этой причине все токены сети находятся в основном блокчейне.
+# Security
 
 
-## Второй уровень
+## 1st layer
 
-Блокчейны второго уровня имеют такую же степень защиты, поскольку так же построены на базе Stellar. Тем не менее, второй уровень имеет ограниченные полномочия в основном блокчейне - минимально необходимые для выполнения своих задач.
-
-
-## Третий уровень
-
-Третий уровень построен на принципе полного отсутствия доверия к каждому узлу. Однако это не снижает безопасность системы в целом, поскольку третий уровень служит исключительно для сбора данных, которые затем проверяет второй уровень и финализирует первый.
-
-На третьем уровне возможна фальсификация данных, однако система защищена от атак на базе фальсификации благодаря системным правилам, которые делают такие атаки нецелесообразными. Одно из основных таких правил - весь потребленный трафик должен быть оплачен. Злоумышленнику нет смысла генерировать фальсифицированный трафик, поскольку он сам должен будет его оплатить.
+Main blockchain (1st layer) offers the level of safety which is similar to its core technology — Stellar. Stellar is the well-known and thoroughly researched implementation of the distributed ledger technology widely used in real-world applications.
 
 
-## Использование TEE
+## 2nd layer
 
-На определенном этапе развития мы планируем активно использовать TEE для поддержки стабильность сети. Например, узлы с поддержкой Intel SGX могут иметь повышенный уровень доверия в рамках системы за счет удаленной аттестации. Это позволит перенести на них часть работы по обработке транзакций на третьем уровне.
+2nd layer is also based on Stellar with similar safety guarantees. Though, 1st layer restricts 2nd layer's capabilities to operate with main blockchain to the necessary minimum. Also, Stellar makes possible "wallet-independent" applications  
+
+
+## 3rd layer
+
+As other solutions with open membership 3rd layer implementations are being built with full respect to no-trust requirements. There are no financial transactions on 3rd layer, only data collection assuming that nodes may cheat. Some cheating behaviour can be detected by 2nd layer when comparing traffic records from other nodes, but basically cheating is avoided by making malicious behaviour economically unviable.   

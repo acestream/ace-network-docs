@@ -1,22 +1,22 @@
-# Системные токены
+# System tokens
 
-==TODO: english version==
 
-Системные токены являются нативными токенами Ace Network. Они существуют в сети
-с момента ее запуска, и в отличие от [assets][1] не требуют наличия [issuer][2]
-либо [trustline][3].
+System tokens are tokens native to Ace Network. They have existed on the network
+network since its launch, and unlike [assets][1] do not require [issuer][2]
+or [trustline][3].
 
-«Native» - означает, что токен встроен в сеть Ace Network, и является ее неотъемлемой частью.
+"Native" - means that the token is an integral part of Ace Network.
 
-В Ace Network есть три системных токена:
+There are three system tokens in the Ace Network:
 
-- [Ace Token (XAT)][4] - базовый системный токен Ace Netwok
-- [Ace Coin (XAC)][5] - автоматически генерируемый стейблкойн (stablecoin)
-- [Ace Asset (XAS)][6] - токен управления протоколами и активами DAO Ace Stream
+- [Ace Token (XAT)][4] - Ace Netwok's basic system token
+- [Ace Coin (XAC)][5] - algorithmic stablecoin
+- [Ace Asset (XAS)][6] - Ace Stream DAO protocol and asset management token
 
 !!! info
 
-    Один token/coin - это единица цифровой валюты, как bitcoin (BTC), lumen (XLM), ripple (XRP) и т.п.
+    One token/coin is a unit of digital currency like bitcoin (BTC), lumen (XLM), ripple (XRP), etc.
+
 
 [1]: https://developers.stellar.org/docs/issuing-assets/anatomy-of-an-asset/
 [2]: https://developers.stellar.org/docs/issuing-assets/anatomy-of-an-asset/#issuer

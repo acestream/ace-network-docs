@@ -1,7 +1,5 @@
-# Идентификатор контента
+# Content ID
 
-==TODO: english version==
-
-Идентификатором контента является криптографический хэш [транспортного файла][1], который описывает данный контент.
+An cryptographic hash of transport file that descibes this content.
 
 [1]: transport-file.md

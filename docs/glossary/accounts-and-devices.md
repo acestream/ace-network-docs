@@ -1,16 +1,12 @@
-# Аккаунты и устройства
+# Accounts and nodes.
 
-==TODO: english version==
 
-Аккаунт в Ace Network - полный аналог [аккаунта][1] в Stellar.
+AcAce Network's account is a Stellar account in Ace's first layer blockchain. Accounts sign transactions and keep tokens; accounts are subjects of generating and consuming resources.
 
-Аккаунт хранит токены и подписывает транзакции. Большинство данных в сети привязаны к конкретному аккаунту.
 
-Устройство - это экземпляр клиентского ПО (Ace Stream Engine), которому присвоена отдельная пара ключей (публичный и приватный ключ).
+Node is the instance of Ace Engine (client software) that has its own key pair and is linked to the specific account. Every account can have any number of linked nodes. Every linking should be performed intentionally by the account owner ([Add a device][2]) and charges the account's wallet for 0.1 XAT (tokens are being moved to [`txFeePool`][3]).
 
-Каждое устройство должно быть привязано к одному аккаунту. Привязку выполняет владелец аккаунта с помощью операции [Add device][2]. Количество привязанных устройств не ограничено. Стоимость привязки одного устройства - 0.1 XAT (токены перечисляются в [`txFeePool`][3]).
-
-Отвязать устройство от аккаунта можно операцией [Remove device][4]. Публичный ключ устройства не может быть привязан к другому аккаунту в течение 180 дней после выполнения этой операции.
+A node can be unlinked from the account by performing [Remove device][4] operation; note the public key of the unlinked node becomes unavailable for linking to another account for 180 days.
 
 [1]: https://developers.stellar.org/docs/glossary/accounts/
 [2]: ../list-of-operations/add-device.md

@@ -1,15 +1,8 @@
 # Ace Assets
 
-==TODO: english version==
+System smart contract that starts the procedure to  redistribute network income among specisal Ace Asset accounts. Might be initiated by any account, but network will only accept one operation each 24 hours.
 
-Запускает механизм распределения доходов сети между специальным счетами Ace Asset.
-
-Эта операция является системным смарт-контрактом.
-
-Операция может быть запущена любым аккаунтом, но сеть примет только одну операцию раз в 24 часа.
-
-
-## Псевдокод
+## Pseudocode
 
 ```python
 
@@ -39,19 +32,19 @@ for pool in pools:
 ```
 
 
-## Описание
+## Description
 
-- распределяются такие системные пулы:
+- Following system pools are subjects of redistribution:
     - [`trafficFeePool`][1]
     - [`contentAccessFeePool`][4]
     - [`premiumFeePool`][2]
     - [`unlockedPool`][3]
-- `ace_asset_adf_share` процентов содержимого пулов перечисляется на аккаунт под управлением Ace Stream Foundation
-- остальное содержимое пулов распределяется между специальными счетами Ace Asset, которые не изменялись как минимум `ace_asset_min_lock_interval` секунд
-- распределение выполняется пропорционально количеству XAS на специальном счету
-- токены, полученные в результате распределения, начисляются на счет владельца специального счета
-- в ходе операции специальный счет не модифицируется, поэтому каждый такой счет будет принимать участие в следующей операции распределения через 24 часа (если владелец счета не модифицирует его)
-- после распределения все участвующие пулы обнуляются
+- `ace_asset_adf_share` percent of the pools' content is transferred to an account managed by the Ace Stream Foundation
+- the rest is distributed among the special Ace Asset accounts, which have not changed for at least `ace_asset_min_lock_interval` seconds
+- distribution is performed in proportion to the number of XAS in the special account
+- tokens received as a result of distribution are credited to the special account holder's account
+- the special account is not modified during the operation, so each such account will take part in the next distribution operation in 24 hours (if the account's owner does not modify it)
+- after redistribution, all participating pools are reset to zero
 
 [1]: ../glossary/system-pools.md#trafficfeepool
 [2]: ../glossary/system-pools.md#premiumfeepool

@@ -1,9 +1,8 @@
-# Система модерации
+# Content moderation
 
-==TODO: english version==
+Ace Network introduces a decentralized moderation.
 
-В Ace Network будет внедрена децентрализованная система модерации.
-Планируемые возможности:
+Planned features include:
 
-- модерация контента в системном премиум пуле (возможность лишения статуса "премиум" контента, который не соответствует заявленному качеству)
-- модерация результатов выдачи децентрализированной поисковой системы на региональной основе
+- moderation of content in the system's premium pool (the ability to remove the "premium" status of content that does not fit pool's requirements.
+- moderation of searches performed inside Ace Network (on a regional basis)

@@ -1,15 +1,14 @@
 # Remove device
 
-==TODO: english version==
 
-Отвязать устройство от аккаунта.
+Unlink the device from an account.
 
 Threshold: medium
 
 
 ## Параметры
 
-- `device public key` - публичный ключ устройства, которое необходимо отвязать
+- `device public key` - the public key of the device that you want to unlink
 
 
 <!--

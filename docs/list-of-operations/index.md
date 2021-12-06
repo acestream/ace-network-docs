@@ -1,18 +1,16 @@
-# Список операций
-
-==TODO: english version==
-
-Здесь описаны [операции][1], специфические для Ace Network.
-Эти операции дополняют список [стандартных операций][2] Stellar.
-
-Операции разделены на две логические группы: системные смарт-контракты и операции.
-Основные отличия системных смарт-контрактов от обычных операций:
-
-- могут быть запущены в сеть любым аккаунтом, но не чаще установленного интервала времени
-- влияют на некое подмножество аккаунтов, не требуя при этом подписи каждого из затронутых аккаунтов
+# The list of operations
 
 
-## Системные смарт-контракты
+The [operations][1] described here are specific to the Ace Network, they are additional to and extend Stellar's list of [standard operations][2].
+
+There are two kinds of operations: system smart contracts and standard operations.
+Instead of other operations, system smart contracts could:
+
+-  be intiated on the network by any account, but not more frequently than a specified interval
+-  affect some subset of accounts without requiring the signature of each affected account
+
+
+## System smart contracts
 
 - [Ace Asset](ace-asset.md)
 - [Ace Deposit](ace-deposit.md)
@@ -23,7 +21,7 @@
 - [Reward Uploaders](reward-uploaders.md)
 
 
-## Операции
+## Operations
 
 - [Add Device](add-device.md)
 - [Buy Single Access](buy-single-access.md)
@@ -34,4 +32,3 @@
 
 [1]: ../glossary/operations.md
 [2]: https://developers.stellar.org/docs/start/list-of-operations/
-

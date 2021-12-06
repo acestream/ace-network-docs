@@ -1,14 +1,10 @@
 # Ace Deposit
 
-==TODO: english version==
+The system smart contract that redistributes tokens accumulated in system inflationary pool among special accounts of Ace Deposit program.
 
-Запускает механизм распределения инфляционного пула между специальным счетами Ace Deposit.
+An operation can be initiated by any account, but the network will only accept one transaction every 7 days.
 
-Эта операция является системным смарт-контрактом.
-
-Операция может быть запущена любым аккаунтом, но сеть примет только одну операцию раз в 7 дней.
-
-## Псевдокод
+## Pseudocode
 
 ```python
 
@@ -28,13 +24,13 @@ for account in targetAccounts:
 inflationPool.empty()
 ```
 
-## Описание
+## Descriptio
 
-- распределяется системный пул [`inflationPool`][1]
-- распределение выполняется между специальными счетами Ace Deposit, которые не изменялись как минимум `ace_deposit_min_lock_interval` секунд
-- распределение выполняется пропорционально количеству XAT на специальном счете
-- токены, полученные в результате распределения, начисляются на тот же счет, который участвует в распределении
-- в ходе операции специальный счет модифицируется, поэтому каждый такой счет будет принимать участие в следующей операции распределения не ранее, чем черех `ace_deposit_min_lock_interval` секунд
-- после распределения [`inflationPool`][1] обнуляется
+- the system pool [`inflationPool`][1] is being redistributed
+- the distribution is performed between special Ace Deposit accounts that have not been changed for at least `ace_deposit_min_lock_interval` seconds
+- the distribution is performed in proportion to the number of XATs locked in the special account
+- distributed tokens are credited to the accounts that participates in the distribution
+- during the operation, the special account is modified, so each such account will take part in the next distribution operation not earlier than after `ace_deposit_min_lock_interval` seconds
+- after the distribution [`inflationPool`][1] resets to zero
 
 [1]: ../glossary/system-pools.md#inflationpool

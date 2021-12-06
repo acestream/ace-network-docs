@@ -1,5 +1,3 @@
-# Транспортный файл
+# Transport File
 
-==TODO: english version==
-
-Файл с метаданными, которые уникальным образом идентифицируют контент в сети Ace Stream.
+File with metadata that uniquely identifies specific content the Ace Network.
