@@ -42,6 +42,9 @@ plugins:
       languages:
         # en: English
         ru: Русский
+      nav_translations:
+        ru:
+          Products: Продукты
 
 nav:
   - Home: index.md
@@ -115,3 +118,11 @@ nav:
       - Системные настройки: glossary/system-settings.md
       - Системные смарт-контракты: glossary/system-smart-contracts.md
       - Ace Stream Foundation: glossary/ace-stream-foundation.md
+  - Products:
+    - Ace Stream LiveTV:
+      - Overview: products/acestream-livetv/index.md
+      - First Launch: products/acestream-livetv/first-launch.md
+      - Add Content: products/acestream-livetv/add-content.md
+      - Search Settings: products/acestream-livetv/search-settings.md
+      - Known Channel Sources: products/acestream-livetv/known-channel-sources.md
+      - DVR: products/acestream-livetv/dvr.md
