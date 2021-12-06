@@ -1,23 +1,23 @@
-# Инфляция
+# Inflation
 
-==TODO: english version==
 
-Эмиссия инфляционных токенов XAT осуществляется еженедельно, в автоматическом режиме, согласно условиям смарт-контракта [Inflation][1] по следующей формуле:
+XAT inflation tokens are issued weekly, automatically, according to the terms of the [Inflation][1] smart contract that implements the following formula:
 
 ```python
 inflationAmount = (totalTokens - lockedTokens) * 0.000190721
 ```
+where
 
-где
+- `inflationAmount` - volume of weekly issuance
+- `totalTokens` - the total number of XATs in the system at the time of launching the inflation operation (100 billion + the total amount of inflation tokens from all previous issues)
+- `lockedTokens` - the number of XATs that have not yet been released into circulation (locked in the system pool [`lockedPool`][2])
 
-- `inflationAmount` - объем еженедельной эмиссии
-- `totalTokens` - общее количество XAT в системе на момент запуска операции инфляции (100 млрд. + общий объём инфляционных токенов от всех предыдущих эмиссий)
-- `lockedTokens` - количество XAT, которые еще не выпущены в оборот (заблокированы в системном пуле [`lockedPool`][2])
+The inflation is 1% per year (or 0.0190721% per week) of the XATs released into circulation.
 
-Объем инфляции составляет 1% в год (либо 0.0190721% в неделю) от выпущенных в оборот XAT.
+The XATs issued by inflation procedure are transferred to the system pool [`inflation pool'][3]
+and are subjects of further distribution performed by [Ace Deposit][3] smart contract.
 
-Сгенерированные в результате инфляции XAT переводятся в системный пул [`inflationpool`][3]
-для дальнейшего распределения смарт-контрактом [Ace Deposit][3]
+
 
 [1]: ../list-of-operations/inflation.md
 [2]: ../glossary/system-pools.md#lockedpool

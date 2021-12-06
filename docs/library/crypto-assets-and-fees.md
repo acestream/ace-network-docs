@@ -64,8 +64,6 @@ Advertising inventory and its cost:
 
     Projected annual advertising inventory if the goal of 100 million monthly active users of the Ace Search app is reached, for 2023 - $3.74 billion.
 
-- **Телевизионная реклама (реклама в линейном телевидении)**
-
 - ** TV ads**
 
 The average number of advertising displays per user - 6841 per year

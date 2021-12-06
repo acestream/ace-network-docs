@@ -1,19 +1,15 @@
-# Buy Subscription
+# To Buy The Subscription
 
-==TODO: english version==
-
-Купить подписку на доступ к контенту в премиум пуле.
-
-В результате успешной покупки подписка будет сохранена в виде поля в аккаунте-источнике.
+Buy a subscription to access the premium pool's content. A successful purchase will result in the subscription being saved as a corresponding field in the pool's account.
 
 
 Threshold: medium
 
-## Параметры
+## Parameters
 
-- `pool` - аккаунт премимум пула
-- `subscription id` - идентификатор подписки
+- `pool` - premium pool's account
+- `subscription id` - subscription identifier
 
-Для покупки доступа в системном пуле в параметре `pool` нужно передать значение `system`.
+To buy access in the system pool, you must set the value of `pool` parameter to `system`.
 
-Список идентификаторов подписок хранится в настройках пула.
+The list of subscription IDs is stored in the pool settings.

@@ -1,4 +1,4 @@
-# Соответствие условиям DMCA
+# DMCA compliance
 
 ==TODO: english version==
 

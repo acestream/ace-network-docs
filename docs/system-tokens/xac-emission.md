@@ -1,57 +1,53 @@
-# Эмиссия Ace Coin emission
+# Ace Coin issuance
 
 
-Эмиссия Ace Coin выполняется автоматически [системными смарт-контрактами][1] во время
-оплаты сервисов, связанных с генерацией контента.
+Ace Coin is issued automatically by [system smart contracts][1] as the part of
+payment process (when paid for services related to content generation).
 
-Такие сервисы могут быть оплачены любым из трех системных токенов: [XAT][6], [XAC][5], [XAS][7]. В первую очередь
-используются токены [XAC][5], но если их недостаточно, то задействуется алгоритм
-оплаты токенами [XAT][6] либо [XAS][7], описанный в этом разделе. В рамках этого алгоритма
-может выполняться автоматическая эмиссия [XAC][5].
+Such services can be paid for by any of three system tokens: [XAT][6], [XAC][5], [XAS][7]. First of all, [XAC][5] tokens are used, but if XAC amount are not enough, then smart contract will charge
+[XAT][6] or [XAS][7] accounts as described below in this section). Issuance of [XAC][5] is the part of this algorithm.
 
 
-## Список сервисов
+## Services
 
-- оплата за трафик
-- оплата за доступ к контенту (например, в [премиум пуле][2])
-- вознаграждения, выплачиваемые участикам Сетью:
-    - за просмотр рекламы
-    - за дистрибуцию приложений DAO Ace Stream (для производителей устройств, OEMs)
-    - за модерацию контента в Сети
-
-
-## Алгоритм оплаты
-
-- если на счету достаточно [XAC][5] для оплаты, то используются только [XAC][5]
-- если на счету недостаточно [XAC][5], то разница оплачивается за счет [XAT][6]:
-    - с помощью [модуля обмена][3] токенов рассчитывается необходимое количество [XAT][6]
-    - данное количество [XAT][6] списывается с плательщика и отправляется на невозвратный аккаунт (сжигается)
-    - такое же количество [XAT][6] выводится в оборот из [`lockedPool`][4] (если этот пул не пустой)
-    - получателю платежа зачисляется количество [XAC][5], полученное в результате обмена
-- если на счету недостаточно [XAT][6], то разница оплачивается за счет [XAS][7]
-    - с помощью модуля обмена токенов рассчитывается необходимое количество [XAS][7]
-    - данное количество [XAS][7] списывается с плательщика и зачисляется получателю
+- payment for traffic
+- payments for accessing content (e.g., in the [premium pool][2])
+- rewards paid to members by the Network:
+    - for watching ads
+    - for re-distribution of DAO Ace Stream applications (for device manufacturers, OEMs)
+    - for moderation of content in the Network
 
 
-## Пример
+## Payment algorithm
 
-Предположим, что некий пользователь покупает разовый доступ к контенту в системном премиум пуле.
-Для примера возьмем такие входные данные:
+- if the account has enough [XAC][5] to pay, only [XAC][5] is used
+- if there is not enough [XAC][5] on the account, then the difference is being paid by [XAT][6]:
+    - the required amount of [XAT][6] is calculated with using [token exchange module][3]
+    - this amount of [XAT][6] debits from the payer and transfers to the non-refundable account (burnt)
+    - the same amount of [XAT][6] withdraws from [`lockedPool`][4] (if that pool is not empty)
+    - the recipient of the payment receives [XAC][5] tokens, recently exchanged
+- if there is not enough [XAT][6] on the account, the difference is being paid by [XAS][7]
+    - the token exchange module calculates the necessary amount of [XAS][7]
+    - this amount of [XAS][7] debits from the payer's account and credited to the recipient's
 
-- стоимость доступа: 3 XAC
-- на счету для оплаты сервисов пользователя: 1 XAC и 7 XAT
-- курс обмена на системной децентрализованной бирже: 1 XAC = 2 XAT
+## An example
 
-У пользователя недостаточно Ace Coins (XAC) для оплаты, поэтому часть стоимости будет оплачена Ace Tokens (XAT).
-Пользователю не хватает 2 XAC.
-Согласно текущему курсу, эквивалентом этой суммы является 4 XAT.
-В момент проведения платежа будут выполнены такие операции:
+Suppose that a user buys one-time access to content in the system's premium pool.
+Let's take these inputs as an example:
 
-- с пользователя снимается 1 XAC и 4 XAT
-- полученные от пользователя 4 XAT сжигаются
-- 4 XAT выводятся в оборот: перечисляются из `lockedPool` в `unlockedPool`
-- 0.9 XAC начисляются в системный пул `premiumFeePool` (это комиссия системы от суммы платежа - 3 XAC)
-- получателю платежа (бродкастеру) начисляется 2.1 XAC (3 XAC минус комиссия системы)
+- cost of access: 3 XAC
+- user has 1 XAC and 7 XAT
+- exchange rate on the system's DEX is 1 XAC for 2 XAT
+
+The user does not have enough Ace Coins (XAC) to pay, so part of the cost will be paid in Ace Tokens (XAT).
+The user is short 2 XAC. Accordingly to the current exchange rate, the equivalent of this amount is 4 XAT.
+At the time of the payment, the following operations will be performed:
+
+- 1 XAC and 4 XAT are being charged from user's wallet
+- 4 XATs received from the user are being burned
+- 4 XAT are getting back into circulation by transferring from `lockedPool` to `unlockedPool`
+- 0.9 XAC credits to the system pool `premiumFeePool` (this is the system commission)
+- the receiver of this payment (brodcaster) gets 2.1 XAC (3 XAC minus the system commission)
 
 
 [1]: ../glossary/system-smart-contracts.md

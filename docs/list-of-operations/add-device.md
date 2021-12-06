@@ -1,24 +1,15 @@
 # Add device
 
-==TODO: english version==
+Links device to the account. Operation moves 0.1XAT from linking account to [`txFeePool`][1]
 
-Привязать устройство к аккаунту.
-
-Данная операция перемещает 0.1 XAT от аккаунта-источника в системный пул [`txFeePool`][1]
 
 Threshold: medium
 
 
-## Параметры
+## Parameters
 
-- `device public key` - публичный ключ устройства, которое необходимо привязать
+- `device public key` - the public key identifies device which is linking to account
 
-<!--
-## Ошибки
 
-- ADD_DEVICE_MALFORMED - неверные входящие данные
-- ADD_DEVICE_UNDERFUNDED - у аккаунта-источника недостаточно средств для совершения операции
-- ADD_DEVICE_ALREADY_EXIST - публичный ключ устройства уже привязан к одному аккаунту в сети
--->
 
 [1]: ../glossary/system-pools.md#txfeepool

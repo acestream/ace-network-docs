@@ -1,9 +1,8 @@
 # Purge devices
 
-==TODO: english version==
 
-Удаляет из сети все устройства, удаленные операцией [Remove device][1] более 180 дней назад.
+Deletes from the network all devices that had been removed by the [Remove device][1] operation more than 180 days ago.
 
-Операция может быть запущена любым аккаунтом, но сеть примет только одну операцию раз в 24 часа.
+The operation can be initiated by any account, but the network will only accept one operation every 24 hours.
 
 [1]: ../list-of-operations/remove-device.md

@@ -1,16 +1,14 @@
-# Buy Single Access
+# Buy One-time Access
 
-==TODO: english version==
-
-Купить разовый доступ к контенту в премиум пуле
+To buy one-time access to content in the premium pool
 
 Threshold: medium
 
-## Параметры
+## Parameters
 
-- `pool` - аккаунт премимум пула
-- `broadcaster` - аккаунт бродкастера
-- `content id` - идентификатор контента
-- `content type` - тип контента (Live или VOD)
+- `pool` - account of premium pool's owner
+- `broadcaster` - broadcaster's account
+- `content id` - content identifier
+- `content type` - type of content, Live or VOD
 
-Для покупки доступа в системном пуле в параметре `pool` нужно передать значение `system`
+To buy access in the system pool, you must set the value of  `pool` parameter to `system`

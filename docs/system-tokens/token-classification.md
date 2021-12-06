@@ -1,38 +1,41 @@
-==TODO: english version==
 
-Ниже приведены критерии для оценки классификации DAO Ace Stream и эмитируемых токенов ([XAT][2] и [XAS][3], далее по тексту, вместе - «Токены») в соответствии с рекомендациями SEC.
 
-1. Исключение зависимостей от деятельности третьих лиц:
 
-    - Саморегулируемая децентрализованная Сеть, с открытым исходным кодом, под лицензией Apache License 2.0;
-    - Правила Сети соблюдаются самим протоколом, операторами узлов и социальным консенсусом самих пользователей;
-    - Прозрачная экономика и саморегулирование. Логика всех экономических и регуляторных процессов Сети осуществляется исключительно на основании правил и логики, прописанных в программном коде платформы;
-    - Высокий уровень конфиденциальности и свободное перемещение цифровых активов за счет децентрализации и криптографии, без участия третьих лиц;
 
-2. Сеть распределенного реестра и цифровой актив полностью разработаны и готовы к эксплуатации (имеется в виду, что сеть уже функционирует и токены уже можно использовать для каких-то целей)
+Below are listed criteria by which DAO Ace Stream and [XAT][2] and [XAS][3] could be estimated by regulators
 
-3. Токены представлены как валюта для расчетов в Сети, и фактически выступают в качестве накопителей стоимости контента и всех платных услуг Сети
+1. There are no dependencies on 3rd-parties' actions :
 
-4. Токены ориентированы на конкретный способ применения, а не биржевые торги.
+    - A self-regulated, decentralized, open-source network (Apache 2.0 License);
+    - The rules of the Network are enforced by the protocol itself, nodes operators and users' consensus;
+    - Transparent self-regulated economics. The logic of all economic and regulatory processes of the network is based solely on the rules and logic implemented in platform's software;
+    - High level of confidentiality and freedom of digital assets through decentralisation and cryptography, with no participation of third parties;  
 
-    *Примеры способов применения токенов в рамках Сети:*
+2. The distributed registry network and digital assets are fully developed and ready for production (it means  the network is already functional and tokens can already be used for their purposes)
 
-    - Исключительное предназначение токенов
-        - Комиссия за транзакции - оплачивается только токеном [XAT][2]
-        - Голосование за внесение изменений в системные протоколы и смарт-контракты Сети - только токеном [XAS][3]
+3. Network tokens are money and are the method of payment
+4. Tokens serve their own purposes which don't include speculative trading on exchanges
 
-    - Общее предназначение токенов (в качестве платежа принимается [XAT][2] и/или [XAS][3])
+*Examples of how tokens can be used within the Network:*
 
-        - Для расчетов за трафик (P2P CDN)
-        - Оплата за доступ к контенту, публикуемого в Сети
-        - Взнос участниками Сети за токенизацию собственных активов на платформе Ace Network
-        - Приобретение авторских прав и прав на ретрансляцию/распространение контента
-        - Оплата размещения рекламных материалов в Сети
-        - Приобретение прав на модерацию в поисковой системе Ace Stream (возможность удаления контента из поисковой выдачи, предусмотренная для правообладателей и гос. служб)
+- Purpose of tokens
+    - Transaction fees - could be paid only by token [XAT][2]
+    - Voting for changes to the Network's system protocols and smart contracts - payable by token only [XAS][3]
 
- 5. Владельцы/держатели токенов не получают никаких доходов и не подвержены влиянию прибыли, получаемой Сетью от продажи услуг.
+- General purpose tokens (accept [XAT][2] and/or [XAS][3] as payment)
 
-Пояснение: владельцы токенов могут получать доходы и быть подвержены влиянию прибыли, получаемой Сетью от продажи услуг, только при условии участия в DeFi программах DAO Ace Stream, в которых им нужно сделать персональную регистрацию и внести свои токены на специализированные счета, привязанные к смарт-контрактам той или иной программы DeFi ([подробнее о программах DeFi][1])
+    - To pay for traffic (P2P CDN)
+    - Payment for access to content published on the Network
+    - Payment by members of the Network for tokenization of their own assets on the Ace Network platform
+    - Purchase of copyright and retransmission/distribution rights
+    - Payment for the placement of advertising materials on the Network
+    - Acquisition of rights to moderation in Ace Stream search engine (opportunity to delete content from search results, provided for holders of rights and state services)
+
+5. Owners/holders of tokens do not receive any income and are not affected by the profit made by the Network from the sale of services.
+
+Explanation: Token holders can receive income and thus be affected by the profit/loss of the Network  only if they are participated in DeFi programs DAO Ace Stream. To become members they have to pass registration procedure and deposit their tokens into special accounts served by the smart contracts of one or another DeFi program ([more about DeFi programs][1])
+
+
 
 
 [1]: ../library/finances.md

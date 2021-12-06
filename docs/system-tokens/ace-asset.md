@@ -1,6 +1,5 @@
 # Ace Asset (XAS)
 
-==TODO: english version==
 
 **Ace Asset (XAS)** is the utility token purposed to manage other network assets and protocols.
 
@@ -8,39 +7,41 @@ Apart from access to all network's services, XAS gives its owners some privilege
 
 - voting for changes in protocols and smart-contracts (described [here][1])
 
-- participating in network's profit участие в распределении системных токенов (XAT) и комиссионных сборов получаемых DAO Ace Stream за Услуги и Сервисы, предоставляемые Сетью.
+- participating in network's profit
 
 !!! info
 
-    Для получения прав на активы DAO Ace Stream, владельцам данных токенов необходимо зарегистрироваться в DeFi программе [Ace Assets][2]
+    To obtain rights to Ace Stream DAO assets, the owners of these tokens have to register in the [Ace Assets][2] DeFi program
 
 
 ## Token issuing
 
-Эмиссия XAS осуществляется единоразово, в объеме 1,000,000,000 XAS.
+XAS is issued in a one-time amount of 1,000,000,000 XAS.
 
-Начальный курс токена XAS на старте продаж: 1 «Ace Asset» = 1$
+Initial rate of XAS token at the start of sales: 1 "Ace Asset" = $1
 
 
 ## Initial offering
 
-Объем первичного размещения - 100 млн. токенов «Ace Asset», из которых: 
+The initial offering is 100 million Ace Asset tokens, of which: 
 
-- продажа первых 20 млн. осуществляется по предварительным заявкам, с минимальным объёмом выкупа от 10 тыс. и с дисконтом до 30%, по следующей формуле:
+- The sale of the first 20 million is carried out on preliminary applications, with a minimum redemption  of 10 thousand and with a discount of up to 30%, according to the following formula:
 
     ```
-    D=5%  для 10,000 <= X < 100,000
-    D=10% для 100,000 <= X < 1,000,000
-    D=(11 + FLOOR(X / 1,000,000))% для X >= 1,000,000
+    D=5% for 10,000 <= X < 100,000
+    D=10% for 100,000 <= X < 1,000,000
+    D=(11 + FLOOR(X / 1,000,000))% for X >= 1,000,000
 
-    где:
-    D - дисконт
-    X - количество покупаемых токенов
+    Where:
+    D - discount
+    X - number of tokens to buy
     ```
 
-- Следующие 30 млн. будут проданы в формате аукциона закрытого предложения, где участникам будет предложено сделать свои ставки относительно цены покупки на интересующий их объем токенов, с минимально допустимой ставкой на уровне 1 Ace Asset = 1$
+- The next 30 million will be sold in a closed bid auction format, where participants will be invited to bid on the purchase price for the volume of tokens they are interested in, with a minimum bid of 1 Ace Asset = $1
 
-- Продажа оставшегося объема первичного размещения, составляющая 50 млн. токенов, будет осуществляться в формате открытого аукциона, со стартовой ценой, соответствующей среднему арифметическому показателю цены выкупа токенов на аукционе закрытого предложения.
+- The sale of the rest of the initial placement, amounting to 50 million tokens, will be carried out in the format of an open auction, with the starting price corresponding to the arithmetic average of the redemption price of tokens at the closed offer auction.
+
+
 
 [1]: ../glossary/system-settings.md#_3
 [2]: ../services/ace-asset.md

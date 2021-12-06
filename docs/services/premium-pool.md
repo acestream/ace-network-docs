@@ -42,65 +42,64 @@ As a result, a special account to represent the newly created pool and store its
 
 ## Broadcasting from the pools
 
-If brodcaster is listed in pool's settings and want to 
+If brodcaster is listed in pool's settings and want to start publishing content they have to specify pool's public key in transport file.
 
-Для подключения к пулу требуется выполнения таких условий:
-
-- бродкастер должен указать в [транспортном файле][3] идентификатор пула (его публичный ключ)
-- публичный ключ бродкастера должен быть добавлен в список участников пула.
-
-Добавить нового участника в пул могут либо владельцы пула, либо аккаунт, которому владельцы пула делегировали это полномочие.
+New broadcaster can be assigned to the pool by its owners or accounts to which the owners had delegated such rights.
 
 
-## Системный пул
+
+## System pool
+
+System pool is an open pool owned by the whole Ace Network.
 
 Системный пул - это открытый пул, вдалельцем которого является вся Сеть.
 
-Настройки системного пула хранятся в системной настройке `system_premium_pool_settings`. Соответственно, изменять настройки системного пула можно путем [изменения системных настроек][4].
+The system pool settings are stored in the `system_premium_pool_settings` system setting, which could be altered by [changing the system settings][4] procedure.
 
-В отличие от обычных премиум пулов, настройки биллинга системного пула можно изменять.
+Unlike regular premium pools, the billing settings of the system pool can be changed.
 
-К системному пулу может подключиться любой бродкастер.
+Any broadcaster is able to join the system pool.
 
-Для оплаты доступа к контенту в рамках системного пула используются системные токены.
-
-
-## Владельцы пула и участники пула
-
-Владельцы пула - это аккаунты, у которых есть право изменять настройки пула, в том числе список владельцев и список участников. Владельцам пула изначательно принадлежат все токены, которые выпускаются в процессе создания пула (для пулов с токенами).
-
-Владельцем системного пула является вся Сеть в целом.
-
-Участники пула - это бродкастеры, подключенные к пулу. Список участников хранится в настройках пула. Изменять список участников могут только владельцы пула. Исключением является системный пул - его участником может стать любой бродкастер.
+System tokens are used to pay for content assigned to the system pool.
 
 
-## Комиссия сети
+## Pool owners and pool participants
 
-В пулах с токенами комиссия сети распространяется только на эмисиию токенов - 30% от выпущенных токенов.
-При оплате доступа в контенту в таких пулах комиссии нет.
+Pool owners are accounts that are authorized to change pool settings, list of owners, and list of participants. Pool owners initially own all tokens that were issued (if the pool had issued its own tokens when the pool was created).
 
-В пулах без токенов комиссия сети составляет 30% от каждого платежа для оплаты доступа к контенту.
+Pool participants are the broadcasters assigned to the pool. The list of participants is stored in the pool settings. Only the pool owners can change the list of participants. The only exception is the system pool - any broadcaster can become its member.
 
 
-## Настройки пула
+## Network's commissions
 
-В настройках пула хранится такая информация:
+In pools that issued their tokens, the network's commission applies only to token issuance - 30% of its total amount.
+There is no commission taken for access to content in such pools.
 
-- список участников (бродкастеров)
-- настройки распределения доходов
-- настройки биллинга:
-    - кто оплачивает трафик (бродкастеры либо пользователи)
-    - стоимость разового доступа
-    - стоимость минуты для поминутной тарификации
-    - стоимость и длительность подписки
+In pools without their own tokens, the network commission is 30% of each payment for content access.
 
-Настройки биллинга позволяют включать либо выключать определенные типы биллинга, а также создавать несколько вариантов доступа. Например, можно запретить разовый доступ и поминутную тарификацию и сделать два варианта подписки: на 30 и на 360 дней.
 
-Стоимость доступа может зависеть от страны, что тоже можно указать в настройках биллинга.
 
-Настройки биллинга указываются при создании пула и не могут быть изменены впоследствии. Если возникает необходимость изменить условия доступа к контенту, нужно создать новый премиум пул с новыми настройками.
+## Pool settings
 
-Настройки биллинга применяются ко всему контенту, подключенному к пулу.
+Apart of other parameters, pool's settings specify:
+
+- list of participants (brokers)
+- income redistribution policy
+- billing policies:
+    - who pays for the traffic (broadcasters or users)
+    - one-time access fee
+    - per minute cost for the per minute billing
+    - cost and duration of the subscription plan
+
+The billing settings allow pool owners to enable or disable certain types of billing, as well as to create multiple access options. For example, owner can disable one-time access and per-minute charging, and offer two subscription options: for 30 and 360 days.
+
+The cost of access can depend on the user's country, which can also be specified in the billing settings.
+
+Billing policies are specified when creating a pool and cannot be changed later. If there is a need to change the terms of access to content, brand new pool should be created to provide new terms.
+
+The billing policies apply to all content assigned to the pool.
+
+
 
 
 ## Распределение доходов в пуле
@@ -179,9 +178,11 @@ If brodcaster is listed in pool's settings and want to
 - узлы, отдающие трафик, могут получить вознаграждение по системе "лотерея" (подробное описание [здесь][9])
 
 
-## Контроль доступа к контенту
+## Content access control
 
-Контроль доступа полностью децентрализован и осуществляется узлами сети при обмене данными между собой. Каждый узел, участвующий в передаче данных по контенту из премиум пула, перед передачей данных другому узлу проверяет наличие у него доступа к данному контенту согласно настройкам пула.
+Access control is fully decentralized and is carried out by network nodes. Each node that participates in the premium pool's data transmission checks whether its remote peer has been authorized to access this content accordingly to the pool settings.
+
+
 
 [1]: ../list-of-operations/create-premium-pool.md
 [2]: #_3

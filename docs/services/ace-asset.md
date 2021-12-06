@@ -1,57 +1,30 @@
-# Программа «Ace Assets»
+# «Ace Assets» program
 
-==TODO: english version==
+Ace Assets is the program that participants are privileged to obtain [DAO Ace Stream cryptoassets][5] by participation in the redistribution of system tokens ([XAT][3]) and commissions taken by DAO Ace Stream for services provided by the Network.
 
-Ace Assets - это уникальная привилегированная программа. предоставляющая ее участникам права на получение [криптоактивов DAO Ace Stream][5].
+## Participating in Ace Assets
 
-## О правах на криптоактивы DAO Ace Stream
+To be a participant of «Ace Assets» one needs to own «Ace Asset» ([tokens XAS][4]).
 
-Участие в распределении системных токенов ([XAT][3]) и комиссионных сборов, получаемых DAO Ace Stream за услуги и сервисы, предоставляемые Сетью.
+"Ace Asset" token is a utility token, that gives its owners access to the Network's services, as well as the rights to be the part of Network's self-governance procedures (see [Ace Asset, XAS] token description[4]).
 
+To become the participant of this program the owner of account has to deposit XAS onto special address in their wallet (which is address of program's smart contract). While deposited XASes allow to participate in network redistributions proportionally to total amount has been deposited by all accounts. Deposited funds can be withdrawn any time.
 
-## Активация и деактивация программы Ace Assets
-
-Для участия в программе «Ace Assets» необходимо наличие токена «Ace Asset» ([XAS][4]).
-
-По умолчанию токен «Ace Asset» является служебным/утилитарным (utility) токеном, который дает своим владельцам доступ к услугам и сервисам Сети, а также дает права управления Сетью (см. описание токена [Ace Asset, XAS][4]).
-
-Для получения прав на владение криптоактивами Сети и на участие в их распределении, нужно осуществить депонирование токенов «Ace Asset» на специализированном счете своего персонального кошелька, с одноименным названием Ace Asset, после чего эти токены будут автоматически привязаны к смарт-контакту [Ace Assets][2] и участвовать в данной программе.
-
-Владелец токенов в любой момент времени может вывести их (частично либо полностью) из программы Ace Assets, переведя их на основной счет своего кошелька, и использовать для оплаты услуг и сервисов Сети, как базовые системные токены [XAT][3].
-
-При осуществлении транзакции токены будут автоматически отключаться от программы «Ace Assets». Для ее возобновления получателю токенов нужно будет заново активировать программу Ace Assets в своем кошельке (как указано выше).
+To become the participant of this program, the account owner has to deposit XAS onto a special address in their wallet (which is the address of the program's smart contract). While deposited, XASes allow participating in network redistributions proportionally to the total amount of XAS tokens that had been deposited by all accounts. Deposited funds can be withdrawn at any time, terminating their participation in the program.
 
 
-## Распределение криптоактивов
+## Redistributions of the crypto-assets
 
-30% - на счет под управлением Ace Stream Foundation (некоммерческий фонд поддержки и развития Сети), из которых:
+30% to an account managed by the Ace Stream Foundation (a non-profit fund for the support and development of the Network):
 
-- 5% - на технологическое развитие и разработку программных продуктов
-- 5% - маркетинговые программы
-- 10% - airdrop, по программе стимулирования (поощрение и финансирование) создания и размещения эксклюзивного премиального контента в сети Ace Network
-- 10% - благотворительные и некоммерческие проекты
+- 5% -  RnD and software development
+- 5% - marketing and business development
+- 10% - stimulus programs to bring more broadcasters of exclusive premium content to the Ace Network
+- 10% - charity and non-commercial projects
 
-70% - между участниками программы Ace Assets, пропорционально количеству их токенов, активированных в данной программе в течении 14 полных дней.
+70% - among Ace Assets program participants, in proportion to the amount of their tokens activated in this program within 14 full days.
 
-Распределение выполняет смарт-контракт [Ace Assets][2], который запускается один раз в сутки и выполняет следующие действия:
-
-- находит все счета «Ace Asset», на которых токены не перемещались как минимум 14 дней на момент запуска смарт-контракта (название этих счетов: `assetTargetAccounts`)
-- начисляет токены владельцам этих счетов по формуле:
-
-    ```
-    targetAssetAmount = accountAssetTokens * (assetPoolAmount / totalAssetTokens)
-    ```
-
-    где:
-
-    - `targetAssetAmount` - количество токенов для зачисления
-    - `assetPoolAmount` - суммарное количество токенов в таких системных пулах:
-        - пул для аккумуляции комиссионных сборов за услуги, предоставляемые Сетью
-        - пул для аккумуляции токенов [XAT][3], разблокированных с момента последнего запуска смарт-контракта Ace Asset
-    - `totalAssetTokens` - общее количество токенов [XAS][4] на счетах assetTargetAccounts
-    - `accountAssetTokens` - количество токенов [XAS][4] на конкретном счету
-
-Следует отметить, что согласно условиям данного смарт-контракта, каждый счет Ace Asset участвует в распределении каждый день, начиная с 14-го дня депонирования.
+The redistributions perform by the [Ace Assets][2] smart contract, which runs once a day to make transfers described above.
 
 
 [2]: ../list-of-operations/ace-asset.md

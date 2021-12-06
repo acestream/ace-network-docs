@@ -1,34 +1,25 @@
 # Ace Coin (XAC)
 
-==TODO: english version==
 
-**Ace Coin (XAC)** - утилитарный (utility), автоматически генерируемый стейблкойн (stablecoin), обеспеченный объемами потребляемого трафика, в соотношении ко времени жизни человека, затраченного на просмотр видео контента.
-
+**Ace Coin (XAC)** is a utility, automatically generated stablecoin which value is defined by the amount of traffic consumed in relation to that part of person's lifespan which was spent for watching content
 
 ## Эмиссия
 
-Первоначальная эмиссия XAC отсутствует.
+There is no initial issuance of XAC.
 
-Эмиссия Ace Coins осуществляется автоматически в объеме, соответствующем **реальной** потребности в данной цифровой валюте, в соответствии с заложенным в систему алгоритмом.
+Ace Coins are issued automatically in the amount corresponding to **real** need for this digital currency, according to the algorithm embedded in the system. Ace Coin are being generated when the Network user consumes traffic, content and services. When user pays for them, Ace Tokens received as payment are burned and then replaced with an equal amount of automatically generated Ace Coins. XAT/XAC are exchanged at the rate obtained from the DEX (decentralized exchange which is the part of the system). Details are described [here][2].
 
-Ace Coins автоматически генерируются (эмитируются) программным кодом ([системными смарт-контрактами][1]), и появляются только тогда, когда пользователь Сети получает трафик, контент и услуги, и в качестве расчета производит оплату Ace Tokens. Полученные в оплату Ace Tokens сжигаются и замещаются на равнозначную сумму автоматически сгенерированных (эмитированных) Ace Coins. Обмен XAT/XAC выполняется по курсу, полученному от подключенной к системе DEX (децентрализованной биржи). Подробности описаны [здесь][2].
-
-!!! note ""
-
-    По простому: контент и объемы полученного трафика замещаются на время жизни и ресурсы пользователя, которое он затратил на его потребление! И все это оцифровывается, криптуется и превращается в Ace Coin.
-
-Никаким другим способом Ace Coins не создаются, и поэтому все выпущенные Ace Coins будут обеспечены реальными объемами и потребностями пользователей в трафике, в контенте и услугах Сети, в соотношении ко времени пользователей, затраченного на потребление контента.
+There is no other way Ace Coins created. Thus, all Ace Coins will represent the very real users' needs in traffic. content, services, etc. in relation to time, spent for its consumption.
 
 
-## Ценообразование
+## Pricing.
 
-Наряду с автоматической эмиссией, в Ace Coin на программном уровне также заложена автоматическая система корректировки ценообразования (без возможности ручного вмешательства) относительно стоимости трафика.
-
-Формирование стоимости единицы измерения трафика по отношению к Ace Coins будет осуществляться, исходя из расчета соотношения общего объема потребляемого пользователями трафика к затраченному времени на потребление видео информации, содержащейся в этом трафике. Подробности [здесь][3]
+Apart of automatic emission, Ace Coins priced automaticallyб basing on current traffic costs.  Details [here][3]
 
 !!! note ""
 
-    В итоге, мы получаем стабильную монету (stablecoin), имеющую обеспечение самым ценным ресурсом мира онлайн - трафиком/контентом, и самым ценным ресурсом мира оффлайн - временем жизни человека, которое он затрачивает на просмотр видеоконтента. Что может быть еще ценнее, надежнее и стабильнее?!
+    As a result, we get a stable coin that has collateral for the most valuable resource of the online world - traffic/content, and the most valuable resource of the offline world - a person's life time spent watching video content.
+
 
 
 [1]: ../glossary/system-smart-contracts.md

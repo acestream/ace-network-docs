@@ -1,14 +1,11 @@
-# Обмен токенов
+# Token exchange
 
-==TODO: english version==
 
-Модуль обмена токенов используется системными смарт-контрактами при необходимости
-выполнить обмен между токенами в сети.
+The internal distributed exchange module is being used by system smart contracts when they need
+to perform any exchange operation between network's assets.
 
-Задача модуля - предоставить курс для заданной пары токенов.
+It is also possible to connect third-party decentralized exchanges.
+Initial network's launch won't enable the exchange, it can only be turned on as a result of a vote of [XAS][1] holders.
 
-Модуль получает данные из системной децентрализованной биржи (DEX).
-Также есть возможность подключения сторонних децентрализованных бирж.
-Биржа может быть подключена только в результате голосования держателей [XAS][1].
 
 [1]: ../system-tokens/ace-asset.md
