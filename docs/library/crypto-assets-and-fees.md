@@ -39,7 +39,7 @@ Assumed level of audience engagement - 30% of all users
 
 Forecast ARPPU per month - $5
 
-A Forecasted Network revenue from the service Premium Pool - **1,8 billion dollars a year ** (when reaching the goal of 100 million monthly active users).
+A Forecasted Network revenue from the service Premium Pool - **1,8 billion dollars a year** (when reaching the goal of 100 million monthly active users).
 
 ### 3. Decentralized betting/forecasting exchange, Ace Bet
 
