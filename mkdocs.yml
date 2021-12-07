@@ -105,6 +105,7 @@ nav:
       - Create Premium Pool: list-of-operations/create-premium-pool.md
       - Remove Device: list-of-operations/remove-device.md
     - Software: software/index.md
+    - NFT: nft/index.md
     - Словарь:
       - Аккаунты и устройства: glossary/accounts-and-devices.md
       - Операции: glossary/operations.md
