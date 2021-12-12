@@ -52,8 +52,6 @@ New broadcaster can be assigned to the pool by its owners or accounts to which t
 
 System pool is an open pool owned by the whole Ace Network.
 
-Системный пул - это открытый пул, вдалельцем которого является вся Сеть.
-
 The system pool settings are stored in the `system_premium_pool_settings` system setting, which could be altered by [changing the system settings][4] procedure.
 
 Unlike regular premium pools, the billing settings of the system pool can be changed.
@@ -102,13 +100,13 @@ The billing policies apply to all content assigned to the pool.
 
 
 
-## Распределение доходов в пуле
+## Pool income distribution
 
-Премиум пул получает доход в виде платежей за доступ к контенту. Этот доход распределяется между бродкастерами данного пула согласно правил биллинга, описанных ниже.
+The premium pool receives income in the form of payments for access to content. This income is distributed among the broadcasters of this pool according to the billing rules described below.
 
-Также в настройках пула можно опционально указывать аккаунты, которые будут получать отчисления от всех платежей за доступ к контенту в рамках пула.
+Also, in the pool settings, you can optionally specify the accounts that will receive deductions from all payments for access to content within the pool.
 
-Пример:
+Example:
 
 ```json
 {
@@ -125,57 +123,57 @@ The billing policies apply to all content assigned to the pool.
 }
 ```
 
-В данном примере аккаунт `GCXV...OSL4` будет получать 10% от доходов, аккаунт `GACJ...SSNO` - 5%.
-Оставшиеся 85% будут распределяться между бродкастерами.
+In this example account `GCXV...OSL4` will receive 10% of income and account`GACJ...SSNO` - 5%.
+The rest 85% will be distributed among the broadcasters.
 
 
-## Биллинг
+## Billing
 
-### Подписка
+### Subscription
 
-Подписка предоставляет доступ к контенту в рамках пула на фиксированный период времени (например, на 30 дней). Доступ по подписке ограничен временем просмотра - не более 1000 минут в месяц.
+Subscription provides access to the content within pool for specified period of time (for example 30 days. Subscription access is restricted by viewing time and is no more than 1000 minutes per month. 
 
-Покупка подписки осуществляется операцией [Buy Subscription][5].
+Purchase of a subscription is carried out by operation [Buy Subscription][5].
 
-Подписка активируется в момент покупки.
+Subscription is activated at a time of purchasing.
 
-Распределение средств от оплаты подписок осуществляется в два этапа.
-Комиссия сети (для пулов без своих токенов) и доля аккаунтов, которые получают отчисления согласно настройкам пула (если такие есть), распределяется в момент покупки подписки.
-Доля бродкастеров распределяется системным смарт-контрактом [Distribute Subscriptions][6] после окончания срока действия подписки. Доля бродкастеров распределяется между бродкастерами, контент которых смотрел пользователь подписки за период ее действия, пропорционально времени просмотра. Детали алгоритма распределения смотрите в описании смарт-контракта.
-
-
-### Поминутная тарификация
-
-Предусматривает оплату за каждую минуту просмотра контента. Средства списываются со счета для оплаты сервисов пользователя, который смотрит контент. Распределение средств выполняется в момент оплаты. Доля бродкастера зачисляется на его счет в момент оплаты.
-
-Списание и распределение средств осуществляется блокчейном второго уровня в рамках системы [учета трафика и времени][7].
+Distribution of funds from payments is done in 2 phases.
+The network commission (for pools without their own tokens) and the share of accounts that receive deductions according to the pool settings (if any) are distributed at the time of purchasing a subscription.
+The share of broadcasters is distributed by smart-contract[Distribute Subscriptions][6] after the subscription expires. The share of broadcasters is distributed among the broadcasters whose content was watched by the user of the subscription during the period of its validity and in proportion to the viewing time. For details of the distribution algorithm see the description of the smart contract.
 
 
-### Разовый доступ
+### Per minute tariff
 
-Предоставляет доступ к одной конкретной единице контента.
+It provides payment for each minute of content viewing. Funds are debited from the account to pay for the services of the user who watches the content. Funds are distributed at the time of payment. The Broadcaster's share is credited to his account at the time of payment.
 
-Логика работы разового доступа зависит от типа контента:
-
-- VOD - доступ предоставляется навсегда
-- Live - доступ предоставляется на фиксированное время (это время указано в настройках биллинга)
-
-Покупка разового доступа осуществляется операцией [Buy Single Access][8]. Эта же операция выполняет распределение средств. Средства списываются со счета для оплаты сервисов пользователя, который смотрит контент. Распределение средств выполняется в момент оплаты. Доля бродкастера зачисляется на его счет в момент оплаты.
-
-Разовый доступ активируется в момент покупки.
+The write-off and distribution of funds is carried out by the second-level blockchain within the system of [traffic and time accounting][7].
 
 
-## Оплата трафика
+### One-time access
 
-В настройках премиум пула есть возможность выбора стороны, оплачивающей трафик: пользователь либо бродкастер.
+Provides access to one specific unit of content.
 
-Если трафик оплачивают пользователи, то расчеты за трафик выполняются по обычной схеме (точно так же, как для контента, не входящего в премиум пул).
+The logic of work of one-time access depends on the type of content:
 
-Оплата трафика бродкастерами выполняется по такой схеме:
+- VOD - access is provided forever
+- Live - access is provided for a fixed time (this time is indicated in the billing settings)
 
-- весь трафик оплачивается со специального счета бродкастера
-- узлы, потребляющие трафик, ничего не платят
-- узлы, отдающие трафик, могут получить вознаграждение по системе "лотерея" (подробное описание [здесь][9])
+Purchase of one-time access is carried out by operation [Buy Single Access][8]. This operation carries out distribution of funds. Funds are debited from the account to pay for the services of the user who watches the content. Funds are distributed at the time of payment. The Broadcaster's share is credited to his account at the time of payment.
+
+One-time access is activated at the time of purchase.
+
+
+## Traffic payment
+
+In the settings of pool there is a possibility to chose the side who pays for traffic and it is user or broadcaster.
+
+If traffic is paid by users, then calculations for traffic are done in a common scheme (the same as for content which is on contained in the premium pool). 
+
+Payment for traffic by broadcasters is done as follows:
+
+- all traffic is paid from a special broadcaster account
+- peers consuming traffic pay nothing
+- peers providing traffic can receive a reward through the "lottery" system (detailed description [here][9])
 
 
 ## Content access control
