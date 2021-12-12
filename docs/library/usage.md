@@ -27,45 +27,45 @@ Advantages brought by adopting Ace Stream technologies are including but not lim
 From their point of view Ace Stream gives a possibility to expand their business without sacrificing existing business models. Embedded money system sets off many limits brought by national specifics of access to payment systems.  
 
 
-Для решения проблем, связанных с распространением нелицензионного контента, а также для получения дополнительных источников дохода, без ущерба существующим:
+To solve problems related to the distribution of unlicensed content, as well as to generate additional sources of income, without damage to the existing ones:
 
-- новые и ранее недоступные рынки, в виде децентрализованных P2P-сетей, с многомиллионными аудиториями
-- эффективные механизмы борьбы с распространением нелицензионного контента в децентрализованных P2P-сетях, посредством его легализации и монетизации
-- эмиссии цифровых активов, обеспеченных правами доступа к контенту, для возможности привлечения дополнительных капиталов, через новые источники финансирования (к примеру, такие как криптобиржы и другие источники, работающие с криптоактивами и их производными финансовыми инструментами)
-- уменьшение цепочки посредников
-- доставка контента потребителям напрямую, без каких-либо дополнительных затрат
+- new and previously unavailable markets, in the form of decentralised P2P networks with multimillion audiences
+- effective mechanisms to fight against the spread of unlicensed content in decentralised P2P networks, through its legalisation and monetisation
+- emissions of digital assets secured by the rights of access to content in order to be able to attract additional capital through new sources of funding (for example, such as crypto-exchanges and other sources working with crypto-assets and their derivatives)
+- reducing the chain of intermediaries
+- transmitting of content to consumers directly with no additional cost
 
 
 ## Device manufacturers and software developers
 
-Которые хотят предоставить своим пользователям уникальные возможности сервисов сети Ace Network, и получать дополнительные доходы по партнерским программам DAO Ace Stream.
+Who want to provide their users with the unique capabilities of the Ace Network services and receive additional income through DAO Ace Stream affiliate programs.
 
 
 ## CDN providers
 
-Которые хотят значительно расширить свои пропускные способности, без каких-либо дополнительных вложений и без необходимости увеличения своей централизованной инфраструктуры.
+Who want to significantly expand their bandwidth without any additional investment and without the need to increase their centralised infrastructure.
 
 
 ##  DApps developers and Web 3.0 enthusiasts
 
-Которые ясно видят концепцию полностью децентрализованных аналогов YouTube, Twitch, Instagram, Facebook и т.п., хорошо понимая, что именно тяжелый контент (видео, аудио, фото) и коммуникации между пользователями составляют основу этих сервисов, и что DAO Ace Stream обладает необходимыми технологическими возможностями для такой реализации.
+Who clearly see the concept of fully decentralised analogs of YouTube, Twitch, Instagram, Facebook, etc., knowing full well that heavy content (video, audio, photo) and communications between users form the basis of these services and that DAO Ace Stream has the necessary technological capabilities for such an implementation.
 
 
 ## Advertisers
 
-Которые захотят получить доступ к многомиллионной уникальной аудиторией, с возможностью размещать рекламу в самых эффективных рекламных форматах, и быть уверенными на 100%, что показы рекламы не будут вызывать негативного эффекта.
+Who want to gain access to unique multi-million audience with the ability to place ads in the most effective ad formats and be 100% sure that ad impressions will not cause a negative effect.
 
 
 ## Investors and traders
 
-Понимающих ограничения централизованного Интернета и актуальность решения, покрывающего 50 кратный дефицит пропускных способностей (свыше 100000 Тбит/c), для удовлетворения реальных потребностей пользователей Интернета и медиа рынка в целом.
+Understanding the limitations of the centralised Internet and the relevance of a solution covering 50 times the bandwidth deficit (over 100,000 Tbit/s) to meet the real needs of Internet users and the media market as a whole.
 
-Кто предпочитает делать вложения в уже работающие решения и действующие проекты, с многолетней историей развития.
+Who prefers to invest in already working solutions and existing projects with a long history of development.
 
-Кому важно отсутствие технологических рисков, относящихся к реализации обозначенных в проекте продуктов и их функционала.
+Who cares about the absence of technological risks related to the implementation of the products indicated in the project and their functionality
 
-Для кого будет существенным показателем факт наличия 30 млн. активных пользователей Сети и около 50 тыс. в день новых установок ПО Ace Stream (приложения для настольных, мобильных, STB, расширения для браузеров), на привлечение которых не было потрачено ни одного цента (только органический рост, без каких-либо затрат на маркетинг/рекламу и без каких-либо финансовых мотиваций пользователей).
+For whom it will be a significant indicator that there are 30 million active Internet users and about 50 thousand new installations of Ace Stream software per day (applications for desktop, mobile, STB, browser extensions) for which not a single cent was spent (only organic growth, without any marketing/advertising costs and without any financial incentives for users).
 
-Кто посчитает абсолютно реальным достижение Сетью цифры в 100 млн. пользователей, после запуска второго этапа проекта (получившего название «DAO Ace Stream»), и внимательно изучив базовые продукты, услуги и сервисы проекта, сможет спрогнозировать капитализацию активов Сети и их итоговую стоимость, по факту достижения этой цифры.
+Who considers it absolutely real that the Network will achieve the figure of 100 million users after the launch of the second stage of the project (called "DAO Ace Stream") and having carefully studied the basic products, utilities and services of the project will be able to predict the capitalisation of the Network's assets and their final cost, based on the fact of reaching this figure.
 
-Кто сможет оценить уникальность и ценность токенов Сети, наряду с привлекательностью DeFi программ DAO Ace Stream.
+Who will be able to appreciate the uniqueness and value of the Network tokens, along with the attractiveness of the DeFi programs of DAO Ace Stream.
