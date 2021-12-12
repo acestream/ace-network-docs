@@ -2,92 +2,92 @@
 template: raw_content.html
 ---
 
-# TV Next - будущее телеканалов уже здесь!
+# TV Next - future of TV channels is here!
 
 ==TODO: english version==
 
-_Ace Stream выводит на новый уровень Интернет-вещание, открывая новые горизонты и неограниченные возможности для ТВ каналов._
+_Ace Stream takes Internet broadcasting to a new level and openes up new horizons and unlimited possibilities for TV channels._
 
-**Эффективная монетизация линейного телевидения в Интернете и децентрализованных сетях**
+**Effective monetisation of linear TV on the Internet and decentralised networks**
 
-Комплекс инструментов  DAO Ace Stream для телевизионных каналов позволяет осуществлять эфирное вещании в Интернете с показателем:  **AARPU (Average Ad Revenue per User) - от 13,68$ до 136,8$ в год**, в зависимости от распределения аудитории по регионам.
+The DAO Ace Stream toolkit for television channels allows broadcasting on the Internet with the following indicator **AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year**, depending on the distribution of the audience by region.
 
-**Средний показатель AARPU для ТВ** (исходя из данных международных аналитических служб) - **свыше 40$ в год**
+**Average AARPU for TV** (based on data from international analytical services) **over $ 40 per year**
 
 !!! info ""
 
-    К примеру, для сравнения:
+    For example to compare:
 
-    ![alt_text]({{ assets_root }}/images/image6.jpg "image_tooltip")
+    ![alt_text](../../../assets/images/image6.jpg "image_tooltip")
 
 
-**Адресное линейное телевидение в Сети Ace Network**
+**Addressable linear television in the Ace Network**
 
-Помимо возможностей осуществления вещания в сети интернет не уступающего по качеству и стабильности кабельному, при большем охвате и меньшей себестоимости чем у спутникового, сеть Ace Network включает в себя новые инновационные инструменты, которые позволят телевизионным каналам значительно расширить аудиторию и свои возможности, получая дополнительные доходы и увеличить показатели AARPU при эфирном вещании в сети Интернет.
+In addition to the possibilities of broadcasting on the Internet which is not inferior in quality and stability to cable with greater coverage and lower cost than satellite, the Ace Network includes new innovative tools will allow television channels to significantly expand their audience and their capabilities, generating additional income and to increase the AARPU indicators for broadcasting on the Internet.
 
 
 !!! note ""
 
-    Проблема в том, что рейтинговые агентства не учитывают всю Интернет-аудиторию ТВ-канала (некоторые агентства ведут подсчет зрителей, но только на сайте самого телеканала), и рекламодатели соответственно не платят телеканалам деньги за размещенную ими в эфире рекламу при ее просмотре Интернет-зрителями. Ну а доходов от обычных форматов интернет-рекламы (пре-роллы и оверлеи) просто недостаточно для ТВ-каналов, создающих дорогой и качественный контент.
+    The thing is that rating agencies do not take into account the entire Internet audience of a TV channel (some agencies count viewers, but only on the TV channel website) and accordingly advertisers do not pay TV channels money for their advertisements on the air when they are viewed by Internet viewers. But the income from the usual formats of online advertising (pre-rolls and overlays) is simply not enough for TV channels that create expensive and high-quality content.
 
-ТV-каналы, которые обычно продают 15-17 минут рекламного времени в час линейного телевидения на основе ограниченного демографического таргетинга или DMA-таргетинга, будут иметь возможность продавать адресную рекламу в Сети Ace Network, независимо от того на каких сайтах и в каких приложениях будет осуществляется вещание их телеканала, тем самым значительно увеличивая охват своей аудитории и максимально эффективно используя рекламное время в своих эфирах для получения дополнительных доходов.
+TV channels that usually sell 15-17 minutes of advertising time per hour of linear TV based on limited demographic targeting or DMA targeting will be able to sell targeted advertising on the Ace Network, regardless of which sites and applications broadcasting of their TV channel will be carried out and thereby significantly increasing the reach of their audience and using advertising time on their airs as effective as possible to generate additional income.
 
 
 **Addressable TV + Programmatic**
 
-**Tермин «адресный»** просто означает способность ориентироваться на домохозяйства или отдельных лиц. По сути, адресным можно назвать видео OTT. Однако, как правило, когда вы слышите термин «адресное телевидение», под этим подразумевается нацеливание на домохозяйства или отдельных лиц в традиционном линейном телевизионном пространстве.
+**The term “addressable”** simply means the ability to target households or individuals. Basically OTT video can be called addressable. However, when you hear the term “addressable television” it means targeting households or individuals in a traditional linear television space.
 
-**Программный подход (programmatic) - идеальный способ монетизировать адресный рекламный инвентарь.**
+**Programmatic approach it is a perfect way to monetise addressable ad inventory.**
 
-Бренды могут вовлекать определенную аудиторию с помощью высокоэффективных, масштабируемых и целевых сообщений в нужные моменты с помощью адресного телевидения. Это возможно только за счет использования данных, получаемых с помощью программных технологий.
+Brands can engage defined audiences with highly effective, scalable and targeted messages at the right time with addressable TV. This is possible only through the use of data obtained using software technologies.
 
-Кроме того, программные продажи хорошо подходят для раскрытия всей ценности адресных объявлений, поскольку покупатели (рекламодатели) могут по-разному оценивать возможности отдельных показов в реальном времени с помощью собственных и сторонних наборов данных. Это способствует повышению эффективности рекламодателей и увеличению доходов владельцев СМИ.
+Besides, software sales can really reveal fully the value of targeted ads as buyers (advertisers) can estimate differently the possibilities of real-time impressions using their own or third-party datasets. This helps to improve the efficiency of advertisers and increase the income of media owners.
 
-**Перформанс-инструменты и технологии для масштабирования линейного адресного телевидения и замены линейных рекламных мест**
+**Performance tools and technologies for scaling linear address television and replacing linear advertising spaces**
 
-Такие перформанс-инструменты телевизионной рекламы, такие как addressable TV и programmatic позволяют телеканалам хорошо монетизировать интернет-аудиторию, а рекламодателям пробовать новые подходы, удерживая зрителей у экранов во время рекламных пауз благодаря более релевантным для них сообщениям.
+TV advertising performance tools such as addressable TV and programmatic allow TV channels to have a good monetisation from their Internet audience and advertisers to try new approaches by keeping viewers on the screens during commercial breaks with more relevant messages.
 
-Объединение динамического инвентаря с традиционными линейными показами рекламы
+Combination of dynamic inventory with traditional linear ad impressions
 
 - **OAR (Open Addressable Ready)** ([https://projectoar.org/](https://projectoar.org/){target=_blank})
 
-Благодаря стандарту Open Addressable Ready, поставщики медиа (TV-каналы) ставят водяные знаки на инвентарь, который они хотят сделать адресуемым. Если покупатель телевизионной рекламы (линейной) хочет заменить статическую рекламу адресной рекламой, система считывает водяной знак и отправляют эту информацию на сервер рекламы продавца, который меняет адресуемую рекламу в режиме реального времени.
+Due to Open Addressable Ready standard, media providers (TV channels) watermark the inventory they want to make addressable. If a TV ad (linear) buyer wants to replace static ads with targeted ads, the system reads the watermark and sends this information to the ad seller's server which changes the targeted ads in real time.
 
 !!! cite "Steve Silvestri, Vice President, Advanced Advertising, Discovery, Inc."
-    OAR - решение позволяющее рекламодателям охватить ценную аудиторию в премиальной и безопасной для бренда среде на всех платформах и в любом масштабе.
+    OAR is a solution that allows advertisers to reach valuable audience in a premium and brand-safe environment on all platforms and at any scale.
 
 
-- **DAI (Digital Ad Insertion)** Вставка цифрового рекламного видеоблока в эфирную трансляцию
+- **DAI (Digital Ad Insertion)** Inserting a digital ad video block into a live broadcast
 
-Системная функция Digital Ad Insertion, основываясь на метках, осуществляет бесшовное замещение стандартной эфирной TV-рекламы идущей в потоке трансляции (показы которой не оплачиваются при трансляции TV-канала для интернет-аудитории) на таргетируемую и оплачиваемую цифровую видеорекламу, непосредственно предназначенную для показов в Интернете, в соответствии с международными стандартами VAST и VMAP
+The system function Digital Ad Insertion, based on tags, smooth;y replaces standard on-air TV advertisements in the stream (which are not paid when broadcasting a TV channel to the Internet audience) with targeted and paid digital video advertising directly intended for display on the Internet in accordance with international VAST and VMAP standards
 
-- **ACR (Automatic content recognition)** Монетизация трансляций при их вирусном (не управляемом) распространении в Сети
+- **ACR (Automatic content recognition)** Monetising broadcasts during their viral (uncontrolled) distribution on the Web
 
-Функция Automatic content recognition позволяет осуществлять монетизацию трансляций при их вирусном (не управляемом) распространении в Сети
+Function Automatic content recognition allows to monetise broadcasts during its viral (uncontrolled) distribution on the Web 
 
 
-!!! info "Пояснение"
+!!! info "Explanation"
 
-    Использование данной функции, в сочетании с OAR и функцией Digital Ad Insertion, позволит вставлять рекламные блоки в трансляции TV-каналов, даже в случае несанкционированного осуществления ретрансляции каналов непосредственно самими пользователями ( То есть, если какой-то пользователь решит самостоятельно захватить/снять сигнал со спутника и ретранслировать канал в Интернет, то и в таком случае ненужная/не оплачиваемая эфирная реклама будет замещена на официальную и оплачиваемую интернет-рекламу правообладателя)
+    The use of this function, in combination with OAR and the Digital Ad Insertion function, will allow inserting advertising blocks into the broadcasts of TV channels, even in the case of unauthorized rebroadcasting of channels directly by the users themselves (so, if a user decides to capture/take off the signal from satellite and relay the channel to the Internet, then in this case unnecessary/unpaid on-air advertising will be replaced by the official and paid Internet advertising of the copyright holder)
 
-По простому: владельцам эфирных телеканалов, работающих по рекламной модели, можно больше не беспокоится о нелицензионном и массовом распространения свои телетрансляций в сети Интернет, так как будут полностью соблюдены их права и сохранена модель монетизации, при которой телеканал будет получать свой гарантированный доход от адресной продажи эфирных рекламных мест, независимо от того кто сделал ретрансляцию телеканала в Сеть и независимо от того на каких сайтах, в каких приложениях и на каких устройствах ее смотрят
+Simply speaking owners of on-air TV channels operating on an advertising model no longer have to worry about the unlicensed and massive distribution of their TV broadcasts on the Internet, since their rights will be fully respected and the monetization model will be preserved, in which the TV channel will receive its guaranteed income from the targeted sale of on-air advertising spaces , regardless of who rebroadcast the TV channel to the Network and regardless of what sites, in what applications and on what devices it is watched 
 
-- **IOTT (Interactive – Over-The- Top)** Интерактивные сервисы для ТВ-каналов
+- **IOTT (Interactive – Over-The- Top)** Interactive services for TV-channels
 
-Сервисная функция IOTT предназначена для создание интерактивных сервисов поверх трансляций (стандарт: HTML)
+The IOTT service function is designed to create interactive services over broadcasts (standard: HTML)
 
-!!! note "Примечание"
+!!! note "Note"
 
-    IOTT открывает TV-каналам новые возможности, такие как: устраивать интерактивные голосования, конкурсы, лотереи и аукционы; подключать тотализаторы для спортивных трансляций; продавать туристические сертификаты и аксессуары на каналах путешествий или подключать магазины для продажи вещей, которые пользователь видит на канале моды и т.д. и т.п.
+    IOTT opens new opportunities for TV-channels, such as organize interactive voting, contests, lotteries and auctions; connect totalizators for sports broadcasts; sell travel certificates and accessories on travel channels, or connect stores to sell items that a user sees on a fashion channel, etc.
 
-**В итоге:**
+**Finally:**
 
-Внедрение программных возможностей в эту среду представляет собой мгновенно масштабируемое решение для максимизации ценности линейных запасов. Будущие возможности адресного телевидения в конечном итоге будут монетизированы с помощью цифровых процессов и технологий, ключевым компонентом которых является программный подход.
+Bringing software capabilities into this environment provides an instantly scalable solution to maximize linear inventory value. The future opportunities for targeted TV will ultimately be monetized through digital processes and technologies where a programmatic approach is a key component.
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>
