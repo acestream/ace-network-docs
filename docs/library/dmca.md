@@ -2,134 +2,134 @@
 
 ==TODO: english version==
 
-За 10-летний период деятельности Ace Stream, многими организациями, представляющими интересы правообладателей и озадаченными проблемой распространения нелицензионных трансляций при использовании технологий Ace Stream, были тщательно изучены наши продукты, и все приходили к единому заключению: - технологии и продукты Ace Stream являются абсолютно законными и легальными!
+Over the 10 year period of Ace Stream's activity various models representing the interests of users and puzzled by the distribution of unlicensed broadcasts when using Ace Stream technologies, have thoroughly studied our products and everyone has come to the same conclusion that Ace Stream technologies and products are absolutely lawful and legal!
 
-Все официальные приложения, выпускаемые рамках проекта Ace Stream, не содержат какого-либо видео/аудио контента, а соответственно не могут нарушать чьи-либо авторские права и условия DMCA. Это означает, что пользователям предоставляется только инструменты (утилиты, плееры и интерфейсы для их настроек), без какого-либо контента.
+All official applications released as part of the Ace Stream project do not contain any video/audio content and therefore cannot violate anyone's copyright and DMCA terms. This means that users are only provided with tools (utilities, players and interfaces for their settings) without any content.
 
 !!! note ""
-    Проще говоря, продукты Ace Stream работают по такому же принципу и модели как к примеру как продукт американская компания BitTorrent.inc (создавшая протокол BitTorrent, и одноименный продукт) или как веб-браузер Opera или Brave ([https://brave.com][15]{target=_blank}), в котором есть поддержка протокола BitTorrent.
+    Basically Ace Stream products work on the same principle and model as for example the American company BitTorrent.inc (which created the BitTorrent protocol and the eponymous product) or the Opera or Brave web browser ([https://brave.com][15]{target =_blank}) which has support for the BitTorrent protocol.
 
-При этом, в рамках проекта DAO Ace Stream, мы учли просьбы правообладателей и поставили для себя задачу/цель – найти эффективное решение этой проблемы, и помочь владельцам авторских прав и контент-провайдерам выработать более экспертный подход к проблеме «пиратства», который поможет им увеличить доходы и уменьшить зависимость пользователей Интернета от незаконных стримов, чтобы перестать лить воду на мельницу «пиратов».
+At the same time under the DAO Ace Stream project we took into account the requests of copyright holders and set ourselves a task/goal to find an effective solution to this problem as well as to help copyright owners and content providers develop a more expert approach to the problem of "piracy" that will help them increase revenues and reduce the dependence of Internet users on illegal streams in order to stop pouring water on the "pirates" mill.
 
-В результате мы разработали уникальное решение и эффективные механизмы борьбы с распространением нелицензионного контента в децентрализованных P2P-сетях, сделав Ace Network единственной в мире децентрализованной сетью, в которой учтены интересы правообладателей. (см. раздел [DAO Ace Stream: Уникальное и эффективное решение для борьбы с «пиратским» контентом в P2P-сетях][16])
+As a result we have developed a unique solution and effective mechanisms to fight against the spread of unlicensed content in decentralised P2P networks, making Ace Network the only decentralised network in the world that takes into account the interests of copyright holders. (see the section [DAO Ace Stream: A Unique and Effective Solution for Combating Pirated Content in P2P Networks][16])
 
-Если у вас возникли какие-то вопросы, то проверьте FAQ, и, возможно, вы найдете всю необходимую вам информацию и ответы на интересующие вас вопросы, чтобы самостоятельно сделать заключение.  Мы сформировали FAQ из популярных и интересных на наш взгляд вопросов, когда-либо к нам адресованных (как напрямую, так и опосредственно), и наших публичных и непубличных ответов.
+If you have any questions, then check the FAQ and perhaps you will find all the information you need and the answers to your questions in order to make your own conclusion. We have formed the FAQ from popular and interesting in our opinion questions that have ever been addressed to us (both directly and indirectly) and our public and non-public answers.
 
 
 ## FAQ
 
-??? question "Законно ли использование Ace Stream?"
+??? question "Is it legal to use Ace Stream?"
 
-    Ace Stream – в первую очередь, это сетевой протокол для передачи данных в сети Интернет, основанный на технологии [BitTorrent][1] и работающий в полном соответствии с его спецификацией.
+    First of all, Ace Stream is a network protocol for transmitting data on the Internet, based on [BitTorrent][1] technology and working in full accordance with its specification.
 
-    Сетевой протокол - это набор правил, позволяющий осуществлять соединение и обмен данными между двумя и более включенными в сеть компьютерами. Фактически разные протоколы зачастую описывают лишь разные стороны одного типа связи; взятые вместе, они образуют так называемый стек протоколов. Названия "протокол" и "стек протоколов" также указывают и на программное обеспечение, которым реализуется протокол
+    A network protocol is a set of rules that allows communication and data exchange between two or more computers on a network. In fact, different protocols often describe only different sides of one type of communication but if we take them together, they form what is called a protocol stack. The names "protocol" and "protocol stack" also indicate to the software that implements the protocol.
 
-    Мы предоставляем набор программного обеспечения, которым реализуется протокол, с открытым API, которое могут свободно использовать любые разработчики приложений, без какого-либо нашего одобрения и участия. Такими приложениями могут быть: веб-браузеры, видеоплееры и многие другие программы, в которых может быть включена поддержка протокола BitTorrent/Ace Stream, по желанию их разработчиков и посредством предоставляемых нами инструментов, аналогично тому как добавляются в приложения поддержка любых других сетевых протоколов, таких как HTTP, FTP, RTMP и др.
+    We provide a set of software that implements the protocol with an open API, which can be freely used by any app developer without any of our approval or participation. Such applications can be web browsers, video players and many other programs in which support for the BitTorrent/Ace Stream protocol can be enabled at the request of their developers and through the tools we provide, in the same way that support for any other network protocols is added to applications such like HTTP, FTP, RTMP, etc.
 
-    Пример веб-браузера, в котором есть поддержка протокола BitTorrent – Brave ([https://brave.com][2]). Это новый проект, активно набирающий популярность, от создателя веб-браузера Mozilla Firefox. Также поддержка протокола BitTorrent была уже давно внедрена в веб-браузере Opera, а во многих других веб-браузерах поддержка протокола BitTorrent осуществляется за счет подключения плагинов, представленных в их официальных маркетах.
+    An example of a web browser that has BitTorrent support is Brave ([https://brave.com][2]). This is a new project from the creator of the Mozilla Firefox web browser which is actively gaining popularity. Also, support for the BitTorrent protocol has been introduced in the Opera web browser long time ago and in many other web browsers the BitTorrent protocol is supported by connecting plugins presented in their official markets.
 
-    Поэтому, использование Ace Stream и протокола BitTorrent настолько же законно, как и использование протоколов HTTP, FTP, UTP, RTMP и других сетевых протоколов!
+    Therefore, using Ace Stream and BitTorrent protocol is as legal as using HTTP, FTP, UTP, RTMP and other network protocols!
 
-    И только в том случае, если в вашей стране на законодательном уровне запрещено использование протокола BitTorrent и приложений с его поддержкой, то и использование Ace Stream в вашей стране будет незаконным. Но, к счастью, мы не знаем ни одной страны в мире, где бы такой запрет был. Даже самые авторитарные страны такого не делают (не запрещают какие-либо сетевые протоколы), так как, скорее всего, прекрасно понимают, что запрет того или иного протокола ничего им не даст, кроме проблем. Ну а если нужно предотвратить распространение каких-либо материалов через Интернет, то единственный действенный способ — это отключить интернет вообще или сделать доступ к нему ограниченным (только для «избранных»), и к сожалению, в некоторых странах такая практика есть.
+    And only if is prohibited in your country at the legislative level to use the BitTorrent protocol and applications with its support, then the use of Ace Stream in your country will be illegal. Fortunately, we do not know a single country in the world where such a ban would be. Even the most authoritarian countries do not do this (they do not prohibit any network protocols), as most likely they are well aware that prohibiting one or another protocol will not give them anything but problems. Well, if you need to prevent the distribution of any materials via the Internet, then the only effective way is to turn off the Internet completely or to make limited access to it (only for the “chosen”), and unfortunately, in some countries there is such a practice.
 
-    Если вы знаете страну, в которой на законодательном уровне запрещен протокол BitTorrent, то пожалуйста, проинформируйте нас об этом.
-
-
-??? question "Можно ли идентифицировать протокол Ace Stream на сетевом уровне, и, в частности, на стороне провайдера (ISP)?"
-
-    Компания Cisco идентифицирует практически все существующие протоколы, в том числе и Ace Stream (см. [The P2P protocols currently supported by Cisco SCA BB][3])
-
-    При этом, Ace Stream хоть и идентифицируется как самостоятельный протокол, но по факту это стек, совмещающий в себе работу нескольких сетевых протоколов, таких как BitTorrent, WebRTC, HTTP и др.
-
-    P.S. Мы не знаем, для каких целей задавался такой вопрос, но все же решили на него ответь и опубликовать в этом FAQ, а также дать некоторую информацию и свои комментарии, которые возможно будут вам полезны.
-
-    В первую очередь, мы хотим проинформировать о том, что идентификация протоколов предназначена исключительно для сетевых провайдеров разных уровней, с целью возможности оптимизации трафика в своих сетях, но ни как ни для попыток его блокировки по требованию третьей стороны, в угоду коммерческим или политическим интересам такой третьей стороны. То есть, попытка блокировки какого-либо из сетевых протокола по инициативе третьей стороны, во многих цивилизованных странах будет рассматриваться как преступление.
-
-    В странах, где на законодательном уровне есть такое нормативно-правовое определение как «Сетевой нейтралитет», даже попытки ограничения трафика по какому-либо протоколу, даже в интересах только самого провайдера (ISP), а не то что в интересах третьих лиц, может привести к негативным последствиям и в итоге, такие ограничения все-равно будут сняты. Хорошим примером может послужить рассмотрение конфликта, возникшего по причине блокирования BitTorrent-трафика крупнейшим (ISP) провайдером США, компанией Comcast.
-
-    Чтобы узнать больше и услышать мнение отраслевого специалиста, перейдите по этой ссылке: [Comcast, BitTorrent, and Network Neutrality][4]
+    If you know a country where the BitTorrent protocol is prohibited by law, then please inform us about it.
 
 
-??? question "Дает ли Ace Stream доступ к «пиратскому» контенту?"
+??? question "Is it possible to identify the Ace Stream protocol at the network layer, and in particular, on the ISP side?"
 
-    Суть и смысл этого вопроса для нас до сих пор остается загадкой, так как, по нашему мнению, этот вопрос стоит отнести к разряду каких-то философских и риторических. Поэтому, мы на него дадим не менее «однозначный», но при этом очень четкий и утвердительный ответ, в котором задающий такой вопрос, независимо от того, что он под этим вопросом подразумевал, должен будет найти понятный для себя ответ:
+    Cisco identifies almost all existing protocols, including Ace Stream (look [The P2P protocols currently supported by Cisco SCA BB][3])
 
-    Протокол Ace Stream дает или не дает доступ к «пиратскому» контенту, точно также, как дает или не дает доступ к «пиратскому» контенту протокол HTTP, FTP, UTP, RTMP, BitTorrent и т.п.!
+    Although Ace Stream is identified as an independent protocol, in fact it is a stack that combines the work of several network protocols such as BitTorrent, WebRTC, HTTP, etc.
 
-    Ну а если для вас непонятно, дает или не дает доступ к «пиратскому» контенту протокол HTTP, FTP, UTP, RTMP, BitTorrent и т.п., то пожалуйста, обратитесь с этим вопросом к квалифицированным юристам, понимающих правовую основу работы сетевых протоколов и сети Интернет в целом.
+    P.S. We do not know for what purpose such a question was asked, but nevertheless we decided to answer it and publish it in this FAQ, as well as give some information and our comments that may be useful to you.
 
-    В случае, если речь идет об официальных приложениях, выпускаемых в рамка проекта Ace Stream, то здесь мы еще дадим дополнительные пояснения.
+    First of all, we want to inform that the identification of protocols is intended exceptionally for network providers of different levels, in order to optimise traffic in their networks, but not to try to block it at the request of a third party, for the sake of commercial or political interests. Thus, an attempt to block any of the network protocol on the initiative of a third party will be considered a crime in many civilised countries.
 
-    Как уже было обозначено, приложения Ace Stream вообще не содержат видео и аудио контента, и никаких материалов, нарушающих чьи-либо авторские права!
+    In countries where at the legislative level there is such a regulatory definition as "Net neutrality", even attempts to limit traffic by any protocol just in the interests of only the ISP itself and not something in the interests of third parties, can lead to negative consequences and as a result, such restrictions will be lifted anyway. A good example is the discussion of the conflict that arose over the blocking of BitTorrent traffic by the largest (ISP) provider in the United States Comcast.
 
-    Официальные приложения Ace Stream, сами по себе, дают такой же доступ «к пиратскому контенту», как дает доступ «к пиратскому контенту» веб-браузер Chrome, когда его используют для доступа к сайту The Pirate Bay. То есть, пользователь Ace Stream может получить доступ к какому-либо контенту, только если он будет опубликован на каком-либо стороннем сайте и/или через какое-либо стороннее приложение. И все хорошо знают, что в конечном итоге Google не несет ответственности за «пиратский контент», содержащийся на этом сайте, и аналогичным образом, Ace Stream также не несет ответственности за «пиратский контент», публикуемый на сторонних сайтах и/или через какие-либо сторонние приложения, где средством его доставки служит сетевой транспортный протокол BitTorrent/AceStream, а не только HTTP либо какие-то другие.
-
-
-??? question "На какое правовое поле (законодательство) ориентирована деятельность и продукты Ace Stream?"
-
-    Проект Ace Stream изначально (с момента своего основания) был зарегистрирован в Польше и ориентирован на работу в правовом поле юрисдикции стран Евросоюза, получив признание и финансовую поддержку (гранты) от государственных учреждений Евросоюза, а также был презентован в США (в Чикаго), при поддержке Европейской Торгово-Промышленной палаты, и при полном финансовом обеспечении от компании Google (Alphabet Inc.), которая в 2013 году оценила проект «Ace Stream» как один из самых инновационных и перспективных проектов Евросоюза в сфере Интернет-технологий.
+    To learn more and hear from an subject matter expert follow this link: [Comcast, BitTorrent, and Network Neutrality][4]
 
 
-??? question "Какие продукты/приложения выпускаются в рамках проекта Ace Stream, и какие у них есть известные аналоги в США, Евросоюзе и других странах, c которыми можно было бы провести правовые параллели?"
+??? question "Does Ace Stream provide access to "pirate" content?"
 
-    В рамках проекта Ace Stream выпускаются следующие базовые продукты (приложения):
+    The context and meaning of this question for us still remains a mystery, as in our opinion, this question should be classified as some kind of philosophical and rhetorical. Thats why we will give no less “unambiguous”, but at the same time a very clear and affirmative answer, in which the person who asked such a question, regardless of what he meant will have to find an answer that is understandable for himself:
 
-    -   Приложение «Ace Stream Engine» - использует протокол bittorrent, и является аналогом продукта [bittorrent/utorrent][5], выпускаемым одноименной американской компанией BitTorrent Inc., которая ведет свою деятельность и выпускает свои продукты в полном соответствии с законодательством США. Соответствующим аналогом проекта Ace Stream также является проект Tribler, разработка которого осуществляется тремя ведущими мировыми университетами (двумя европейскими: [Delft University of Technology][6] и [VU University Amsterdam][7], и одним американским: [Harvard's School of Engineering and Applied Sciences][8]). Также, прямым аналогом можно считать разработки p2p-клиентов от компании Akamai и многих других. Разница только в том, что наша реализация более эффективно работает для передачи данных в реальном времени по сравнению с другими, и поэтому является очень популярным и часто используемым P2P-решением для онлайн-вещания, но не единственным, а одним из многих (включая тех, кого мы привели для примера в качестве аналогов, и других: [https://en.wikipedia.org/wiki/P2PTV][9]), где также обозначены продукты, принадлежащие крупнейшим корпорациям из Китая, таким как Alibaba и Baidu. Вот и все отличие!
+    The Ace Stream protocol provides or does not provide access to "pirated" content just as the protocols HTTP, FTP, UTP, RTMP, BitTorrent, etc. provides or do not provides access to "pirate" content!
 
-        Поэтому, если вы еще не очень хорошо знакомы с продуктами Ace Stream, а деятельность и продукты обозначенных компаний и университетов не вызывают у вас сомнений относительно их легитимности, а законодательные нормы США и Евросоюза в отношении авторских прав, в рамках которых они работают и выпускают свои продукты (приложения), являются для вас правомерными и не противоречащими законам вашего государства, то соответственно и деятельность и продукты Ace Stream, которые являются идентичными вышеуказанным, также не должны у вас вызывать сомнения и также полностью соответствуют всем законодательным нормам вашего государства.
+    But if it is not clear for you whether HTTP, FTP, UTP, RTMP, BitTorrent, etc., provides or does not provide access to "pirate" content, then please contact qualified lawyers who understand the legal basis for the operation of network protocols and the Internet overall.
 
-        Ну а в случае, если законодательство США и Евросоюза в части авторского права противоречат законодательству вашей страны, и выпускаемые вышеуказанными компаниями и университетами продукты запрещены к использованию в вашей стране, то, пожалуйста, официально предоставьте нам такое публичное разъяснение, чтобы мы и другие могли его детально изучить и оповестить наших пользователей в вашей стране о таком запрете.
+    If we are talking about official applications released under the Ace Stream project, then here we will give additional explanations.
 
-    -   Приложение «Ace Stream Player» - является полным аналогом плеера VLC, от компании [VideoLAN][10] (как по структуре, так и технологически, используя в основе его библиотеку libvlc), и также является проектом с открытым исходным кодом. Данное приложение предназначено для воспроизведения пользователем персонального (принадлежащего ему и/или находящегося в его распоряжении) контента, а также для воспроизведения другого легального контента, в том числе контента, находящегося в свободном доступе в интернете.
+    As we've mentioned before, Ace Stream applications do not contain video and audio content at all and no materials that violate anyone's copyright!
 
-        Если вы считаете, что данный продукт, разработчик которого находится в юрисдикции Евросоюза и осуществляет свою деятельность в полном соответствии с законодательными нормами Евросоюза, нарушает законодательство вашей страны, то также дайте нам такую информацию, и мы немедленно ее проанализируем, и если ваши доводы будут соответствовать действительности, мы также оповестим наших пользователей в вашей стране об ограничениях на использование данного продукта.
-
-??? question "Есть ли какие-то официальные подтверждения, что приложения Ace Stream полностью соответствуют требованиям DMCA и не нарушают законы США об авторском праве?"
-
-    В первую очередь, мы настоятельно рекомендуем вам самостоятельно установить наши приложения, и пригласить профильного квалифицированного специалиста, который вам даст заключение о соответствии наших приложений законам США, и требованиям DMCA. Убедившись в том, что наши официальные приложения не содержат никаких материалов, нарушающих авторские права, вам не понадобятся ничьи сторонние этому подтверждения.
-
-    Ну а в случае, если для вас затруднительно самостоятельно провести такую оценку, то вы можете положиться на специалистов компании Google (Alphabet Inc.).
-
-    Наши официальные приложения для ОС Android размещены в маркете «Google Play» и полностью отвечают требованиям DMCA и политике компании Google (Alphabet Inc.), которая действует в рамках законодательства США. Указанные приложения проходили неоднократную тщательную проверку на соответствие требованиям DMCA и законодательным нормам США в связи с рассмотрением компанией Google полученных жалоб о возможном нарушении нами авторских прав, на основании ложных утверждений и сфальсифицированных материалов, предоставленных некоторыми компаниями. Это в последующем стало основанием для дальнейшего отклонения компанией Google подобных жалоб и обвинений в наш адрес, а также дало нам права и все необходимые обоснования для подачи исков в суд (согласно прецедентным решениям/постановлениям суда штата California), о возмещении убытков, причиненных действиями этих компаний.
-
-    В связи с этим фактом, предостерегаем вас от совершения подобных действий, чтобы не получить встречные иски о возмещении причинённого ущерба, и чтобы вас не обвинили в фальсификации и лжи.
+    The official Ace Stream apps by themselves provide the same access to “pirate content” as the Chrome web browser provides access to “pirate content” when it is used to access The Pirate Bay website. So, the Ace Stream user can access any content only if it is published on some third-party site and/or on any third-party application. And everyone is well aware that ultimately Google is not responsible for the "pirate content" contained on this site and similarly Ace Stream is also not responsible for the "pirated content" published on third-party sites and / or through any or third-party applications, where the BitTorrent / AceStream network transport protocol serves as its delivery vehicle, and not just HTTP or some others.
 
 
-??? question "Может ли сервис Ace Stream заблокировать пользователям возможность загружать и воспроизводить нелицензионный контент?"
+??? question "What legal field (legislation) is the activity and products of Ace Stream focused on?"
 
-    Нет.
-
-    Сервис Ace Stream, это не централизованный сервис как, например, YouTube, где пользователи обмениваются контентом и осуществляют его воспроизведение посредством центральных серверов, принадлежащих YouTube. Сервис Ace Stream (его централизованные службы) служит исключительно для информационной поддержки пользователей приложений и предоставления дополнительных услуг (например, отключение рекламы в приложениях, синхронизация данных между приложениями пользователя и др.), которые не являются обязательными и никак не влияют на основные функции выпускаемых приложений, к которым относится передача данных и воспроизведение контента.
-
-    И еще раз напоминаем, что сервис Ace Stream не занимается публикацией (распространением) контента, и все выпускаемые в рамках проекта приложения не содержат никаких материалов, нарушающих чьи-либо авторские права, и служат исключительно для децентрализованного, однорангового (P2P) обмена данными между его пользователями, при использовании протокола BitTorrent и в полном соответствии с его спецификацией.
-
-    Приложения Ace Stream не имеют доступа к материалам (контенту), которыми пользователи между собой обмениваются, а также не осуществляют контроля (надзора) за действиями пользователей и не нарушают права конфиденциальности.
-
-    В случае, если вас интересуют технологические аспекты этого вопроса, пожалуйста, ознакомьтесь внимательно с работой протокола/технологии BitTorrent, особенно в части работы DHT, magnet-ссылок и хеш-кодов, чтобы вы смогли четко для себя понимать - что можно сделать, а чего сделать нельзя в рамках данного протокола и bittorrent-сети в целом.
-
-    Также, с учетом того, что протокол BitTorrent имеет уже очень давнюю историю, то вероятнее всего подобные вопросы к разработчикам BitTorrent- клиентов уже не раз поднимались, и соответственно на них уже должно быть достаточно много квалифицированных ответов от разных отраслевых специалистов. Воспользуйтесь поиском в интернете, чтобы найти эту информацию.
-
-    Ну а чтобы получить максимальную ясность в этом вопросе, мы рекомендуем вам переформулировать этот вопрос, заменив «Ace Stream» на любой другой сервис, предоставляющий пользователям программное обеспечение, не содержащее контента, но дающее пользователям возможность загружать контент из сети Интернет и воспроизводить его. К примеру, давайте перефразируем этот вопрос так, - Может ли «Microsoft» или «Google» или «Adobe», или тот же «BitTorrent Inc.» или «VideoLAN» заблокировать своим пользователям возможность загружать и воспроизводить нелицензионный контент?
-
-    По сути, это будет равнозначный вопрос, с той лишь разницей, что для компаний «Microsoft» или «Google» или «Apple», выпускающих аппаратные комплексы (устройства), а также ОС (операционные системы), веб-браузеры и плееры, это реализовать намного проще, чем на стороне «Ace Stream», «Adobe», «BitTorrent Inc.» или «VideoLAN» и любых других, у которых нет таких технических возможностей.
-
-    И если вы хотите по этому вопросу услышать квалифицированное мнение от ведущих корпораций мира, таких как «Microsoft» или «Google» или «Apple», то обязательно адресуйте им этот вопрос, так как более 95% всего существующего нелицензионного контента загружается и воспроизводится при использовании программных продуктов, выпускаемых именно этими тремя компаниями!
-
-    Ну а если вас не интересуют ничье мнение в этом вопросе, и вы уверены, что все программные продукты, дающие своим пользователям возможность загружать и воспроизводить контент, должны блокировать возможность загрузки и воспроизведения нелицензионного контента, и вы располагаете всеми необходимыми для этого правовыми обоснованиями и соответствующими законными техническими процедурами, то вам нужно просто немедленно обратиться с этим требованием к «Microsoft», «Google» и «Apple», и «пиратству» настанет конец! И когда такая блокировка будет происходить на уровне ОС и веб-браузеров, то никакие другие приложения, независимо от используемых ими протоколов, не смогут обойти такие технические ограничения! Бинго! (B.I.N.G.O.)
+    The Ace Stream project was originally (from the moment of its foundation) registered in Poland and focused on working in the legal field of the jurisdiction of the EU countries, having received recognition and financial support (grants) from EU government agencies and was also presented in the USA (in Chicago), with the support of the European Chamber of Commerce and Industry, and with full financial support from Google (Alphabet Inc.), which in 2013 assessed the Ace Stream project as one of the most innovative and promising projects in the European Union in the field of Internet technologies.
 
 
-??? question "Что такое "Content ID" и "acestream://********" и как с этим «бороться»?"
+??? question "What products/applications are released under the Ace Stream project and what are their well-known analogues in the USA, the European Union and other countries in order to compare it in legal terms?"
 
-    "Content ID" - это [хеш-код][11], используемый в протоколе Ace Stream, в соответствии спецификации [BitTorrent (BTIH)][12], и служит в качестве идентификатора для [распределенной хеш-таблицы][13] (DHT). Разница с “BitTorrent Info Hash” заключается только в том, что для генерации данного хеш-кода используется другая хеш-функция.
+    Under the Ace Stream project the following basic products (apps) are released:
 
-    «acestream://******» - это URI-схема, являющаяся аналогом [Magnet URI scheme][14], где «acestream:» - идентификатор транспортного протокола, а в «//******» указывается хеш-код.
+    -   Application "Ace Stream Engine" uses the bittorrent protocol and is an analog of the product [bittorrent/utorrent][5], produced by the American company of the same name BitTorrent Inc. which operates and releases its products in full compliance with US legislation. A corresponding analogue of the Ace Stream project is also the Tribler project which is being developed by three leading world universities (two European [Delft University of Technology][6] and [VU University Amsterdam][7], and one American [Harvard's School of Engineering and Applied Sciences][8]). Also, the development of p2p clients from Akamai and many others can be considered a direct analogue. The only difference is that our implementation is more efficient for real-time data transmission compared to others and therefore is a very popular and frequently used P2P solution for online streaming, and not the only one, but one of many (including those we gave as an example as analogs and others: [https://en.wikipedia.org/wiki/P2PTV][9]) where the products belonging to the largest corporations from China such as Alibaba and Baidu are marked. That's all the difference!
 
-    Если вы обнаружили на каких-либо сайтах или в каких-либо приложениях материалы, которые по вашему мнению опубликованы с нарушением ваших авторских прав, с указанием ссылок типа «acestream://******» или указывающие хеш-код контента, типа "Content ID", то поступайте равнозначно тому, что вы обнаружили на каких-то сайтах или в каких-то приложениях аналогичные материалы, с указанием ссылок типа «http://******», или magnet:******* или просто хеш-коды.
+        Thus, if you are not yet very familiar with Ace Stream products and the activities and products of the designated companies and universities do not raise doubts about their legitimacy, as well as the US and EU legislation regarding copyright, within the framework of which they operate and release their products (applications) are lawful for you and do not contradict the laws of your state, then, accordingly, the activities and products of Ace Stream, which are identical to the above, also should not be doubtful and fully comply with all legislative norms of your state.
 
-    В этом случае, если вы уверены что опубликованные материалы нарушают ваши авторские права, то в соответствии с существующими правовыми процедурами (DMCA) и законодательными нормами всех цивилизованных стран, вы должны обращаться ни к нам и ни к другим разработчикам сетевых протоколов, и ни к разработчикам клиентских приложений, не содержащих материалов, защищенных авторским правом, а непосредственно к владельцам сайтов, приложений, и к хостингам серверов, где публикуются такие такие материалы, а в случае если они не удалят такие материалы со своих ресурсов, то обращайтесь в ICANN (организация, которая регистрирует/делегирует домены для таких сервисов) и в маркеты таких приложений (например, play.google.com), с соответствующими требованиями о принятии мер по прекращению распространения нелицензионного контента, привлекая к ответственности непосредственно тех лиц, кто занимается незаконной публикацией материалов, независимо от того, какой сетевой протокол передачи данных (HTTP, TCP, UDP, BitTorrent, WebRTC и др.) ими используется.
+        But in case of the legislation of the United States and the European Union regarding copyright contradicts the legislation of your country and the products produced by the above companies and universities are prohibited for use in your country, then please officially provide us with such a public explanation so that we and others can study in detail and notify our users in your country about such a ban.
+
+    -   The "Ace Stream Player" application is a complete analogue of the VLC player from [VideoLAN][10] (both in structure and technologically, using the libvlc library as its basis) and is also an open source project. This application is intended for the user to playback personal (owned and/or at his disposal) content, as well as to playback other legal content, including content that is freely available on the Internet.
+
+        If you believe that this product, which developer is in the jurisdiction of the European Union and carries out its activities in full compliance with the laws of the European Union, violates the laws of your country, then also give us such information and we will immediately analyse it, and if your claims correspond to reality, we will also notify our users in your country of restrictions on the use of this product.
+
+??? question "Is there any official confirmation that Ace Stream applications are fully DMCA compliant and do not violate US copyright laws?"
+
+    First of all, we strongly recommend that you install our applications yourself, and invite a knowledgable subject matter expert who will give you an opinion on the compliance of our applications with US laws and DMCA requirements. After making sure that our official apps do not contain any material that violates copyright, you will not need anyone else's third-party confirmation of this.
+
+    But in case if it is difficult for you to independently carry out such an assessment, then you can rely on the specialists of Google (Alphabet Inc.).
+
+    Our official Android apps are on Google Play and are in full compliance with the DMCA and Google (Alphabet Inc.) policies under US law. These apps have undergone strict DMCA and US compliance reviews on numerous occasions in response to Google's investigations of claims we have received regarding possible copyright violations, based on false claims and falsified material provided by certain companies. This subsequently became the basis for the further rejection by Google of such complaints and accusations against us and also gave us the rights and all the necessary grounds for filing claims in court (according to the precedent decisions/orders of the California state court) for damages caused by the actions of these companies.
+
+    As a result, we warn you against committing such actions, in order not to receive counterclaims for compensation for the damage caused, and so that you are not accused of falsification and lies.
+
+
+??? question "Can Ace Stream service block users from downloading and playing unlicensed content??"
+
+    No.
+
+    The Ace Stream service is not a centralised service like YouTube, where users share content and play it through central servers owned by YouTube. The Ace Stream service (its centralised services) serves solely for information support of application users and the provision of additional services (for example, disabling ads in applications, data synchronisation between user applications, etc.), which are optional and not in any way influence on the main functions of the released applications which include data transfer and content playback.
+
+    And once again we remind you that the Ace Stream service does not publish (distribute) content and all applications released within the project do not contain any materials that violate anyone's copyright, and serve exceptionally for decentralised, peer-to-peer (P2P) data exchange between its users, using the BitTorrent protocol and in full accordance with its specification.
+
+    Ace Stream applications do not have access to materials (content) that users share with each other and also do not monitor (supervise) the actions of users and do not violate privacy rights.
+
+    In case you are interested in the technological aspects of this issue, then please read carefully the work of the BitTorrent protocol/technology, especially regarding the work of DHT, magnet links and hash codes, so that you can clearly understand for yourself what can be done and what cannot be done within the framework of this protocol and the bittorrent network as a whole.
+
+    Also, taking into account that the BitTorrent protocol has a very long history, most likely similar questions have been raised to the developers of BitTorrent clients more than once, and accordingly there should already be a lot of qualified answers from various industry specialists. Use an internet search to find this information.
+
+    Well, in order to get maximum clarity on this issue, we recommend that you rephrase this question, replacing "Ace Stream" with any other service that provides users with software that does not contain content, but allows users to download content from the Internet and play it. For example, let's rephrase this question like this - Can Microsoft or Google or Adobe or BitTorrent Inc. or "VideoLAN" block its users from downloading and playing unlicensed content?
+
+    Basically this will be an equivalent question with the only difference that for Microsoft or Google or Apple companies that produce hardware systems (devices), as well as OS (operating systems), web browsers and players, it is much easier to implement than on the side of "Ace Stream", "Adobe", "BitTorrent Inc." or "VideoLAN" and any others that do not have such technical capabilities.
+
+    And if you want to hear a qualified opinion on this issue from leading corporations of the world, such as Microsoft or Google or Apple, then be sure to address them this question, since more than 95% of all existing unlicensed content is downloaded and reproduced while using software products produced by these three companies!
+
+    But if you are not interested in anyone else opinion on this issue and you are sure that all software products that give their users the ability to download and play content must block the ability to download and play unlicensed content, and you have all the necessary legal justifications and appropriate legal technical procedures, then you just need to immediately address this requirement to Microsoft, Google and Apple, and the "piracy" will come to an end! And when at the level of the OS and web browsers such blocking occurs, then no other application regardless of the protocols they use will be able to bypass such technical restrictions! Bingo! (B.I.N.G.O.)
+
+
+??? question "What is "Content ID" "acestream://********" and how to "fight" against it?"
+
+    The "Content ID" is the [hash code][11] used in the Ace Stream protocol according to the [BitTorrent (BTIH)][12] specification and serves as an identifier for the [distributed hash table][13] (DHT). The only difference with the “BitTorrent Info Hash” is that a different hash function is used to generate this hash code.
+
+    «acestream://******» - it is a URI scheme analogous to [Magnet URI scheme][14], where "acestream:" is the transport protocol identifier, and "// ******" is the hash code. 
+
+    If you have found on any sites or in any applications materials that you think are published in violation of your copyright, with links like "acestream: // ******" or indicating the content hash code, type "Content ID", then act the same as what you found on some sites or in some applications similar materials, indicating links like "http: // ******", or magnet: ** ***** or just hash codes.
+
+    In this case, if you are sure that the published materials violate your copyrights, then in accordance with the existing legal procedures (DMCA) and the laws of all civilised countries, you should contact neither us, nor other developers of network protocols, nor developers client applications that do not contain copyrighted materials, but directly to the owners of sites, applications, and server hosting where such materials are published, and if they do not remove such materials from their resources, then contact ICANN (organisation, which registers/delegates domains for such services) and to the markets of such applications (for example, play.google.com), with the corresponding requirements to take measures to stop the distribution of unlicensed content, bringing to responsibility directly those who are engaged in illegal publication of materials, regardless on what network data transfer protocol (HTTP, TCP, UDP, BitTorrent, WebRTC, etc.) are used by them.
 
 <!--
-??? question "Что делается в рамках проекта Ace Stream для защиты интересов правообладателей?"
+??? question "What is done under the Ace Stream project to protect right holders` interests?"
 
     ==TODO==
 -->
