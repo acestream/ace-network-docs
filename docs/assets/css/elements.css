@@ -5,3 +5,11 @@
 nav.md-tabs {
     opacity: 0.85;
 }
+
+/* Fix language selector position on mobile */
+@media screen and (max-width: 76.1875em) {
+    .md-header .md-header__option .md-select .md-select__inner {
+        left: auto;
+        right: -100%;
+    }
+}
