@@ -59,6 +59,22 @@ nav:
       - Оценка рисков: library/risk-assessment.md
     - Кому это нужно: library/usage.md
     - Соответствие условиям DMCA: library/dmca.md
+  - Broadcasting:
+    - Intro: broadcasting/index.md
+    - Get Started: broadcasting/get-started.md
+    - Broadcasting Details:
+      - MPEG TS: broadcasting/details/mpeg-ts.md
+      - HLS: broadcasting/details/hls.md
+    # - Broadcasting GUI: broadcasting/gui/index.md
+    - Administration:
+      - Configuring public and private nodes: broadcasting/administration/public-private-nodes.md
+      - Node HTTP Interface: broadcasting/administration/node-http-interface.md
+      # - Logging: broadcasting/administration/logging.md
+      - Moving the source node: broadcasting/administration/moving-the-source-node.md
+      # - Traffic Filtration: broadcasting/administration/traffic-filtration.md
+    - Reference: broadcasting/reference.md
+  - Developers:
+    - Intro: developers/index.md
   - Ace Network:
     - Welcome: welcome.md
     - Get Started:
