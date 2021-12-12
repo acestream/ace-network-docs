@@ -2,64 +2,64 @@
 template: raw_content.html
 ---
 
-# Площадки DAO Ace Stream, для партнерских программ
+# DAO Ace Stream platforms for affiliate programs 
 
 ==TODO: english version==
 
-Помимо возможности для пользователей осуществлять просмотр рекламы за вознаграждение, пользователям продуктов Ace Surf, Ace Search и Ace Script будут также начисляться вознаграждения за различные действия, по модели CPA (Cost per Action). Например, за покупку товаров/услуг, за регистрации и т.д. Также пользователям будут предоставляться различные промо-коды, купоны и скидки.
+In addition to the ability for users to view advertisements for a reward, users of the Ace Surf, Ace Search and Ace Script products will also receive rewards for various actions, according to the CPA (Cost per Action) model. For example, for the purchase of goods/services, for registration, etc. Also, users will be provided with various promo codes, coupons and discounts.
 
-Как это будет реализовано:
+How it will be implemented:
 
-## В поисковой системе Ace Search (Metasearch)
+## In the search engine Ace Search (Metasearch)
 
-На главной странице результатах поиска, в соответствии с поисковым запросом пользователя, будут выводиться предложения о товарах и услугах от партнерских сервисов.  При переходе на сайт партнера, и по факту необходимого действия (согласно условиям той или иной партнерской программы) пользователю будет начислено вознаграждение.
+On the main page of search results in accordance with the user's search request there will be displayed offers for goods and services from partner services. When you go to the partner's website and upon the necessary action (according to the terms of a particular partner program) the user will be credited with a reward.
 
-Для удобства пользователей, Ace Search будет еще содержать специализированные тематические вкладки/разделы по следующим основным направлениям партнерских программ:
+For the users convenience Ace Search will also contain specialised thematic tabs/sections for the following main areas of affiliate programs:
 
-- **Товары**
-- **Услуги**
-- **Путешествия**
-- **Спортивные события**
-- **Биржи/Обменники**
-- **Игры/Развлечения**
+- **Goods**
+- **Services**
+- **Travels**
+- **Sport events**
+- **Stocks/Exchanges**
+- **Games/Entertaiment**
 
-Другие разделы/вкладки будут добавляться по мере поступления интересных предложений от партнеров.
+Other sections/tabs will be added as we receive interesting offers from partners.
 
-## В браузере Ace Surf и в расширении Ace Script
+## In Ace Surf browser and in Ace Script plugin
 
-Партнерские программы будут работать не только при использовании функционала Ace Search, но также посредством функции «SmartLink», которая будет реализована в браузере Ace Surf и расширении Ace Script
+Affiliate programs will work not only when using the Ace Search functionality, but also through the SmartLink function, which will be implemented in the Ace Surf browser and the Ace Script extension
 
-Функция **«SmartLink»** - при переходе на сайты партнерок пользователю будет автоматически
-проставляться ссылка с партнерским кодом DAO Ace Stream, позволяющая пользователю
-получить бонусы/вознаграждение, согласно условиям партнерского сайта.
+Function **«SmartLink»** - when following to affiliate sites the user will be automatically
+link with the partner code DAO Ace Stream, allowing the user to
+receive bonuses/rewards, according to the terms of the partner site.
 
-Функция **«Site Plus»** - при посещении партнерских сайтов пользователю будет доступен дополнительный функционал и возможности, которые не предоставляются самим сайтом.
+Function **«Site Plus»** - when visiting partner sites the user will have access to additional functionality and capabilities that are not provided by the site itself.
 
-Пример реализации:
+Example of implementation:
 
-- При посещении сайта беттинговой партнерки, пользователь получит возможность онлайн просмотра прямых трансляций спортивных событий в высоком качестве, а также сможет получать дополнительную информацию, статистику и аналитику по событию к которому у него будет интерес, не покидая сайта партнерки.
+- When visiting the website of a betting affiliate, the user will be able to watch live broadcasts of sports events in high quality online and will also be able to receive additional information, statistics and analytics on the event in which he will be interested without leaving the affiliate website.
 
-    _Чем это интересно для беттинговых сайтов и будут ли они рекомендовать своим пользователям использовать браузер Ace Surf  или расширение Ace Script для посещения своих сайтов?_
+    _Why is this interesting for betting sites and will they recommend their users to use the Ace Surf browser or the Ace Script plugin to visit their sites?_
 
-    - Работа с беттингами на понятных им условиях, в рамках их существующих партнерских программ.
-    - Простая и быстрая интеграция.
-    - Нет необходимости в затратах на покупку лицензий на трансляции. Даже на сервисах самых крупнейших беттинговых компаний в мире у пользователей сейчас нет возможности просмотра высококачественных спортивных трансляций по многим спортивным событиям (стоимость лицензий на спортивные трансляции в высоком качестве исчисляется в миллиардах $)
-    - Возможность игрокам делать ставки в полноэкранном режиме плеера, во время прямой трансляции спортивного события
+    - Working with betting on terms that they understand in terms of their existing affiliate programs.
+    - Simple and quick integration.
+    - There is no need for the cost of purchasing broadcast licenses. Even on the services of the largest betting companies in the world, users now do not have the opportunity to view high-quality sports broadcasts on many sports events (the cost of licenses for high-quality sports broadcasts is estimated in billions of dollars)
+    - The ability for users to place bets in the player's full-screen mode, during a live broadcast of a sporting event
 
-    !!! note "Примечание"
-        Просмотр трансляций непосредственно на сайтах беттинговых партнерок будут доступны только тем пользователям, за которых беттинговые партнерки выплачивают DAO Ace Stream вознаграждение. Минимальный фиксированный платеж в месяц, за одного пользователя/игрока - 10$ за стримы, плюс разделение доходов при задействовании интерактивного блока ставок поверх трансляций
+    !!! note "Note"
+        Watching broadcasts directly on the sites of betting partnerships will be available only to those users for whom betting partnerships pay DAO Ace Stream a reward. The minimum fixed payment per month for one user/player is $ 10 per stream and plus the distribution of income when using an interactive block of bets over broadcasts
 
-Ориентировочный **ARPPU** (англ. Average revenue per paying user, средняя выручка на одного платящего пользователя) в месяц, при подключения партнерских программ - **от 5 до 10$**
+Approximate **ARPPU** (eng. Average revenue per paying user) a month while joining affiliate programs is **from 5 to 10$**
 
-Предполагаемый уровень вовлеченности аудитории - 35% от всех пользователей, в месяц.
+The estimated level of audience engagement is 35% of all users per month.
 
 !!! note ""
-    Под термином «вовлеченность» подразумевается действие пользователя в любой из партнерских программ, за которое выплачивается вознаграждение
+    Term «engagement» means the action of user in any of affiliate program for which a reward is paid for
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>
