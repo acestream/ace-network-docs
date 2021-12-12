@@ -1,17 +1,17 @@
-# Оплата трафика
+# Payment for traffic
 
 ==TODO: english version==
 
-Трафик может быть оплачен любым из трех системных токенов: [XAC][5], [XAT][6], [XAS][7].
+Traffic can be paid with any of the three system tokens: [XAC][5], [XAT][6], [XAS][7].
 
-Оплата трафика выполняется автоматически со [счета для оплаты сервисов][1]
-в рамках работы системы [учета трафика и времени][2]
+Payment for traffic is carried out automatically from [account for payment for services][1]
+within the work of the system [traffic and time accounting][2]
 
-Детали алгоритма оплаты описаны [здесь][5]
+Details of payment algorithms are described [here][5]
 
-Сеть забирает комиссию 10% от каждого платежа по оплате трафика.
-Комиссию оплачивает получатель платежа.
-Комиссия перечисляется в системный пул [`trafficFeePool`][4]
+The network takes a commission of 10% from each payment for traffic.
+The commission is paid by the payee.
+Commission is transferred to the system pool [`trafficFeePool`][4]
 
 
 [1]: ../glossary/special-accounts.md#_2
