@@ -2,16 +2,16 @@
 template: raw_content.html
 ---
 
-# Ставки и прогнозы в один клик, в прямых трансляциях
+# One click bets and predictions in live broadcasts
 
 ==TODO: english version==
 
-**Ace Bet** – децентрализованная система биржевых прогнозов/ставок, с функцией автоматического размещения интерактивных блоков (лайв-ставки/прогнозы) в прямых трансляциях спортивных и других событий.
+**Ace Bet** – a decentralised system of stock exchange predictions/bets with a function of automatic placement of interactive blocks (live-bets/predictions) in the live sport and other events broadcasts. 
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>
