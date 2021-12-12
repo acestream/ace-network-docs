@@ -23,6 +23,7 @@ extra_css:
   - assets/css/colors.css
   - assets/css/popup.css
   - assets/css/buttons.css
+  - assets/css/elements.css?1
 
 markdown_extensions:
   - toc:
