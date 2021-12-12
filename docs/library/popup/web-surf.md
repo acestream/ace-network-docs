@@ -2,136 +2,136 @@
 template: raw_content.html
 ---
 
-# Крутой веб-серфинг, на волнах мультимедиа
+# Great web surfing on the waves of multimedia
 
 ==TODO: english version==
 
-## Медиабраузер
+## Mediabrowser
 
-**Ace Surf** - мультимедийный веб-браузер. Максимальное удовлетворение пользовательских интересов в части потребления видео и аудио контента; открытость, безопасность и конфиденциальность; поддержка DApps; контроль над рекламой и возможностью для пользователей получать вознаграждение за просмотр рекламы.
+**Ace Surf** - multimedia web browser. Maximum satisfaction of user interests in terms of consumption of video and audio content; openness, security and privacy; DApps support; control over ads and the ability for users to receive rewards for viewing ads.
 
-**Список основных функций браузера (вкратце)**
+**List of main browser features (briefly)**
 
-<span>1</span>. Основывается на Brave:_ это сам по себе очень хороший и качественный продукт! Brave имеет очень хорошее описание своих функций и возможностей, которые отсутствуют в Chrome или Firefox - [https://brave.com/features/](https://brave.com/features/){target=_blank}. Так что мы с самого начала все это имеем.
+<span>1</span>. Based on Brave:_ this is a very good quality product in itself! Brave has a very good description of its features and capabilities that are lacking in Chrome or Firefox - [https://brave.com/features/](https://brave.com/features/){target=_blank}. So we have all this from the early beginning. 
 
-Вкратце, о некоторых ключевых функциях:
+Briefly about some key features:
 
-1. **Продвинутые функции конфиденциальности, безопасности и анонимности**
-2. **Блокировка сторонней рекламы и показ пользователю рекламы за вознаграждение**
-3. **Награды для издателей**
-4. **Встроенный криптокошелёк**
-5. **Скорость загрузки страниц в 3 раза быстрее, по сравнению с Chrome и Firefox**
+1. **Advanced privacy, security and anonymity features**
+2. **Block third-party advertisements and serve ads to the user for a reward**
+3. **Publisher Awards**
+4. **Integrated cryptowallet**
+5. **Page loading speed 3 times faster than Chrome and Firefox**
 
-<span>2</span>. Уникальные функции, за счет интеграции компонентов и сервисов DAO Ace Stream_
+<span>2</span>. Unique features through the integration of DAO Ace Stream components and services_
 
-1. **Медиа сервер и каталогизатор** (базовый компонент основного продукта Ace Stream, интегрированный в медиабраузер, посредством API)
+1. **Media server and cataloger** (basic component of the main product Ace Stream, integrated into the media browser via API)
 
-    По сути, пользователю предоставляется аналог plex, kodi, и emby в упрощенном для понимания и использования виде, с акцентом на удобный веб-серфинг и возможностью формирование персонального медиа-каталога из всевозможных интернет-источников, с интерактивной социальной составляющей.
+    In fact, the user is provided with an analogue of plex, kodi, and emby in a simplified for understanding and use form with an emphasis on convenient web surfing and the ability to form a personal media catalog from all kinds of Internet sources and an interactive social component.
 
-    Каталогизатор организует отобранный пользователем контент в простые и элегантные презентации, с возможностью автономного доступа к нему с любых других устройств, и удобным просмотром на главных домашних экранах (TV-экранах, домашних кинотеатрах)
+    The cataloguer organises user-selected content into simple and elegant presentations with offline access to it from any other device and easy viewing on main home screens (TV screens, home theaters)
 
-    О некоторых базовых функциях и возможностях:
+    About some basic features and capabilities:
 
-    - Удобный каталог контента, с разбивкой по категориям
-        - ТВ-каналы
-        - спортивные события
-        - фильмы
-        - сериалы
-        - музыка
-        - караоке
-        - другое
+    - Convenient content catalog with categories
+        - TV channels
+        - sport events
+        - movies
+        - series
+        - music
+        - karaoke
+        - others
 
-    - Добавление в каталог медиаконтента, найденного через поисковую систему и/или на страницах любых сайтов, в один клик!
-    - Автоматическое заполнение информации о контенте, добавленного в каталог (описание, скриншоты, трейлеры, актеры и участники и т.п.)
-    - Система рекомендаций, на основе пользовательских предпочтений, с возможностью его автоматического поиска контента через метапоисковую систему.
-    - Возможность сохранения добавленного в каталог видео, для его автономного просмотра (без подключения к интернету).
-    - Синхронизация созданного пользователями каталога с другими медиа серверами и ТВ приложениями, чтобы с комфортом наслаждаться просмотром контента на TV-экранах, домашних кинотеатрах, или просто там где это будет удобно.
+    - Adding media content found through a search engine and/or on the pages of any sites to the catalog in one click!
+    - Automatic filling of information about content added to the catalog (description, screenshots, trailers, actors and participants, etc.)
+    - A recommendation system based on user preferences with the ability to automatically search for content through a metasearch engine.
+    - The ability to save a video added to the catalog for offline viewing (without an Internet connection).
+    - Synchronisation of user-created catalog with other media servers and TV applications to comfortably enjoy watching content on TV screens, home theaters or just wherever it is convenient.
 
         !!! info ""
 
-            Ace Stream Live TV - как пример реализации одного из приложений для ТВ и STB, работающих на базе ОС Android  [https://play.google.com/store/apps/details?id=org.acestream.live](https://play.google.com/store/apps/details?id=org.acestream.live){target=_blank}
+            Ace Stream Live TV as an example of implementation of one app for TV and STB based on Android OS [https://play.google.com/store/apps/details?id=org.acestream.live](https://play.google.com/store/apps/details?id=org.acestream.live){target=_blank}
 
-            Документация: [https://acestream.readthedocs.io/en/latest/applications/android/acestream_livetv/index.html](https://acestream.readthedocs.io/en/latest/applications/android/acestream_livetv/index.html){target=_blank}
+            Documents: [https://acestream.readthedocs.io/en/latest/applications/android/acestream_livetv/index.html](https://acestream.readthedocs.io/en/latest/applications/android/acestream_livetv/index.html){target=_blank}
 
-            Другие приложения для синхронизации с ТВ и STB: **Ace Movies&Series; Ace Music&Karaoke; Ace Sports**
+            Other apps to synchronise with TV or STB: **Ace Movies&Series; Ace Music&Karaoke; Ace Sports**
 
-    - Совместный доступ  (социальная составляющая)
+    - Shared access (social component)
 
-        Пользователем предоставляется возможность открыть доступ к своему каталогу другим пользователям, назначив соответствующий уровень режима доступа для того или иного контента:
+        The user is given the opportunity to open access to his catalog to other users by assigning the appropriate level of access mode for this or that content:
 
-        - «Персональный» – VoD или прямая трансляция, предназначенные только для личного пользования;
-        - «Для круга семьи» – доступ для лиц, отмеченных как круг семьи.
-        - «Конфиденциальный» – открытия персонального доступа для определенных пользователем лиц;
-        - «Группа» – для всех участников, подписавшихся на открытую владельцем каталога группу.
-        - «Публичный» – для всех пользователей;
-        - «Бизнес» – доступ за оплату (ежемесячная подписка или разовый доступ)
+        - «Private» – VoD or live broadcasts which are intended for personal use only;
+        - "For the family circle" - access for persons marked as family circle.
+        - "Confidential" - opening personal access for the persons specified by the user;
+        - "Group" - for all members who have subscribed to the group opened by the owner.
+        - "Public" - for all users;
+        - "Business" - access for payment (monthly subscription or one-time access)
 
-    - Удобная система публикации и обмена персональным контентом
+    - Convenient system for publishing and sharing personal content
 
-        Помимо наполнения каталога контентом, взятым из публичных источников Интернет, пользователю также будет предоставлена возможность добавления в каталог своего персонального контента, с возможностью  его публикации в Сети, посредством технологии P2P, с автоматическим его добавлением в децентрализованную поисковую систему и функцией оповещения своих подписчиков.
+        In addition to filling the catalog with content taken from public Internet sources the user will also be given the opportunity to add his personal content to the catalog with the possibility of publishing it on the network using P2P technology with its automatic addition to the decentralised search system and the function of notifying his subscribers.
 
-    - Децентрализованный поиск контента в публичных пользовательских каталогах
-    - Система комментариев на страницах контента, открытого для доступа.
+    - Decentralised content search in public user catalogs
+    - The system of comments on pages of content open for access.
 
-2. **P2P акселератор**
+2. **P2P accelarators**
 
-    Автоматическая поддержка технологии P2P для стандартного онлайн видео, публикуемого на веб-ресурсах.
+    Automatic support for P2P technology for standard online video published on web resources.
 
-    Каждый пользователь при воспроизведении роликов будет получать поток видео/аудио не только от одного из удаленных серверов видеохостинга, а еще одновременно (дополнительно) и от других пользователей, которые смотрят или уже посмотрели этот контент
+    When playing videos, each user will receive a video/audio stream not only from one of the remote video hosting servers, but also simultaneously (additionally) from other users who are watching or have already watched this content
 
-    Благодаря этой функции пользователи  медиа-браузера смогут наслаждаться просмотром видео с гораздо большим уровнем стабильности потока, чем те, кто будет воспроизводить тот же контент в любом другом веб-браузере.
+    Thanks to this feature users of a media browser will be able to enjoy watching videos with a much higher level of stream stability than those who will play the same content in any other web browser.
 
-3. **Онлайн воспроизведение видео и аудио контента, распространяемого непосредственно в P2P-сетях**
+3. **Online playback of video and audio content distributed directly in P2P networks**
 
-    Это возможность онлайн просмотра огромного количества прямых трансляций (ТВ-каналов, спортивных и киберспортивных трансляций, пользовательских каналов, концертов, веб-камер и т.д.) и VoD ( фильмов, сериалов, мультфильмов и т.д), публикация которых осуществляется непосредственно в P2P-сетях (посредством протокола BitTorrent, Ace Stream). Контент, которого нет в свободном доступе на обычных видеохостингах.
+    This is the ability to watch a huge number of live broadcasts online (TV channels, sports and e-sports broadcasts, custom channels, concerts, webcams, etc.) and VoD (films, TV series, cartoons, etc.), the publication of which is carried out directly in P2P networks (via BitTorrent protocol, Ace Stream). Content that is not freely available on regular video hosting sites.
 
-    Онлайн воспроизведение торрентов на любых сайтах, в один клик и без утомительного ожидания загрузки контента
+    Online torrent playback on any site in one click and without tedious waiting for content download
 
-    Огромный выбор музыки в сетях P2P, с возможностью ее онлайн воспроизведения в lossless-форматах
+    Huge selection of music in P2P networks with the ability to play it online in lossless formats
 
-    Высочайший уровень аудиовизуального качества и стабильностью потока, во многом превосходящий все существующие трансляции в сети Интернет, вещание которых осуществляется посредством стандартных технологий (unicast).
+    The highest level of audiovisual quality and stream stability in many respects surpassing all existing broadcasts on the Internet which are using standard technologies (unicast).
 
 
-4. **Децентрализованный p2p прокси**.
+4. **Decentralised p2p proxy**.
 
-    В отличии от централизованных VPN/Proxy, трафик будет идти не через какие-то одиночные узлы, принадлежащие сервису, а через набор узлов, которыми будут является все пользователи Ace Stream.  Миллионы проксирующих узлов и адресов в системе P2P, против несколько десятков адресов в стандартных (централизованных) VPN/Proxy.
+    Unlike centralised VPN/Proxy traffic will not go through some single peers belonging to the service, but through a set of peers which will be all Ace Stream users. Millions of proxying peers and addresses in the P2P system against several dozen addresses in standard (centralised) VPN/Proxy.
 
-    Это обеспечит-пользователям возможность анонимного серфинга и доступ к любыми ресурсам в интернете, в обход всевозможных блокировок со стороны тоталитарных правительств, ограничивающих свободу слова.
+    This will provide users with the opportunity to surf anonymously and access any resources on the Internet, bypassing all kinds of blockages by totalitarian governments that restrict freedom of speech.
 
-5. **Универсальный медиаплеер на основе libvlc, с поддержкой p2p**
+5. **Universal media player based on libvlc with p2p support**
 
-    - Проигрывание любых видео и аудио файлов, включая MKV, MP4, AVI, MOV, Ogg, FLAC, TS, M2TS, Wv и AAC, а также воспроизведение сетевых потоков, вещание которых осуществляется посредством протокола Ace Stream, BitTorrent, HTTP(S), RTMP, FTP, и др. Все кодеки включены, без необходимости отдельных загрузок. Поддерживаются субтитры, телетекст и скрытые титры. А также в наличии  всевозможные фильтры и эквалайзер.
+    - Playing any video and audio files, including MKV, MP4, AVI, MOV, Ogg, FLAC, TS, M2TS, Wv and AAC, as well as playing network streams that are broadcast via the Ace Stream protocol, BitTorrent, HTTP (S), RTMP , FTP, etc. All codecs included and no need for separate downloads. Subtitles, teletext and closed captions are supported. And also in the presence of all kinds of filters and an equalizer.
 
-    Плеер интегрируется в браузер в виде отдельного процесса (по сути, это будет отдельное приложение включенное в состав инсталляционного пакета браузера и имеющее хорошо проработанную интеграцию, для удобного использования в браузере).
+    The player is integrated into the browser as a separate process (in fact, it will be a separate application included in the installation package of the browser and has a well-developed integration for easy use in the browser).
 
-    Это даст пользователям возможность использовать качественный и продвинутый плеер для воспроизведения видео на сайтах, вместо стандартных веб-плееров (HTML плееров, размещенных на сайтах). А также, обеспечит функцию PIP (картинка в картинке), с возможность закрыть вкладку источника или даже весь браузер и продолжать играть содержание (Youtube, Twitch, Livestream, спортивные мероприятия и т.д.). Режим PIP позволит пользователю смотреть видео в маленьком окне, прикрепленном к любой удобной ему части экрана во время навигации между другими приложениями или просмотра другого контента на главном экране.
+    This will give users the opportunity to use a high-quality and advanced player to play videos on sites, instead of standard web players (HTML players hosted on sites). And also, will provide a PIP (picture in picture) function with the ability to close the source tab or even the entire browser and continue to play content (Youtube, Twitch, Livestream, sporting events, etc.). PIP mode will allow the user to watch the video in a small window attached to any part of the screen convenient for him while surfing between other applications or viewing other content on the main screen.
 
 6. **Ace Cast**
 
-    Воспроизведение контента в любым удобным для пользователя плеере и/или медиацентре, с возможностью его стриминга на любое другое устройство
+    Playback of content in any user-friendly player and/or media center with the ability to stream it to any other device
 
-    Данная функция позволит пользователю воспроизводить контент со страничек сайтов в любом установленном на его устройстве плеере и/или  проигрывать его на удаленных устройствах и ТВ, посредством коммуникационных протоколов Ace Cast, AirPlay, Google Cast и др
+    This function will allow the user to play content from the pages of sites in any player installed on his device and/or play it on remote devices and TV, through the communication protocols Ace Cast, AirPlay, Google Cast, etc.
 
 
-## Метапоисковая система, с максимальным уровнем конфиденциальности
+## Metasearch system with the highest level of privacy
 
-**Ace Search** – метапоисковое приложение, в виде локального сервиса, с открытым исходным кодом, легко интегрируемое с любым браузером.
+**Ace Search** – metasearch application as a local service with open source and easy to integrate with any browser.
 
-Это бесплатная система метапоиска в Интернете, использующая данные других поисковых систем, объединяя результаты более чем 70 самых популярных поисковых служб (с возможностью неограниченного увеличения), в том числе результаты поиска в децентрализованной поисковой системы P2P Search. Отправляя несколько одновременных запросов в несколько других поисковых систем, это расширяет данные охвата поиска и позволяет найти больше информации. Настройки системы позволяют получить высокий уровень конфиденциальности, при котором пользователи не отслеживаются и не профилируются. Кроме того, для анонимности в Интернете можно использовать «Ace Search» через Tor.
+It is a free metasearch engine on the Internet that uses data from other search engines, combining results from more than 70 of the most popular search services (with unlimited expandability), including search results in the decentralised search engine P2P Search. By sending multiple concurrent requests to several other search engines it expands the reach of your search and allows you to find more information. The system settings allow for a high level of privacy in which users are not tracked or profiled. Alternatively, you can use the "Ace Search" over Tor for anonymity on the Internet.
 
-Зачем это нужно пользователю:
+Why the user needs it:
 
-- **Максимум конфиденциальности и полный контроль над персональными данными** (пользователь самостоятельно решает какие свои персональные данные отправлять в поисковых запросах, а какие нет)
+- **Maximum privacy and full control over personal data** (the user independently decides which of his personal data to send in search request and which not)
 
-- **Позволяет найти больше информации** (отправляя несколько одновременных запросов в несколько других поисковых систем, это расширяет данные охвата поиска)
+- **Allows to find more info** (it expands the search reach data by sending multiple concurrent requests to several other search engines)
 
-- **Релевантность, которая нужна пользователю, а не SEO**
+- **Relevance that is needed to the user but not SEO**
 
-    Вместо того, чтобы по отдельности использовать несколько поисковых систем, таких как Yahoo! или Google и сравнивая результаты, метапоисковая система сможет быстро объединять и ранжировать результаты.
+    Instead of using multiple search engines like Yahoo! or Google and by comparing the results, the metasearch engine can quickly combine and rank results.
 
-- **Поисковые разделы (вкладки) мультимедиа**
+- **Search sections (tabs) multimedia**
 
-    Ace Search дает возможность найти любой мультимедийный контент (в.ч., распространяемый в P2P), с удобной тематической разбивкой по категориям и возможностью его онлайн воспроизведения, в соответствующих разделах поиска
+    Ace Search makes it possible to find any multimedia content (including, distributed in P2P) with a convenient thematic breakdown by categories and the ability to play it online in the corresponding search sections
 
     - TV Channels
     - Live Stream
@@ -141,36 +141,36 @@ template: raw_content.html
     - Music
     - Video
 
-- **Поиск товаров и услуг со скидками, бонусами, кэшбеком** (другие вкладки)
+- **Search for goods and services with discounts, bonuses, cashback** (other sections)
 
-    **«Товары»**– маркет товаров. В данном разделе пользователь сможет осуществить поиск нужного ему товара по тысячам интернет-магазинам, чтобы сравнить цены и условия, выбрать лучшее для себя предложение, сделать покупку и в итоге еще получить за это вознаграждение (кэшбэк).  Также пользователю еще и будут предоставляться разные скидки, купоны и промокоды.
+    **«Goods»**– goods market. In this section the user will be able to search for the product he needs in thousands of online stores in order to compare prices and conditions, choose the best offer for himself, make a purchase and, as a result, still receive a reward (cashback) for this. Also, the user will also be provided with various discounts, coupons and promotional codes.
 
 
-    **«Спортивные события»** – поиск спортивных событий, с результатами матчей, статистикой, коэффициентами ставок, и др. Онлайн просмотр спортивных событий, с возможностью делать ставки во время просмотра трансляции в полноэкранном режиме плеера
+    **«Sport events»** – search for sporting events with match results, statistics, betting odds, etc. Online viewing of sporting events with the ability to place bets while watching the broadcast in the full-screen mode of the player
 
 
     !!! note ""
-        Данный раздел рассчитан на партнерские программы с беттинговыми компаниями и на собственную децентрализованную биржу прогнозов/ставок
+        This section is designed for partner programs with betting companies and for our own decentralised exchange of predictions/bets
 
-    **«Услуги»** – витрина услуг (по аналогии с разделом/вкладкой «Товары»).
+    **«Services»** – service display (by analogy with the "Goods" section/tab).
 
-    **«Путешествия»** – поиск и выбор лучших предложений по турам и бронированию жилья
+    **«Travels»** – search and selection of the best offers for tours and accommodation booking
 
-    **«Биржи/обменники»** – поиск лучших предложений по обмену валют (фиат, крипта)
+    **«Stocks/exchanges»** – search for the best offers for currency exchange (fiat, crypto)
 
-    **«Игры/Развлечения»** – поиск игр (игры разных жанров, а также онлайн-казино)
+    **«Games/Entertaiment»** – search for games (games of different genres as well as online casinos)
 
-    Другие разделы/вкладки по мере актуальных запросов от пользователей или интересных предложений от партнеров
+    Other sections/tabs in dependance on relevance of requests from users or interesting offers from partners Д
 
 
-## Расширение для веб-браузеров
+## Extensions for web-browsers
 
-**Ace Script**  - браузерное приложение, расширяющее возможности любых веб-браузеров функционалом Ace Stream, в т.ч. и возможностью получения полного контроля над рекламой (удалением сторонней рекламы и возможностью просмотра рекламы Сети Ace Stream, за вознаграждение)
+**Ace Script**  -browser application that extends the capabilities of any web browsers with the functionality of Ace Stream, incl. and the ability to obtain full control over advertising (removal of third-party advertising and the ability to view advertising on the Ace Stream Network for a reward)
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>
