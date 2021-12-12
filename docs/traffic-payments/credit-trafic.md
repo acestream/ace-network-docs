@@ -1,58 +1,58 @@
-# Кредитный трафик
+# Credit traffic 
 
 ==TODO: english version==
 
-Каждый пользователь Ace Stream имеет "кредитный лимит" по трафику в размере 10 Гб. Это означает, что во время взаиморасчетов за трафик пользователь может потреблять трафик в кредит, если у него недостаточно средств для оплаты трафика. Кредиторами являются узлы, отдающие трафик. Максимальный суммарный объем кредитов для одного пользователя - 10 Гб. Если пользователь исчерпал свой кредитный лимит, узлы сети перестают отдавать ему трафик, пока кредит не будет погашен (полностью либо частично).
+Each Ace Stream user has a "credit limit" of traffic in amount of 10 GB. This means that during settlements for traffic a user can consume traffic on credit if he does not have enough funds to pay for traffic. The creditors are the peers which provide traffic. The maximum total amount of credits for one user is 10 GB. If a user has exceeded his credit limit, then network peers stop sending traffic to him until the loan is paid back (in whole or in part).
 
-Кредитный лимит каждого пользователя хранится в блокчейне и выражается целым числом от 0 до 10240 - это количество мегабайт трафика, которые пользователь может взять в кредит.
+The credit limit for each user is stored in the blockchain and is expressed as an integer from 0 to 10240 as this is the number of megabytes of traffic that a user can loan.
 
-### Погашение кредита
+### Credit repayment 
 
-Погашение кредита выполняется автоматически системными смарт-контрактами со [счета для оплаты сервисов][1] по алгоритму [оплаты трафика][2]. Цена трафика расчитывается на момент погашения кредита.
+Credit repayment is performed automatically by system smart contracts from the [account for paying for services][1] according to the [traffic payment][2] algorithm. The traffic price is calculated at the moment of  credit repayment.
 
-### Техническая реализация
+### Technical implementation
 
-Кредитный лимит для отдельно взятого аккаунта формируется на основе двух чисел, хранящихся в основном блокчейне:
+The credit limit for an individual account is formed on the basis of two numbers stored in the main blockchain:
 
-- системная настройка `traffic_credit_limit` - максимальное количество [единиц трафика][3], которые можно взять в кредит
-- поле `traffic_credit_used` аккаунта - целое число, количество [единиц трафика][3], которые аккаунт взял в кредит. Это поле могут изменять только системные смарт-контракты
+- system setting `traffic_credit_limit` - the maximum number of [traffic units][3] that can be loaned
+- field `traffic_credit_used` of account it is an integer and the number of [traffic units][3] that the account took on credit. This field can only be changed by system smart contracts.
 
-Формула кредитного лимита:
+Credit limit formula:
 
 ```python
 credit_limit = SystemSettings.traffic_credit_limit - account.traffic_credit_used
 ```
 
-Информация о самих кредитах (кто, кому и сколько должен) хранится в блокчейнах второго уровня.
+Information about the loans itself (who owes whom and how much) is stored in the second-level blockchains.
 
-### Пример
+### Example
 
-Введем такие обозначения:
+We introduce the following marks:
 
-- `UserA` - новый пользователь сети: кредитный лимит 10240, на счету 0 токенов.
-- `UserB`, `UserC`, `UserD` - узлы сети, которые отдают трафик узлу UserA
+- `UserA` - is a new member of the Network: credit limit 10240, on account there is 0 tokens.
+- `UserB`, `UserC`, `UserD` - are Network peers who provide traffic to UserA
 
-Теперь рассмотрим пример взаимодействия данных узлов:
+Now let's look at an example of how these peers interact:
 
-1. `UserA` получает 3 Гб (3072 Mб) трафика от `UserB`. Поскольку у `UserA` нет токенов, он получает трафик в кредит. Это означает, что теперь `UserA` должен `UserB` 3072 Мб. Кредитный лимит `UserA` уменьшается до 7168 (10240 - 3072).
-2. `UserA` получает 7 Гб (7168 Мб) трафика от UserС. Поскольку у `UserA` нет токенов, он получает трафик в кредит. Теперь `UserA` должен `UserC` 7168 Мб. Кредитный лимит `UserA` уменьшается до 0. `UserC` перестает отдавать данные `UserA`, поскольку тот исчерпал свой кредитный лимит и не может оплатить трафик.
-3. `UserA` пополняет свой счет для оплаты сервисов на 0.2 XAT.
+1. `UserA` receives 3 Gb (3072 Mb) of traffic from `UserB`. As `UserA` has no tokens, then he receives traffic on credit. This means that `UserA` has owed `UserB` 3072 Мb. `UserA` credit limit has decreased to  7168 (10240 - 3072).
+2. `UserA` receives 7 Gb (7168 Мb) of traffic from UserС. As `UserA` has no tokens, then he receives traffic on credit. This means that `UserA` has owed `UserC` 7168 Мb. `UserA` credit limit has decreased to 0. `UserC` stops providing data to `UserA`, as he exceeded credit limit and cannot pay for traffic. 
+3. `UserA` refills his paying for services account for 0.2 XAT.
 
-    Текущий курс XAT/XAC: 1 XAT = 1 XAC.
+    Current currency rate XAT/XAC: 1 XAT = 1 XAC.
 
-    Текущая стоимость 1 Гб трафика: 0.01 XAC.
+    Current cost of 1 Gb traffic: 0.01 XAC.
 
-    Системный смарт-контракт закрывает кредиты пользователя `UserA`:
+    System smart contract covers `UserA` credits:
 
-    - `UserB` получает 0.03 XAC (минус комиссия системы) - оплата за 3 Гб трафка, отданного ранее в кредит
-    - `UserC` получает 0.07 XAC (минус комиссия системы) - оплата за 7 Гб трафка, отданного ранее в кредит
-    - с `UserA` списывается 0.1 XAT
-    - кредитный лимит `UserA` увеличивается до 10240
-4. `UserA` получает 15 Гб (15360 Мб) трафика от `UserD`. Курс XAT/XAC и стоимость трафика такие же, как в пункте 3. У `UserA` на счету 0.1 XAT - этого достаточно для оплаты 10 Гб трафика. Остальные 5 Гб трафика `UserA` берет у `UserD` в кредит:
-    - `UserD` получает 0.1 XAC (минус комиссия системы)
-    - с `UserA` списывается 0.1 XAT
-    - кредитный лимит `UserA` уменьшается до 5120
-    - `UserA` должен `UserD` 5 Гб трафика
+    - `UserB` receives 0.03 XAC (minus system commission) - payment for 3 Gb traffic which was given on credit
+    - `UserC` receives 0.07 XAC (minus system commission) - payment for 7 Gb traffic which was given on credit
+    - from `UserA` account writes off 0.1 XAT
+    - UserA` credit limit `increased to 10240
+4. `UserA` receives 15 GB (15360 MB) of traffic from `UserD`. The XAT/XAC rate and the traffic cost are the same as in point 3. `UserA` has 0.1 XAT on the account and this is enough to pay for 10 GB traffic. The remaining 5 GB of traffic `UserA` takes from` UserD` on credit:
+    - `UserD` receives 0.1 XAC (minus system commission)
+    - from `UserA` account writes off 0.1 XAT
+    - `UserA` credit limit decreased to 5120
+    - `UserA` has owed `UserD` 5 Gb traffic
 
 [1]: ../glossary/special-accounts.md#_2
 [2]: payments.md
