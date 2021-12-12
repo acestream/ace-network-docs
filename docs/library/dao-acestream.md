@@ -10,107 +10,107 @@
 
 ==TODO: english version==
 
-**Ace Stream** – международный проект по созданию децентрализованной медиа-платформы, получивший активное развитие в 2013 г., в рамках бизнес-инициатив и при финансовой поддержке Евросоюза.
+**Ace Stream** – an international project to create a decentralised media platform which was actively developed in 2013 under the programme of business initiatives and with financial support from the European Union.
 
 !!! info ""
 
-    Свыше 30 млн. активных пользователей и около 50 тыс. в день новых установок ПО Ace Stream (приложения для настольных, мобильных, stb, расширения для браузеров). И все это на этапе реализации только самых базовых приложений и функций, без каких-либо затрат на маркетинг/рекламу и без какого-либо финансового стимулирования и мотивации Участников Сети!  (Детальная информация, по аудитории…)
+    Over 30 million active users and around 50 thousand new installations of Ace Stream software per day (applications for desktop, mobile, stb, browser plugins). And all this at the stage of solely the most basic applications and functions implementation, without any marketing/advertising costs and without any financial incentives and motivation of the Network Participants! (Detailed information, by audience ...)
 
-DAO Ace Stream знаменует следующий запланированный этап развития проекта Ace Stream, который уже стал самым популярным в мире децентрализованным решением для онлайн-вещания по технологии P2P (peer to peer)
+DAO Ace Stream marks the next planned development stage of the Ace Stream project which has already become the world's most popular decentralised solution for online streaming using P2P (peer to peer) technology
 
 !!! info ""
 
-    Термин: DAO (децентрализованная автономная организация) — это сложная форма смарт- контрактов, в котором правила децентрализованной организации записаны в код контрактов, а управление происходит через токены
+    Term: DAO (decentralised autonomic organisation) — it is a complex form of smart contracts in which the rules of a decentralised organisation are written in the contract code and the management takes place through tokens
 
-**DAO Ace Stream** — это децентрализованная платформа, с разнообразными дружелюбными сервисами и приложениями, которые базируются на парадигме распределенной системы, без зависимости от подключения к управляющим центральным серверам
+**DAO Ace Stream** — it is a decentralised platform with multiple friendly services and apps which are based on paradigm of divided system without dependance on the connection to central control servers 
 
-Экосистема DAO Ace Stream основана на базе технологии блокчейн и не имеет владельцев в традиционном понимании; во всяком случае, это принадлежит общественности
+The DAO Ace Stream ecosystem is based on blockchain technology and has no owners in the traditional sense and anyway it belongs to the public
 
 
 !!! note ""
 
-    Открытая и полностью децентрализованная Сеть с луковой маршрутизацией, с поисковой системой и DApps, в виде надстройки над Интернетом (сеть Интернета второго уровня), которую невозможно заблокировать или ограничить доступ к ее контенту, без блокировки самого Интернета
+   An open and completely decentralised Network with Onion Routing, with a search engine and DApps, in the form of an add-on over the Internet (second-level Internet network) which cannot be blocked or have restricted access to its content without blocking the Internet itself
 
-    Программное обеспечение работает в децентрализованной, открытой сети, с прозрачной экономикой, которая основывается на заложенных программных алгоритмах, представленных в публичных смарт-контрактах (открытых программных кодах), с полной децентрализацией регуляции отношений, хозяйственных механизмов и взаиморасчетов между ее Участниками. Правила DAO Ace Stream соблюдаются самим протоколом (программным кодом), операторами узлов и социальным консенсусом ее Пользователей/Участников.
+    The software operates in a decentralised open network with a transparent economy which is based on established software algorithms presented in public smart contracts (open software codes) with complete decentralisation of the regulation of relations, management mechanisms and mutual settlements between its Participants.DAO Ace Stream rules are followed by the protocol itself (program code), actors and social consensus of its Users / Participants.
 
-    Никакое обособленное лицо не может повлиять на работу DAO Ace Stream!
+    No individual can influence the work of DAO Ace Stream!
 
 <p style="text-align: right">
-    <strong><em>Мы делаем невозможное возможным!</em></strong>
+    <strong><em>We make the impossible possible!</em></strong>
 </p>
 
 
-## Ключевые технологии
+## Key technologies
 
-**Ace Stream** – децентрализованная технология P2P-коммуникаций, хранения и доставки мультимедийных данных, ориентированная на онлайн-вещание. 
+**Ace Stream** – a decentralised technology of P2P comms, storage and delivery of multimedia data focused on online broadcasting. 
 
-**P2P Search** – открытая система индексации и поиска контента в децентрализованной Сети  
+**P2P Search** – an open system of indexation and searching for content in decentralised network 
 
-**Ace Network** (далее: Сеть) – это саморегулируемая децентрализованная сеть, с открытым исходным кодом, для работы с цифровыми активами.
+**Ace Network** (further on: Network) – it is a self-regulated decentralised network with open source for dealing with digital assets.
 
-**Ace Services** - платформа для создания децентрализованных сервисов/приложений (DApps)
+**Ace Services** - a platform for creating decentralised services/apps (DApps)
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/tech" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-## Актуальность решений (технологий, сервисов и продуктов) DAO Ace Stream
+## Relevance of decisions (technologies, services and products) DAO Ace Stream
 
-### 1. Децентрализованная сеть с невероятными мультимедийными возможностями
+### 1. Decentralised network with incredible multimedia capabilities
 
-Ace Network - децентрализованная Сеть, которая сможет удовлетворить самые изысканные запросы в мультимедиа.
+Ace Network - a decentralised network that can satisfy the most sophisticated multimedia requests.
 
-- WEB 3.0 (DApps, децентрализованные приложения/сайты)
-- Огромный ассортимент и удобный поиск мультимедийного контента в децентрализованной сети
-- Умное TV и интерактивные трансляции, AR, VR и 360°
-- Высочайший уровень стабильности онлайн-вещания и наилучшее аудиовизуальное качество контента
-- Широкий спектр социальных и мультимедийных возможностей
-- Уникальная система бонусов и вознаграждения зрителей
+- WEB 3.0 (DApps, decentralised apps/sites)
+- Huge stock and convenient search for multimedia content in a decentralised network
+- Smart TV and interactive broadcasts, AR, VR и 360°
+- The highest level of stability in online broadcasts and the best audiovisual content quality 
+- Wide range of social and multimedia options
+- Unique bonus and reward system for viewers
 
 <p style="text-align: right">
-    <strong><em>Телевидение будущего здесь!</em></strong>
+    <strong><em>Television of future here!</em></strong>
 </p>
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/multimedia" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 2. Экологичный CDN, с безлимитной пропускной способностью и самой низкой стоимостью хранения и доставки данных в мире
+### 2. Green CDN with unlimited bandwidth and the lowest cost of storage and data delivery in the world
 
-Беспрецедентные возможности и характеристики Ace Stream P2P CDN:
+Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 
-- Устранение на программном уровне 50 кратного дефицита пропускной способности сети Интернет, равного 100 000 Tbps
-- Обеспечение уровня качества и стабильность трансляций, не уступающие спутниковому вещанию, при гораздо большем покрытие/охвате
-- Снижение расходов на онлайн-вещание до 99,9%, по соотношению к стандартным/централизованным CDN.
-- Надежная и безотказная Сеть
-- Прозрачность учета трафика и удобства взаиморасчетов.
+- At the software level elimination of the 50 times deficit of Internet bandwidth which equals to 100,000 Tbps
+- Maintenance of quality level and broadcast stability on a par with satellite broadcasting with much greater coverage/reach 
+- Decrease in online broadcasting costs up to 99.9%, in relation to standard/centralised CDN.
+- Reliable and trouble-free network 
+- Transparency of traffic accounting and convenience of mutual settlements
 - Carbon-negative
-- Выход из «плоского интернета»
+- Exit from the "flat internet"
 
 
-!!! info "Простая арифметика, для оценки Ace Stream P2P CDN"
+!!! info "Simple Math for the assessment of Ace Stream P2P CDN"
 
-    Умножьте на 100 мощности (пропускные способности) всех существующих централизованных CDN и вы получите цифру соответствующую пропускным способностям Ace Stream P2P CDN
+    Multiply the capacity (bandwidth) of all existing centralised CDNs by 100 and you get a digit corresponding to the bandwidth of Ace Stream P2P CDN
 
-    Разделите на 100 стоимость услуг централизованных CDN и вы получите себестоимость Ace Stream P2P CDN
+    Divide the cost of centralised CDN services by 100 and you get the cost of Ace Stream P2P CDN
 
-    Умножьте на 0 количество углеродных выбросов дата-центров, работающих на стриминговую индустрию (на сегодняшний день, уже свыше 650 млн т/год. CO2, при обеспечении только около 1% от реальных потребностей людей в онлайн-смотрении), и вы узнаете уровень влияния Ace Stream P2P CDN на экологию, а также еще и сможете понять какую пользу экологии может принести технология обеспечивающая существенное снижение нагрузок на дата-центры и устраняющая необходимость в расширение парков централизованных CDN
+    Multiply by 0 the carbon footprint of data centers working for the streaming industry (currently over 650 Mtpa CO2, by providing only about 1% of people's actual online viewing needs) and you will know the impact level Ace Stream P2P CDN for the environment and you will also be able to understand what environmental benefits the technology can bring, which provides a significant reduction in the load on data centers and removes the need to expand the parks of centralised CDNs
 
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/cdn" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
@@ -118,321 +118,321 @@ Ace Network - децентрализованная Сеть, которая см
 
 !!! note ""
 
-    Пример, для оценки инвестиционной привлекательности: Пропускная способность Akamai, крупнейшего в мире оператором CDN, на момент капитализации компании - $ 11,14 млрд, составляла порядка 80 Tbps., что во много раз меньше пропускных способностей Ace Stream P2P CDN!
+    An example for assessing investment attractiveness is that the bandwidth of Akamai, the world's largest CDN operator, at the time of the company's capitalisation - $ 11.14 billion, was about 80 Tbps which is many times less than the bandwidth of Ace Stream P2P CDN!
 
-    При этом, также необходимо учитывать все затраты, ограничения и проблемы свойственные для централизованных (unicast) CDN, и которых нет в P2P CDN
+    At the same time it is also necessary to take into account all the costs, restrictions and problems inherent in centralised (unicast) CDNs and which are not in P2P CDN
 
 
-### 3. Децентрализованная финансово-экономическая система, на одной из самых передовых и надежных технологий blockchain в мире.
+### 3. Decentralised financial and economic system based on one of the most advanced and reliable blockchain technologies in the world.
 
-- **Ace Payments** - децентрализованная платежная система для прямых платежей, а также для микроплатежей с отложенным отображением в основном блокчейне Ace Network, при проведении расчетов за трафик и поминутной тарификации. 
+- **Ace Payments** - a decentralised payment system for direct payments, as well as for micropayments with deferred display in the main Ace Network blockchain when carrying out settlements for traffic and per-minute billing.
 
     !!! info ""
-        Текущее ограничение для стабильной работы блокчейна при осуществлении прямых платежей составляет 2000 транзакций в секунду (Т/с), а при осуществлении микроплатежей за трафик и время составляет 172 млн. активных суточных пользователя, без какого-либо ограничения на количество транзакций в секунду.
+        The current limit for the stable operation of the blockchain when making direct payments is 2000 transactions per second (T / s) and when making micropayments for traffic and time is 172 million active daily users without any limit on the number of transactions per second.
 
-- **Ace Offer** - механизм эмиссии цифровых активов (токенов), обеспеченных правами доступа к контенту (видео, аудио, фото), с персонифицированными условиями эмитента. 
-- **Ace DEX** - децентрализованная биржа для торговли правами/лицензиями на контент и другими цифровыми активами.  
+- **Ace Offer** - a mechanism for emission of digital assets (tokens) secured by the rights of access to content (video, audio, photo), with personalised conditions of the emitter. 
+- **Ace DEX** - a decentralised stock exchange for trading content rights / licenses and other digital assets.  
 
-- **Ace Billing** - децентрализованный биллинг, для применения следующих тарифных планов:
+- **Ace Billing** - a decentralised billing for the following tariff plans: 
 
-    - подписки на разные периоды времени
-    - поминутная тарификация онлайн-трансляций
-    - единоразовый платный доступ к контенту
+    - subscriptions for different periods of time
+    - per-minute tariffication of online broadcasts 
+    - one-time paid access to content
 
-- **Ace DeFi** - уникальные инвестиционные программы DeFi **([подробнее][1])**
-- **Ace Assets** - участие в долевом распределении криптоактивов DAO Ace Stream
-- **Ace Deposit** - начисление процентов на депозит
+- **Ace DeFi** - unique investment programs DeFi **([read more][1])**
+- **Ace Assets** - participation in the percentage distribution of DAO Ace Stream cryptoassets
+- **Ace Deposit** - charging interest on a deposit
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/finances" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 4. Токены со 100% обеспечением и алгоритмический стейблкойн, майнинг которого генерирует удовольствие и спасает экологию
+### 4. 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
 
-[**Ace Token (XAT)**][2] - базовый и автоматически сжигаемый системный токен, обеспеченный интернет-каналом с пропускной способностью свыше 100000 Tbps, премиальным контентом и всеми сервисными услугами сети Ace Network.
+[**Ace Token (XAT)**][2] - a basic and automatically burned system token backed by an Internet channel with a bandwidth of over 100,000 Tbps, premium content and all services of the Ace Network.
 
-[**Ace Asset (XAS)**][3] - токен управления протоколами сети Ace Network и обеспеченный активами DAO Ace Stream, дающий право на участие в распределении системных токенов (XAT) и комиссионных сборов получаемых DAO Ace Stream за Услуги и Сервисы, предоставляемые Сетью.
+[**Ace Asset (XAS)**][3] - Ace Network protocol management token and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAT) and commission fees received by DAO Ace Stream for the Services and Services provided by the Network.
 
-[**Ace Coin (XAC)**][4] - алгоритмический стейблкойн (stablecoin) сети Ace Network, не привязанный к фиатным деньгам и к физическим товарам, а имеющий обеспечение самым ценным ресурсом мира онлайн – объемами трафика, и самым ценным ресурсом мира оффлайн - временем жизни человека, которое он затрачивает на потребление цифрового контента.
+[**Ace Coin (XAC)**][4] - an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/tokens" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 5. Анонимность и Конфиденциальность
+### 5. Anonymity and Privacy 
 
-*   **Ace Proxy** - прокси и анонимайзер, архитектурно подобный Tor
+*   **Ace Proxy** - proxy and anonymizer structurally similar to Tor
 
-*   **Ace ID** - идентификатор пользователя в Сети, без раскрытия каких-либо персональных данных.
+*   **Ace ID** - identificator of the user in the Network which does not reveal any personal data.
 
-*   **Ace External Secure ID** - виртуальный паспорт пользователя (создается исключительно по желанию самого пользователя), для возможности автоматического прохождения процедур KYC на тех сервисах где это требуется (к примеру: биржи, беттинги и др), с полным контролем над своими персональными данными.
+*   **Ace External Secure ID** - a virtual user ID (is only created voluntarily by the willing of the user) to be able to automatically pass through KYC procedures on those services where it is required (for example: exchanges, betting, etc.), with full control over your personal data.
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/anonymity" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
-### 6. Стимулирование и мотивация
+### 6. Stimulation and motivation
 
-Автоматическое вознаграждение пользователей и партнеров Сети:
+Automatic reward for users and partners of Network:
 
-*   за предоставление Сети своих аппаратно-сетевых ресурсов;
-*   за публикацию и дистрибуцию высококачественного контента; 
-*   за разработку и создание собственных приложений и сервисов;
-*   за дистрибуцию приложений DAO Ace Stream» (для производителей устройств, OEMs)  
-*   за модерацию контента в Сети
-*   за просмотр рекламы
-*   за участие в программах DeFi
+*   for providing the Network with its hardware and network resources;
+*   for posting and distribution of high quality content; 
+*   for developing and creating your own apps and services;
+*   for distribution DAO Ace Stream apps» (for apps dev, OEMs)  
+*   for content moderation in the Network
+*   for viewing ads
+*   for taking part in DeFi programs
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/motivation" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 7. Эффективная монетизация линейного телевидения в Интернете и децентрализованных сетях
+### 7. Effective monetisation of linear television on Internet and decentralised networks 
 
-Комплекс инструментов DAO Ace Stream для телевизионных каналов позволяет осуществлять эфирное вещании в Интернете с показателем:  **AARPU (Average Ad Revenue per User) - от 13,68$ до 136,8$ в год**, в зависимости от распределения аудитории по регионам.
+The DAO Ace Stream set of tools for television channels allows broadcasting on the Internet with the following rate: ** AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year **, depending on the distribution of the audience by region
 
-**Средний показатель AARPU  для ТВ** (исходя из данных международных аналитических служб) **свыше 40$ в год** 
+**The average AARPU rate for TV ** (according to international analytics services) **over 40$ per year**  
 
-!!! info "К примеру, для сравнения"
+!!! info "For example to compare"
 
-    ![alt_text]({{ assets_root }}/images/image6.jpg "image_tooltip")
+    ![alt_text](../../assets/images/image6.jpg "image_tooltip")
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/linear-tv-monetization" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 8. Устранение проблемы «усталость от подписок»
+### 8. Fixing the "subscriptions fatigue" problem
 
-Функция **«Ace ID»** позволяет контент-провайдерам и сервисам ОТТ моментально предоставлять доступ к своему контенту на условиях разового платного доступа или на условиях поминутной тарификации, автоматически получая  оплату, без необходимости регистрации/идентификации пользователей и пополнения ими балансов на своих сервисах/ресурсах.  
+Function **«Ace ID»** allows content providers and OTT services to instantly provide access to its content on the terms of one-time payment access or on the terms of per-minute tariff automatically receiving payment without need to register/identify users and refill balances on their services/resources.   
 
-Сервис **«Premium Pool»** дает возможность любым контент-провайдерам и сервисам ОТТ формировать пулы с единой общей подпиской к своим услугам, избавляя пользователей от необходимости покупать услуги подписки на каждом отдельном сервисе ОТТ.
+Service **«Premium Pool»** allows any content providers and OTT services to form pools with a single general subscription to their services getting rid from the need to buy subscription services for each separate OTT service.
 
 
 !!! info ""
 
-    Сумма, оплаченная пользователем за единую общую подписку к услугам участников пула, пропорционально распределяется между его участниками, исходя из процента общего времени, затраченного пользователем на просмотр контента того или иного участника пула (для которого ведется расчет), в соотношении к общему времени, затраченного им на просмотр контента от других участников пула, за расчетный период времени.
+    The amount paid by the user for a single general subscription to the pool members services is proportionally distributed among its members, based on the percentage of the total time spent by the user on viewing the content of one or another pool member (for which the calculation is being made), in relation to the total time spent by him to view content from other members of the pool for the estimated period of time.
 
-    Распределение средств и платежи осуществляются децентрализовано, в автоматическом режиме, в соответствие условиям смарт-контракта (полностью открытая и прозрачная система, без каких-либо возможностей ручного управления и вмешательства в ее работу).
+    The distribution of funds and payments are carried out in a decentralised manner and in an automatic mode, in accordance with the terms of a smart contract (a completely open and transparent system, without any possibilities of manual control and interference in its work).
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/subscriptions" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
 <a name="legal-torrent-stream"></a>
-### 9. Уникальное и эффективное решение для борьбы с «пиратским» контентом в P2P-сетях
+### 9. Unique and effective solution to deal with "pirate" content in P2P-networks 
 
-**Legal Torrent Stream (LTS)** – система легализации и монетизации контента в одноранговых (P2P, peer to peer) сетях.
+**Legal Torrent Stream (LTS)** – a system of legalisation and monetisation of content in peer (P2P, peer to peer) networks.
 
-Правообладатель будет получать оплату за каждую минуту воспроизведения принадлежащего ему контента, при использовании технологий Ace Stream, независимо от того кто и как осуществляет такое распространение контента, а также независимо от того на каких сайтах/сервисах, в каких приложениях и на каких устройствах пользователи Интернет будут осуществлять его воспроизведение
+The copyright holder will receive payment for every minute of the content playback belonging to him when using Ace Stream technologies, regardless of who and how distributes the content and also regardless of what sites/services, in what applications and on what devices Internet users will reproduce it.
 
 
-!!! info "Бескомпромиссный компромисс!"
+!!! info "Uncompromising compromise!"
 
-    Без использования механизмов легализации контента в самой популярной в мире децентрализованной cети онлайн-вещания, которая активно набирает рост и глобально используется всевозможными бродкастерами для осуществления вещания нелицензионных трансляций, наряду с отсутствием возможности блокировок таких трансляций какими-либо способом, - проблема массового распространения нелицензионного контента решена быть не может!
+    The problem of mass unlicensed content distribution cannot be resolved without the use of content legalisation mechanisms in the world's most popular decentralised online broadcasting network which is actively gaining growth and is globally used by all types of broadcasters to stream unlicensed broadcasts, along with the absence of the possibility of blocking such broadcasts in any way! 
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/legal-torrent-stream" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
 <!--
-### 9. Все лучшее из мира мультимедиа, в одном флаконе
+### 9. All the best from the world of multimedia in one bottle
 
-DAO Ace Stream обеспечивают пользователей Сети возможностью наслаждаться децентрализованными аналогами таких сервисов как Apple TV Channels и Google TV Channels, в одном флаконе с Netflix, YouTube, Twitch, Hulu, Amazon Prime Video, HBO, ESPN+ и т.п., с более широким ассортиментом контента и дополнительным функционалом.
+DAO Ace Stream provide Internet users with the opportunity to enjoy decentralised analogs of services such as Apple TV Channels and Google TV Channels, in one bottle with Netflix, YouTube, Twitch, Hulu, Amazon Prime Video, HBO, ESPN +, etc. with a wider range content and additional functions.
 
-
-!!! note ""
-
-    Больше нет необходимости оформления кучи подписок на разных сервисах, чтобы полностью удовлетворить свои персональные запросы в смотрении ТВ-каналов, спортивных событий, фильмов и сериалов, и в др. медиапотреблении.
 
 !!! note ""
 
-    Тысячи популярных ТВ-каналов, сотни тысяч фильмов и сериалов, трансляции практически всех популярных спортивных событий, а также всевозможные стримы, видео и музыка, в наилучшем аудиовизуальном качестве и с единой точкой доступа, - это то, что получают пользователи Ace Network!
+    There is no longer a need to register a bunch of subscriptions on various services in order to fully satisfy your personal needs in watching TV channels, sports events, films and TV series and in other media consumption.
+
+!!! note ""
+
+    Thousands of popular TV-channels, hundred thousands of movies and series, broadcasts of almost every popular sport event and all possible streams, videos and music in the best audiovisual quality from the one point of access and that's what Ace Network users gets! 
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/multimedia" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 -->
 
-### 10. Крутой веб-серфинг, на волнах мультимедиа
+### 10. Cool web surfing on the waves of multimedia
 
-*   **Ace Surf**  - Мультимедийный веб-браузер (максимальное удовлетворение пользовательских интересов в части потребления видео и аудио контента); открытость, безопасность и конфиденциальность; поддержка DApps; контроль над рекламой и возможностью для пользователей получать вознаграждение за просмотр рекламы.
+*   **Ace Surf**  - A multimedia web-browser (extreme satisfaction of users interests in terms of video and audio content consumptions); open, security and privacy; DApps support; control over ads and a possibility for users to receive a reward for ads viewing. 
 
-*   **Ace Search** - Метапоисковая система, с максимальным уровнем конфиденциальности
+*   **Ace Search** - A metasearch system with the highest level of privacy 
 
-*   **Ace Script**  - браузерное приложение, расширяющее возможности любых веб-браузеров функционалом Ace Stream, в т.ч. и возможностью получения полного контроля над рекламой (удалением сторонней рекламы и возможностью просмотра рекламы Сети Ace Stream, за вознаграждение)
+*   **Ace Script**  - A browser application that extends the capabilities of any web browsers with the functionality of Ace Stream, including the ability to obtain full control over advertising (removal of third-party advertising and the ability to view advertisements of the Ace Stream Network for a fee)
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/web-surf" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 11. Ускоритель Интернета
+### 11. Internet accelerator
 
-*   **Turbo Stream** – функция автоматического подключения технологии P2P (Ace Stream) при просмотре видео (VoD и/или Live Stream) на централизованных сервисах, которые вещаются в формате HLS (к примеру, на таких как YouTube, Twitch и т.п.)
+*   **Turbo Stream** – a function of automatic connection of P2P technology (Ace Stream) when watching videos (VoD and/or Live Stream) on centralised services that are broadcast in HLS format (for example, on YouTube, Twitch, etc.)
 
 !!! info ""
 
-    Использовании данной функции при просмотре видео позволяет пользователю получать поток не только от одного источника (сервера вещателя), а одновременно от многочисленных источников (других зрителей), что обеспечивает максимальную скорость загрузки данных и стабильность потока при просмотре VoD и Live Stream на любых централизованных сервисах.
+    The usage of this function during viewing video allows user to receive stream not only from one source (broadcaster server) but simultaneously from multiple sources (other viewers) which provides the highest load data speed and stability of stream during watching VoD and Live Stream on any centralised services.   
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/turbo-stream" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 12. Децентрализованные мессенджеры, видеоконференции и социальные сети
+### 12. Decentralised messengers, video calls and social networks 
 
-Полностью децентрализованная и максимально защищенная система коммуникаций, которая никем и никак не может быть заблокирована или как-то ограничена. 
+Fully decentralised and extremely secured communication system which cannot be blocked or somehow restricted by anyone or anything.  
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/social" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 13. Ставки и прогнозы в один клик, в прямых трансляциях
+### 13. One click bets and predictions in live broadcasts 
 
-**Ace Bet** – децентрализованная система биржевых прогнозов/ставок, с функцией автоматического размещения интерактивных блоков ( лайв-ставки/прогнозы) в прямых трансляциях спортивных и других событий.
+**Ace Bet** – a decentralised system of stock exchange predictions/bets with a function of automatic placement of interactive blocks (live-bets/predictions) in the live sport and other events broadcasts. 
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/betting" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 14. Рекламные площадки без негатива, с уникальной аудиторией и самыми эффективными форматами рекламы
+### 14. Advertising platforms without negativity, with unique audience and the most effective ad formats
 
-DAO Ace Stream включает в себя программные продукты, которые генерируют рекламный инвентарь и являются площадками для размещения рекламных материалов
+DAO Ace Stream includes software products which generate ad inventory and are platforms for placing advertising materials. 
 
-100% гарантия отсутствия негатива пользователей при просмотре рекламы
+100% guarantee there will be no user negativity when viewing ads
 
 !!! info ""
 
-    Отсутствие негатива к рекламодателю достигается за счет вознаграждения пользователей за просмотр рекламы и наличием у пользователя полного контроля над рекламными показами (аналогично модели, реализованной и хорошо обкатанной в браузере Brave).
+   Lack of negativity towards the advertiser is achieved by rewarding users for viewing ads and by giving the user full control over ad impressions (similar to the model implemented and well-tested in the Brave browser).
 
 
-Форматы рекламы, объемы инвентаря и его стоимость, при достижении цели в 100 млн. активных ежемесячных пользователей:
+Ads formats, ad Inventory volumes and its cost when the target of 100 mil active monthly users is achieved: 
 
-*   **Поисковая контекстная реклама**
+*   **Search contextual advertising**
 
-    Прогнозируемый годовой объем рекламного инвентаря, при достижении цели в 100 млн. активных ежемесячных пользователей приложения Ace Search, на 2023 год - 3,74 млрд.$
+    The predicted annual ad inventory volume when reaching the target in 1000 mil active monthly users in the Ace Search app for 2023 y is 3,74 billion $ 
 
-    AARPU (Average Ad Revenue per User) - 37,4$ (Desktop+Mobile), в 2023 г
+    AARPU (Average Ad Revenue per User) - 37,4$ (Desktop+Mobile), in 2023 y
 
-*   **Телевизионная реклама (реклама в линейном телевидении)**
+*   **TV ads (commercials in the linear TV)**
 
-    Прогнозируемый годовой объем рекламного инвентаря – 684 101 250 000 показов, общей стоимостью от 1, 36 млрд.$ (CPT 2$) до 13, 68 млрд $ (CPT 20$), в зависимости от распределения аудитории по регионам
+    The predicted annual ad inventory volume – 684 101 250 000 views with total value from 1, 36 billion $ (CPT 2$) to 13, 68 billions $ (CPT 20$) depending on regional audience distribution. 
 
 
     !!! info ""
 
-        Стоимость размещения рекламного ролика, CPT (цена за 1000 контактов): в России - $2, в Восточной Европе — $4, в Северной Америке — $29, а в среднем по миру — $20. (по данным агентства «Initiative», входящего в группу АДВ)
+        The cost of posting an ad video, CPT (price per 1000 contacts): in Russia - $2, in Eastern Europe - $4, in North America - $29, average in the world - $20. (According to agency "Initiative" which is part of ADV group)
 
-    Среднее количество рекламных показов на одного пользователя - 6 841 в год 
+    Average number of ad impressions per user - 6,841 per year
 
-    AARPU (Average Ad Revenue per User) - от 13,68$ до 136,8$ в год, в зависимости от распределения аудитории по регионам
+    AARPU (Average Ad Revenue per User) - from 13,68$ to 136,8$ per year, depending on regional audience distribution
 
-*   **Видеореклама в форматах in-stream**
+*   **In-stream video ads**
 
-    Прогнозируемый годовой объем рекламного инвентаря, при достижении цели в 100 млн. пользователей браузера Ace Surf, а также других базовых продуктов DAO Ace Stream - 131 400 000 000 показов, общей стоимостью 657 млн.$, при среднем CPM 5$
+    The predicted annual volume of advertising inventory, when reaching the target of 100 million users of the Ace Surf browser as well as other basic DAO Ace Stream products - 131.4 billion impressions, with a total value of $ 657 million, with an average CPM of $ 5
 
-    Среднее количество рекламных показов на одного пользователя - 1314 в год. 
+    Average number of ad impressions per user - 1314 per year. 
 
-    AARPU (Average Ad Revenue per User) - 6,57$ (Desktop+Mobile) в год
+    AARPU (Average Ad Revenue per User) - 6,57$ (Desktop+Mobile) per year
 
-*   **Другие форматы рекламы, такие как «брендирование», «уведомления» и «системные рекламные сообщения»**, которые не будут раздражать пользователя, но при этом будут эффективно работать на рекламодателя 
+*   **Other ad formats such as “branding”, “notifications” and “system message advertisements” ** that will not annoy the user but will work effectively for the advertiser 
 
-    Прогнозируемый годовой объем рекламного инвентаря – 150 млрд. показов, общей стоимостью 450 млн.$ при среднем CPM 3$.
+    The predicted annual volume of advertising inventory – 150 billions impressions with a total amount of 450 mil.$ with an average CPM 3$.
 
-    Среднее количество рекламных показов на одного пользователя - 1500 в год 
+    Average number of ad impressions per user - 1500 per year 
 
-    AARPU (Average Ad Revenue per User) - 4,5$ (Desktop+Mobile) в год
+    AARPU (Average Ad Revenue per User) - 4,5$ (Desktop+Mobile) per year
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/ads" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
 
 
-### 15. Площадки DAO Ace Stream, для партнерских программ
+### 15. DAO Ace Stream platforms for affiliate programs
 
-Помимо возможности для пользователей осуществлять просмотр рекламы за вознаграждение, пользователям продуктов Ace Surf, Ace Search и Ace Script будут также начисляться вознаграждения за различные действия, по модели CPA (Cost per Action). Например, за покупку товаров/услуг, за регистрации и т.д. Также пользователям будут предоставляться различные промо-коды, купоны и скидки.
+In addition to the ability for users to view advertisements for a reward, users of the Ace Surf, Ace Search and Ace Script products will also receive rewards for various actions, according to the CPA (Cost per Action) model. For example, for the purchase of goods/services, for registration etc. Also, users will be provided with various promo codes, coupons and discounts.
 
-Партнерские программы, по направлениям:
+Directions of affiliate programs:
 
-*   Товары 
-*   Услуги 
-*   Путешествия 
-*   Спортивные события  
-*   Биржи/Обменники 
-*   Игры/Развлечения 
+*   Goods 
+*   Services 
+*   Trips 
+*   Sport events  
+*   Stock markets/Exchanges
+*   Games/Entertainment
 
-Ориентировочный ARPPU (англ. Average revenue per paying user, средняя выручка на одного платящего пользователя) в месяц, при подключения партнерских программ – от 5 до 10$ 
+Expected ARPPU per month upon joining to affiliate programs - from 5 to 10$ 
 
-Предполагаемый уровень вовлеченности аудитории – 35% от всех пользователей, в месяц  
+Expected level of audience engagement – 35% from all the users per month  
 
 !!! note ""
 
-    Под термином «вовлеченность» подразумевается действие пользователя в любой из партнерских программ, за которое выплачивается вознаграждение
+    Term "audience engagement" means the user`s action in any of affiliate program for which a reward is paid 
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/partnership" href="#">
-            Подробнее
+            Read more
         </a>
     </em>
 </p>
