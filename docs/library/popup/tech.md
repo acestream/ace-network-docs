@@ -2,26 +2,26 @@
 template: raw_content.html
 ---
 
-# Ключевые технологии
+# Key technologies
 
 ==TODO: english version==
 
 ## Ace Stream
-**Ace Stream** - децентрализованная технология P2P-коммуникаций, хранения и доставки  мультимедийных данных, ориентированная на онлайн-вещание.
+**Ace Stream** - a decentralised technology of P2P comms, storage and delivery of multimedia data focused on online broadcasting. 
 
-Ace Stream использует в основе протокол BitTorrent, который признан самым эффективным протоколом для передачи/доставки «тяжелого контента».
+Ace Stream is based on the BitTorrent protocol which is recognised as the most efficient protocol for transferring/delivering "heavy content".
 
-Основная специализация: AVoD (Аудио и Видео по Запросу); Live Stream («живое»/потоковое вещание); прямые соединения и коммуникации между пользователями; WEB 3.0
+Main specialisation: AVoD (Audio and Video on Demand); Live Stream (live / streaming); direct connections and communications between users; WEB 3.0
 
-Технология Ace Stream может работать как самостоятельное полнофункциональное децентрализованное решение P2P CDN, так и поверх стандартной архитектуры, вместе с традиционной (unicast) CDN (англ. Content Delivery Network или Content Distribution Network, CDN)
+Ace Stream technology can work as an independent fully functional decentralised P2P CDN solution, or as on top of a standard architecture together with a traditional (unicast) CDN (Content Delivery Network or Content Distribution Network, CDN)
 
 !!! info
 
-    Протокол Ace Stream является самым популярным в мире децентрализованным P2P-решением для осуществления прямых трансляций в сети Интернет!
+    The Ace Stream protocol is the world's most popular decentralise P2P solution for live streaming on the Internet!
 
 <p style="text-align: right">
     <small>
-        Статус: реализовано (свыше 30 млн. пользователей)
+        Status: implemented (over 30 mil. Users)
         <!-- TODO: link to the docs -->
     </small>
 </p>
@@ -29,11 +29,11 @@ Ace Stream использует в основе протокол BitTorrent, к�
 
 ## P2P Search
 
-**P2P Search** - открытая система индексации и поиска контента в децентрализованной Сети
+**P2P Search** - an open system of indexation and searching for content in decentralised network
 
 <p style="text-align: right">
     <small>
-        Статус: бета-тест (в открытом доступе)
+        Status: beta test (publicly available)
         <!-- TODO: link to the docs -->
     </small>
 </p>
@@ -41,31 +41,31 @@ Ace Stream использует в основе протокол BitTorrent, к�
 
 ## Ace Network
 
-**Ace Network** (далее: Сеть) - это саморегулируемая децентрализованная сеть, с открытым исходным кодом, для работы с цифровыми активами.
+**Ace Network** (further on: Network) - it is a self-regulated decentralised network with open source for dealing with digital assets.
 
-Для синхронизации Сети используется блокчейн, но взаимодействие между ее Участниками больше похожи на прямые отношения, без посредников и лишних затрат.
+A blockchain is used to synchronise the Network, but the interaction between its Participants is more like a direct relationship without intermediaries and unnecessary costs.
 
-Блокчейн Сети создан на базе программной платформы Stellar и дополнен вторым уровнем «service layer», который предназначен для обеспечения работы смарт-контрактов в рамках «DAO Ace Stream».
+The Blockchain of the Network was created on the basis of the Stellar software platform and supplemented with a second level "service layer" which is designed to ensure the operation of smart contracts within the framework of "DAO Ace Stream".
 
-Сеть разработана таким образом, чтобы обеспечить потребности и максимальную эффективность работы участников медиарынка и их удобного взаимодействия, с возможностью прямого доступа к конечным потребителям продуктов мультимедиа, во всех точках мира.
+The network is designed in order to meet the needs and maximum efficiency of the media market participants and their convenient interaction with the possibility of direct access to end users of multimedia products in all parts of the world.
 
 <p style="text-align: right">
     <small>
-        <a href="../../../get-started/intro">Статус: в разработке (второй уровень «service layer»)</a>
+        <a href="../../../get-started/intro">Status: in developing (second level «service layer»)</a>
     </small>
 </p>
 
 
 ## Ace Services
 
-**Ace Services** - платформа для создания децентрализованных сервисов/приложений (DApps)
+**Ace Services** - platform for creation of decentralised services/apps (DApps) 
 
-Это программная среда для создания сервисов и приложений, которые невозможно заблокировать и/или ограничить доступ к их контенту!
+This is a software environment for creating services and applications that cannot be blocked and/or restricted access to their content!
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>
