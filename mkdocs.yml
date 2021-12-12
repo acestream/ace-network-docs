@@ -17,7 +17,6 @@ extra:
 
 extra_javascript:
   - assets/javascript/main.js
-  - assets/javascript/redirect-language.js
 
 extra_css:
   - assets/css/colors.css
@@ -39,59 +38,101 @@ markdown_extensions:
 plugins:
   - markdownextradata: {}
   - i18n:
-      default_language: ru
+      default_language: en
       languages:
-        # en: English
+        en: English
         ru: Русский
       nav_translations:
         ru:
+          Overview: Обзор
           Products: Продукты
+          About the Project: О проекте
+          Finances and Investment: Финансы и инвестиции
+          Financial Services, DeFi: Инвестиционные программы, DeFi
+          Crypto Assets and Fees: Криптоактивы и комиссии Сети
+          Token Classification, SEC: Классификация токенов, SEC
+          Risk Assessment: Оценка рисков
+          DMCA Compliance: Соответствие условиям DMCA
+          Why, for whom and for what?: Кому это нужно
+          Foreword: Преамбула
+          Network's Architecture: Архитектура Сети
+          Performance Considerations: Производительность
+          Security: Безопасность
+          Traffic and time accounting: Учет трафика и времени
+          System Tokens: Системные токены
+          Token Exchange: Обмен токенов
+          Traffic Payments: Расчеты за трафик
+          Traffic Price: Цена трафика
+          Payment for Traffic: Оплата трафика
+          Credit Traffic: Кредитный трафик
+          Traffic paid by Broadcasters: Оплата трафика бродкастерами
+          Network's Participants: Участники Сети
+          Broadcasters: Бродкастеры
+          Copyright Holders: Правообладатели
+          Distributors: Дистрибьюторы
+          Services: Сервисы
+          User's Channels: Пользовательские каналы
+          Moderation: Система модерации
+          List of Operations: Список операций
+          Glossary: Словарь
+          Accounts and Devices: Аккаунты и устройства
+          Operations: Операции
+          Fees: Комиссии
+          Transport File: Транспортный файл
+          Content Identifier: Идентификатор контента
+          Traffic Unit: Единица трафика
+          System Pools: Системные пулы
+          Special Accounts: Специальные счета
+          Geo Tag: Гео метка
+          System Settings: Системные настройки
+          System Smart Contracts: Системные смарт-контракты
+          Ace Stream Foundation: Ace Stream Foundation
 
 nav:
   - Home: index.md
-  - О проекте:
+  - About the Project:
     - Интернет, о котором мало кто знает: library/intro.md
     - DAO Ace Stream: library/dao-acestream.md
-    - Финансы и инвестиции:
-      - Инвестиционные программы, DeFi: library/finances.md
-      - Криптоактивы и комиссии Сети: library/crypto-assets-and-fees.md
-      - Классификация токенов, SEC: system-tokens/token-classification.md
-      - Оценка рисков: library/risk-assessment.md
-    - Кому это нужно: library/usage.md
-    - Соответствие условиям DMCA: library/dmca.md
+    - Finances and Investment:
+      - Financial Services, DeFi: library/finances.md
+      - Crypto Assets and Fees: library/crypto-assets-and-fees.md
+      - Token Classification, SEC: system-tokens/token-classification.md
+      - Risk Assessment: library/risk-assessment.md
+    - Why, for whom and for what?: library/usage.md
+    - DMCA Compliance: library/dmca.md
   - Ace Network:
     - Welcome: welcome.md
     - Get Started:
       - Intro: get-started/intro.md
-      - Преамбула: get-started/foreword.md
+      - Foreword: get-started/foreword.md
       - Ace Network Stack: get-started/ace-network-stack.md
-      - Архитектура Сети: get-started/network-architecture.md
-      - Производительность: get-started/performance.md
-      - Безопасность: get-started/security.md
-      - Учет трафика и времени: get-started/traffic-time-accounting.md
-    - Системные токены:
+      - Network's Architecture: get-started/network-architecture.md
+      - Performance Considerations: get-started/performance.md
+      - Security: get-started/security.md
+      - Traffic and time accounting: get-started/traffic-time-accounting.md
+    - System Tokens:
       - Overview: system-tokens/index.md
       - Ace Token (XAT): system-tokens/ace-token.md
       - Ace Asset (XAS): system-tokens/ace-asset.md
       - Ace Coin (XAC): system-tokens/ace-coin.md
-      - Обмен токенов: system-tokens/exchange.md
-    - Расчеты за трафик:
-      - Цена трафика: traffic-payments/traffic-price.md
-      - Оплата трафика: traffic-payments/payments.md
-      - Кредитный трафик: traffic-payments/credit-trafic.md
-      - Оплата трафика бродкастерами: traffic-payments/broadcaster-payments.md
-    - Участники Сети:
-      - Бродкастеры: network-participants/broadcasters.md
-      - Правообладатели: network-participants/copyright-holders.md
-      - Дистрибьюторы: network-participants/distributors.md
-    - Сервисы:
+      - Token Exchange: system-tokens/exchange.md
+    - Traffic Payments:
+      - Traffic Price: traffic-payments/traffic-price.md
+      - Payment for Traffic: traffic-payments/payments.md
+      - Credit Traffic: traffic-payments/credit-trafic.md
+      - Traffic paid by Broadcasters: traffic-payments/broadcaster-payments.md
+    - Network's Participants:
+      - Broadcasters: network-participants/broadcasters.md
+      - Copyright Holders: network-participants/copyright-holders.md
+      - Distributors: network-participants/distributors.md
+    - Services:
       - Overview: services/index.md
       - Ace Deposit: services/ace-deposit.md
       - Ace Asset: services/ace-asset.md
       - Premium Pool: services/premium-pool.md
-      - Пользовательские каналы: services/user-channels.md
-      - Система модерации: services/moderation.md
-    - Список операций:
+      - User's Channels: services/user-channels.md
+      - Moderation: services/moderation.md
+    - List of Operations:
       - Overview: list-of-operations/index.md
       - Ace Assets: list-of-operations/ace-asset.md
       - Ace Deposit: list-of-operations/ace-deposit.md
@@ -107,16 +148,16 @@ nav:
       - Remove Device: list-of-operations/remove-device.md
     - Software: software/index.md
     - NFT: nft/index.md
-    - Словарь:
-      - Аккаунты и устройства: glossary/accounts-and-devices.md
-      - Операции: glossary/operations.md
-      - Комиссии: glossary/fees.md
-      - Транспортный файл: glossary/transport-file.md
-      - Идентификатор контента: glossary/content-identifier.md
-      - Единица трафика: glossary/traffic-unit.md
-      - Системные пулы: glossary/system-pools.md
-      - Специальные счета: glossary/special-accounts.md
-      - Гео-метка: glossary/geo-tag.md
-      - Системные настройки: glossary/system-settings.md
-      - Системные смарт-контракты: glossary/system-smart-contracts.md
+    - Glossary:
+      - Accounts and Devices: glossary/accounts-and-devices.md
+      - Operations: glossary/operations.md
+      - Fees: glossary/fees.md
+      - Transport File: glossary/transport-file.md
+      - Content Identifier: glossary/content-identifier.md
+      - Traffic Unit: glossary/traffic-unit.md
+      - System Pools: glossary/system-pools.md
+      - Special Accounts: glossary/special-accounts.md
+      - Geo Tag: glossary/geo-tag.md
+      - System Settings: glossary/system-settings.md
+      - System Smart Contracts: glossary/system-smart-contracts.md
       - Ace Stream Foundation: glossary/ace-stream-foundation.md

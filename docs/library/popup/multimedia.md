@@ -4,8 +4,6 @@ template: raw_content.html
 
 # Decentralised network with incredible multimedia capabilities
 
-==TODO: english version==
-
 Ace Network - a decentralised network that can satisfy the most sophisticated multimedia requests.
 
 

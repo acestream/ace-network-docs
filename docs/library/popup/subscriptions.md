@@ -4,8 +4,6 @@ template: raw_content.html
 
 # Fixing the "subscriptions fatigue" problem
 
-==TODO: english version==
-
 Too much streaming services (about [only 300](https://variety.com/2019/digital/news/streaming-subscription-fatigue-us-consumers-deloitte-study-1203166046/){target=_blank} в США) lead to growing consumer frustration with multiple subscriptions and services. 43% of surveyed [Deloitte in](https://www2.deloitte.com/us/en/pages/about-deloitte/articles/press-releases/digital-media-trends-thirteenth-edition.html){target=_blank} last year admitted that "refused" from searching for content and 48% stated that it is hard to find what they want in different services. 
 
 The same way the research from October 2019 [TV Time and United Talent Agency](https://www.mesaeurope.org/wp-content/uploads/2019/10/Mediamorph-29102019.pdf){target=_blank} (UTA) showed that 80% of surveyed consider that it will be too many streaming services soon. 87% stated that services are becoming too expensive. Respondents also expressed frustration at having to switch between different services (67%), difficulty setting up and managing an account (58%), and inability to find content easily (45%).

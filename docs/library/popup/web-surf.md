@@ -4,8 +4,6 @@ template: raw_content.html
 
 # Great web surfing on the waves of multimedia
 
-==TODO: english version==
-
 ## Mediabrowser
 
 **Ace Surf** - multimedia web browser. Maximum satisfaction of user interests in terms of consumption of video and audio content; openness, security and privacy; DApps support; control over ads and the ability for users to receive rewards for viewing ads.

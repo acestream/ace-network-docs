@@ -4,8 +4,6 @@ template: raw_content.html
 
 # Advertising platforms without negativity, with unique audience and the most effective ad formats
 
-==TODO: english version==
-
 DAO Ace Stream includes software products which generate ad inventory and are platforms for placing advertising materials
 
 Term «unique audience» means Internet users who are unreachable for advertisers to show ad impressions in certain formats via other networks and platforms.  
@@ -27,7 +25,7 @@ Term «unique audience» means Internet users who are unreachable for advertiser
     - Video ads in standard digital formats
     - Other ad formats such as "branding", "notifications" and "system advertisements" that will not annoy the user, but will work effectively for the advertiser
 
-![alt_text](../../../assets/images/image11.jpg "image_tooltip")
+![alt_text]({{assets_root}}/images/image11.jpg "image_tooltip")
 
 **The expected volume and estimated cost of advertising inventory, when the project reaches the target of reaching 100 million unique users per month:**
 
@@ -41,7 +39,7 @@ Daily audience is 35 millions viewers (35% of monthly audience)
 
 Distribution of expenses on TV advertising in the world in 2019 by segments, according to data [Statista](https://www.statista.com/){target=_blank}
 
-![alt_text](../../../assets/images/image8.png "image_tooltip")
+![alt_text]({{assets_root}}/images/image8.png "image_tooltip")
 
 TV viewing is 210 min per day
 
@@ -76,14 +74,14 @@ Average number of ad impressions per user is 6,841 per year
 
 Ad spending in the Digital Advertising market is projected to reach US$398,329m in 2021
 
-![alt_text](../../../assets/images/image3.png "image_tooltip")
+![alt_text]({{assets_root}}/images/image3.png "image_tooltip")
 
 > The “Ad Spending” box shows the forecasted development of the selected market (market segment, region) for each year.
 
 
 Revenue Split – Desktop & Mobile
 
-![alt_text](../../../assets/images/image1.png "image_tooltip")
+![alt_text]({{assets_root}}/images/image1.png "image_tooltip")
 
 > The "Revenue Split box shows the relation of total Advertising revenue in million US dollars depending on the displayed device (Desktop-PC or mobile device) for each year.
 
@@ -92,7 +90,7 @@ Revenue Split – Desktop & Mobile
 
 Ad spending in the Search Advertising segment is projected to reach US$174,975m in 2021.
 
-![alt_text](../../../assets/images/image4.png "image_tooltip")
+![alt_text]({{assets_root}}/images/image4.png "image_tooltip")
 
 > The “Ad Spending” box shows the forecasted development of the selected market (market segment) for each year.
 
@@ -100,7 +98,7 @@ Using Metasearch as the default search engine on mobile and desktop devices make
 
 The average ad spending per internet user in the Search Advertising segment is projected to amount to US$36.82 in 2021;
 
-![alt_text](../../../assets/images/image10.png "image_tooltip")
+![alt_text]({{assets_root}}/images/image10.png "image_tooltip")
 
 > Average spending on search advertising per internet user per each year
 
@@ -127,7 +125,7 @@ The "Social Media" video ad format includes all video ad formats posted on socia
 
 The "Out-stream" video ad format includes Ad Banners/Display, Rich Media and Sponsorship. Examples of formats are in-article video (in-text, in-read); native video; interstitial video (interstitial advertising); in-banner video etc.
 
-![alt_text](../../../assets/images/image2.png "image_tooltip")
+![alt_text]({{assets_root}}/images/image2.png "image_tooltip")
 
 > Advertising costs **In-stream** excluding "Social Media Ad Video" and "Out-stream" by years
 
@@ -135,7 +133,7 @@ The Ace Surf browser and the Ace Script extension (with the corresponding script
 
 Average video ad spend is projected to reach US $ 6.43 per internet user in 2021
 
-![alt_text](../../../assets/images/image5.png "image_tooltip")
+![alt_text]({{assets_root}}/images/image5.png "image_tooltip")
 
 > Average expenses for in-stream video advertising (excluding Social Media) per Internet user per each year
 

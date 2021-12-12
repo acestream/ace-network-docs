@@ -1,6 +1,4 @@
-# Payment for traffic
-
-==TODO: english version==
+# Payment for Traffic
 
 Traffic can be paid with any of the three system tokens: [XAC][5], [XAT][6], [XAS][7].
 

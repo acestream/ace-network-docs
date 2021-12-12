@@ -1,6 +1,4 @@
-# Traffic broadcaster payments
-
-==TODO: english version==
+# Traffic paid by Broadcasters
 
 If the option to pay for traffic by broadcasters is enabled in the [premium pool][1], then all traffic within this pool is paid from the [account for paying for services][3] of broadcaster.
 

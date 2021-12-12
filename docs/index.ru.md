@@ -1,4 +1,4 @@
 ---
-template: home.html
+template: home.ru.html
 title: Home
 ---

@@ -4,11 +4,9 @@ template: raw_content.html
 
 # Anonymity and privacy
 
-==TODO: english version==
-
 The part of internet users who are more and more concerned about own privacy in the network because of their own government as of February 2019., by countries ([source](https://www.statista.com/statistics/373900/global-opinion-online-monitoring-government/){target=_blank}).
 
-![alt_text](../../../assets/images/image7.png "image_tooltip")
+![alt_text]({{assets_root}}/images/image7.png "image_tooltip")
 
 Respect and protect privacy and private data of people in order to deserve trust in the Internet! [Principle 5, Contract for the Web](https://contractfortheweb.org/principles/principle-5/){target=_blank}
 

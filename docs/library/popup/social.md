@@ -4,8 +4,6 @@ template: raw_content.html
 
 # Decentralised messengers, video calls and social networks 
 
-==TODO: english version==
-
 Fully decentralised and extremely secured communication system which cannot be blocked or somehow restricted by anyone or anything. 
 
 !!! info ""

@@ -1,6 +1,4 @@
-# DMCA compliance
-
-==TODO: english version==
+# DMCA Compliance
 
 Over the 10 year period of Ace Stream's activity various models representing the interests of users and puzzled by the distribution of unlicensed broadcasts when using Ace Stream technologies, have thoroughly studied our products and everyone has come to the same conclusion that Ace Stream technologies and products are absolutely lawful and legal!
 

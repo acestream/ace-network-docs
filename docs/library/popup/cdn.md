@@ -4,13 +4,11 @@ template: raw_content.html
 
 # Ace Stream P2P CDN
 
-==TODO: english version==
-
 **
 Green CDN with unlimited bandwidth and the lowest cost of storage and data delivery in the world.
 **
 
-**Ace Stream P2P CDN ** is the opportunity to provide high-quality direct global broadcasting to a multi-million audience of viewers, even from an ordinary personal device connected to the network at a speed of 100 Mbps without any additional costs, without the participation of intermediaries (centralised servers and data centers) and without harming the environment.
+**Ace Stream P2P CDN** is the opportunity to provide high-quality direct global broadcasting to a multi-million audience of viewers, even from an ordinary personal device connected to the network at a speed of 100 Mbps without any additional costs, without the participation of intermediaries (centralised servers and data centers) and without harming the environment.
 
 
 !!! info
@@ -22,7 +20,7 @@ Green CDN with unlimited bandwidth and the lowest cost of storage and data deliv
 
 ## 1. At the software level elimination of the 50 times deficit of Internet bandwidth which equals to 100,000 Tbps
 
-More than 4.5 billion Internet users are connected to the Internet with an average speed around the world: mobile Internet 53 Mbit/s_(mbps)_, and wired 102 Mbit/s (as of 06.06.2021, according to data [https://www.speedtest.net/global-index](https://www.speedtest.net/global-index){target=_blank})
+More than 4.5 billion Internet users are connected to the Internet with an average speed around the world: mobile Internet 53 Mbit/s (mbps), and wired 102 Mbit/s (as of 06.06.2021, according to data [https://www.speedtest.net/global-index](https://www.speedtest.net/global-index){target=_blank})
 
 As of May 5, 2021, the international bandwidth is 2000 Tbps and two thirds of which is used by Google, Facebook, Amazon и Microsoft. (according to data [TeleGeography](https://blog.telegeography.com/2021-international-bandwidth-trends-demand-global-networks){target=_blank})
 

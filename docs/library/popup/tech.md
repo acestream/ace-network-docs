@@ -4,8 +4,6 @@ template: raw_content.html
 
 # Key technologies
 
-==TODO: english version==
-
 ## Ace Stream
 **Ace Stream** - a decentralised technology of P2P comms, storage and delivery of multimedia data focused on online broadcasting. 
 

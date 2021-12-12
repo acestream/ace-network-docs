@@ -1,7 +1,5 @@
 # Ace Deposit
 
-==TODO: english version==
-
 ## Description
 
 Ace Deposit is a savings (deposit) account for the Ace Token System Tokens (XAT) with a floating rate.

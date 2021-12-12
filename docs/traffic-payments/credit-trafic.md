@@ -1,6 +1,4 @@
-# Credit traffic 
-
-==TODO: english version==
+# Credit Traffic
 
 Each Ace Stream user has a "credit limit" of traffic in amount of 10 GB. This means that during settlements for traffic a user can consume traffic on credit if he does not have enough funds to pay for traffic. The creditors are the peers which provide traffic. The maximum total amount of credits for one user is 10 GB. If a user has exceeded his credit limit, then network peers stop sending traffic to him until the loan is paid back (in whole or in part).
 

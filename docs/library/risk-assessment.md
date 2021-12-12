@@ -1,6 +1,4 @@
-# Risk assessment
-
-==TODO: english version==
+# Risk Assessment
 
 ## Reliability of the DAO Ace Stream project
 

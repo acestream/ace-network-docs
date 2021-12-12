@@ -4,8 +4,6 @@ template: raw_content.html
 
 # DAO Ace Stream platforms for affiliate programs 
 
-==TODO: english version==
-
 In addition to the ability for users to view advertisements for a reward, users of the Ace Surf, Ace Search and Ace Script products will also receive rewards for various actions, according to the CPA (Cost per Action) model. For example, for the purchase of goods/services, for registration, etc. Also, users will be provided with various promo codes, coupons and discounts.
 
 How it will be implemented:

@@ -4,8 +4,6 @@ template: raw_content.html
 
 # The best solution for fighting pirated content on P2P networks in the world
 
-==TODO: english version==
-
 ## Relevance of "pirate" problem»
 
 According to the analytical agency Frontier Economics the total losses of copyright holders due to illegal production and distribution of content will reach $ 2.3 trillion by 2022.

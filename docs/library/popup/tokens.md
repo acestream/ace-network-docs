@@ -2,9 +2,7 @@
 template: raw_content.html
 ---
 
-# 100% backed tokens and algorithmic stablecoin that generates здуфігку and saves the environment
-
-==TODO: english version==
+# 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
 
 **Ace Token (XAT)** - a basic and automatically burned system token backed by an Internet channel with a bandwidth of over 100,000 Tbps, premium content and all services of the Ace Network.
 
@@ -22,9 +20,9 @@ Cryptocurrencies and their positioning:
 
 About miners:
 
-- **Bitcoin miners- dig and mine!**
-- **Майнеры Chia Coin - seed and grow!**
-- **Майнеры Ace Coin - chilling!**
+- **Bitcoin miners - digging and mining!**
+- **Chia Coin miners - plotting and farming!**
+- **Ace Coin miners - chilling!**
 
 About mining:
 
@@ -32,7 +30,7 @@ About mining:
 
 The University of Cambridge estimates that the total annual electricity consumption of the Bitcoin network is 121.05 terawatt hours (relevant data on [https://cbeci.org](https://cbeci.org))
 
-![alt_text](../../../assets/images/image9.png "image_tooltip")
+![alt_text]({{assets_root}}/images/image9.png "image_tooltip")
 
 But Bitcoin's biggest problem is perhaps not even its huge energy consumption, but the fact that a significant proportion of mining enterprises are located in regions that rely heavily on coal power (either directly or for load balancing purposes).Simply put, according to an energy researcher at the Technical University of Munich **Christian Stoll** (Christian Stoll), **«coal fuels bitcoin»** ([https://www.wired.com/story/bitcoins-climate-impact-global-cures-local/](https://www.wired.com/story/bitcoins-climate-impact-global-cures-local/)).
 
@@ -41,9 +39,9 @@ Currently (March 2021) Bitcoin coal footprint is estimated at  **37,82 mill t/ye
 
 - **Chia Coin mining** - lottery on SSD and HDD drives which does not require colossal energy consumption.
 
-«Sowing» (plotting) it's a process that very quickly destroys disks due to their off-label use (be careful!)
+Plotting is a process that very quickly destroys disks due to their off-label use (be careful!)
 
-«Grwoing» (farming) – formation and development of structures of "farms" from SSD and HDD on which disk space will be clogged exclusively with technical data without the possibility of using it for global or personal storage of user files.
+Farming – formation and development of structures of "farms" from SSD and HDD on which disk space will be clogged exclusively with technical data without the possibility of using it for global or personal storage of user files.
 
 !!! note ""
 

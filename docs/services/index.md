@@ -1,7 +1,5 @@
 # Services
 
-==TODO: english version==
-
 In this section is described services which are available for Network users.
 
 - [Ace Deposit](ace-deposit.md)

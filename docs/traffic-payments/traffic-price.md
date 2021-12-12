@@ -1,6 +1,4 @@
-# Traffic price
-
-==TODO: english version==
+# Traffic Price
 
 The price of traffic in the system is expressed in XAC and is automatically adjusted based on the level of traffic consumption.
 

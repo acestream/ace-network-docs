@@ -2,8 +2,6 @@
 template: raw_content.html
 ---
 
-==TODO: english version==
-
 ### Internet accelerator
 
 **Turbo Stream** – a function of automatic connection of P2P technology (Ace Stream) when watching videos (VoD and/or Live Stream) on centralised services that are broadcast in HLS format (for example, on YouTube, Twitch, etc.)

@@ -1,4 +1,4 @@
-# Криптоактивы и комиссии Сети
+# Crypto Assets and Fees
 
 <div id="popup-container" style="display: none;">
     <div id="popup-overlay"></div>

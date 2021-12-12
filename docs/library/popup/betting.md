@@ -4,8 +4,6 @@ template: raw_content.html
 
 # One click bets and predictions in live broadcasts
 
-==TODO: english version==
-
 **Ace Bet** – a decentralised system of stock exchange predictions/bets with a function of automatic placement of interactive blocks (live-bets/predictions) in the live sport and other events broadcasts. 
 
 <p style="text-align: center">

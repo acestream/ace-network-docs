@@ -1,5 +1,4 @@
-# System tokens
-
+# System Tokens
 
 System tokens are tokens native to Ace Network. They have existed on the network
 network since its launch, and unlike [assets][1] do not require [issuer][2]

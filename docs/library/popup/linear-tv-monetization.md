@@ -4,8 +4,6 @@ template: raw_content.html
 
 # TV Next - future of TV channels is here!
 
-==TODO: english version==
-
 _Ace Stream takes Internet broadcasting to a new level and openes up new horizons and unlimited possibilities for TV channels._
 
 **Effective monetisation of linear TV on the Internet and decentralised networks**
@@ -18,7 +16,7 @@ The DAO Ace Stream toolkit for television channels allows broadcasting on the In
 
     For example to compare:
 
-    ![alt_text](../../../assets/images/image6.jpg "image_tooltip")
+    ![alt_text]({{assets_root}}/images/image6.jpg "image_tooltip")
 
 
 **Addressable linear television in the Ace Network**
@@ -72,7 +70,7 @@ Function Automatic content recognition allows to monetise broadcasts during its 
 
 Simply speaking owners of on-air TV channels operating on an advertising model no longer have to worry about the unlicensed and massive distribution of their TV broadcasts on the Internet, since their rights will be fully respected and the monetization model will be preserved, in which the TV channel will receive its guaranteed income from the targeted sale of on-air advertising spaces , regardless of who rebroadcast the TV channel to the Network and regardless of what sites, in what applications and on what devices it is watched 
 
-- **IOTT (Interactive – Over-The- Top)** Interactive services for TV-channels
+- **IOTT (Interactive – Over-The-Top)** Interactive services for TV-channels
 
 The IOTT service function is designed to create interactive services over broadcasts (standard: HTML)
 

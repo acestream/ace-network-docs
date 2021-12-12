@@ -1,7 +1,5 @@
 # Welcome
 
-==TODO: english version==
-
 You are reading the guide about Ace Network.
 
 Here you can find common description of the system and its components, technical details, examples and many more. 

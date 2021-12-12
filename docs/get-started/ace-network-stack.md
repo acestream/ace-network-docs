@@ -10,7 +10,7 @@ Backbone technology for the whole network, P2P communication layer optimised for
 
 ## Stellar
 
-Well-known distributed ledger implementation used in Ace Network to store and transfer crypto-assets (reasons why Stellar fits Ace Stream's needs the best, and other technical details are available in [Network Architecture])
+Well-known distributed ledger implementation used in Ace Network to store and transfer crypto-assets (reasons why Stellar fits Ace Stream's needs the best, and other technical details are available in [Network Architecture][1])
 
 
 ## Tribler
@@ -21,3 +21,6 @@ The veteran project of the P2P area had absorbed plenty of nuances associated wi
 * distributed database
 * distributed traffic accounting
 * detecting malicious actions and actors (fake data, double-spending attempts, etc.)
+
+
+[1]: network-architecture.md

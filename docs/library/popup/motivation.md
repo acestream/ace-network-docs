@@ -2,8 +2,6 @@
 template: raw_content.html
 ---
 
-==TODO: english version==
-
 Automatic reward for users and partners of Network:
 
 - for providing the Network with its hardware and network resources;

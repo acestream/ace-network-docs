@@ -8,8 +8,6 @@
     </div>
 </div>
 
-==TODO: english version==
-
 **Ace Stream** – an international project to create a decentralised media platform which was actively developed in 2013 under the programme of business initiatives and with financial support from the European Union.
 
 !!! info ""
@@ -208,13 +206,13 @@ Automatic reward for users and partners of Network:
 
 ### 7. Effective monetisation of linear television on Internet and decentralised networks 
 
-The DAO Ace Stream set of tools for television channels allows broadcasting on the Internet with the following rate: ** AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year **, depending on the distribution of the audience by region
+The DAO Ace Stream set of tools for television channels allows broadcasting on the Internet with the following rate: **AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year**, depending on the distribution of the audience by region
 
 **The average AARPU rate for TV ** (according to international analytics services) **over 40$ per year**  
 
 !!! info "For example to compare"
 
-    ![alt_text](../../assets/images/image6.jpg "image_tooltip")
+    ![alt_text]({{ assets_root }}/images/image6.jpg "image_tooltip")
 
 <p style="text-align: center">
     <em>
@@ -391,7 +389,7 @@ Ads formats, ad Inventory volumes and its cost when the target of 100 mil active
 
     AARPU (Average Ad Revenue per User) - 6,57$ (Desktop+Mobile) per year
 
-*   **Other ad formats such as “branding”, “notifications” and “system message advertisements” ** that will not annoy the user but will work effectively for the advertiser 
+*   **Other ad formats such as “branding”, “notifications” and “system message advertisements”** that will not annoy the user but will work effectively for the advertiser
 
     The predicted annual volume of advertising inventory – 150 billions impressions with a total amount of 450 mil.$ with an average CPM 3$.
 

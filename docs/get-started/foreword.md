@@ -1,4 +1,4 @@
-# Preambe
+# Foreword
 
 P2P networks follow the same simple principle that drives the economic processes: you scratch my back, and I'll scratch yours. What it means, when the client of the P2P network consumes some resources, it has to do a comparable amount of work for others.
 

@@ -1,6 +1,4 @@
-
-
-
+# Token Classification, SEC
 
 Below are listed criteria by which DAO Ace Stream and [XAT][2] and [XAS][3] could be estimated by regulators
 

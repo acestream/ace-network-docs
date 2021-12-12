@@ -1,7 +1,5 @@
 # Why, for whom and for what?
 
-
-
 ## Content providers
 
 Advantages brought by adopting Ace Stream technologies are including but not limited to:
