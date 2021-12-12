@@ -2,113 +2,113 @@
 template: raw_content.html
 ---
 
-# Рекламные площадки без негатива, с уникальной аудиторией и самыми эффективными форматами рекламы
+# Advertising platforms without negativity, with unique audience and the most effective ad formats
 
 ==TODO: english version==
 
-DAO Ace Stream включает в себя программные продукты, которые генерируют рекламный инвентарь и являются площадками для размещения рекламных материалов
+DAO Ace Stream includes software products which generate ad inventory and are platforms for placing advertising materials
 
-Термин: «уникальная аудитория» - пользователи Интернет, которые недостижимы для рекламодателей через другие сети и площадки, для показов рекламы в определенных форматах.
+Term «unique audience» means Internet users who are unreachable for advertisers to show ad impressions in certain formats via other networks and platforms.  
 
 !!! info ""
 
-    **Вопрос** - как Ace Network формирует «уникальную аудиторию» для рекламодателей?
+    **Question** - how Ace Network create «unique audience» for advertisers?
 
-    **Ответ** - при использовании приложения Metasearch, как поисковой системы по умолчанию на мобильных и десктопных устройствах, Ace Network становится единственным источником (площадкой) для рекламодателей, через который будет возможно получить доступ к пользователям  Сети для показов поисковой рекламы, так как пользователь обычно использует только какой-то один выбранный им поисковый сервис. Аналогичная ситуация и с браузером Ace Surf и расширением Ace Script, которые будут по умолчанию удалять всю рекламу на сайтах, давая пользователю возможность смотреть только рекламу Сети, за просмотр которой пользователь будет получать вознаграждение. А благодаря наличию универсального мультимедийного плеера, которой пользователь сможет использовать для просмотра видео на любых сайтах, и сервисам iStream, которые более чем на 90% будут удовлетворять потребности пользователя в просмотре видео, то соответственно и видеорекламу он будет видеть практически только ту, которая будет публиковаться через Ace Network.
+    **Answer** - while using the Metasearch app as the default search engine on mobile and desktop devices, Ace Network becomes available to Internet users for displaying search advertising, since the user commonly uses only one chosen search services. The situation is similar with the Ace Surf browser and the Ace Script plugin as they will remove by default all advertisements on websites and will give opportunity for users only to view ads they can be rewarded for. And thanks to the presence of a universal multimedia player, which the user can use to watch videos on any sites and iStream services, which will satisfy the user's needs for watching videos more than 90%, then he will see video ads that will be published via Ace Network only.
 
-- 100% гарантия отсутствия негатива пользователей при просмотре рекламы
+- 100% guarantee there will be no user negativity when viewing ads
 
-    *Отсутствие негатива к рекламодателю достигается за счет вознаграждения пользователей за просмотр рекламы и наличием у пользователя полного контроля над рекламными показами (аналогично модели, реализованной и хорошо обкатанной в браузере Brave).*
+    *Lack of negativity towards the advertiser is achieved by rewarding users for viewing ads and by giving the user full control over ad impressions (similar to the model implemented and well-tested in the Brave browser).*
 
-- Самые эффективные форматы рекламы
+- Most effective ad formats
 
-    - Поисковая контекстная реклама
-    - Телевизионная реклама (реклама в линейном телевидение)
-    - Видеореклама в стандартных цифровых форматах
-    - Другие форматы рекламы, такие как «брендирование», «уведомления» и «системные рекламные сообщения», которые не будут раздражать пользователя, но при этом будут эффективно работать на рекламодателя
+    - Search contextual advertising
+    - Television ads (linear television ads)
+    - Video ads in standard digital formats
+    - Other ad formats such as "branding", "notifications" and "system advertisements" that will not annoy the user, but will work effectively for the advertiser
 
-![alt_text]({{ assets_root }}/images/image11.jpg "image_tooltip")
+![alt_text](../../../assets/images/image11.jpg "image_tooltip")
 
-**Прогнозируемый объем и расчетная стоимость рекламного инвентаря, при достижении проектом цели охвата 100 млн. уникальных пользователей в месяц:**
+**The expected volume and estimated cost of advertising inventory, when the project reaches the target of reaching 100 million unique users per month:**
 
-## 1. Телевизионная реклама (реклама в линейном телевидение)
+## 1. Television ads (linear television ads)
 
-Автоматическое замещение линейных рекламных мест в эфирных телеканалах на адресную цифровую рекламу, посредством инструментов  **Addressable TV + Programmatic**
+Automatic replacement of linear advertising spaces in TV channels with addressable digital advertising using tools  **Addressable TV + Programmatic**
 
-**Вводные данные для расчета рекламного инвентаря:**
+**Input data for calculating advertising inventory:**
 
-Суточная аудитория - 35 млн. зрителей (35% от ежемесячной аудитории)
+Daily audience is 35 millions viewers (35% of monthly audience)
 
-Распределение расходов на телерекламу в мире в 2019 году по сегментам, согласно данным [Statista](https://www.statista.com/){target=_blank}
+Distribution of expenses on TV advertising in the world in 2019 by segments, according to data [Statista](https://www.statista.com/){target=_blank}
 
-![alt_text]({{ assets_root }}/images/image8.png "image_tooltip")
+![alt_text](../../../assets/images/image8.png "image_tooltip")
 
-Телесмотрение – 210 мин. в сутки
+TV viewing is 210 min per day
 
-Время затрачиваемое одним зрителем на просмотр телеканалов с линейной рекламой (эфирными рекламными блоками) – 85% от общего времени телесмотрения (178,5 мин. в сутки)
+The time spent by one viewer to watch TV channels with linear advertising (on-air advertising blocks) equals 85% of the total TV viewing time (178.5 minutes per day)
 
-Рекламное время в телевизионной трансляциях – 15% от общего эфирного времени в сутки
+Advertising time in television broadcasts equals 15% of the total airtime per day
 
-Расчетная длительность рекламного ролика – 30 сек
+Estimated duration of the commercial - 30 sec
 
-Стоимость размещения рекламного ролика, CPT (цена за 1000 контактов): в России - $2, в Восточной Европе — $4, в Северной Америке — $29, а в среднем по миру — $20. (по данным агентства «Initiative», входящего в группу АДВ)
+The cost of posting a video ad, CPT (cost per thousand contacts): in Russia - $2, in Eastern Europe — $4, in North America — $29, world's average — $20. (according to the agency "Initiative", which is part of the ADV group)
 
-!!! info "Расчет стоимости размещения, с учетом фактора длительности рекламного ролика"
+!!! info "Calculation of the cost of posting if we tale into account the duration of video ad"
 
-    При использовании разных временных интервалов, учитывается фактор использования большего или меньшего времени в рекламной паузе, и для расчета стоимости размещения рекламного ролика применяются следующие коэффициенты:
+    When using different time intervals, the factor of using more or less time in an advertising break is taken into account, and the following coefficients are used to calculate the cost of posting an advertising video:
 
-    - от 40 до 60 секунд = умножить стоимость размещения на 2 (так как покупается в два раза больше рекламного времени, чем 30-секундное объявление.
-    - от 30 до 40 секунд = умножить на 1,33
-    - от 20 до 30 секунд = умножить на 1
-    - от 10 до 20 секунд = умножить на 0,85
-    - до 10 секунд = умножить на 0,5
+    - 40 to 60 seconds = multiply the cost of ad placement by 2 (since it buys twice as much ad time as a 30-second ad.
+    - 30 to 40 seconds = multiply by 1.33
+    - 20 to 30 seconds = multiply by 1
+    - 10 to 20 seconds = multiply by 0.85
+    - up to 10 seconds = multiply by 0.5
 
-**Итого:**
+**Overall:**
 
-Объем суточного рекламного инвентаря – 1 874 250 000 показов, общей стоимостью от 3 748 500$ (CPT 2$) до 37 485 000$ (CPT 20$), в зависимости от распределения аудитории по регионам.
+The volume of daily advertising inventory is 1,874,250,000 impressions with a total cost from $ 3,748,500 (CPT $ 2) to $ 37,485,000 (CPT $ 20), depending on the distribution of the audience by region.
 
-Объем годового рекламного инвентаря – 684 101 250 000 показов, общей стоимостью от 1 368 202 500$ (CPT 2$) до 13 682 025 000$ (CPT 20$), в зависимости от распределения аудитории по регионам
+The volume of annual advertising inventory is 684,101,250,000 impressions with a total value from $ 1,368,202,500 (CPT $ 2) to $ 13,682,025,000 (CPT $ 20), depending on the audience distribution by region
 
-Среднее количество рекламных показов на одного пользователя - 6 841 в год
+Average number of ad impressions per user is 6,841 per year
 
 
-## 2. Digital Advertising (стандартные форматы Интернет-рекламы)
+## 2. Digital Advertising (standard formats of Internet ads)
 
 Ad spending in the Digital Advertising market is projected to reach US$398,329m in 2021
 
-![alt_text]({{ assets_root }}/images/image3.png "image_tooltip")
+![alt_text](../../../assets/images/image3.png "image_tooltip")
 
 > The “Ad Spending” box shows the forecasted development of the selected market (market segment, region) for each year.
 
 
 Revenue Split – Desktop & Mobile
 
-![alt_text]({{ assets_root }}/images/image1.png "image_tooltip")
+![alt_text](../../../assets/images/image1.png "image_tooltip")
 
 > The "Revenue Split box shows the relation of total Advertising revenue in million US dollars depending on the displayed device (Desktop-PC or mobile device) for each year.
 
 
-### 1. Поисковая реклама
+### 1. Search advertising
 
 Ad spending in the Search Advertising segment is projected to reach US$174,975m in 2021.
 
-![alt_text]({{ assets_root }}/images/image4.png "image_tooltip")
+![alt_text](../../../assets/images/image4.png "image_tooltip")
 
 > The “Ad Spending” box shows the forecasted development of the selected market (market segment) for each year.
 
-При использовании Metasearch, как поисковой системы по умолчанию, на мобильных и десктопных устройствах, Metasearch становится единственным источником (площадкой) для рекламодателей, через который будет возможно получить доступ к нашим пользователям для показов поисковой рекламы. А это означает, что 100% от всего бюджета на поисковую рекламу, выделяемого рекламодателями на одного интернет-пользователя, может определяться как реальная рыночная стоимость объема инвентаря DAO Ace Stream.
+Using Metasearch as the default search engine on mobile and desktop devices makes Metasearch the only source (platform) for advertisers through which it will be possible to access our users for displaying search ads. This means that 100% of the total search advertising budget allocated by advertisers per Internet user can be determined as the real market value of the DAO Ace Stream inventory volume.
 
 The average ad spending per internet user in the Search Advertising segment is projected to amount to US$36.82 in 2021;
 
-![alt_text]({{ assets_root }}/images/image10.png "image_tooltip")
+![alt_text](../../../assets/images/image10.png "image_tooltip")
 
-> Средние расходы на поисковую рекламу на одного интернет пользователя, за каждый год
+> Average spending on search advertising per internet user per each year
 
-Стоимость инвентаря поисковой рекламы, находящегося в распоряжении DAO Ace Stream, согласно статистике и прогнозам:
+The cost of the search ad inventory held by DAO Ace Stream, according to statistics and predictions:
 
-- **36.82$, на одного пользователя Metasearch (Desktop+Mobile), в 2021 г**
-- **37,44$, на одного пользователя Metasearch (Desktop+Mobile), в 2022 г**
-- **37,4$, на одного пользователя Metasearch (Desktop+Mobile), в 2023 г**
+- **$ 36.82, per Metasearch user (Desktop + Mobile) in 2021**
+- **$ 37.44, per Metasearch user (Desktop + Mobile) in 2022**
+- **$ 37.4, per Metasearch user (Desktop + Mobile) in 2023**
 
 
 Revenue Split – Desktop & Mobile:
@@ -116,68 +116,68 @@ Revenue Split – Desktop & Mobile:
 - Search Advertising Desktop - 18,64$ в 2021г.; 18,35$ в 2022г.; 17,62$ в 2023г.
 - Search Advertising Mobile - 18,18$ в 2021г.; 19,09$ в 2022г.; 19,78$ в 2023г.
 
-**Прогнозируемый объем годового инвентаря, при достижении цели в 100 млн. активных ежемесячных пользователей Metasearch, на 2023 год - 3,74 млрд.$**
+**The expected volume of annual inventory, upon reaching the target of 100 million active monthly Metasearch users for 2023 is $ 3.74 billion**
 
 
-### 2. Видеореклама
+### 2. Video ads
 
-Расходы на рекламу в сегменте видеорекламы по прогнозам достигнут **US$30,553 млн. в 2021, в форматах "In-stream"**, без учета расходов на видеорекламу в "Social Media" и на видеоформаты "Out-stream", расходы на которые составят свыше US$41,146 млн. в 2021.
+Advertising expenses in the video advertising segment are projected to reach **US $ 30.553 million in 2021, in "In-stream" formats**, excluding expenses on video advertising in "Social Media" and on video formats "Out-stream", the costs of which will exceed US $ 41.146 million in 2021.
 
-Формат видеорекламы "Social Media" включает: все форматы видеорекламы, размещаемые на социальных платформах, включая социальные сети, веб-сайты и приложения для игр (к примеру, такие как: YouTube, Facebook, Instagram, Twitter, TikTok, Twich и т.п.)
+The "Social Media" video ad format includes all video ad formats posted on social platforms, including social networks, websites and game apps (such as YouTube, Facebook, Instagram, Twitter, TikTok, Twich, etc.)
 
-Формат видеорекламы "Out-stream" включает: Ad Banners/Display, Rich Media и Sponsorship. Примеры форматов: in-article video (in-text, in-read); native video; interstitial video (межстраничная реклама); in-banner video и т.д.
+The "Out-stream" video ad format includes Ad Banners/Display, Rich Media and Sponsorship. Examples of formats are in-article video (in-text, in-read); native video; interstitial video (interstitial advertising); in-banner video etc.
 
-![alt_text]({{ assets_root }}/images/image2.png "image_tooltip")
+![alt_text](../../../assets/images/image2.png "image_tooltip")
 
-> Расходы на рекламу **In-stream** без учета «Social Media Ad Video» и «Out-stream», по годам
+> Advertising costs **In-stream** excluding "Social Media Ad Video" and "Out-stream" by years
 
-Браузер Ace Surf и расширение Ace Script (с соответствующим скриптом) будут по умолчанию замещать любую стороннюю видеорекламу In-stream на свою, на всех посещаемых пользователем сайтах, включая всевозможные социальные медиа, которые нами преднамеренно не учитываются в прогнозах данного раздела, чтобы максимально точно спрогнозировать объемы возможного видео инвентаря DAO Ace Stream. Помимо замещения рекламы на сайтах , функциональные возможности продуктов DAO Ace Stream будут почти на 100% покрывать все потребности пользователя в части его запросов и предпочтений по видеоконтенту, тем самым избавляя его от необходимости в использовании каких-либо сторонних приложений, предназначенных для просмотра ТВ, фильмом, сериалов, спортивных событий и т.п., на которые приходится основная доля (почти 100%) объемов показов видеорекламы In-stream (вне Social Media). С учетом этого, можно прогнозировать что DAO Ace Stream становится единственным источником (площадкой) для рекламодателей, через который будет возможно получить доступ к нашим пользователям для показов видеорекламы в формате In-stream (вне Social Media). А это означает, что почти 100% от всего бюджета на видеорекламу In-stream (вне Social Media), выделяемого рекламодателями на одного интернет-пользователя, может определяться как реальная рыночная стоимость объема инвентаря DAO Ace Stream
+The Ace Surf browser and the Ace Script extension (with the corresponding script) will by default replace any third-party In-stream video advertising with their own on all sites visited by the user, including all kinds of social media, which we deliberately do not take into account in the predictions of this section in order to predict as accurately as possible volumes of possible video inventory of DAO Ace Stream. In addition to replacing advertising on sites, the functionality of DAO Ace Stream products will almost 100% cover all user needs in terms of his requests and preferences for video content, thereby removing the need to use any third-party applications intended for watching TV with a movie. , TV series, sporting events, etc., which account for the bulk (almost 100%) of In-stream video ad impressions (outside Social Media). Taking this into account, it can be predicted that DAO Ace Stream will become the only source (platform) for advertisers through which it will be possible to get access to our users for displaying video ads in the In-stream format (outside of Social Media). This means that almost 100% of the total budget for in-stream video advertising (outside of Social Media) allocated by advertisers per Internet user can be determined as the real market value of the DAO Ace Stream inventory volume
 
-Средние расходы на видеорекламу по прогнозам достигнут US$6,43 на одного пользователя Интернет в 2021
+Average video ad spend is projected to reach US $ 6.43 per internet user in 2021
 
-![alt_text]({{ assets_root }}/images/image5.png "image_tooltip")
+![alt_text](../../../assets/images/image5.png "image_tooltip")
 
-> Средние расходы на видеорекламу in-stream (без учета Social Media) на одного интернет-пользователя, за каждый год
+> Average expenses for in-stream video advertising (excluding Social Media) per Internet user per each year
 
-Стоимость инвентаря видеорекламы в форматах in-stream, находящегося в распоряжении DAO Ace Stream, согласно статистике и прогнозам:
+The cost of in-stream video advertising inventory held by DAO Ace Stream, according to statistics and predictions:
 
-- **6,43$, на одного пользователя Ace Surf (Desktop+Mobile), в 2021 г**
-- **6,58$, на одного пользователя Ace Surf (Desktop+Mobile), в 2022 г**
-- **6,57$, на одного пользователя Ace Surf (Desktop+Mobile), в 2023 г**
+- **6.43 $ per user Ace Surf (Desktop + Mobile) in 2021**
+- **6.58 $ per user Ace Surf (Desktop + Mobile) in 2022**
+- **6.57 $ per user Ace Surf (Desktop + Mobile) in 2023**
 
-**Прогнозируемый объем годового инвентаря, при достижении цели в 100 млн.  пользователей браузера Ace Surf, а также других базовых продуктов DAO Ace Stream, на 2023 год:**
+**The expected volume of annual inventory, when reaching the target of 100 million users of the Ace Surf browser, as well as other basic DAO Ace Stream products for 2023:**
 
-Объем годового рекламного инвентаря – 131 400 000 000 показов, общей стоимостью 657 млн.$, при среднем CPM 5$
+The volume of annual advertising inventory is 131.4 billion impressions with a total value of $ 657 million and an average CPM of $ 5
 
-Среднее количество рекламных показов на одного пользователя - 1 314 в год.
-
-
-### 3. Другие форматы рекламы
-
-Мощные форматы рекламы, такие как брендирование, уведомления и системные рекламные сообщения, которые не будут раздражать пользователя, но при этом будут эффективно работать на рекламодателя
-
-**«Брендирование»** - рекламные изображения будут показываться на новой вкладке браузера Ace Surf, в виде фонового брендированного изображения рекламодателя и интерактивной кнопкой переходя на сайт рекламодателя.
+The average number of ad impressions per user is 1,314 per year.
 
 
-**«Уведомления»** –  пользователь будет видеть небольшое аккуратно оформленное уведомление и/или бонусную кнопку, при нажатии на которую будет открываться отдельная страница рекламодателя ( аналог кликандера, только в лайтовом и презентабельном для пользователя виде) либо будет запускаться плеер с рекламным роликом.
+### 3. Other ads format
+
+Powerful ad formats such as branding, notifications, and systemic advertisements that will not annoy the user but still work effectively for the advertiser
+
+**«Branding»** - advertising images will be shown in a new tab of the Ace Surf browser, in the form of a branded background image of the advertiser and an interactive button going to the advertiser's website.
 
 
-**«Системные рекламные сообщения»** - сообщения, которые будут показываться пользователю, с оплатой за показы
+**«Notifications»** –  the user will see a small neatly designed notification and/or a bonus button, upon clicking on a separate advertiser's page will open (analogous to a clickander, only in a light and presentable form for the user) or a player with an advertising video will be launched.
 
-Указанные форматы входят в сегмент Ad Banners/Display, Rich Media, и относятся к бюджетам рекламодателей, выделяемых на такой сегмент рекламы.
 
-Объем и оценка стоимости рекламного инвентаря DAO Ace Stream по указанным форматам будет впрямую зависеть от настроек частоты показов такой рекламы (которая будет выставлена по умолчанию или непосредственно самим пользователем через настройки). На данный момент еще нет решения о частоте показов, которая будет оптимальна для пользователя и которая будет установлена по умолчанию, поэтому приводим ориентировочный объем инвентаря и его стоимость.
+**«Systemic advertisements»** - messages that will be shown to the user with payment for impressions
 
-**Ориентировочный объем годового инвентаря, при достижении цели в 100 млн. пользователей:**
+These formats are included in the Ad Banners/Display, Rich Media segment and refer to the advertisers' budgets allocated for such an advertising segment.
 
-Среднее количество рекламных показов на одного пользователя -  1 500 в год
+The volume and cost estimate of DAO Ace Stream ad inventory for the specified formats will directly depend on the frequency settings for such ads (which will be set by default or directly by the user through the settings). At the moment, there is still no decision on the frequency of impressions which will be optimal for the user and which will be set by default, that's why we provide an approximate amount of inventory and its cost.
 
-Годовой объем рекламного инвентаря – 150 млрд. показов, общей стоимостью 450 млн.$ при среднем CPM 3$.
+**Estimated volume of annual inventory, when reaching the target of 100 million users:**
+
+Average number of ad impressions per user is 1,500 per year
+
+The annual volume of advertising inventory is 150 billion impressions with a total value of $ 450 million and an average CPM of $ 3.
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>
