@@ -4,18 +4,18 @@ template: raw_content.html
 
 ==TODO: english version==
 
-### Ускоритель Интернета
+### Internet accelerator
 
-**Turbo Stream** – функция автоматического подключения технологии P2P (Ace Stream) при просмотре видео (VoD и/или Live Stream) на централизованных сервисах, которые вещаются в формате HLS (к примеру, на таких как YouTube, Twitch и т.п.)
+**Turbo Stream** – a function of automatic connection of P2P technology (Ace Stream) when watching videos (VoD and/or Live Stream) on centralised services that are broadcast in HLS format (for example, on YouTube, Twitch, etc.)
 
 !!! info ""
 
-    Использовании данной функции при просмотре видео позволяет пользователю получать поток не только от одного источника (сервера вещателя), а одновременно от многочисленных источников (других зрителей), что обеспечивает максимальную скорость загрузки данных и  стабильность при просмотре VoD и Live Stream на любых централизованных сервисах
+    The usage of this function during viewing video allows user to receive stream not only from one source (broadcaster server) but simultaneously from multiple sources (other viewers) which provides the highest load data speed and stability of stream during watching VoD and Live Stream on any centralised services.   
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>
