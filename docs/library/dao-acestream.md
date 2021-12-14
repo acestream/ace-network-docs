@@ -266,29 +266,6 @@ The copyright holder will receive payment for every minute of the content playba
 </p>
 
 
-<!--
-### 9. All the best from the world of multimedia in one bottle
-
-DAO Ace Stream provide Internet users with the opportunity to enjoy decentralised analogs of services such as Apple TV Channels and Google TV Channels, in one bottle with Netflix, YouTube, Twitch, Hulu, Amazon Prime Video, HBO, ESPN +, etc. with a wider range content and additional functions.
-
-
-!!! note ""
-
-    There is no longer a need to register a bunch of subscriptions on various services in order to fully satisfy your personal needs in watching TV channels, sports events, films and TV series and in other media consumption.
-
-!!! note ""
-
-    Thousands of popular TV-channels, hundred thousands of movies and series, broadcasts of almost every popular sport event and all possible streams, videos and music in the best audiovisual quality from the one point of access and that's what Ace Network users gets! 
-
-<p style="text-align: center">
-    <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/multimedia" href="#">
-            Read more
-        </a>
-    </em>
-</p>
--->
-
 ### 10. Cool web surfing on the waves of multimedia
 
 *   **Ace Surf**  - A multimedia web-browser (extreme satisfaction of users interests in terms of video and audio content consumptions); open, security and privacy; DApps support; control over ads and a possibility for users to receive a reward for ads viewing. 
