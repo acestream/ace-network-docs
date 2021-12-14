@@ -57,18 +57,20 @@ The DAO Ace Stream ecosystem is based on blockchain technology and has no owners
 </p>
 
 
-## Relevance of decisions (technologies, services and products) DAO Ace Stream
+## Relevance of DAO Ace Stream Solutions
 
-### 1. Decentralised network with incredible multimedia capabilities
+### 1. Decentralized network with incredible multimedia capabilities
 
-Ace Network - a decentralised network that can satisfy the most sophisticated multimedia requests.
+Total immersion into multimedia with DAO Ace Stream products and solutions:
 
-- WEB 3.0 (DApps, decentralised apps/sites)
-- Huge stock and convenient search for multimedia content in a decentralised network
-- Smart TV and interactive broadcasts, AR, VR и 360°
+- The embodiment of ideas and requests from the multi-million audience of Ace Stream in the decentralized media browser Ace Surf
+- WEB 3.0 (DApps, decentralized apps and sites)
+- Simple and efficient search for multimedia content with the decentralized metasearch system Ace Search
+- Convenient content cataloging and full-featured media server
+- Smart TV and interactive broadcasts, AR, VR and 360°
 - The highest level of stability in online broadcasts and the best audiovisual content quality 
 - Wide range of social and multimedia options
-- Unique bonus and reward system for viewers
+- Unique decentralized bonus and reward system for viewers
 
 <p style="text-align: right">
     <strong><em>Television of future here!</em></strong>
@@ -266,24 +268,7 @@ The copyright holder will receive payment for every minute of the content playba
 </p>
 
 
-### 10. Cool web surfing on the waves of multimedia
-
-*   **Ace Surf**  - A multimedia web-browser (extreme satisfaction of users interests in terms of video and audio content consumptions); open, security and privacy; DApps support; control over ads and a possibility for users to receive a reward for ads viewing. 
-
-*   **Ace Search** - A metasearch system with the highest level of privacy 
-
-*   **Ace Script**  - A browser application that extends the capabilities of any web browsers with the functionality of Ace Stream, including the ability to obtain full control over advertising (removal of third-party advertising and the ability to view advertisements of the Ace Stream Network for a fee)
-
-<p style="text-align: center">
-    <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/web-surf" href="#">
-            Read more
-        </a>
-    </em>
-</p>
-
-
-### 11. Internet accelerator
+### 10. Internet accelerator
 
 *   **Turbo Stream** – a function of automatic connection of P2P technology (Ace Stream) when watching videos (VoD and/or Live Stream) on centralised services that are broadcast in HLS format (for example, on YouTube, Twitch, etc.)
 
@@ -300,7 +285,7 @@ The copyright holder will receive payment for every minute of the content playba
 </p>
 
 
-### 12. Decentralised messengers, video calls and social networks 
+### 11. Decentralised messengers, video calls and social networks
 
 Fully decentralised and extremely secured communication system which cannot be blocked or somehow restricted by anyone or anything.  
 
@@ -313,7 +298,7 @@ Fully decentralised and extremely secured communication system which cannot be b
 </p>
 
 
-### 13. Global decentralized betting platform
+### 12. Global decentralized betting platform
 
 This is a place where anyone can become a bookmaker, and existing bookmakers can significantly expand their reach by extending their betting lines to the multi-million audience of Ace Stream.
 
@@ -332,7 +317,7 @@ The best odds, bets and predictions in one click, in live streams.
 </p>
 
 
-### 14. Advertising platforms without negativity, with unique audience and the most effective ad formats
+### 13. Advertising platforms without negativity, with unique audience and the most effective ad formats
 
 DAO Ace Stream includes software products which generate ad inventory and are platforms for placing advertising materials. 
 
@@ -389,7 +374,7 @@ Ads formats, ad Inventory volumes and its cost when the target of 100 mil active
 </p>
 
 
-### 15. DAO Ace Stream platforms for affiliate programs
+### 14. DAO Ace Stream platforms for affiliate programs
 
 In addition to the ability for users to view advertisements for a reward, users of the Ace Surf, Ace Search and Ace Script products will also receive rewards for various actions, according to the CPA (Cost per Action) model. For example, for the purchase of goods/services, for registration etc. Also, users will be provided with various promo codes, coupons and discounts.
 
