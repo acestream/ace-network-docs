@@ -1,6 +1,6 @@
 # Financial Services, DeFi
 
-Ace DeFi is an ecosystem of decentraliіed financial services and amenities [DAO Ace Stream] [3], which operate on the basis of smart contracts with open source.
+Ace DeFi is an ecosystem of decentraliіed financial services of the DAO Ace Stream, which operates on the basis of open source smart contracts.
 
 Ace DeFi programs:
 
@@ -9,4 +9,3 @@ Ace DeFi programs:
 
 [1]: ../services/ace-deposit.md
 [2]: ../services/ace-asset.md
-[3]: dao-acestream.md

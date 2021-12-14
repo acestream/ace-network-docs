@@ -14,7 +14,7 @@
 
 100,000,000,000 [XAT][1] to be distributed among DeFi Ace Assets program participants by the terms of the [system smart contracts][2]
 
-**Services and services for which fees are charged to the Ace Network, with subsequent distribution to Ace Assets DeFi Program members**
+**Below are the services for which fees are charged to the Ace Network, with subsequent distribution to "Ace Assets" DeFi Program members**
 
 
 ### 1. P2P CDN/VPN/Proxy
@@ -24,14 +24,14 @@
 Brief explanation: Ace Network's effectiveness is based on an economic model in which Network users are rewarded for providing the Network with their resources (hardware, network, etc.), and also pay for the resources they consume. This is based on a decentralized traffic accounting system, with the automatic settlement
 
 !!! note "For example"
-    With an audience of 100 million users and average traffic consumption by one user at 10GB per day (which corresponds to 2 hours of watching a video, in relatively good HD quality), the Network's commission fee will be $365 million per year
+    With an audience of 100 million users and average traffic consumption by one user at 10GB per day (which corresponds to 2 hours of watching a video, in relatively good HD quality), the Network's fee will be $365 million per year
 
 
 ### 2. Premium Pool
 
-**Commission for Distribution of Content on the Web and Usage of Service [Premium Pool][3]:**
+**Fee for distribution the content in the Network with [Premium Pool][3] service:**
 
-System pool - 30% of the plan
+System pool - 30% of the content access price
 
 Commercial broadcasts and private/individual pools - 10% of the plan + a one-time fixed fee when activating the Premium Pool service.
 
@@ -41,7 +41,7 @@ Forecast ARPPU per month - $5
 
 A Forecasted Network revenue from the service Premium Pool - **1,8 billion dollars a year** (when reaching the goal of 100 million monthly active users).
 
-### 3. Decentralized betting/forecasting exchange, Ace Bet
+### 3. Decentralized prediction market, Ace Bet
 
 **System commission** - 10% of the every bid.
 
@@ -54,9 +54,7 @@ Forecast Network revenue from the Ace Bet service - from $1.08 billion up to $2.
 
 ### 4. Advertising sites
 
-**Комиссия за размещение рекламных материалов в Сети** – 30% от стоимости рекламы
-
-Commission for advertising materials in the Network - 30% of the cost of the advertising
+Fee for publishing ads in the Network - 30% of the cost of the publishing
 
 Advertising inventory and its cost:
 
