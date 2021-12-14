@@ -1,40 +1,9 @@
-{% extends "base.html" %}
+{% extends "home.html" %}
 
-{% block styles %}
-  {{ super() }}
-  <link rel="stylesheet" href="{{ 'assets/css/home.css' | url }}" />
+{% block slogan %}
+  Децентрализованная мультимедийная Сеть
 {% endblock %}
 
-<!-- Render hero under tabs -->
-{% block tabs %}
-  {{ super() }}
-
-  <!-- Home page -->
-  <section class="mdx-container">
-    <div class="md-grid md-typeset">
-      <div class="mdx-home">
-
-        <!-- Home content -->
-        <div class="mdx-home__content">
-          <div class="mdx-home__logo">
-            <img src="https://m.acestream.net/img/md_home_logo.png" />
-          </div>
-
-          <h1>Децентрализованная мультимедийная Сеть</h1>
-          <a href="library/dao-acestream/" class="md-button md-button--primary mdx-button--first">
-            DAO Ace Stream
-          </a>
-          <a href="library/finances/" class="md-button">
-            Инвестиции, DeFi
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+{% block button_finances_title %}
+  Инвестиции, DeFi
 {% endblock %}
-
-<!-- Content -->
-{% block content %}{% endblock %}
-
-<!-- Application footer -->
-{% block footer %}{% endblock %}
