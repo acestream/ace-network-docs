@@ -73,6 +73,15 @@ Effective management of access rights to your channel ("Private" - intended for 
 - There is no censor and no bans, but there is only a decentralized moderation system managed by the Ace Network community itself, preventing spam and the distribution of "illegal content".
 
 
+## Internet Accelerator
+
+**Turbo Stream** is a function of automatic connection of P2P technology (Ace Stream) while watching videos (VoD and/or Live Stream) on centralised services that are broadcast in HLS format (for example, on YouTube, Twitch, etc.)
+
+!!! info ""
+
+    Using function while watching video allows user to receive stream not only from one source (broadcaster server) but simultaneously from multiple sources (other viewers) which provides the highest load data speed and stability of stream during watching VoD and Live Stream on any centralised services.
+
+
 ## Unique decentralized bonus and reward system for viewers
 
 A network that pays its users a reward, before and after the content playback, for seeing/uploading and for viewing advertising materials.

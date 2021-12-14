@@ -70,6 +70,7 @@ Total immersion into multimedia with DAO Ace Stream products and solutions:
 - Smart TV and interactive broadcasts, AR, VR and 360°
 - The highest level of stability in online broadcasts and the best audiovisual content quality 
 - Wide range of social and multimedia options
+- Internet accelerator
 - Unique decentralized bonus and reward system for viewers
 
 <p style="text-align: right">
@@ -268,24 +269,7 @@ The copyright holder will receive payment for every minute of the content playba
 </p>
 
 
-### 10. Internet accelerator
-
-*   **Turbo Stream** – a function of automatic connection of P2P technology (Ace Stream) when watching videos (VoD and/or Live Stream) on centralised services that are broadcast in HLS format (for example, on YouTube, Twitch, etc.)
-
-!!! info ""
-
-    The usage of this function during viewing video allows user to receive stream not only from one source (broadcaster server) but simultaneously from multiple sources (other viewers) which provides the highest load data speed and stability of stream during watching VoD and Live Stream on any centralised services.   
-
-<p style="text-align: center">
-    <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/turbo-stream" href="#">
-            Read more
-        </a>
-    </em>
-</p>
-
-
-### 11. Decentralised messengers, video calls and social networks
+### 10. Decentralised messengers, video calls and social networks
 
 Fully decentralised and extremely secured communication system which cannot be blocked or somehow restricted by anyone or anything.  
 
@@ -298,7 +282,7 @@ Fully decentralised and extremely secured communication system which cannot be b
 </p>
 
 
-### 12. Global decentralized betting platform
+### 11. Global decentralized betting platform
 
 This is a place where anyone can become a bookmaker, and existing bookmakers can significantly expand their reach by extending their betting lines to the multi-million audience of Ace Stream.
 
@@ -317,7 +301,7 @@ The best odds, bets and predictions in one click, in live streams.
 </p>
 
 
-### 13. Advertising platforms without negativity, with unique audience and the most effective ad formats
+### 12. Advertising platforms without negativity, with unique audience and the most effective ad formats
 
 DAO Ace Stream includes software products which generate ad inventory and are platforms for placing advertising materials. 
 
@@ -374,7 +358,7 @@ Ads formats, ad Inventory volumes and its cost when the target of 100 mil active
 </p>
 
 
-### 14. DAO Ace Stream platforms for affiliate programs
+### 13. DAO Ace Stream platforms for affiliate programs
 
 In addition to the ability for users to view advertisements for a reward, users of the Ace Surf, Ace Search and Ace Script products will also receive rewards for various actions, according to the CPA (Cost per Action) model. For example, for the purchase of goods/services, for registration etc. Also, users will be provided with various promo codes, coupons and discounts.
 
