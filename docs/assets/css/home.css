@@ -1,0 +1,80 @@
+body {
+    background: var(--md-primary-fg-color) url(/63db9820/assets/images/ace_background.jpg) no-repeat center center fixed;
+    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.mdx-home {
+    padding-top: 10em;
+    text-align: center;
+}
+
+.mdx-home .md-button {
+    color: var(--md-primary-bg-color);
+    width: 250px;
+    margin-top: 16px;
+}
+
+.mdx-home .md-button.mdx-button--first {
+    margin-right: 0px;
+}
+
+.mdx-home .md-button:hover {
+    background-color: var(--md-primary-bg-color);
+    border-color: var(--md-primary-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+.mdx-home__content {
+    color: #fff;
+}
+
+.mdx-home__content h1 {
+    color: #fff;
+}
+
+.mdx-home__logo img {
+    width: 141px;
+    height: 123px;
+}
+
+/* Application header should be static for the landing page */
+.md-header {
+    position: initial;
+}
+
+/* Remove spacing, as we cannot hide it completely */
+.md-main__inner {
+    margin: 0;
+}
+
+/* Hide main content for now */
+.md-content {
+    display: none;
+}
+
+@media screen and (min-width: 520px) {
+    .mdx-home .md-button {
+        margin-top: 0px;
+    }
+    .mdx-home .md-button.mdx-button--first {
+        margin-right: 16px;
+    }
+}
+
+/* Hide table of contents */
+@media screen and (min-width: 60em) {
+    .md-sidebar--secondary {
+        display: none;
+    }
+}
+
+/* Hide navigation */
+@media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+        display: none;
+    }
+}
