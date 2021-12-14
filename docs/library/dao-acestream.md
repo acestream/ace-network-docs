@@ -170,44 +170,7 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 </p>
 
 
-### 5. Anonymity and Privacy 
-
-*   **Ace Proxy** - proxy and anonymizer structurally similar to Tor
-
-*   **Ace ID** - identificator of the user in the Network which does not reveal any personal data.
-
-*   **Ace External Secure ID** - a virtual user ID (is only created voluntarily by the willing of the user) to be able to automatically pass through KYC procedures on those services where it is required (for example: exchanges, betting, etc.), with full control over your personal data.
-
-<p style="text-align: center">
-    <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/anonymity" href="#">
-            Read more
-        </a>
-    </em>
-</p>
-
-### 6. Stimulation and motivation
-
-Automatic reward for users and partners of Network:
-
-*   for providing the Network with its hardware and network resources;
-*   for posting and distribution of high quality content; 
-*   for developing and creating your own apps and services;
-*   for distribution DAO Ace Stream apps» (for apps dev, OEMs)  
-*   for content moderation in the Network
-*   for viewing ads
-*   for taking part in DeFi programs
-
-<p style="text-align: center">
-    <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/motivation" href="#">
-            Read more
-        </a>
-    </em>
-</p>
-
-
-### 7. Effective monetisation of linear television on Internet and decentralised networks 
+### 5. Effective monetisation of linear television on Internet and decentralised networks
 
 The DAO Ace Stream set of tools for television channels allows broadcasting on the Internet with the following rate: **AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year**, depending on the distribution of the audience by region
 
@@ -226,7 +189,7 @@ The DAO Ace Stream set of tools for television channels allows broadcasting on t
 </p>
 
 
-### 8. Fixing the "subscriptions fatigue" problem
+### 6. Fixing the "subscriptions fatigue" problem
 
 Function **«Ace ID»** allows content providers and OTT services to instantly provide access to its content on the terms of one-time payment access or on the terms of per-minute tariff automatically receiving payment without need to register/identify users and refill balances on their services/resources.   
 
@@ -242,6 +205,38 @@ Service **«Premium Pool»** allows any content providers and OTT services to fo
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/subscriptions" href="#">
+            Read more
+        </a>
+    </em>
+</p>
+
+
+### 7. Global decentralized betting platform
+
+This is a place where anyone can become a bookmaker, and existing bookmakers can significantly expand their reach by extending their betting lines to the multi-million audience of Ace Stream.
+
+The decentralized prediction market of the Ace Network makes it possible to trade outcomes of any events and make unlimited bets on sports, economy, world events and much more, with a 100% guarantee for performance of participants' obligations.
+
+There is no dependency on geo-location and no need to pass tedious registration and verification procedures.
+
+The best odds, bets and predictions in one click, in live streams.
+
+<p style="text-align: center">
+    <em>
+        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/betting" href="#">
+            Read more
+        </a>
+    </em>
+</p>
+
+
+### 8. Decentralised messengers, video calls and social networks
+
+Fully decentralised and extremely secured communication system which cannot be blocked or somehow restricted by anyone or anything.
+
+<p style="text-align: center">
+    <em>
+        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/social" href="#">
             Read more
         </a>
     </em>
@@ -269,32 +264,38 @@ The copyright holder will receive payment for every minute of the content playba
 </p>
 
 
-### 10. Decentralised messengers, video calls and social networks
+### 10. Stimulation and motivation
 
-Fully decentralised and extremely secured communication system which cannot be blocked or somehow restricted by anyone or anything.  
+Automatic reward for users and partners of Network:
+
+*   for providing the Network with its hardware and network resources;
+*   for posting and distribution of high quality content;
+*   for developing and creating your own apps and services;
+*   for distribution DAO Ace Stream apps» (for apps dev, OEMs)
+*   for content moderation in the Network
+*   for viewing ads
+*   for taking part in DeFi programs
 
 <p style="text-align: center">
     <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/social" href="#">
+        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/motivation" href="#">
             Read more
         </a>
     </em>
 </p>
 
 
-### 11. Global decentralized betting platform
+### 11. Anonymity and Privacy
 
-This is a place where anyone can become a bookmaker, and existing bookmakers can significantly expand their reach by extending their betting lines to the multi-million audience of Ace Stream.
+*   **Ace Proxy** - proxy and anonymizer structurally similar to Tor
 
-The decentralized prediction market of the Ace Network makes it possible to trade outcomes of any events and make unlimited bets on sports, economy, world events and much more, with a 100% guarantee for performance of participants' obligations.
+*   **Ace ID** - identificator of the user in the Network which does not reveal any personal data.
 
-There is no dependency on geo-location and no need to pass tedious registration and verification procedures.
-
-The best odds, bets and predictions in one click, in live streams.
+*   **Ace External Secure ID** - a virtual user ID (is only created voluntarily by the willing of the user) to be able to automatically pass through KYC procedures on those services where it is required (for example: exchanges, betting, etc.), with full control over your personal data.
 
 <p style="text-align: center">
     <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/betting" href="#">
+        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/anonymity" href="#">
             Read more
         </a>
     </em>
