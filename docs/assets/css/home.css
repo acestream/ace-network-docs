@@ -1,3 +1,7 @@
+:root {
+    --mdx-home-button-color: #366a8d;
+}
+
 body {
     background: var(--md-primary-fg-color) url(/63db9820/assets/images/ace_background.jpg) no-repeat center center fixed;
     background-size: auto;
@@ -12,7 +16,7 @@ body {
     text-align: center;
 }
 
-.mdx-home .md-button {
+.md-typeset .mdx-home .md-button {
     color: var(--md-primary-bg-color);
     width: 250px;
     margin-top: 16px;
@@ -22,10 +26,15 @@ body {
     margin-right: 0px;
 }
 
-.mdx-home .md-button:hover {
+.md-typeset .mdx-home .md-button--primary {
+    background-color: var(--mdx-home-button-color);
+    border-color: var(--mdx-home-button-color);
+}
+
+.md-typeset .mdx-home .md-button:hover {
     background-color: var(--md-primary-bg-color);
     border-color: var(--md-primary-bg-color);
-    color: var(--md-primary-fg-color);
+    color: var(--mdx-home-button-color);
 }
 
 .mdx-home__content {
