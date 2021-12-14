@@ -336,9 +336,15 @@ Fully decentralised and extremely secured communication system which cannot be b
 </p>
 
 
-### 13. One click bets and predictions in live broadcasts 
+### 13. Global decentralized betting platform
 
-**Ace Bet** – a decentralised system of stock exchange predictions/bets with a function of automatic placement of interactive blocks (live-bets/predictions) in the live sport and other events broadcasts. 
+This is a place where anyone can become a bookmaker, and existing bookmakers can significantly expand their reach by extending their betting lines to the multi-million audience of Ace Stream.
+
+The decentralized prediction market of the Ace Network makes it possible to trade outcomes of any events and make unlimited bets on sports, economy, world events and much more, with a 100% guarantee for performance of participants' obligations.
+
+There is no dependency on geo-location and no need to pass tedious registration and verification procedures.
+
+The best odds, bets and predictions in one click, in live streams.
 
 <p style="text-align: center">
     <em>
