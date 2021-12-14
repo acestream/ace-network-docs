@@ -27,7 +27,7 @@ The DAO Ace Stream ecosystem is based on blockchain technology and has no owners
 
 !!! note ""
 
-   An open and completely decentralised Network with Onion Routing, with a search engine and DApps, in the form of an add-on over the Internet (second-level Internet network) which cannot be blocked or have restricted access to its content without blocking the Internet itself
+    An open and completely decentralised Network with Onion Routing, with a search engine and DApps, in the form of an add-on over the Internet (second-level Internet network) which cannot be blocked or have restricted access to its content without blocking the Internet itself
 
     The software operates in a decentralised open network with a transparent economy which is based on established software algorithms presented in public smart contracts (open software codes) with complete decentralisation of the regulation of relations, management mechanisms and mutual settlements between its Participants.DAO Ace Stream rules are followed by the protocol itself (program code), actors and social consensus of its Users / Participants.
 

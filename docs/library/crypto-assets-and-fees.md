@@ -68,8 +68,8 @@ Advertising inventory and its cost:
 
 The average number of advertising displays per user - 6841 per year
 
-    !!! info ""
-The cost of a commercial reel, CPM (price per 1,000 contacts): in Russia - $2, in Eastern Europe - $4, in North America - $29, and the global average - $20. (according to data from "Initiative" agency, a member of the ADV group)
+!!! info ""
+    The cost of a commercial reel, CPM (price per 1,000 contacts): in Russia - $2, in Eastern Europe - $4, in North America - $29, and the global average - $20. (according to data from "Initiative" agency, a member of the ADV group)
 
 
 The projected annual advertising inventory - 684,101,250,000 ad views, with a total value of 1.36 billion $ (CPT $ 2) to 13.68 billion $ (CPT $ 20), depending on the distribution of the audience in the regions.
