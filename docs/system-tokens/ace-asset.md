@@ -11,7 +11,7 @@ Apart from access to all network's services, XAS gives its owners some privilege
 
 !!! info
 
-    To obtain rights to Ace Stream DAO assets, the owners of these tokens have to register in the [Ace Assets][2] DeFi program
+    To obtain rights to DAO Ace Stream assets, the owners of these tokens have to register in the [Ace Assets][2] DeFi program
 
 
 ## Token issuing
