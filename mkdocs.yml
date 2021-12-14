@@ -87,6 +87,7 @@ plugins:
           System Settings: Системные настройки
           System Smart Contracts: Системные смарт-контракты
           Ace Stream Foundation: Ace Stream Foundation
+          Prediction Market: Рынок прогнозов
 
 nav:
   - Home: index.md
@@ -148,6 +149,7 @@ nav:
       - Remove Device: list-of-operations/remove-device.md
     - Software: software/index.md
     - NFT: nft/index.md
+    - Prediction Market: prediction-market/index.md
     - Glossary:
       - Accounts and Devices: glossary/accounts-and-devices.md
       - Operations: glossary/operations.md
