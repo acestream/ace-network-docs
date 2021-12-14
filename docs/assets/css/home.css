@@ -12,8 +12,12 @@ body {
 }
 
 .mdx-home {
-    padding-top: 10em;
+    padding-top: 6em;
     text-align: center;
+}
+
+.mdx-home__logo {
+    padding-bottom: 4em;
 }
 
 .md-typeset .mdx-home .md-button {
