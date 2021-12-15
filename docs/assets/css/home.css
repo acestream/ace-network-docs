@@ -12,12 +12,12 @@ body {
 }
 
 .mdx-home {
-    padding-top: 6em;
+    padding-top: 3em;
     text-align: center;
 }
 
 .mdx-home__logo {
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 }
 
 .md-typeset .mdx-home .md-button {
@@ -47,6 +47,7 @@ body {
 
 .mdx-home__content h1 {
     color: #fff;
+    margin: 0;
 }
 
 .mdx-home__logo img {
@@ -71,13 +72,22 @@ body {
 
 @media screen and (min-width: 520px) {
     body {
-        background-image: url(/63db9820/assets/images/ace_background.jpg);
+        background-image: url(/63db9820/assets/images/ace_background_2.jpg);
     }
     .mdx-home .md-button {
         margin-top: 0px;
     }
     .mdx-home .md-button.mdx-button--first {
         margin-right: 16px;
+    }
+    .mdx-home {
+        padding-top: 6em;
+    }
+    .mdx-home__logo {
+        padding-bottom: 4em;
+    }
+    .md-container {
+        background-color: rgba(0, 0, 0, 0.25);
     }
 }
 
@@ -93,4 +103,63 @@ body {
     .md-sidebar--primary {
         display: none;
     }
+}
+
+#my-carousel {
+    width: 320px;
+    height: 80px;
+    font-size: 14px;
+    font-style: italic;
+    margin: 24px auto;
+  }
+
+  #my-carousel .carousel-item {
+    width: 320px;
+    height: 80px;
+  }
+
+  #my-carousel .carousel-indicators {
+    display: flex;
+    bottom: -27px;
+    z-index: 2;
+  }
+
+  #my-carousel .carousel-indicators > li {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    background-color: #2c88a1;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+
+  #my-carousel .carousel-indicators > li.active {
+    background-color: #fff;
+  }
+
+  @media screen and (min-width: 520px) {
+    #my-carousel {
+      font-size: 16px;
+      width: 515px;
+      height: 80px;
+    }
+    #my-carousel .carousel-item {
+      width: 515px;
+      height: 80px;
+    }
+    #my-carousel .carousel-indicators > li {
+      height: 12px;
+      width: 12px;
+      background-color: #7db6c5;
+    }
+  }
+
+/* Reset margin set by Bootstrap  */
+label.md-overlay {
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
 }
