@@ -72,7 +72,7 @@ body {
 
 @media screen and (min-width: 520px) {
     body {
-        background-image: url(/63db9820/assets/images/ace_background_2.jpg);
+        background-image: url(/63db9820/assets/images/ace_background_3.jpg);
     }
     .mdx-home .md-button {
         margin-top: 0px;
@@ -81,10 +81,10 @@ body {
         margin-right: 16px;
     }
     .mdx-home {
-        padding-top: 6em;
+        padding-top: 7em;
     }
     .mdx-home__logo {
-        padding-bottom: 4em;
+        padding-bottom: 3em;
     }
     .md-container {
         background-color: rgba(0, 0, 0, 0.25);
