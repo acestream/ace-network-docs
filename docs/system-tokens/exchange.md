@@ -1,5 +1,4 @@
-# Token exchange
-
+# Token Exchange
 
 The internal distributed exchange module is being used by system smart contracts when they need
 to perform any exchange operation between network's assets.

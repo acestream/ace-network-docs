@@ -1,12 +1,11 @@
-==TODO: english version==
+# Financial Services, DeFi
 
-Ace DeFi - экосистема децентрализованных финансовых сервисов и услуг [DAO Ace Stream][3], работающих на основе смарт-контрактов, с открытым исходным кодом.
+Ace DeFi is an ecosystem of decentraliіed financial services of the DAO Ace Stream, which operates on the basis of open source smart contracts.
 
-Программы Ace DeFi:
+Ace DeFi programs:
 
-- [Ace Deposit][1] - начисление процентов на депозит
-- [Ace Assets][2] - участие в долевом распределении криптоактивов DAO Ace Stream
+- [Ace Deposit][1] - charging interest on a deposit
+- [Ace Assets][2] - participation in the percentage distribution of DAO Ace Stream cryptoassets 
 
 [1]: ../services/ace-deposit.md
 [2]: ../services/ace-asset.md
-[3]: dao-acestream.md

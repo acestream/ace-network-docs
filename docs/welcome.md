@@ -1,21 +1,17 @@
 # Welcome
 
-==TODO: english version==
+You are reading the guide about Ace Network.
 
-Вы читаете гид по сети Ace Network.
+Here you can find common description of the system and its components, technical details, examples and many more. 
 
-Здесь вы найдете общее описание системы и ее компонентов, технические детали, примеры и многое другое.
+## Library
 
-## Библиотека
+If you are new to DAO Ace Stream, then we offer you to start with this sections:
 
-Если вы не знакомы с DAO Ace Stream, предлагаем вам начать с этих разделов:
-
-- [Вступление][1]
 - [DAO Ace Stream][2]
-- [Финансы и инвестиции][3]
-- [Кому это нужно][4]
+- [Finances and investments][3]
+- [Why, for whom and for what?][4]
 
-[1]: get-started/foreword.md
 [2]: library/dao-acestream.md
 [3]: library/finances.md
 [4]: library/usage.md

@@ -1,5 +1,4 @@
-# System tokens
-
+# System Tokens
 
 System tokens are tokens native to Ace Network. They have existed on the network
 network since its launch, and unlike [assets][1] do not require [issuer][2]
@@ -11,7 +10,7 @@ There are three system tokens in the Ace Network:
 
 - [Ace Token (XAT)][4] - Ace Netwok's basic system token
 - [Ace Coin (XAC)][5] - algorithmic stablecoin
-- [Ace Asset (XAS)][6] - Ace Stream DAO protocol and asset management token
+- [Ace Asset (XAS)][6] - DAO Ace Stream protocol and asset management token
 
 !!! info
 

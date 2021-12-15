@@ -15,14 +15,12 @@ XATs are pre-issued during system startup procedure, there issuance is 100,000,0
 
 90% of the tokens from the total issue will initially be locked in a special account ([`lockedPool`][1]), which only the [system smart contracts][2] have access to.
 
-==TODO: english version==
-
 10% of the initially unlocked tokens are distributed to the following programs:
 
 - 5% - for "DAO Ace Stream" development purposes
 - 5% - marketing programs
 - 10% - airdrop, under the program of incentives (encouragement and funding) for the creation and placement of exclusive premium content in the Ace Network
-- 70% - на стратегическое развитие и расширение сервисной инфраструктуры сети Ace Network (приобретение долей в других компаниях, с целью: обеспечения высокой динамики роста количества пользователей Сети; расширения сервисных и технологических возможностей Сети; приобретения прав на контент для публикации в Сети; обеспечения токена финансовыми оффлайн-механизмами (финансовыми учреждениями), для максимального удобства использования токенов в повседневной жизни, при проведении любых расчетов; др.)
+- 70% - for the strategic development and expansion of the service infrastructure of the Ace Network (acquisition of shares in other companies in order to ensure high dynamics of growth in the number of network users; expanding the service and technological capabilities of the Network; acquiring rights to content for publication on the Web; providing the token with offline financial mechanisms ( financial institutions), for maximum convenience of using tokens in everyday life when carrying out any calculations; etc.)
 - 10% - charity and non-profit projects
 
 

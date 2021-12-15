@@ -2,22 +2,20 @@
 template: raw_content.html
 ---
 
-==TODO: english version==
+Automatic reward for users and partners of Network:
 
-Автоматическое вознаграждение пользователей и партнеров Сети:
-
-- за предоставление Сети своих аппаратно-сетевых ресурсов;
-- за публикацию и дистрибуцию высококачественного контента;
-- за разработку и создание собственных приложений и сервисов;
-- за дистрибуцию приложений DAO Ace Stream» (для производителей устройств, OEMs)
-- за модерацию контента в Сети
-- за просмотр рекламы
-- за участие в программах DeFi
+- for providing the Network with its hardware and network resources;
+- for posting and distribution of high quality content; 
+- for developing and creating your own apps and services;
+- for distribution DAO Ace Stream apps» (for apps dev, OEMs) 
+- for content moderation in the Network
+- for viewing ads
+- for taking part in DeFi programs
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>

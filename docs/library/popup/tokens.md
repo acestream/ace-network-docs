@@ -2,74 +2,72 @@
 template: raw_content.html
 ---
 
-# Токены со 100% обеспечением и алгоритмический стейблкойн, майнинг которого генерирует удовольствие и спасает экологию
+# 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
 
-==TODO: english version==
+**Ace Token (XAT)** - a basic and automatically burned system token backed by an Internet channel with a bandwidth of over 100,000 Tbps, premium content and all services of the Ace Network.
 
-**Ace Token (XAT)** - базовый и автоматически сжигаемый системный токен, обеспеченный интернет-каналом с пропускной способностью свыше 100000 Tbps, премиальным контентом и всеми сервисными услугами сети Ace Network.
+**Ace Asset (XAS)** - Ace Network protocol management token and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAT) and commission fees received by DAO Ace Stream for the Services and Services provided by the Network.
 
-**Ace Asset (XAS)** - токен управления протоколами сети Ace Network и обеспеченный активами DAO Ace Stream, дающий право на участие в распределении системных токенов (XAT) и комиссионных сборов получаемых DAO Ace Stream за Услуги и Сервисы, предоставляемые Сетью.
+**Ace Coin (XAC)** - an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.
 
-**Ace Coin (XAC)** - алгоритмический стейблкойн (stablecoin) сети Ace Network, не привязанный к фиатным деньгам и к физическим товарам, а имеющий обеспечение самым ценным ресурсом мира онлайн – объемами трафика, и самым ценным ресурсом мира оффлайн - временем жизни человека, которое он затрачивает на потребление цифрового контента.
+**A short and simple comparison of mining between Ace Coin and Bitcoin/Chia Coin**
 
-**Небольшое и простое сравнение майнинга Ace Coin с майнингом Bitcoin и Chia Coin**
+Cryptocurrencies and their positioning:
 
-Криптовалюты и их позиционирование:
+- **Bitcoin - «digital gold»** (the first and the most popular cryptocurrency in the world)
+- **Chia Coin - «green coin»** (new green alternative to Bitcoin)
+- **Ace Coin - «coin of life»** (generated digital concentration of positive emotions and pleasure of people received by them in the process of creating a coin that saves the Internet and the Environment from the consequences of centralised streaming)
 
-- **Bitcoin - «цифровое золото»** (первая и самая популярная в мире криптовалюта)
-- **Chia Coin - «зеленая монета»** (новая экологическая альтернатива биткоина)
-- **Ace Coin - «монета жизни»** (сгенерированная цифровая концентрация позитивных эмоций и удовольствия людей, получаемых ими в процессе создания монеты спасающей Интернет и Экологию от последствий централизованного стриминга)
+About miners:
 
-О майнерах:
+- **Bitcoin miners - digging and mining!**
+- **Chia Coin miners - plotting and farming!**
+- **Ace Coin miners - chilling!**
 
-- **Майнеры Bitcoin - копают и добывают!**
-- **Майнеры Chia Coin - сеют и выращивают!**
-- **Майнеры Ace Coin - кайфуют!**
+About mining:
 
-О майнинге:
+- **Bitcoin mining** - lottery on graphics cards with huge energy consumption and emissions of CO<sub>2</sub>
 
-- **Майнинг Bitcoin** - лотерея на видеокартах, с огромными расходами электроэнергии и выбросами CO<sub>2</sub>
+The University of Cambridge estimates that the total annual electricity consumption of the Bitcoin network is 121.05 terawatt hours (relevant data on [https://cbeci.org](https://cbeci.org))
 
-По оценкам Кембриджского университета, общее годовое потребление электроэнергии сетью Bitcoin составляет 121.05 тераватт-часов (актуальные данные на [https://cbeci.org](https://cbeci.org))
+![alt_text]({{assets_root}}/images/image9.png "image_tooltip")
 
-![alt_text]({{ assets_root }}/images/image9.png "image_tooltip")
+But Bitcoin's biggest problem is perhaps not even its huge energy consumption, but the fact that a significant proportion of mining enterprises are located in regions that rely heavily on coal power (either directly or for load balancing purposes).Simply put, according to an energy researcher at the Technical University of Munich **Christian Stoll** (Christian Stoll), **«coal fuels bitcoin»** ([https://www.wired.com/story/bitcoins-climate-impact-global-cures-local/](https://www.wired.com/story/bitcoins-climate-impact-global-cures-local/)).
 
-Но самая большая проблема Биткойна, возможно, даже не в его огромном потреблении энергии, а в том факте, что значительная часть майнинговых предприятий расположены в регионах, которые в значительной степени полагаются на угольную энергию (либо напрямую, либо с целью балансировки нагрузки). Проще говоря, по словам исследователя энергетики из Мюнхенского технического университета **Кристиана Столла** (Christian Stoll), **«уголь питает биткойн»** ([https://www.wired.com/story/bitcoins-climate-impact-global-cures-local/](https://www.wired.com/story/bitcoins-climate-impact-global-cures-local/)).
-
-В настоящее время (март 2021) углеродный след сети Bitcoin оценивается уже в **37,82 млн т/год CO<sub>2</sub>**. Что сравнимо с выбросами углекислого газа такой страны, как Словакия ([https://digiconomist.net/bitcoin-energy-consumption/](https://digiconomist.net/bitcoin-energy-consumption/)).
+Currently (March 2021) Bitcoin coal footprint is estimated at  **37,82 mill t/year CO<sub>2</sub>**. We can compare it to the carbon dioxide emissions of a country like Slovakia ([https://digiconomist.net/bitcoin-energy-consumption/](https://digiconomist.net/bitcoin-energy-consumption/)).
 
 
-- **Майнинг Chia Coin** - лотерея на SSD и HDD накопителях, не требующая колоссальных затрат электроэнергии.
+- **Chia Coin mining** - lottery on SSD and HDD drives which does not require colossal energy consumption.
 
-«Посевные работы» (плоттинг) – процесс очень быстро уничтожающий диски из-за их использования не по прямому назначению (будьте аккуратны!)
+Plotting is a process that very quickly destroys disks due to their off-label use (be careful!)
 
-«Выращивание» (фарминг) – формирование и развитие структур «ферм» из SSD и HDD, на которых дисковое пространства будет забиваться исключительно техническими данным, без возможности его использования для глобального или персонального хранения пользовательских файлов.
+Farming – formation and development of structures of "farms" from SSD and HDD on which disk space will be clogged exclusively with technical data without the possibility of using it for global or personal storage of user files.
 
 !!! note ""
 
-    В итоге это приведет к ажиотажу на рынке, дефициту и росту цен на SSD и HDD, по аналогии с видеокартами используемыми для майнинга таких криптовалют как Bitcoin, Ethereum и т.п., что совсем нехорошо для потребителей желающих использовать диски по их прямому назначению.
+    As a result, this will lead to excitement in the market, a deficit and an increase in prices for SSD and HDD by analogy with video cards used for mining such cryptocurrencies as Bitcoin, Ethereum, etc., which is not at all good for consumers who want to use disks for their intended purpose.
 
-Преимущество — модель «более экологичного майнинга биткоина».
+Advantage is that this model is a "more green way of Bitcoin mining".
 
 
-- **Майнинг Ace Coin** – наслаждение от просмотра видео и прослушивания музыки, с гарантированным вознаграждением за генерирование контента.
+- **Ace Coin mining** enjoyment of watching videos and listening to music with guaranteed rewards for generating content.
 
 !!! info ""
-    Термин «Генерирование контента» - публикация, сидирование и проксирование контента.
+    Term «Generation of content» means publishing, seeding and proxying content.
 
-    К примеру: смотришь видео и даешь возможность посмотреть его другим (автоматически поддерживая его раздачу - сидирование) - получаешь гарантированное вознаграждение за каждый отданный мегабайт трафика
+    For example, you are watching a video and you give a possibility to watch it for others (automatically supporting its sharing - seeding) and you receive a guaranteed reward for each given Mb of traffic.
 
-Преимущества:
+Advantages:
 
-- Майнинг во время обычного для пользователя процесса (просмотр видео и прослушивание музыки)
-- Нет необходимости в дополнительных затратах на покупку оборудования
-- В основе Сети экологически чистая система хранения и доставки данных
-- Углеродно-отрицательный проект (carbon-negative), использование которого снижает общий мировой уровень объема выбросов CO<sub>2</sub> в атмосферу, за счет снижения потребностей стриминговой индустрии в использовании централизованной инфраструктуры (CDN) и расширении дата-центров
+- Mining during the usual process for the user (watching videos and listening to music)
+- No need for additional costs for the purchase of equipment
+- The Network is based on an environmentally friendly data storage and delivery system
+- A carbon-negative project that reduces global total CO<sub>2</sub> emissions by reducing the streaming industry's need for centralised infrastructure (CDN) and data center expansion
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>

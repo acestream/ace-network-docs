@@ -1,15 +1,13 @@
-# Цена трафика
+# Traffic Price
 
-==TODO: english version==
+The price of traffic in the system is expressed in XAC and is automatically adjusted based on the level of traffic consumption.
 
-Цена трафика в системе выражается в XAC и регулируется автоматически на основе уровня потребления трафика.
-
-Уровень потребления трафика (`trafficRate`) - это отношение количества потребленного видеотрафика ко времени, затраченного на просмотр видеоконтента, в рамках всей Сети за все время ее работы.
+Level of traffic consumption (`trafficRate`) it is the ratio of the amount of consumed video traffic to the time spent on viewing video content within the entire Network for the whole time of its operation.
 
 
-## Алгоритм расчет цены
+## Algorithm for calculating the price
 
-Изначально в код системы заложены такие константы:
+Initially, the system code contains the following constants:
 
 ```python
 # Initial traffic price: 0.01 XAC per 1 Gb
@@ -19,22 +17,22 @@ initialTrafficPrice = 0.01
 initialTrafficRate = 298261 # bytes/s
 ```
 
-Цена трафика расчитывается на основе этих констант и текущего уровня потребления трафика:
+The traffic price is calculated based on these constants and the current traffic rate:
 
 ```python
 trafficPrice = initialTrafficPrice * initialTrafficRate / currentTrafficRate
 ```
 
-Текущий уровень потребления трафика (`currentTrafficRate`) является публично доступной информацией, которая хранится в блокчейне второго уровня.
-Его значение обновляют валидаторы второго уровня в процессе обработки транзакций по обмену трафиком.
-В расчетах учитывается только трафик, используемый для просмотра видео-контента по протоколу Ace Stream.
+Current level of traffic consumption (`currentTrafficRate`) is public information which is stored at the second blockchain level. 
+Its value is updated by second-level validators during the processing of traffic exchange transactions.
+The calculations take into account only the traffic used to view video content using the Ace Stream protocol.
 
-Первоначальная цена устанавливается компанией Ace Stream, исходя из собственного понимания и оценки рынка и определения конкурентоспособной цены интернет-трафика. После запуска Сети на дальнейшее формирование цены уже не сможет повлиять никто, и цена будет зависеть только от заложенных в систему алгоритмов автоматического расчета стоимости и реального рынка.
+The initial price is set by Ace Stream based on its own understanding and assessment of the market and determination of a competitive price for Internet traffic. After the launch of the Network no one will be able to influence the further formation of the price and the price will depend only on automatic calculation of the cost algorithms incorporated in the system and the real market.
 
 
-## Пример
+## Example
 
-Если текущий уровень потребления трафика будет составлять 600000 байт/с, то 1 Гб трафика будет стоить примерно 0.005 XAC. Формула рассчета:
+If the current level of traffic consumption is 600,000 bytes/s, then 1 GB traffic will cost approximately 0.005 XAC. Calculation formula:
 
 ```python
 # approx. 0.005 XAC per 1 Gb

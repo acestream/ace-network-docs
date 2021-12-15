@@ -2,34 +2,32 @@
 template: raw_content.html
 ---
 
-# Устранение проблемы «усталость от подписок»
+# Fixing the "subscriptions fatigue" problem
 
-==TODO: english version==
+Too much streaming services (about [only 300](https://variety.com/2019/digital/news/streaming-subscription-fatigue-us-consumers-deloitte-study-1203166046/){target=_blank} в США) lead to growing consumer frustration with multiple subscriptions and services. 43% of surveyed [Deloitte in](https://www2.deloitte.com/us/en/pages/about-deloitte/articles/press-releases/digital-media-trends-thirteenth-edition.html){target=_blank} last year admitted that "refused" from searching for content and 48% stated that it is hard to find what they want in different services. 
 
-Слишком много стриминговых сервисов (около [300 только](https://variety.com/2019/digital/news/streaming-subscription-fatigue-us-consumers-deloitte-study-1203166046/){target=_blank} в США) приводят к растущему разочарованию потребителей в связи с необходимостью оформления множественных подписок и услуг.  43% опрошенных [Deloitte в](https://www2.deloitte.com/us/en/pages/about-deloitte/articles/press-releases/digital-media-trends-thirteenth-edition.html){target=_blank} прошлом году признали, что «отказались» от поиска контента, а 48% заявили, что трудно найти то, что они хотят смотреть в различных сервисах.
-
-Аналогичным образом, исследование, проведенное в октябре 2019 года [TV Time и United Talent Agency](https://www.mesaeurope.org/wp-content/uploads/2019/10/Mediamorph-29102019.pdf){target=_blank} (UTA), показало, что 70% респондентов полагают, что скоро будет слишком много стриминговых сервисов. 87% заявили, что услуги становятся слишком дорогими. Респонденты также выразили разочарование необходимостью переключения между различными сервисами (67%), сложностями при настройке и управлении учетной записью (58%) и невозможностью легко найти контент (45%).
+The same way the research from October 2019 [TV Time and United Talent Agency](https://www.mesaeurope.org/wp-content/uploads/2019/10/Mediamorph-29102019.pdf){target=_blank} (UTA) showed that 80% of surveyed consider that it will be too many streaming services soon. 87% stated that services are becoming too expensive. Respondents also expressed frustration at having to switch between different services (67%), difficulty setting up and managing an account (58%), and inability to find content easily (45%).
 
 
 !!! note ""
 
-    Источник: [https://blog.irdeto.com/video-entertainment/pirates-are-primed-to-compete-in-the-streaming-wars/](https://blog.irdeto.com/video-entertainment/pirates-are-primed-to-compete-in-the-streaming-wars/){target=_blank}
+    Source: [https://blog.irdeto.com/video-entertainment/pirates-are-primed-to-compete-in-the-streaming-wars/](https://blog.irdeto.com/video-entertainment/pirates-are-primed-to-compete-in-the-streaming-wars/){target=_blank}
 
-Для решения этой проблемы, в рамках проекта DAO Ace Stream, специально для контент-провайдеров и ОТТ,  приготовлены специальные компоненты/сервисы:
+In order to fix this problem within the DAO Ace Stream project, especially for content providers and OTT special components/services are prepared:
 
 
-- Функция **«Ace ID»** позволяет контент-провайдерам и сервисам ОТТ моментально предоставлять доступ к своему контенту на условиях разового платного доступа или на условиях поминутной тарификации, автоматически получая  оплату, без необходимости регистрации/идентификации пользователей и пополнения ими балансов на своих сервисах/ресурсах.
+- Function **«Ace ID»** allows content providers and OTT services instantly provide access to its content on terms of one time payment or per minute tariff and automatically get payment without the need to register/identify users and to refill balance on their services/resources.
 
-- Сервис **«Premium Pool»** дает возможность любым контент-провайдерам и сервисам ОТТ формировать пулы с единой общей подпиской к своим услугам,  избавляя пользователей от необходимости  покупать услуги подписки на каждом отдельном сервисе ОТТ.
+- Service **«Premium Pool»** enables any content providers and OTT services to form pools with a single general subscription to their services, getting rid of the need to buy subscription services for each separate OTT service.
 
-    Сумма, оплаченная пользователем за единую общую подписку к услугам участников пула, пропорционально распределяется между его участниками, исходя из процента общего времени, затраченного пользователем на просмотр контента того или иного участника пула (для которого ведется расчет), в соотношении к общему времени, затраченного им на просмотр контента от других участников пула, за расчетный период времени.
+    The amount paid by the user for a single general subscription to the pool members services is proportionally distributed among its members, based on the percentage of the total time spent by the user on viewing the content of one or another pool member (for which the calculation is being made), in relation to the total time spent by him to view content from other members of the pool for the estimated period of time.
 
-    Распределение средств и платежи осуществляются децентрализовано, в автоматическом режиме, в соответствие условиям смарт-контракта (полностью открытая и прозрачная система, без каких-либо возможностей ручного управления и вмешательства в ее работу).
+    The distribution of funds and payments are carried out in a decentralised manner and in an automatic mode, in accordance with the terms of a smart contract (a completely open and transparent system, without any possibilities of manual control and interference in its work).
 
 
 <p style="text-align: right">
     <small>
-        Алгоритм распределения <a href="../../../list-of-operations/distribute-subscriptions/" target="_blank">здесь</a>
+        Distribution algorithm <a href="../../../list-of-operations/distribute-subscriptions/" target="_blank">здесь</a>
     </small>
 </p>
 
@@ -37,7 +35,7 @@ template: raw_content.html
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>

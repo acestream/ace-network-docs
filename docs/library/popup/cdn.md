@@ -4,121 +4,119 @@ template: raw_content.html
 
 # Ace Stream P2P CDN
 
-==TODO: english version==
-
 **
-Экологичный CDN, с безлимитной пропускной способностью и самой низкой стоимостью хранения и доставки данных в мире.
+Green CDN with unlimited bandwidth and the lowest cost of storage and data delivery in the world.
 **
 
-**Ace Stream P2P CDN** — это возможность осуществления высококачественного прямого глобального вещания на многомиллионную аудиторию зрителей, даже с обычного персонального устройства подключенного к сети на скорости 100 мбит/c, без каких-либо дополнительных затрат, без участия посредников (централизованных серверов и дата-центров) и без нанесения вреда экологии.
+**Ace Stream P2P CDN** is the opportunity to provide high-quality direct global broadcasting to a multi-million audience of viewers, even from an ordinary personal device connected to the network at a speed of 100 Mbps without any additional costs, without the participation of intermediaries (centralised servers and data centers) and without harming the environment.
 
 
 !!! info
 
-    При использовании технологии Ace Stream, когда кто-то вместе с соседом (на одной улице, в одном городе или стране) смотрит одну и туже трансляцию, он берет поток данных не с сервера (который может быть на другом конце континента), а прямо от соседа или от всех соседей сразу. В итоге вещатель с минимальными затратами может осуществлять глобальную трансляцию на неограниченное количество зрителей, а зритель получает супер-скорость и супер-качество!
+    While using Ace Stream technology someone watches the same broadcast together with a neighbor (on the same street, in the same city or country) he takes the data stream not from the server (which may be on the other end of the continent), but directly from neighbor or from all neighbors at once. As a result, the broadcaster with minimal costs can carry out global broadcasting to an unlimited number of viewers and the viewer gets super speed and super quality!
 
 
-**Актуальность задач, беспрецедентные возможности и характеристики Ace Stream P2P CDN**
+**Relevance of tasks, unprecedented opportunities and characteristics of Ace Stream P2P CDN**
 
-## 1. Устранение на программном уровне 50 кратного дефицита пропускной способности сети Интернет, равного 100 000 Тбит/c
+## 1. At the software level elimination of the 50 times deficit of Internet bandwidth which equals to 100,000 Tbps
 
-Свыше 4,5 млрд. пользователей Интернет, подключены к Сети Интернет, при средней скорости по миру: мобильный интернета 53 Мбит/с _(mbps)_, а проводной 102 Мбит/с  (на 06.06.2021, по данным [https://www.speedtest.net/global-index](https://www.speedtest.net/global-index){target=_blank})
+More than 4.5 billion Internet users are connected to the Internet with an average speed around the world: mobile Internet 53 Mbit/s (mbps), and wired 102 Mbit/s (as of 06.06.2021, according to data [https://www.speedtest.net/global-index](https://www.speedtest.net/global-index){target=_blank})
 
-Международная пропускная способность, на 5 мая 2021 года, составляет 2000 Tbps, две трети из которой используются Google, Facebook, Amazon и Microsoft. (по данным [TeleGeography](https://blog.telegeography.com/2021-international-bandwidth-trends-demand-global-networks){target=_blank})
+As of May 5, 2021, the international bandwidth is 2000 Tbps and two thirds of which is used by Google, Facebook, Amazon и Microsoft. (according to data [TeleGeography](https://blog.telegeography.com/2021-international-bandwidth-trends-demand-global-networks){target=_blank})
 
-Пропускные возможности тройки крупнейших международных операторов CDN, которые открыто опубликовали данные: Cloudflare  - 20 Tbps; Fastly Inc - 25 Tbps; Limelight Networks – 35 Tbps
+The bandwidth of the three largest international CDN operators that openly published their data: Cloudflare  - 20 Tbps; Fastly Inc - 25 Tbps; Limelight Networks – 35 Tbps
 
 
 !!! info
 
-    Задействовав всю пропускную способность  международного интернета и тройки крупнейших операторов CDN , только около 60 млн. зрителей (около 1,3% от всех пользователей Интернета) смогли бы одновременно смотреть прямую трансляцию, в качестве от 720p до 2160p (4K), HDR, с частотой 60 кадров.
+    Using the entire bandwidth of the international Internet and the three largest CDN operators only about 60 million viewers (about 1.3% of all Internet users) could simultaneously watch live broadcasts in quality from 720p to 2160p (4K), HDR, with a frequency 60 frames.
 
-    Расчет сделан при равнопропорциональном распределении смотрения по указанным форматам, в соответствии классификации и характеристикам видеоформатов рекомендованными Google (см. [https://support.google.com/youtube/answer/1722171](https://support.google.com/youtube/answer/1722171){target=_blank}))
+    The calculation was made with an equal proportional distribution of views for the indicated formats, in accordance with the video formats classification and characteristics recommended by Google (look [https://support.google.com/youtube/answer/1722171](https://support.google.com/youtube/answer/1722171){target=_blank}))
 
-Эффективная масштабируемость и неограниченная пропускная способность Ace Stream P2P CDN, полностью покрывает дефицит пропускной способности сети Интернет размером свыше 100000 Tbps, обеспечивая возможность осуществлять прямую трансляцию на неограниченное количество одновременных зрителей
+Effective scalability and unlimited bandwidth of Ace Stream P2P CDN fully covers the bandwidth deficit of the Internet network in excess of 100,000 Tbps, providing the ability to broadcast live to an unlimited number of concurrent viewers
 
 
 
-## 2. Обеспечение уровня качества и стабильность трансляций, не уступающие спутниковому вещанию, при гораздо большем покрытие/охвате
+## 2. Maintenance of quality level and broadcast stability on a par with satellite broadcasting with much greater coverage/reach 
 
-Интернет не предоставляет никаких гарантий надежности и производительности при эксплуатации Сети в режиме централизованной доставки данных!
+The Internet does not provide any guarantees of reliability and performance when operating the Network in a centralised data delivery mode!
 
-Кратко о ключевых проблемах:
+Briefly about main problems:
 
-- Перегрузки на точках пиринга (обмена трафиком)
-- Неэффективные протоколы связи и маршрутизации.
-- Ненадежные сети
-- Проблема экономической масштабируемости
-- Проблема «последней мили» и низкий уровень стабильности потока
-- Большие расходы на осуществление онлайн-трансляций
+- Congestion at peering points (traffic exchange)
+- Inefficient communication and routing protocols.
+- Unreliable networks
+- Economic scalability problem
+- Last mile problem and poor flow stability
+- High costs of online broadcasting
 
-Ограничения технологий unicast не дают возможности операторам CDN обеспечить тот уровень стабильности доставки данных и онлайн-вещания, который обеспечивают технологии P2P
+The limitations of unicast technologies prevent CDN operators from providing the level of stability of data delivery and online broadcasting that P2P technologies provide
 
 !!! info
 
-    На сегодняшний день пользователи Ace Stream смотрят видео в реальном/исходном формате 4K (в соответствие стандарту, с битрейтом 66–85 Мбит/с ), что почти в 10 раз превышает качество тех «маркетинговых» 4К видео (с битрейтом 8-10 мбит.), которые вы можете повсеместно наблюдать на многих сервисах ОТТ, использующие централизованные технологии доставки контента (unicast).
+   Currently Ace Stream users watch videos in real/original 4K format (in accordance with a bitrate standard of 66-85 Mbps) and this is almost 10 times higher than the quality of those "marketing" 4K videos (with a bitrate of 8-10 Mbps.) which you can see everywhere on many OTT services that use centralised content delivery technologies (unicast).
 
 
-## 3. Снижение расходов на онлайн-вещание до 99,9%, по соотношению к стандартным CDN
+## 3. Decrease in online broadcasting costs up to 99.9%, in relation to standard/centralised CDN.
 
-Самая низкая в мире себестоимость хранения и доставки данных (в соотношении со всеми существующими системами, включая всевозможные решения созданные на базе других технологий P2P)
-
-
-## 4. Надежная и безотказная Сеть
-
-Технология Ace Stream может использоваться без каких-либо изменений в существующей архитектуре вещателя, поверх стандартных (unicast) CDN (как гибридное решение CDN, unicast +P2P), при полном отсутствии рисков внедрения, свойственных новым технологиям
-
-Отсутствие уязвимых мест, таких как сигнальные сервера (центральные сервера, обеспечивающие коммуникации/соединения между пирами), которые являются неотъемлемой частью большинства других P2P-технологий, что делает систему/сеть практически безотказной.
+The world's lowest cost of storing and delivering data (in relation to all existing systems, including all kinds of solutions based on other P2P technologies)
 
 
-## 5. Прозрачность учета трафика и удобства взаиморасчетов
+## 4. Reliable and trouble-free network
 
-Открытая и полностью прозрачная децентрализованная система учета трафика и времени просмотра трансляций, с автоматизированной системой взаиморасчетов, реализованной на одной из самых передовых технологий blockchain
+Ace Stream technology can be used without any changes in the existing architecture of the broadcaster on top of standard (unicast) CDNs (as a hybrid CDN solution, unicast + P2P) with the complete absence of implementation risks inherent in new technologies
 
-Оплата за реальные, а не виртуальные объемы переданных данных!
+Lack of vulnerabilities such as signaling servers (central servers that provide communications/connections between peers) are an integral part of most other P2P technologies makimg the system/network practically trouble-free.
 
-Нет необходимости «верить на слово» операторам CDN про объемы израсходованного трафика. При использовании Ace Stream P2P CDN вещатель сможет самостоятельно посчитать каждый ГБ трафика, полученного его зрителями, в том числе и объем данных, отправленных операторами CDN, при использовании вещателем гибридной (смешанной) модели передачи данных (unicast+P2P)
+
+## 5. Transparency of traffic accounting and convenience of mutual settlements
+
+An open and completely transparent decentralised system for accounting traffic and viewing time of broadcasts with an automated settlement system implemented on one of the most advanced blockchain technologies
+
+Payment for real but not virtual volumes of transferred data!
+
+There is no need to take on trust CDN operators' word for the amount of used traffic. When using Ace Stream P2P CDN, the broadcaster will be able to independently calculate each GB of traffic received by its viewers, including the amount of data sent by CDN operators, when the broadcaster uses a hybrid (mixed) data transmission model (unicast + P2P)
 
 
 ## 6. Carbon-negative
 
-Экологически чистая система хранения и доставки данных, использование которой снижает общий мировой уровень объемы выбросов CO<sub>2</sub> в атмосферу от деятельности стриминговой индустрии
+An environmentally friendly storage and delivery system that reduces the overall global level of CO <sub> 2 </sub> emissions from the streaming industry
 
 
 !!! info
 
-    Около 90% ресурсов Интернета и дата-центров работают на стриминговую индустрию, чтобы обеспечить около 1% от реальных потребностей пользователей в онлайн-смотрении. Соответственно, чтобы покрыть дефицит пропускной способности стандартными методами, нужно в сотни раз увеличить мощности централизованной инфраструктуры. При этом дата-центры уже сейчас используют более 2% мировой электроэнергии и производят такое же количество углеродных выбросов **(свыше 650 млн т/год. CO<sub>2</sub>), **что уже в пять раз превосходит уровень объемов выбросов CO<sub>2</sub>  при майнинге Bitcoins**! **
+   About 90% of Internet resources and data centers work for the streaming industry in order to provide about 1% of the real needs of users for online viewing. Accordingly, in order to cover the bandwidth deficit using standard methods, it is necessary to increase the capacity of the centralised infrastructure hundreds of times. At the same time, data centers already use more than 2% of the world's electricity and produce the amount of carbon emissions ** (over 650 million tons / year. CO <sub> 2 </sub>), ** which is five times higher than the level of CO <sub> 2 </sub> emissions from mining Bitcoins **! **
 
 
-    И если для стриминга не будут активно использоваться децентрализованные P2P-технологии хранения и доставки данных, то дата-центры будут расти как грибы, и тогда даже при самых энергоэффективных технологиях, согласно оценкам экспертов, в течение десятилетия на дата-центры и цифровую инфраструктуру будет приходиться уже до 20% мирового потребления электроэнергии и 5,5% выбросов CO<sub>2</sub>
+    And if decentralised P2P technologies for storing and delivering data are not actively used for streaming, then data centers will sprang up like mushrooms and according to experts within a decade even with the most energy efficient technologies data centers and digital infrastructure will account for already up to 20% of global electricity consumption and 5.5% of CO emissions <sub> 2 </sub>
 
 
 <p style="text-align: right">
-        <a href="https://thenextweb.com/news/data-centers-generate-the-same-amount-of-carbon-emissions-as-global-airlines" target="_blank">Ссылка на TNW
+        <a href="https://thenextweb.com/news/data-centers-generate-the-same-amount-of-carbon-emissions-as-global-airlines" target="_blank">Link to TNW
     </a>
 </p>
 
-## 7. Выход из «плоского» интернета»
+## 7. Exit from the "flat internet"
 
-"Nobody is even aware that the internet has flattened" - говорит Nishanth Sastry, профессор, специализирующийся на изучении распределения контента в King’s College в Лондоне. "It happened even without people noticing. We changed Big Ben and nobody noticed."
+"Nobody is even aware that the internet has flattened" - said Nishanth Sastry, professor, who is specialised in exploring content distribution at King’s College in London. "It happened even without people noticing. We changed Big Ben and nobody noticed."
 
-Новая, "плоская" структура Интернета означает, что владельцы контента, такие как Google Facebook, Amazon и Netflix, обладают большей мощностью и возможностями, чем когда-либо, чтобы контролировать как их контент достигает конечного потребителя. Этот перераспределенный интернет привел к обострению борьбы между крупнейшими компаниями Интернета и традиционными операторами связи; получив в распоряжение 2/3 всей пропускной способности международного интернета и активно разворачивая собственные частные CDN, корпорации оказывают большое давление на интернет-провайдеров (ISP) и затрудняют работу другим сервисам OTT.
+The new, "flat" structure of the Internet means that content owners like Google, Facebook, Amazon and Netflix have more power and possibility than ever to control how their content reaches the end consumer.This redistributed Internet has led to an intensification of the struggle between the largest Internet companies and traditional telecom operators. With 2/3 of all international Internet bandwidth at their disposal and actively deploying their own private CDNs, corporations are putting a lot of pressure on Internet service providers (ISPs) and making it difficult for other OTT services to work.
 
-В конечном итоге, контент-провайдеры (ОТТ), которые не имеют собственных привилегированных CDN, просто не смогут конкурировать с компаниями которые владеют как содержимым в Интернете, так и средствами его доставки; а потребителям придется довольствоваться ограниченным выбором предложений всего от нескольких монополистов
+At the end of the day, content providers (OTTs) that don't have their own privileged CDNs simply won't be able to compete with companies that own both content on the Internet and the means of delivery; and consumers will have to settle for a limited selection of offers from just a few monopolists
 
-В случае, если же услуги ISP начнут массово предоставлять непосредственно компании владеющими всевозможными собственными сервисами VoD, Live Stream (к примеру, такие как Google, Facebook, Amazon, Apple и т.п.), а именно к этому они и стремятся (видя в этом один из вариантов оптимального решения проблемы «последней мили» и возможности полного  контроля серфинга пользователей в Сети), то тогда еще и возникнет конфликт бизнес-интересов между самими монополистами. Пояснять, какому трафику будет отдаваться предпочтение в такой ситуации, вероятно будет лишним. В этом случае можно будет забыть о каком-либо сетевом нейтралитете, и соответственно единственным кто сможет обеспечить высокие гарантии качества и стабильности трансляции, это будет тот, кому принадлежит ISP!
+In case of ISP services begin to be massively provided directly by the companies that own all kinds of their own VoD, Live Stream services (for example, such as Google, Facebook, Amazon, Apple, etc.) and that is they are seeking to (seeing this is as one of the options for the optimal solution to the problem of the "last mile" and the possibility of complete control of users' surfing on the Web), then there will also be a conflict of business interests between the monopolists themselves. It seems senseless to explain what kind of traffic will be preferred in such a situation. In this case, we can forget about any net neutrality, and accordingly the only one who can provide high guarantees of the quality and stability of the broadcast will be the one who owns the ISP!
 
-Хотите ли Вы чтобы вам когда-то пришлось делать выбор между Netflix или YouTube или Apple TV и  др., из понимания того, что делая выбор в пользу какого-то ISP, вы сможете нормально пользоваться только одним из этих сервисов?!  Нужен ли Вам интернет от Google, чтобы не иметь проблем с работой его сервисов или интернет от Facebook, чтобы нормально пользовать его сервисы, и нужен ли Вам вообще такой Интернет, где нужно делать такой выбор?!
+Do you want at some point being made to decide between Netflix or YouTube or Apple TV, etc., understanding that by making a choice in favour of some ISP, you can properly use only one of these services ?!  Do you need the Internet from Google in order not to have problems with the work of its services or the Internet from Facebook in order to use its services normally, and do you need such an Internet at all, where you need to make such a choice ?!
 
-!!! cite "Джо МакНаме"
-    Что произойдет, когда у вас есть огромная инфраструктура CDN и доступ к последней миле? Вы попадаете в другой мир.
+!!! cite "Joe McNamee"
+    What happens when you have a huge CDN infrastructure and last mile access? You find yourself in another world.
 
-**Решение:** задействовав пропускные возможности пользователей Сети, и эффективно перераспределяя между ними нагрузку и потоки данных, технология Ace Stream P2P CDN делает экономически нецелесообразным создание/развитие крупных централизованных инфраструктур, тем самым разгружая магистральные каналы и улучшая производительность всего Интернета, а также спасая экологию от последствий централизованного стриминга, и в итоге делая Интернет таким, каким он изначально планировался быть и каким он наконец-то должен стать - децентрализованным, демократичным и экологичным!
+** Solution: ** By using the bandwidth of network users, and effectively redistributing the load and data streams between them, the Ace Stream P2P CDN technology makes it economically sensible to create/develop large centralised infrastructures, thereby relieving trunk channels and improving the performance of the entire Internet, as well as saving the environment from the consequences of centralised streaming, and ultimately making the Internet what it was originally planned to be and what it should finally become - decentralised, democratic and environmentally friendly!
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>

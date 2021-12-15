@@ -1,113 +1,111 @@
-# Оценка рисков
+# Risk Assessment
 
-==TODO: english version==
+## Reliability of the DAO Ace Stream project
 
-## Надежность проекта DAO Ace Stream
+Ace Stream is not just another loud declarations and promises of a startup that does not have a long history of development, ready-made products and its own audience.
 
-Ace Stream - это не очередные громкие декларации и обещания стартапа, не имеющего длительной истории развития, готовых продуктов и собственной аудитории.
+**Ace Stream** is an international project created with the participation and financial support of the European Union with a 10-year history of development, the possibilities of which have already attracted over 30 million active users and ensured an organic interest in the project's products at the level of 50 thousand new installations of Ace Stream software per day.
 
-**Ace Stream** - это международный проект, созданный при участии и финансовой поддержке Евросоюза, с 10 летней историй развития, возможности которого уже привлекли свыше 30 млн. активных пользователей и обеспечили органический интерес к продуктам проекта на уровне 50 тыс. новых установок ПО Ace Stream в день.
-
-Много лет подряд мы разрабатывали и оттачивали на десятках миллионов пользователей нашу децентрализованную технологию онлайн-вещания, чтобы предоставить миру радикально новое и эффективно работающие решение.
+For many years in a row we have developed and sharpen our decentralised online broadcasting technology with tens of millions of users in order to provide the world with a drastically new and efficient solution.
 
 
 !!! note ""
-    Протокол Ace Stream стал самым популярным в мире децентрализованным P2P-решением для осуществления прямых трансляций в сети Интернет!
+    The Ace Stream protocol has become the world's most popular decentralised P2P solution for operating live broadcasts on the Internet!
 
 
-## Отсутствие технологических рисков, относящихся к реализации обозначенных в проекте продуктов и их функционала
+## Absence of technological risks related to the implementation of the products indicated in the project and their functionality
 
-Все самые сложные технологические компоненты - уже разработаны!
+All the most complex technological components have already been developed!
 
-В итоге, все изначальные работы по выпуску продуктов в продакшн будут сфокусированы на качественной интеграции существующих продуктов между собой и добавлении в них дополнительного функционала, а также создании новых продуктов, не имеющих технологических сложностей в реализации.
+As a result, all the initial work on the release of products into production will be focused on the high-quality integration of existing products with each other and adding additional functionality to them, as well as creating new products that do not have technological difficulties in implementation.
 
 
-## Минимальный риск в достижении цели по охвату аудитории
+## Minimal risk in reaching target audience coverage
 
-DAO Ace Stream создается на базе популярного проекта Ace Stream, с изначальным акцентом на распространение новых продуктов на собственную многомиллионную аудиторию.
+DAO Ace Stream is based on the popular Ace Stream project with an initial focus on distributing new products to its own multi-million audience.
 
-При этом, важно учесть, что продукты Ace Stream были установлены свыше 100 млн. уникальных пользователей! Однако удержание составило только 30% (около 30 млн. активных пользователей).
+At the same time, it is important to consider that Ace Stream products have been installed by over 100 million unique users! However, retention was only 30% (about 30 million active users).
 
-Хорошая новость в том, что мы знаем причину не удержания пользователей, и что нужно делать.
+The good news is that we know the reason for bad retention and what needs to be done.
 
 
 !!! note ""
-    *Вопрос:* почему теряется 70% пользователей, которые скачали программное обеспечение Ace Stream?
+    *Question:* why 70% of users who downloaded Ace Stream software are lost?
 
-    *Ответ:* все, что предлагалось до появления DAO Ace Stream - это было очень сложно для простых пользователей.
+    *Answer:* everything that was offered before the release of DAO Ace Stream was very difficult for casual users.
 
-Основная аудитория программных продуктов Ace Stream – это продвинутые пользователи Интернета (гики). Безусловно, на этапе создания и тестирования технологии это был огромный плюс, так как благодаря такой аудитории мы смогли получать необходимую для развития активность и качественный фидбек. Но, по факту, на определенном этапе развития, проблема с удержанием аудитории стала насущна и более чем актуальна.
+The main audience of Ace Stream software products is advanced Internet users (geeks). Of course, at the stage of creating and testing the technology this was a huge advantage, since thanks to such an audience we were able to receive the activity and high-quality feedback necessary for development. But at a certain stage of development the problem of audience retention has become urgent and more than relevant.
 
-Причина обозначенной проблемы заключается в том, что программные продукты Ace Stream не содержат никакого контента, и для использования этих продуктов нужно обладать определенными знаниями, позволяющими установить и настроить не один, а целый комплекс отдельных продуктов (что в основном под силу только гикам).
-
-!!! note ""
-    К примеру, один из вариантов:  для того чтобы найти качественную и стабильную трансляцию пользователю нужно установить одно из приложений [Ace Stream][1], после чего установить браузерное расширение [Ace Script][2], а после этого еще и установить специальный скрипт [P2P Search][3]. A чтобы это все еще нормально каталогизировать на устройстве, нужно еще отдельно установить какой-то удобный каталогизатор и, как правило, от сторонних разработчиков, (поддерживающих технологии Ace Stream), так как на данный момент единственным официальным приложением Ace Stream, позволяющим удобно каталогизировать и просматривать контент, является приложение Ace Stream LiveTV (которое предназначено только для каталогизации ТВ-каналов, и пока выпускается только для ТВ и ТВ-приставок, работающих на базе ОС Android). Ну и как вам такой экшен?!
-
-    А с учетом того, что Ace Stream официально еще и не предоставлял инструкцию для такого экшена, и продукты являются обособленными (многие пользователи Ace Stream даже не знают о существовании такого расширения и скрипта), то у некоторых может вообще вызвать удивление и непонимание как Ace Stream при таком раскладе (положении дел) смог вообще набрать такую аудиторию, да еще и без каких-либо затрат на маркетинг!?
-
-У этой проблемы есть хорошая сторона:
-
-a.  Самые продвинутые пользователи Интернета (гики - «двигатели прогресса») хорошо оценили возможности и преимущества технологий Ace Stream, и также выявили недоставки в части юзабилити.
-
-b.  Актуальность технологий Ace Stream и большой интерес пользователей Интернет к продуктам проекта, подтверждены органическим охватом аудитории, с показателем в 100 млн. уникальных пользователей установивших приложения, 30 млн. активных пользователей и около 50 000 новых установок приложений в день. И все это на этапе реализации только самых базовых приложений и функций, и без каких-либо затрат на маркетинг/рекламу и каких-либо программ поощрения и финансового симулирования пользователей Сети!
+The reason for the indicated problem is that Ace Stream software products do not contain any content and to use these products you need to have certain knowledge that allows you to install and configure not one, but a whole range of individual products (which basically only geeks can do).
 
 !!! note ""
-    Мы просто делаем то, что нужно очень многим, и то, что не имеет аналогов в мире, — это фундаментальная основа Ace Stream и единственный маркетинговый инструмент, послуживший развитию первого этапа проекта и обеспечивший существующий охват аудитории
+    For example, one of the options is that in order to find a high-quality and stable broadcast, the user needs to install one of the applications [Ace Stream][1], then install the browser extension [Ace Script][2] and then also install a special script [P2P Search][3]. And in order to still properly catalog on the device you also need to separately install some convenient cataloger and as a rule from third-party developers (supporting Ace Stream technologies), since at the moment the only official Ace Stream application that allows you to conveniently catalog and view content is the Ace Stream LiveTV application (which is intended only for cataloging TV channels, and so far is only released for TV and set-top boxes running on the Android OS). Well, how do you like this action game ?!
 
-Новые базовые (якорные) приложения, которые будут реализованы в рамках проекта DAO Ace Stream, являются удобными и интуитивно-понятными среднестатистическому пользователю Интернета, тем самым устраняют проблему не удержания аудитории.
+    And taking into account the fact that Ace Stream has not officially provided instructions for such an action yet, and the products are separate (many Ace Stream users do not even know about the existence of such an extension and script), some may even be surprised and misunderstood how Ace Stream in this situation (state of affairs) was able to recruit such an audience at all, and even without any marketing costs !?
 
-Базовые приложения DAO Ace Stream:
+There is a pros of this problem:
 
-- **Ace Media + P2P Search** - локальный медиа сервер, с децентрализованной системой публикации и поиска контента, с возможностью его каталогизации и синхронизации между любыми пользовательскими приложениями и с функцией проигрывания контента на удаленных устройствах и ТВ, посредством коммуникационных протоколов Ace Cast, AirPlay, Google Cast и др.
-- **Ace Surf** - мультимедийный браузер
-- **Ace Stream LiveTV** - агрегатор всех ТВ-каналов и прямых трансляций, в одном удобном ТВ-интерфейсе;
-- **Ace Movies&Series** - агрегатор/каталогизатор фильмов и сериалов, с функцией автопоиска контента в Сети
-- **Ace Music&Karaoke** - агрегатор/каталогизатор музыки, с функцией караоке и автопоиском контента в Сети
-- **Ace Sports** -агрегатор спортивных трансляций, с расписанием и результатами
-- **Ace Tube**- децентрализованный аналог YouTube
-- **Ace Game** - децентрализованный аналог Twitch
+a.  The most advanced Internet users (geeks - "engines of progress") appreciated the capabilities and advantages of Ace Stream technologies and also identified usability drawbacks.
 
-Программы развития, направленные на обеспечение активного роста аудитории сети [Ace Network][4]:
+b.  The relevance of Ace Stream technologies and the great interest of Internet users in the project's products are confirmed by the organic reach of the audience with an indicator of 100 million unique users who have installed applications, 30 million active users and about 50,000 new installations of applications per day. And all this at the stage of implementation of only the most basic applications and functions and without any marketing/advertising costs and any programs for encouraging and financial simulation of Internet users!
 
-1. Стандартный (отраслевой) набор маркетинговых инструментов
+!!! note ""
+    We just do what many people need and what has no analogues in the world so that is the fundamental basis of Ace Stream and the only marketing tool that served to develop the first stage of the project and ensured the existing audience reach
 
-    Бюджет на маркетинговые программы - 5 млрд. [XAT][5]
+The new basic (anchor) applications that will be implemented as part of the DAO Ace Stream project are convenient and intuitive for the average Internet user, thereby solving the problem of audience retention.
 
-2. Децентрализованная система стимулирования и мотивации
+Basic DAO Ace Stream apps:
+
+- **Ace Media + P2P Search** - local media server with a decentralised system for publishing and searching for content and with the ability to catalog and synchronise it between any user applications and with the function of playing content on remote devices and TV, via communication protocols Ace Cast, AirPlay, Google Cast, etc.
+- **Ace Surf** - multimedia browser
+- **Ace Stream LiveTV** - aggregator of all TV channels and live broadcasts in one convenient TV interface;
+- **Ace Movies&Series** - aggregator/cataloger of films and TV series with the autosearch function content on the network
+- **Ace Music&Karaoke** - aggregator/cataloger of music with karaoke function and autosearch of content on the Web
+- **Ace Sports** -aggregator of sports broadcasts with a schedule and results
+- **Ace Tube**- decentralised analog of YouTube
+- **Ace Game** - decentralised analog of Twitch
+
+Development programs aimed at ensuring active growth of the network audience [Ace Network][4]:
+
+1. Standard (industrial) kit of marketing tools
+
+    A budget for marketing programs is 5 billions [XAT][5]
+
+2. Decentralised system of stimulation and motivation
 
     Автоматическое вознаграждение пользователей и партнеров Сети:
 
-    - за предоставление Сети своих аппаратно-сетевых ресурсов;
-    - за публикацию и дистрибуцию высококачественного контента; 
-    - за разработку и создание собственных приложений и сервисов;
-    - за дистрибуцию приложений DAO Ace Stream» (для производителей устройств, OEMs)  
-    - за модерацию контента в Сети
-    - за просмотр рекламы
-    - за участие в программах [DeFi][6]
+    - for providing the Network with its hardware and network resources;
+    - for posting and distribution of high quality content;  
+    - for developing and creating your own apps and services;
+    - for distribution DAO Ace Stream apps» (for apps dev, OEMs)  
+    - for content moderation in the Network
+    - for viewing ads
+    - for taking part in [DeFi][6] 
 
 
-## Минимизации риска удаления продуктов из каких-либо маркетов приложений
+## Minimising the risk of removing products from any app markets
 
-Технологии и продукты Ace Stream являются абсолютно законными и легальными, и работают в полном соответствии соблюдения условий DMCA (подробнее в разделе [«Соответствие условиям DMCA»][7])! При этом, мы учитываем риск зависимости от третьих лиц.
+Ace Stream technologies and products are absolutely legal and operate in full compliance with the DMCA terms (more details in the section ["DMCA Compliance"][7])! In doing so, we take into account the risk of dependence on third parties.
 
-Под риском «зависимости от третьих лиц» подразумевается необходимость размещения приложений в маркетах, принадлежащих сторонним компаниям и действующих в рамках своих интересов, которые на основании собственной политики самостоятельно принимают решение какому, приложению быть в маркете, а какому нет, независимо от того, насколько легально и законно такое приложение. Владельцы маркетов действуют в интересах собственных компаний и очень часто пользуются своим монопольным положением, чтобы не допустить размещения в своем маркете приложений, которые будут конкурировать с продуктами и сервисами владельца маркета. Это, безусловно, существенный недостаток, но таков рынок и этому риску подвержены все проекты, которые создают приложения для Android и iOS. При этом, это обязательно должно учитываться, чтобы изначально выстроить правильную стратегию, при которой данный риск и возможные потери при наступлении рискового случая будут сведены к минимуму.
+The risk of "dependence on third parties" means the need to place applications in markets owned by third-party companies and acting within the framework of their interests, which on the basis of their own policies independently decide which application to be in the market and which not, regardless of how legal. Market owners act in the interests of their own companies and very often use their monopoly position to prevent the placement of applications in their market that will compete with the products and services of the market owner. This is undoubtedly a significant drawback, but such is the market and all projects that create applications for Android and iOS are exposed to this risk. At the same time, this must be taken into account in order to initially build the correct strategy, in which this risk and possible losses in the event of a risky event will be minimised.
 
-Стратегия диверсификации обозначенного риска в проекте DAO Ace Stream:
+Diversification strategy of the designated risk in the DAO Ace Stream project:
 
-- Создаются абсолютно отдельные (самостоятельные, обособленные) приложения, связанные между собой только на уровне хорошо продуманных программных интеграций (посредством API, с удобным для пользователей юзабилити).
+- Absolutely separate (independent, isolated) applications are created and are interconnected only at the level of well-thought-out software integrations (via API, with user-friendly usability).
 
-- Размещение приложений будет осуществляется во всевозможных маркетах, в том числе и в децентрализованном маркете приложений.
+- Placement of applications will be carried out in all kinds of markets, including the decentralised application market.
 
-- Пользователям изначально будет предлагаться делать прямую установку приложений или установку через децентрализованный маркет приложений, без использования централизованных маркетов. Предусмотрена система мотивации пользователей для таких установок, в виде дополнительного функционала в приложениях и разных бонусов.
+- Users will initially be offered to do direct installation of applications or installation through a decentralised application market, without using centralised markets. There is a system for motivating users for such installations in the form of additional functionality in applications and various bonuses.
 
-- Реализована удобная система обновлений для приложений, установленных не из маркетов.
+- A convenient system of updates for applications not installed from markets has been implemented.
 
 
-## Надежность программ DeFi и гарантия платежей
+## DeFi program reliability and payment guarantee
 
-DAO Ace Stream и программы [DeFi][6] работают в децентрализованной Сети, c открытым исходным кодом и прозрачной экономикой, основываясь на заложенных программных алгоритмах, представленных в публичных смарт-контрактах (открытых программных кодах), с полной децентрализацией регуляции отношений, хозяйственных механизмов и взаиморасчетов между ее Участниками. Правила DAO Ace Stream соблюдаются самим протоколом (программным кодом), операторами узлов и социальным консенсусом ее Пользователей/Участников.
+DAO Ace Stream and [DeFi][6] programs work in decentralised network with open source and transparent economy which is based on programs algorithms given in public smart contracts (open source codes) with complete decentralisation of regulation of relations, economic mechanisms and mutual settlements between its Participants. DAO Ace Stream rules are followed by the protocol itself (program code), node operators and social consensus of its Users/Participants.
 
-Распределение средств и платежи осуществляются децентрализовано, в автоматическом режиме, в соответствие условиям смарт-контракта, без каких-либо возможностей ручного управления и вмешательства в работу системы.
+The distribution of funds and payments are carried out in a decentralised manner and in an automatic mode, in accordance with the terms of a smart contract without any possibilities of manual control and interference in the operation of the system.
 
 
 [1]: https:/wiki.acestream.media/Download

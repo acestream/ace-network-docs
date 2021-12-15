@@ -2,24 +2,22 @@
 template: raw_content.html
 ---
 
-# Децентрализованные мессенджеры, видеоконференции и социальные сети
+# Decentralised messengers, video calls and social networks 
 
-==TODO: english version==
-
-Полностью децентрализованная и максимально защищенная система коммуникаций, которая  никем и никак не может быть заблокирована или как-то ограничена.
+Fully decentralised and extremely secured communication system which cannot be blocked or somehow restricted by anyone or anything. 
 
 !!! info ""
 
-    Ни один из существующих мессенджеров в мире еще не имеет полной (100%) децентрализации!
+    Not a single current messenger in the world does not have a full (100%) decentralisation! 
 
-Базовый продукт:
+Basic product:
 
-- **Ace Life** – децентрализованный мессенджер (сообщения, чаты, звонки, аудио и видеоконференции и т.п.), с функционалом социальных сетей (персональные или корпоративные страницы, каналы, блоги, маркеты, работа, знакомства и др.)
+- **Ace Life** – decentralised messenger (messages, chats, calls, audio and video calls etc.), with functions of social networks (personal or corporate profiles, channels, blogs, exchanges, job, datings etc.) 
 
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light close-popup-inner" href="#">
-            Закрыть
+            Close
         </a>
     </em>
 </p>

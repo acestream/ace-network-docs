@@ -1,7 +1,5 @@
 # Inflation
 
-==TODO: english version==
-
 The system smart contract that initiate inflation. Can be started by any account, but the network will only accept one transaction every 7 days.
 
 The operation creates XATs to the extent of 1% per year of the total amount of XATs in circulation and places the created tokens in an inflationary system pool.

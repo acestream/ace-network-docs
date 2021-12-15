@@ -20,7 +20,7 @@ template: raw_content.html
 
 ## 1. Устранение на программном уровне 50 кратного дефицита пропускной способности сети Интернет, равного 100 000 Тбит/c
 
-Свыше 4,5 млрд. пользователей Интернет, подключены к Сети Интернет, при средней скорости по миру: мобильный интернета 53 Мбит/с _(mbps)_, а проводной 102 Мбит/с  (на 06.06.2021, по данным [https://www.speedtest.net/global-index](https://www.speedtest.net/global-index){target=_blank})
+Свыше 4,5 млрд. пользователей Интернет, подключены к Сети Интернет, при средней скорости по миру: мобильный интернета 53 Мбит/с (mbps), а проводной 102 Мбит/с  (на 06.06.2021, по данным [https://www.speedtest.net/global-index](https://www.speedtest.net/global-index){target=_blank})
 
 Международная пропускная способность, на 5 мая 2021 года, составляет 2000 Tbps, две трети из которой используются Google, Facebook, Amazon и Microsoft. (по данным [TeleGeography](https://blog.telegeography.com/2021-international-bandwidth-trends-demand-global-networks){target=_blank})
 

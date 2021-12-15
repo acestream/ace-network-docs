@@ -3,6 +3,13 @@
     font-weight: 400;
 }
 
+/* Don't use accent colors for focused buttons */
+.md-typeset .md-button:focus, .md-typeset .md-button:hover {
+    color: var(--md-primary-fg-color);
+    background-color: var(--md-primary-bg-color);
+    border-color: var(--md-primary-bg-color);
+}
+
 .md-button.mdx-button--transparent-light:hover,
 .md-button.mdx-button--transparent-light:focus {
     background-color: var(--md-primary-fg-color);
