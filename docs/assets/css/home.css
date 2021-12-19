@@ -163,3 +163,22 @@ label.md-overlay {
 a:hover {
     text-decoration: none;
 }
+
+/* Change the look of language selector */
+.md-select__link {
+    color: var(--md-primary-bg-color);
+    background-color: var(--mdx-home-button-color);
+}
+
+.md-select__link:hover {
+    background-color: var(--md-primary-bg-color);
+    color: var(--mdx-home-button-color);
+}
+
+.md-select__inner {
+    background-color: transparent;
+}
+
+.md-select__inner::after {
+    border-bottom-color: var(--mdx-home-button-color);
+}
