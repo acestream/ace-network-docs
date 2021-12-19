@@ -111,20 +111,20 @@ body {
     font-size: 14px;
     font-style: italic;
     margin: 24px auto;
-  }
+}
 
-  #my-carousel .carousel-item {
+#my-carousel .carousel-item {
     width: 320px;
     height: 80px;
-  }
+}
 
-  #my-carousel .carousel-indicators {
+#my-carousel .carousel-indicators {
     display: flex;
     bottom: -27px;
     z-index: 2;
-  }
+}
 
-  #my-carousel .carousel-indicators > li {
+#my-carousel .carousel-indicators > li {
     cursor: pointer;
     height: 8px;
     width: 8px;
@@ -132,28 +132,28 @@ body {
     border-radius: 50%;
     transition: background-color 0.3s ease;
     margin-left: 10px;
-  }
+}
 
-  #my-carousel .carousel-indicators > li.active {
+#my-carousel .carousel-indicators > li.active {
     background-color: #fff;
-  }
+}
 
-  @media screen and (min-width: 520px) {
+@media screen and (min-width: 520px) {
     #my-carousel {
-      font-size: 16px;
-      width: 515px;
-      height: 80px;
+        font-size: 16px;
+        width: 515px;
+        height: 80px;
     }
     #my-carousel .carousel-item {
-      width: 515px;
-      height: 80px;
+        width: 515px;
+        height: 80px;
     }
     #my-carousel .carousel-indicators > li {
-      height: 12px;
-      width: 12px;
-      background-color: #7db6c5;
+        height: 12px;
+        width: 12px;
+        background-color: #7db6c5;
     }
-  }
+}
 
 /* Reset margin set by Bootstrap  */
 label.md-overlay {
