@@ -4,6 +4,7 @@
   <!-- The order is important: load Bootstrap styles before Mkdocs because both contain "reset" stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   {{ super() }}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="{{ 'assets/css/home.css' | url }}" />
 {% endblock %}
 
@@ -22,13 +23,17 @@
 
         <!-- Home content -->
         <div class="mdx-home__content">
-          <div class="mdx-home__logo">
+          <div class="mdx-home__logo _anim__items">
             <img src="https://m.acestream.net/img/md_home_logo.png" />
           </div>
 
-          <h1>{% block slogan %}Decentralized multimedia Network{% endblock %}</h1>
+          <div class="mdx-home-title _anim__items">
+              <h1 class="animate">
+                {% block slogan %}Decentralized multimedia Network{% endblock %}
+              </h1>
+          </div>
 
-          <div id="my-carousel" class="carousel slide" data-ride="carousel">
+          <div id="my-carousel" class="animate-slide carousel slide _anim__items" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
               <li data-target="#my-carousel" data-slide-to="1"></li>
@@ -107,10 +112,10 @@
             </div>
           </div>
 
-          <a href="library/dao-acestream/" class="md-button md-button--primary mdx-button--first">
+          <a href="library/dao-acestream/" class="md-button md-button--primary mdx-button--first _anim__items">
             {% block button_dao_title %}DAO Ace Stream{% endblock %}
           </a>
-          <a href="library/finances/" class="md-button">
+          <a href="library/finances/" class="md-button _anim__items">
             {% block button_finances_title %}Investments, DeFi{% endblock %}
           </a>
         </div>
@@ -151,6 +156,45 @@
       });
     });
   </script>
+
+  <script>
+        const animItems = document.querySelectorAll('body,._anim__items');
+
+        if (animItems.length > 0) {
+            window.addEventListener('scroll', animOnScroll);
+            function animOnScroll() {
+                for (let index = 0; index < animItems.length; index++) {
+                    const animItem = animItems[index];
+                    const animItemHeight = animItem.offsetHeight;
+                    const animItemOffset = offset(animItem).top;
+                    const animStart = 4;
+
+                    let animItemPoint = window.innerHeight - animItemHeight / animStart;
+                    if (animItemHeight > window.innerHeight) {
+                        animItemPoint = window.innerHeight - window.innerHeight / animStart;
+                    }
+
+                    if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
+                        animItem.classList.add('_active');
+                    } else {
+                        if (!animItem.classList.contains('_anim__no__hide')) {
+                            animItem.classList.remove('_active');
+                        }
+
+                    }
+                }
+            }
+            function offset(el) {
+                const rect = el.getBoundingClientRect(),
+                    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+                    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+            }
+            setTimeout(() => {
+                animOnScroll();
+            }, 500);
+        }
+    </script>
 {% endblock %}
 
 <!-- Content -->
