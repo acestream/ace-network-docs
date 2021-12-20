@@ -3,7 +3,7 @@
 }
 
 body {
-    background: var(--md-primary-fg-color) url(/63db9820/assets/images/ace_background_mobile.jpg) no-repeat center center fixed;
+    background: var(--md-primary-fg-color) url(/assets/images/ace_background_mobile.jpg) no-repeat center center fixed;
     background-size: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -72,7 +72,7 @@ body {
 
 @media screen and (min-width: 520px) {
     body {
-        background-image: url(/63db9820/assets/images/ace_background_5.jpg);
+        background-image: url(/assets/images/ace_background_5.jpg);
     }
     .mdx-home .md-button {
         margin-top: 0px;
