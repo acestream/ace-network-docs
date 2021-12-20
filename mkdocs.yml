@@ -163,7 +163,7 @@ nav:
       - System Settings: glossary/system-settings.md
       - System Smart Contracts: glossary/system-smart-contracts.md
       - Ace Stream Foundation: glossary/ace-stream-foundation.md
-- Broadcasting:
+  - Broadcasting:
     - Intro: broadcasting/index.md
     - Get Started: broadcasting/get-started.md
     - Broadcasting Details:
@@ -179,3 +179,12 @@ nav:
     - Reference: broadcasting/reference.md
   - Developers:
     - Intro: developers/index.md
+    - Get Started: developers/get-started.md
+    - Running the Engine: developers/running-engine.md
+    - Using Engine on Android: developers/using-engine-on-android.md
+    # - "acestream: protocol": developers/acestream-protocol.md
+    # - What is "Content ID" and "infohash"?: developers/content-id-and-infohash.md
+    # - Utilities:
+    #   - Content ID Generation: developers/utilities/content-id-generation.md
+    - API Reference: developers/api-reference.md
+    - Old Engine API (deprecated): developers/old-engine-api.md
