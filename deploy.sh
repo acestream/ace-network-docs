@@ -17,10 +17,13 @@ fi
 
 ${CURDIR}/build.sh
 
+# Copy robots.txt
+rsync -a ${CURDIR}/robots.txt ${CURDIR}/site/
+
 source ${CURDIR}/deploy.config
 
 DEPLOY_DEST=${TARGET_HOST}:${TARGET_PATH}/${DEPLOY_PATH}
 echo "Deploy to ${DEPLOY_DEST}"
-rsync -a --delete site/ ${DEPLOY_DEST}
+rsync -a --delete ${CURDIR}/site/ ${DEPLOY_DEST}
 
 echo "Done"
