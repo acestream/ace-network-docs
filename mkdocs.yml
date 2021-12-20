@@ -46,6 +46,7 @@ plugins:
         ru:
           Overview: Обзор
           Products: Продукты
+          Unexplored Internet: Интернет, о котором мало кто знает
           About the Project: О проекте
           Finances and Investment: Финансы и инвестиции
           Financial Services, DeFi: Инвестиционные программы, DeFi
@@ -92,7 +93,7 @@ plugins:
 nav:
   - Home: index.md
   - About the Project:
-    - Интернет, о котором мало кто знает: library/intro.md
+    - Unexplored Internet: library/intro.md
     - DAO Ace Stream: library/dao-acestream.md
     - Finances and Investment:
       - Financial Services, DeFi: library/finances.md
