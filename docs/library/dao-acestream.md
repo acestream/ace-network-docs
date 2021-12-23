@@ -61,10 +61,10 @@ The DAO Ace Stream ecosystem is based on blockchain technology and has no owners
 
 ### 1. Decentralized network with incredible multimedia capabilities
 
-Total immersion into multimedia with DAO Ace Stream products and solutions:
+Total immersion into multimedia and metaverse with DAO Ace Stream products and solutions:
 
 - The embodiment of ideas and requests from the multi-million audience of Ace Stream in the decentralized media browser Ace Surf
-- WEB 3.0 (DApps, decentralized apps and sites)
+- Web3 (DApps, decentralization of communications, data storage and transmission)
 - Simple and efficient search for multimedia content with the decentralized metasearch system Ace Search
 - Convenient content cataloging and full-featured media server
 - Smart TV and interactive broadcasts, AR, VR and 360°
@@ -86,7 +86,29 @@ Total immersion into multimedia with DAO Ace Stream products and solutions:
 </p>
 
 
-### 2. Green CDN with unlimited bandwidth and the lowest cost of storage and data delivery in the world
+### 2. The solution for the "subscriptions fatigue" problem
+
+Function **«Ace ID»** allows content providers and OTT services to instantly provide access to its content on the terms of one-time payment access or on the terms of per-minute tariff automatically receiving payment without need to register/identify users and refill balances on their services/resources.
+
+Service **«Premium Pool»** allows any content providers and OTT services to form pools with a single general subscription to their services getting rid from the need to buy subscription services for each separate OTT service.
+
+
+!!! info ""
+
+    The amount paid by the user for a single general subscription to the pool members services is proportionally distributed among its members, based on the percentage of the total time spent by the user on viewing the content of one or another pool member (for which the calculation is being made), in relation to the total time spent by him to view content from other members of the pool for the estimated period of time.
+
+    The distribution of funds and payments are carried out in a decentralised manner and in an automatic mode, in accordance with the terms of a smart contract (a completely open and transparent system, without any possibilities of manual control and interference in its work).
+
+<p style="text-align: center">
+    <em>
+        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/subscriptions" href="#">
+            Read more
+        </a>
+    </em>
+</p>
+
+
+### 3. Green CDN with unlimited bandwidth and the lowest cost of storage and data delivery in the world
 
 Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 
@@ -124,7 +146,7 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
     At the same time it is also necessary to take into account all the costs, restrictions and problems inherent in centralised (unicast) CDNs and which are not in P2P CDN
 
 
-### 3. Decentralised financial and economic system based on one of the most advanced and reliable blockchain technologies in the world.
+### 4. Decentralised financial and economic system based on one of the most advanced and reliable blockchain technologies in the world.
 
 - **Ace Payments** - a decentralised payment system for direct payments, as well as for micropayments with deferred display in the main Ace Network blockchain when carrying out settlements for traffic and per-minute billing.
 
@@ -153,7 +175,7 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 </p>
 
 
-### 4. 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
+### 5. 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
 
 [**Ace Token (XAT)**][2] - a basic and automatically burned system token backed by an Internet channel with a bandwidth of over 100,000 Tbps, premium content and all services of the Ace Network.
 
@@ -170,7 +192,7 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 </p>
 
 
-### 5. Effective monetisation of linear television on Internet and decentralised networks
+### 6. Effective monetisation of linear television on Internet and decentralised networks
 
 The DAO Ace Stream set of tools for television channels allows broadcasting on the Internet with the following rate: **AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year**, depending on the distribution of the audience by region
 
@@ -183,28 +205,6 @@ The DAO Ace Stream set of tools for television channels allows broadcasting on t
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/linear-tv-monetization" href="#">
-            Read more
-        </a>
-    </em>
-</p>
-
-
-### 6. Fixing the "subscriptions fatigue" problem
-
-Function **«Ace ID»** allows content providers and OTT services to instantly provide access to its content on the terms of one-time payment access or on the terms of per-minute tariff automatically receiving payment without need to register/identify users and refill balances on their services/resources.   
-
-Service **«Premium Pool»** allows any content providers and OTT services to form pools with a single general subscription to their services getting rid from the need to buy subscription services for each separate OTT service.
-
-
-!!! info ""
-
-    The amount paid by the user for a single general subscription to the pool members services is proportionally distributed among its members, based on the percentage of the total time spent by the user on viewing the content of one or another pool member (for which the calculation is being made), in relation to the total time spent by him to view content from other members of the pool for the estimated period of time.
-
-    The distribution of funds and payments are carried out in a decentralised manner and in an automatic mode, in accordance with the terms of a smart contract (a completely open and transparent system, without any possibilities of manual control and interference in its work).
-
-<p style="text-align: center">
-    <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/subscriptions" href="#">
             Read more
         </a>
     </em>

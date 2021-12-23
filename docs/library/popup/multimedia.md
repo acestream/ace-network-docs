@@ -4,11 +4,11 @@ template: raw_content.html
 
 # Decentralized network with incredible multimedia capabilities
 
-Total immersion into multimedia with DAO Ace Stream products and solutions:
+DAO Ace Stream products and solutions:
 
 ## Ace Surf - embodies ideas about what a browser should be
 
-Convenient multimedia interface; maximum satisfaction of user interests in terms of search, consumption and publication of content; openness, security and confidentiality; decentralized P2P technologies for communication, storage and transmission of data; decentralized economy; DApps support (Web 3.0); user control over ad impressions and user rewards for viewing ads; effective incentive programs and a decentralized publisher reward system.
+Maximum immersion into multimedia and metaverse; convenient search for content and satisfaction of all user interests and requests in terms of consumption and publication of content; security and privacy; Web3 (support for DApps, decentralization of communications, storage and transmission of data); full control over ad impressions and rewarding users for viewing ads; effective system of incentives for publishers.
 
 !!! info "Combining the best products and technologies to bring ideas to life"
 
@@ -17,7 +17,7 @@ Convenient multimedia interface; maximum satisfaction of user interests in terms
 This browser is more than just a window to the Internet: it is an alternate reality and a window to a better world of multimedia.
 
 
-## WEB 3.0 (DApps, decentralized apps/sites)
+## Web3 (DApps, decentralization of communications, data storage and transmission)
 
 Decentralized analogues of such popular services as Netflix, YouTube, Twitch, Hulu, Amazon Prime Video, HBO, ESPN +, etc., with additional functionality and advanced capabilities this is what DAO Ace Stream technologies and tools provide.
 

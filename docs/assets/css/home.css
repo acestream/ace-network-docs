@@ -3,7 +3,7 @@
 }
 
 body {
-    background: var(--md-primary-fg-color) url(/63db9820/assets/images/ace_background_mobile.jpg) no-repeat center center fixed;
+    background: var(--md-primary-fg-color) url(/assets/images/ace_background_mobile.jpg) no-repeat center center fixed;
     background-size: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -72,7 +72,7 @@ body {
 
 @media screen and (min-width: 520px) {
     body {
-        background-image: url(/63db9820/assets/images/ace_background_3.jpg);
+        background-image: url(/assets/images/ace_background_5.jpg);
     }
     .mdx-home .md-button {
         margin-top: 0px;
@@ -111,20 +111,20 @@ body {
     font-size: 14px;
     font-style: italic;
     margin: 24px auto;
-  }
+}
 
-  #my-carousel .carousel-item {
+#my-carousel .carousel-item {
     width: 320px;
     height: 80px;
-  }
+}
 
-  #my-carousel .carousel-indicators {
+#my-carousel .carousel-indicators {
     display: flex;
     bottom: -27px;
     z-index: 2;
-  }
+}
 
-  #my-carousel .carousel-indicators > li {
+#my-carousel .carousel-indicators > li {
     cursor: pointer;
     height: 8px;
     width: 8px;
@@ -132,28 +132,28 @@ body {
     border-radius: 50%;
     transition: background-color 0.3s ease;
     margin-left: 10px;
-  }
+}
 
-  #my-carousel .carousel-indicators > li.active {
+#my-carousel .carousel-indicators > li.active {
     background-color: #fff;
-  }
+}
 
-  @media screen and (min-width: 520px) {
+@media screen and (min-width: 520px) {
     #my-carousel {
-      font-size: 16px;
-      width: 515px;
-      height: 80px;
+        font-size: 16px;
+        width: 515px;
+        height: 80px;
     }
     #my-carousel .carousel-item {
-      width: 515px;
-      height: 80px;
+        width: 515px;
+        height: 80px;
     }
     #my-carousel .carousel-indicators > li {
-      height: 12px;
-      width: 12px;
-      background-color: #7db6c5;
+        height: 12px;
+        width: 12px;
+        background-color: #7db6c5;
     }
-  }
+}
 
 /* Reset margin set by Bootstrap  */
 label.md-overlay {
@@ -162,4 +162,93 @@ label.md-overlay {
 
 a:hover {
     text-decoration: none;
+}
+
+/* Change the look of language selector */
+.md-select__link {
+    color: var(--md-primary-bg-color);
+    background-color: var(--mdx-home-button-color);
+}
+
+.md-select__link:hover {
+    background-color: var(--md-primary-bg-color);
+    color: var(--mdx-home-button-color);
+}
+
+.md-select__inner {
+    background-color: transparent;
+}
+
+.md-select__inner::after {
+    border-bottom-color: var(--mdx-home-button-color);
+}
+
+/* Animation */
+.mdx-home__logo{
+    transform: translate(0px, 40px);
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+}
+.mdx-home__logo img{
+    transform: scale(0.6);
+    transition: transform 2s, opacity 2s;
+}
+.mdx-home-title{
+    transform: translate(0px, 60px);
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+}
+.mdx-home .animate{
+    transform: scale(0.6);
+    transition: transform 3s, opacity 3s;
+    transition-delay: 0.5s;
+}
+.mdx-home .animate-slide{
+    transform: translate(0px, 40px);
+    opacity: 0;
+    transition: transform 2s, opacity 2s;
+    transition-delay: 1s;
+}
+.carousel-indicators{
+    transform: scale(0.6);
+    transition: transform 3s;
+}
+.carousel-inner{
+    transform: scale(0.6);
+    transition: transform 3s;
+    transition-delay: 0.5s;
+}
+.mdx-home .md-button{
+    transform: scale(0.6);
+    opacity: 0;
+    transition: transform 2.6s, opacity 2.6s;
+    transition-delay: 1.3s;
+}
+body{
+    background-size: 100% auto;
+    transition: background-size 3s;
+
+}
+.mdx-home ._active{
+    opacity: 1;
+    transform: translate(0);
+}
+.mdx-home__logo._active img{
+    transform: scale(1);
+}
+.animate-slide._active .carousel-indicators{
+    transform: scale(1);
+}
+.animate-slide._active .carousel-inner{
+    transform: scale(1);
+}
+.mdx-home-title._active .animate{
+    transform: scale(1);
+}
+.mdx-home .md-button._active{
+    opacity: 1;
+    transform: scale(1);
+}
+body._active{
+    background-size: 130% auto;
 }

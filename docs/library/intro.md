@@ -1,258 +1,260 @@
-# Интернет, о котором мало кто знает
+# The Unexplored Internet
 
-==TODO: english version==
+## Back to future
 
-## Назад в Будущее
-
-Прежде чем перейти к детальному описанию проекта, мы хотим сделать акцент на важных исторических фактах и предложить вам разобраться в некоторых причинно-следственных связях, относящихся к созданию и развитию сети Интернет, которые будут иметь самое непосредственное значение для нашего проекта, учитывая что основной целью проекта Ace Stream является, немного-немало, - а «Исправление» (Усовершенствование) всего Интернета! То есть, в рамках проекта Ace Stream мы предоставим необходимые технологии, инструменты и стратегии, позволяющие сделать Интернет таким, каким он изначально планировался быть и каким он наконец-то должен стать!
+Before we describe the project in detail we would like to emphasis on important historical facts and to offer you to figure out some causality related to the creation and development of the Internet which will have a direct impact on our project and given that the main goal of Ace Stream is to «fix» (improve) the entire Internet. So, under Ace stream project we provide necessary technologies, tools and strategies to make the Internet what it was initially planned to be and what it should finally become!
 
 
 !!! info ""
-    "Кажется немыслимым, что сети Интернет уже более 25 лет, и многие из нас едва ли могут представить себе жизнь без нее. Она была создана усилиями миллионов. Мы все помогли построить это, и будущее Интернета все еще зависит от нас. Все мы должны использовать свой творческий потенциал, навыки и опыт, чтобы сделать его лучше: более сильным, более безопасным, более справедливым и более открытым. Давайте выберем сеть, которую мы хотим, и, таким образом, мир, который мы хотим", - [Sir Tim Berners-Lee][1] (изобретатель сети Интернет)
 
-    История и неоспоримые факты позволят нам увидеть истинную реальность, дав нам понимание происходящего и возможность максимально ясно видеть варианты обозримого будущего, определяя нужные нам цели и выбирая наилучшие пути их достижения.
+    "It seems unthinkable that the Internet Web is over 25 years old and most of us can barely imagine life without it. It was created by the efforts of millions. We all helped to build it and the future of the Internet still depends on us.  We all need to use our creativity, skills and experience to make it better: stronger, safer, fairer and more open. Let's choose the network we want and thus the world we want", - [Sir Tim Berners-Lee][1] (the creator of Internet Web)
 
-    "Весь потенциал Интернета только начинает проявляться. Радикально открытая, эгалитарная и децентрализованная платформа, она меняет мир, и мы все еще только царапаем поверхность того, что она может сделать. Любой, кто интересуется будущим Интернет - а это все, и везде, - играет определенную роль в обеспечении того, чтобы Сеть достигала всего, что может", - [Sir Tim Berners-Lee][1]
+    History and undisputed facts allow us to see the truth of reality and give us the understanding of ongoing and ability to extremely clearly see the options of the foreseeable future, identifying needed goals for us and choosing the best ways to achieve them.
 
-**Тогда...**
+    «The full potential of the Internet is just beginning to emerge. A radically open, egalitarian and decentralized platform is changing the world and we are still just scratching the surface of what it can do. Anyone who is interested in the Internet and its everyone and everywhere play a certain role in ensuring that the Web achieves everything it can", - [Sir Tim Berners-Lee][1]
 
-23 августа 1991 года британский ученый Тимоти Бернерс-Ли изменил мир, предоставив разработанную им систему «World Wide Web», открыв первый на планете интернет-сайт ([info.cern.ch/][2]). Миру был подарен  Интернет (без патентов, авторских прав или товарных знаков).
+**Then…**
 
-Гениальность такого изобретения как Интернет, заключалась не только в его социальной ценности, а еще и в его архитектуре и технологических свойствах, заложенных в фундаментальную основу его эксплуатации и развития.
+23 August 1991 British scientist Tim Berners-Lee changed the world with his "World Wide Web" system, opening the world's first website ([info.cern.ch/][2]). The world was gifted with the Internet (without patents, copyrights or trademarks).
 
-Всемирная паутина изначально не имела единого центра. Одним из ключевых свойств WWW всегда считалась децентрализация узлов. Как и у прародителей интернета (сетей ARPANET и NSFNet), она обеспечивала надёжность функционирования, отсутствие географических границ и сетевых барьеров. Протокол HTTP соединяет все вычислительные устройства на планете, имеющие подключение к Интернету. В своей работе протокол HTTP опирается на множество доверительных серверов, преобразующих веб-адреса в сетевые адреса серверов.
+The genius of such an invention as the Internet was not only in its social value, but also in its architecture and technological features which were laid down in the fundamental basis of its operation and development.
 
-Логика, заложенная в работу сети Интернет, подразумевала следующее: Люди, желавшие что-то опубликовать онлайн, должны были иметь собственные веб-сервера на своих компьютерах, а обслуживающие Сеть компании должны были выполнять исключительно технические функции, обеспечивая надежное соединение между всеми узлами Сети (строя магистрали и соединяя кабелем компьютеры пользователей Сети).
+The World Web initially did not have a single center. One of the WWW key features was always considered the decentralization of peers. As the Internet grandparents (ARPANET and NSFNet Webs) it maintained operational sustainability, absence of geographical borders and network barriers. The HTTP protocol connects all computing devices on the planet with an Internet connection. In its work the HTTP protocol relies on many trusted servers which transform web addresses into network addresses of servers.
 
-То есть, Интернет изначально был создан и функционировал как одноранговая (P2P, peep to peer) сеть, где каждый ее участник являлся полноценным узлом сети (клиентом/сервером). Пользователь публиковал информацию непосредственно на своем компьютере, а другой получал эту информацию напрямую, от того кто ее публиковал. Полученную информацию каждый мог продублировать (скопировать/опубликовать) на своем компьютере и поделиться ей с другими, тем самым способствуя ее распространению и обеспечивая других участникам сети возможностью выбора более удобного и быстрого (ближайшего) источника получения данных.
+The logic inherent in the operation of the Internet implied the following: people who wanted to publish something online had to have their own web servers on their computers and the companies serving the Network had to perform exclusively technical functions, providing a reliable connection between all peers of the Network (building backbones and connecting the computers of Network users with a cable).
 
-К примеру, в такой Сети, - если бы ваш сосед захотел опубликовать свое видео, ему бы не пришлось отправлять его на сайт/сервис какого-то посредника, сервер которого находится на другом континенте, а для его просмотра вам бы не пришлось тянуть сотни мегабайт или гигабайты данных с другого континента, как это осуществляется при использовании централизованных систем, таких как YouTube, Facebook, и т.п.  Вы бы просто получили это видео напрямую от этого соседа или от другого вашего ближайшего соседа, посмотревшего и сохранившего это видео (находящегося с вами в одном доме или на одной улице, или в одном городе или стране).
+So, the Internet was originally created and operated as a peer (P2P, peer to peer) network where each user was a full network site (client/server). The user published info immediately on his computer and the other got this info directly from the publisher. Everyone can duplicate (copy/post) the received info on their computer and share it with others, thereby supporting its spread and providing to other users of the Web the ability to choose the most convenient and the fastest (the closest) source of data.
 
-Изначально, это была платформа, позволяющая всем напрямую обмениваться информацией, без участия каких-либо центральных сервисов/серверов посредников. В такой одноранговой (P2P) сети, информация имеющая  большую востребованность  находилась на большем количестве компьютеров, а менее востребованная на меньшем, и при этом максимально аккумулировалась на узлах в тех географических точках, где ее больше всего потребляли и соответственно все данные проходили по самым коротким  маршрутам, не перегружая  трафиком международные транспортные магистрали и другие удаленные сети.  Пропускная способность такой одноранговой сети, в первую очередь исчислялось суммарной пропускной способностью подключённых к Сети компьютеров (узлов), и рост ее производительности был практически всегда пропорционален росту количества пользователей сети и объемам производимой/потребляемой информации.
+For example, in such a Web if your neighbor wanted to post his video he would not need to send it to the site/service of some intermediary whose service is on the other continent and in order to view it you would not need to download hundreds of megabytes or gigabytes from the other continent as it is done in centralized systems such as Youtube, Facebook etc but you would receive this video directly from this neighbor or from the another your close neighbor who watched and saved this video (who is in the same building, street, city or country as you).
 
-Вот именно такой неограниченный Интернет подарили миру его Основатели!
+Originally it was a platform which allowed everyone to exchange info directly and without any centralized services/servers of intermediaries. In such a peer-to-peer (P2P) network information that was in great demand was on a larger number of computers and less in demand on fewer computers and at the same time accumulated as much as possible on sites in those geographical points where it was most consumed and respectively all data transferred through the shortest routes without overloading with traffic international highways and other remote networks. The bandwidth of such a peer-to-peer network was primarily calculated by the total bandwidth of computers(hosts) connected to the Network and the increase in its performance was almost always proportional to the growth in the number of network users and the amount of information produced/consumed.
+
+This is exactly the kind of unlimited Internet that its Creators gave the world!
 
 
 <p style="text-align: right">
     <strong>
         <em>
-            «Интернет - радикально открытая, эгалитарная и децентрализованная платформа»<br/>
+            «Internet is a radically open, egalitarian and decentralized platform»<br/>
             <a href="http://www.wired.co.uk/article/tim-berners-lee">Sir Tim Berners-Lee</a>
         </em>
     </strong>
 </p>
 
-_Ну как говорится: «Что один человек построил - другой завсегда сломать сможет»!_
+_Well as its said: «Other people’s things are more pleasing to us, and ours to other people»!_
 
 
-## Эволюция сети Интернет или что пошло не так
+## Evolution of the Internet Web or something gone wrong
 
-Было бы логично предположить, что следующим эволюционным этапом развития такого децентрализованного Интернета являлось бы создание новых и эффективных децентрализованных технологий, которые обеспечивали бы совершенствование и развитие Сети в полном соответствии с заложенными в нее фундаментальными основами (технологическими и социальными). И вероятно, если бы еще один выдающийся ученый из Чикаго, по имени Тед Нельсон, смог своевременно выпустить в свет своей проект Xanadu, который он создал в 1960 году с целью создания системы компьютерной сети с простым пользовательским интерфейсом, у нас бы сейчас был совершенный «Интернет».
+It would be right to assume that the next evolutionary step in development of such a decentralized Internet would be creation of new and effective decentralized technologies which will maintain improvement and development of the Web in full accordance with the fundamental foundations (technological and social) laid down in it. And it is likely that if another prominent scientist from Chicago Ted Nelson could timely release his Xanadu project, which he created in 1960 with the goal of creating a computer network system with a simple user interface, we would now have perfect " Internet".
 
-17 правил Xanadu (проект «Интернета» от 1960 года)
+17 rules of Xanadu («Internet» project from 1960)
 
-1. Каждый сервер Xanadu уникальным образом безопасно идентифицируется.
-2. Каждый сервер Xanadu может управляться независимо, либо внутри сети.
-3. Каждый пользователь уникальным образом безопасно идентифицируется.
-4. Каждый пользователь может искать, скачивать, создавать и хранить документы.
-5. Каждый документ может состоять из любого количества частей, каждая из которых может быть данными любого типа.
-6. Каждый документ может содержать ссылки любого типа, включая виртуальные копии («включения») любого другого документа в системе, доступного владельцу.
-7. Ссылки видимы и по ним можно проследовать из любой конечной точки.
-8. Разрешение ссылаться на документ явно предоставляется актом публикации.
-9. Каждый документ может содержать механизм вознаграждения автора с любой степенью подробности для обеспечения выплаты по частичному чтению документа, в том числе и для («включений») любой части документа.
-10. Каждый документ уникальным образом безопасно идентифицируется.
-11. Каждый документ может иметь защиту для контроля доступа.
-12. Каждый документ может быть найден быстро, храниться и скачиваться без знания пользователем физического положения документа.
-13. Каждый документ автоматически перемещается в физическое хранилище, соответствующее частоте доступа к нему из любой данной точки.
-14. Каждый документ автоматически сохраняется с избыточностью, позволяющей сохранить доступ к нему даже в случае катастрофы.
-15. Каждый провайдер услуг Xanadu может взимать плату со своих пользователей по любым выбранным им ставкам, которые они устанавливают для хранения, поиска и публикации документов.
-16. Каждая транзакция безопасна и поддаётся проверке только теми лицами, которые её совершают.
-17. Протокол коммуникации клиент-сервер Xanadu — открыто опубликованный стандарт. Разработка и интеграция программного обеспечения сторонними разработчиками поощряется.
+1. Each Xanadu server is uniquely and securely identified.
+2. Each Xanadu server can be managed independently or internally.
+3. Each user is uniquely and securely identified.
+4. Each user can search, download, create and store documents.
+5. Each document can consist of any number of parts, each of which can be data of any type.
+6. Each document may contain links of any type, including virtual copies («im»plications) of any other document in the system available to the owner.
+7. Links are visible and traceable from any endpoint.
+8. Permission to refer to a document is expressly granted by the act of publication.
+9. Each document may contain an author reward mechanism with any degree of detail to provide payment for partial reading of the document, including for («implications») any part of the document.
+10. Each document is uniquely and securely identified.
+11. Each document can be protected for access control.
+12. Each document can be found quickly, stored and downloaded without the user's knowledge of the physical location of the document.
+13. Each document is automatically moved to physical storage, corresponding to the frequency of access to it from any given point.
+14. Each document is automatically saved with redundancy, allowing you to maintain access to it even in the event of a disaster.
+15. Each Xanadu service provider may charge its users at any rate they choose to store, search and post documents.
+16. Each transaction is safe and verifiable only by those who make it.
+17. The Xanadu client-server communication protocol is an openly published standard. Third party software development and integration is encouraged.
 
-Наличие всех этих правил в изначально созданной сети «Интернет» практически сводили бы на нет все попытки централизации Сети, так как в этом просто не было бы никакой практической пользы.
+The presence of all these rules in the originally created Internet network would practically nullify all attempts to centralize the Network as there simply would not be any practical benefit.
 
 <p style="text-align: right">
-    <strong><em>Таким должен был стать Интернет!</em></strong>
+    <strong><em>This is how the Internet was supposed to be!</em></strong>
 </p>
 
 
-**Почему не вышло?**
+**Why did it fail?**
 
-Нельсон был гением. Достаточно сказать, что он разработал большую часть принципов, использующихся в нынешнем интернете. Но, как у многих гениальных людей, вероятно у него были серьёзные проблемы с реализацией своих идей.
-
-
-
-![alt_text]({{ assets_root }}/images/intro/image1.jpg "image_tooltip")
+Nelson was a genius. Suffice it to say that he developed most of the principles used on the Internet today. But, like many brilliant people he probably had serious problems with the implementation of his ideas.
 
 
-Он обещал завершить работу над Xanadu сначала к 1979 году, потом к 1987-му. А в 1987-м назвал «крайним сроком» окончания работ 1988‑й.
 
-В 1988 перспективный проект купила компания Autodesk.
+![alt_text]({{assets_root}}/images/intro/image1.jpg "image_tooltip")
+
+
+He promised to complete work on Xanadu first by 1979, then by 1987. And in 1987 he called the 1988 "deadline" for the completion of work.
+
+In 1988 the promising project was bought by Autodesk.
 
 
 !!! info ""
-    Её владелец Джон Уокер рассчитывал, что в «1989 году Xanadu станет продуктом, а в 1995 году начнёт переделывать мир».
 
-В действительности на реализацию идей Нельсона потребовалось больше полувека. Только в апреле 2014 года, постаревший, но всё ещё пылающий энтузиазмом первооткрыватель провёл презентацию окончательной версии своего детища — OpenXanadu — в стенах Чепменского университета в Калифорнии.
+    Its owner John Walker considered that in «1989 Xanadu will become a product and in 1995 it will start to change the world».
 
-Случись открытие создателя гипертекста в конце семидесятых или даже в середине девяностых годов — мы сейчас пользовались бы совсем другим интернетом. Но Нельсон продемонстрировал миру свой «волшебный дворец» слишком поздно. Человечество уже тридцать лет как жило с сетью, использующей протоколы TCP/IP, HTTP, язык HTML и идентификаторы URL.
+Actually, it took more than half a century to implement Nelson’s ideas. Only in April 2014 an old but still full of enthusiasm pioneer conducted the presentation of the final version of his creation OpenXanadu in Chapman University, California.
 
-
-!!! cite ""
-    "Хорошей новостью является то, что в структуру Сети изначально заложены открытость и гибкость. Протоколы и языки программирования находящиеся под капотом - включая URL-адреса, TCP/IP, HTTP, HTML, JavaScript и многие другие - почти все были разработаны для эволюции, поэтому мы можем модернизировать их по мере появления новых потребностей, новых устройств и новых бизнес-моделей, устраняя текущие ограничения», - [Sir Tim Berners-Lee][1]
-
-В общем, пока руководство Autodesk настойчиво и безуспешно пыталось добиться от создателя Xanadu завершения работ, сотрудник европейской лаборатории CERN Тим Бернерс-Ли предложил свой глобальный гипертекстовый проект, получивший название World Wide Web, который был более упрощенной версией Xanadu, не имеющей тех возможностей, которые бы изначально делали Сеть более простой и удобной в эксплуатации, а применение многих централизованных технологий было бы не целесообразными.
-
-![alt_text]({{ assets_root }}/images/intro/image2.jpg "image_tooltip")
-
-Ввиду того что созданная Сеть (WWW) в своем первичном виде требовала от пользователей хорошего понимания технологий, а последующая реализация необходимых децентрализованных технологий для эффективной работы в такой сети Интернет являлось очень сложной задачей, на разработку которых нужно было еще потратить многие годы, развитее интернета пошло более простым путем, как на программном уровне, так идеологически, и в абсолютно противоположном направлении. Активное продвижение изначальных принципов децентрализации, составляющих фундаментальную основу творения Тимоти Бернерс-Ли, никак не вписывалось в консервативную политику коммерческих компаний, решивших использовать сеть в коммерческих интересах и для которых централизация является единственной и понятной моделью работы. А еще это было самым простым техническим решением в реализации, чтобы это все нормально работало. Безусловно, все понимали и понимают что скорость и эффективная масштабируемость, а также конфиденциальность и прозрачность являются важнейшими составляющими Сети, но в конце концов, именно деньги заставляют мир вращаться.
-
-По мере разрастания Сети, появились компании, которые взяли на себя техническую заботу о веб-публикациях и коммуникациях.  Одними из первых популярных централизованных приложений(сервисов) стали MySpace и Yahoo!. C помощью программы Flickr фотограф мог с легкостью загрузить свои фотографии в Интернет и поделиться ими с другими людьми. YouTube делал то же самое для видео, а такие инструменты, как Wordpress и Wiki, позволяли любому желающему вести свой собственный блог и/или совместно участвовать в создании публичных информационных баз знаний. Социальные сети, в частности, позволили каждому быть онлайн, чтобы удобным способом общаться и обмениваться информацией с другими пользователями. Все это осуществлялось посредством сайтов и сервисов посредников, предоставлявших для этого необходимую инфраструктуру, сформированную на базе своих центральных серверов. Коммерческие компании стали брать под свой полный контроль все пользовательские публикации, завязывая на свои сервисы/сервера все коммуникации и любой обмен информацией между пользователями. Такое активное коммерческое проникновение в Интернет, вместе с развитием сопутствующих централизованных технологий и удобных сервисов, начало кардинально менять фундаментальные принципы и логику первоначального Интернета, и подвергло серьезному и очень опасному изменению логистическую составляющую Сети.
-
-В отличии от логики первоначального (децентрализованного) интернета, где подразумевалось управление пользователями всей своей информацией и публикациями, с возможностью передачи друг-другу данных по самому короткому маршруту (пути), в новую логику Сети закладывались кардинально противоположные логистические механизмы, согласно которым: Вашему соседу желающему показать вам свое видео нужно вначале отправить его на сервер посредника который мог находиться на другом континенте, а для просмотра этого видео вам нужно загрузить его себе уже непосредственно от сервера этого посредника,  а не напрямую от соседа или от каких-то других ваших ближайших соседей уже посмотревших это видео.  Кроме этого, с целью извлечения максимальной прибыли, сервисы посредников стали строго-настрого запрещать вам сохранять это видео (дублировать экземпляр) у себя на компьютере, и при желании его еще раз посмотреть или поделиться им с другими,  нужно его опять загружать с сервера посредника, и в результате, все многократно тянут одно и тоже видео непосредственно с его сервера находящегося на другом континенте.
-
-В итоге, мир получил «интернет-наоборот», который многими стал называться - Web 2.0, суть и логика которого заключается в следующем:  - чем больше людей сидят на одном web-ресурсе и центральных серверах посредника, осуществляя через него все свои коммуникации (получают информацию, размещают свои публикации, обмениваются данными, общаются и т.д.), тем лучше!  В итоге:
+Had the discovery of the creator of hypertext happened in the late seventies or even in the mid-nineties, we would now be using a completely different Internet. But Nelson demonstrated his «magical mansion» too late. Humanity has been living for 30 years with the Web which is using TCP/IP protocols, HTTP, HTML language and URL identifiers.
 
 
-!!! cite ""
-    "За последние двадцать лет мы умудрились практически погубить одну из самых функциональных дистрибьютивных систем, которые когда-либо были созданы: современную Сеть"
+!!! cite "Sir Tim Berners-Lee"
 
-    &mdash; Кори Доктороу (Cory Doctorow), директор европейского отделения правозащитной организации Electronic Frontiers Foundation’s
+    The good news is that originally in the Web structure were laid down openness and flexibility. The protocols and programming languages under the hood, including URLs, TCP/IP, HTTP, HTML, JavaScript and many more have almost all been designed for evolution, so we can modernize them as new needs, new devices, and new businesses models emerge, eliminating current limitations
 
-Это заявление может показаться очень странным, так как для многих Интернет стал неотъемлемой частью современной жизни. Это портал, через который мы узнаем новости и находим развлечения, поддерживаем контакт с семьей и друзьями, получаем свободный доступ к большему количеству информации, чем все люди, когда-либо жившие до нас. Сегодня Сеть, возможно, более полезна и доступна людям, чем когда-либо. Однако такие люди, как Сэр Тим Бернерс-Ли (Sir Tim Berners-Lee), изобретатель Всемирной Паутины, и Винтон Серф (Vinton Cerf), часто называемый одним из "отцов Интернета", в комментарии Доктороу видят суть проблемы и последствия, которые неизвестны и непонятны большинству: Интернет развивается не так, как они это себе представляли! Использование Сети в централизованном режиме отрицательно влияет на ее производительность в целом, создавая колоссальной дефицит пропускной способности и приводит к раздроблению единой и открытой для всех Сети на частные корпоративные сегменты (частные сети поверх Сети), с ограниченными возможностями и факторами отсутствия сетевого нейтралитета, прозрачности и конфиденциальности.
+Generally, while Autodesk leaders were persistently and unsuccessfully trying to get the job done from the Xanadu creator, employee from European lab CERN Tim Berners-Lee proposed his global hypertext project which was called World Wide Web and which was a simplified version of Xanadu. It did not have the capabilities that would initially make the Network simpler and easier to use and the use of many centralized technologies would not be reasonable.
 
-При этом, нельзя не отметить, что наряду с полным пренебрежением принципов децентрализации в технологической части (в сетевой архитектуре), концепция Web 2.0 подняла на высокий уровень социальную активность, тем самым стимулировав формирование и развитие культуры социальной децентрализации. Пользователи Интернет получили возможность совместно участвовать и активно влиять на информационное наполнении Сети, формируя так называемую «редактируемую информационную паутину» и «коллективный разум».  Но, к сожалению, когда такие значимые социальные составляющие формируются на стороне каких-то централизованных (кем-то управляемых) сервисов, то это не более чем иллюзия свободы и децентрализации, которая в любой момент может стать идеальным инструментом для манипуляции сознанием масс, намного превосходящий по своим возможностям любые другие медиа, когда либо созданные за всю историю человечества.
+![alt_text]({{assets_root}}/images/intro/image2.jpg "image_tooltip")
 
-!!! cite ""
-    "Хотя лидеры отрасли часто стимулируют позитивные изменения, мы должны остерегаться концентрации власти, поскольку они могут сделать Сеть хрупкой"
+Taking into account that created Web (WWW) in its initial view required from users a good understanding of technologies and the subsequent implementation of necessary decentralized technologies for efficient work in such Internet Web was a very difficult task and in order to design it would take lots of years, the Internet development chose simpler way both programmatically and ideologically as well as in the completely opposite direction. The active promotion of the original principles of decentralization which were the fundamental basis of Timothy Berners-Lee creation did not fit into the commercial companies conservative policies that decided to use the network for commercial interests and for which centralization is the only and understandable model of work. Additionally, it was the simplest technological solution to implement in order everything worked correctly. Of course, everybody knows and knows that speed and effective scaling as well as privacy and transparency are key components of the Web but at the end of the day money does make the world go round.
 
-    &mdash; [Sir Tim Berners-Lee][1]
+As the Web grew, companies emerged that took over the technical support of web publishing and communications. One of the first popular centralized apps (services) became MySpace and Yahoo. Using the Flickr app photographers could easily post their photos on the Internet and share them with others. YouTube did the same with videos and tools as Wordpress and Wiki allowed everyone to have their own blogs and/or take part in mutual creation of public info knowledge databases. In particular, social networks allowed everyone to be online in order to chat and exchange info with other users in a convenient way. All this was carried out through the websites and services of intermediaries who provided the necessary infrastructure for this and formed the basis of their central servers. Commercial companies started to take control of all users' publications, tying all communications and any information exchange between users to their services/servers. Such active commercial integration into the Internet and together with the development of centralized technologies and convenient services began to drastically change the fundamental principles and logic of the initial Internet, so it was subjected to a serious and very dangerous change in the logistics component of the Web.
 
-И возможно, если бы трафик ограничивался только текстом и картинками, то вероятно рассуждения на тему «децентрализации» и «централизации» не имели бы сейчас существенного практического значения для большинства обычных пользователей Интернет, и вероятно полностью бы игнорировались бизнесом.  Производительность Сети с таким контентным наполнением, скорей всего, полностью удовлетворяла бы потребности большинства ее пользователей, а проблемы централизации находились бы исключительно в социальной плоскости и правовых аспектах о защите прав пользователей, достоверности и конфиденциальности информации, а также в вопросах о информационном контроле и монополизации Сети корпорациями. Но, появление в сети тяжелых форматов контента (видео, аудио, игр, и др), наряду с их популяризацией и значительным ростом эксплуатации Сети в режиме сквозной передачи данных при централизованном онлайн вещании (VoD и Live Stream), начали активно приводить к потери существенной части потенциала и производительности Сети, ведя к угрозе ее целостности. И последствия этого уже напрямую касаются всех, и поэтому заинтересованность в устранение этих проблем должна быть тоже у всех!
+In contrast to the logic of the original (decentralized) Internet, which implied user management of all their information and publications with the ability to transfer data to each other along the shortest route (path), in the new logic of the Network were laid cardinally opposite logistic mechanisms. Accordance to which, if your neighbor wants to show you his video, at first he needs to send in to the intermediary's server, which could be located on another continent and to watch this video you need to download it to yourself directly from the intermediary's server, but not directly from the neighbor or from any then your other close neighbors who have already watched this video. Besides, in order to get the highest profit intermediary’s services strictly prohibited you to save (to duplicate) this video to your computer and if you want to watch it again or share it with others, you need to download it again from the intermediary's server and as a result, everyone repeatedly pulls the same video directly from its server located on another continent.
 
-
-!!! cite ""
-    "Мы рискуем потерять все, что получили от Интернета до сих пор, и все великие достижения, которые еще впереди. Будущее Интернета зависит от того, будут ли обычные люди брать на себя ответственность за этот необычный ресурс и бросать вызов тем, кто стремится манипулировать сетью против общественного блага"
-
-    &mdash; [Sir Tim Berners-Lee][1]
+In the end, world has got "the Internet in reverse" which was called by many as Web 2.0 and the essence and logic of which is as follows: the more people sit on one web resource and central servers of the intermediary, carrying out all their communications through it (receive information, post their publications, exchange data, chat, etc.), the better ! Eventually:
 
 
-## ВИДЕО МЕНЯЕТ ИНТЕРНЕТ!
+!!! cite "Cory Doctorow (Cory Doctorow), the director of the European branch of a human rights organization Electronic Frontiers Foundation"
 
-Ненасытный аппетит к цифровому видео - в предпочтении к VoD (Видео по Запросу) и Live Stream (прямой эфир) - сильно изменили Интернет!
+    During the last 20 years we managed to practically destroy one of the most functional distributive systems ever created and it's the modern Web
 
-Несколько факторов, сыгравшие существенную роль в росте потребления видеотрафика:
+This statement may seem very weird, since for many the Internet has become an integral part of modern life. It is a portal through which we learn news and find entertainment, keep in touch with family and friends and gain free access to more information than anyone who has ever lived before us. Nowadays the Web is possibly more useful and available for people than ever before. However, people like Sir Tim Berners-Lee (Sir Tim Berners-Lee), the creator of World Web and Vinton Cerf (Vinton Cerf) who is often called as one of the «Internet fathers», in Doctorow’s comments see the core of the issue and consequences which are unknown and unclear for majority: Internet is developing not the way they imagined! Using the Network in a centralized mode negatively affects its performance as a whole, creating a colossal shortage of bandwidth and leading to the fragmentation of a single and open network for all into private corporate segments (private networks over the Network), with limited capabilities and factors of lack of network neutrality, transparency and privacy.
 
-- Появление популярного контента OTT от Hulu, Netflix, Amazon, YouTube, Twitch и других
-- Повышенная популярность событий в прямом эфире, таких как спортивные мероприятия и концерты.
-- Популяризация и активный рост размещения в Сети любительских роликов и web-трансляций.
-- Постоянно растущие видеоролики с высоким разрешением - HD, 4K, 8K, 360, VR и другие.
-- Значительный рост подключенных к Сети главных экранов домов (TV, STB) и мобильных устройств.
-- Более высокая скоростью соединения с Интернетом
-- Увеличение количества операторов, охватывающих доставку содержимого первого экрана через IP, а не традиционным QAM
+At the same time, it should be noted that along with a complete disregard for the principles of decentralization in the technological part (in the network architecture), the concept of Web 2.0 raised social activity to a high level, thereby stimulating the formation and development of a culture of social decentralization. Internet users have the possibility to mutually take part and actively influence on content, thereby forming the so-called «editable informative web» and «collective mind». But unfortunately, when such significant social components are formed on the side of some centralised (controlled by someone) services, then this is nothing more than an illusion of freedom and decentralization, which at any moment can become an ideal tool for manipulating the consciousness of the masses, far superior in its capabilities to any other media ever created in the entire history of mankind.
 
-**Сейчас!**
+!!! cite "Sir Tim Berners-Lee"
 
-Уже практически никто не может себе представить Интернет без видео и видео без Интернета!
+    Although industry leaders often stimulate positive change, we must beware of concentration of power as they can make the Web fragile.
 
-Объем видеотрафика в сети Интернет, суммарно по всем формам потребления (VoD, Live Stream, P2P, HTTP Sharing, IP-телевидение, и др.), составил около 90% от всего существующего трафика!
-
-По оценки Nielsen, потребление видео составило свыше 5 часов в день на одного человека.
-
-![alt_text]({{ assets_root }}/images/intro/image3.png "image_tooltip")
+And maybe if traffic was limited only with text and images, then possibly discussions about «decentralization» and «centralization» would not make any sense for most Internet users and it would likely be completely ignored by business. The performance of the Network with such content most likely would fully satisfy the needs of most of its users and the problems of centralization would be exclusively in the social sphere and legal aspects of protecting user rights, reliability and confidentiality of information, as well as in questions of information control and monopolization of the Network by corporations. But, the emergence of heavy content formats (video, audio, games, etc.) on the network, along with their popularization and a significant increase in the operation of the Network in end-to-end data transmission with centralized online broadcasting (VoD and Live Stream), began to actively lead to the loss of significant part of the potential and performance of the Network, leading to a threat to its integrity. And the consequences of this already directly concern everyone and therefore everyone should also have an interest in solving these problems!
 
 
-При этом, никогда раньше не было у зрителей так много вариантов подключения к потоковому контенту на их телевизоре. Является ли это совместимым мультимедийным устройством (например, Apple TV, Google Chromecast, Amazon Fire TV, Roku и т.п.), игровой приставкой или интеллектуальным телевидением. Появление таких устройств удовлетворяет желание потребителей получать доступ к контенту нажатием одном кнопки, при гораздо большем разнообразии выбора контента и с более широкими функциональными возможностями и удобствами (Пауза, TimeShift, Архивы TV-программ, SVoD, и мн. др)
+!!! cite "Sir Tim Berners-Lee"
 
-Несколько миллиардов всевозможных устройств с поддержкой 4K уже продано и проникновение телевизоров 4K по миру достигло свыше 50%.
+    We risk losing everything we have gained from the Internet so far, and all the great achievements that are yet to come. The future of the Internet depends on whether ordinary people will take responsibility for this unusual resource and challenge those who are aiming for manipulating the Web against common good.
+
+
+## VIDEO CHANGES INTERNET!
+
+A ravenous appetite for digital video in preference for VoD (Video on Demand) and Live Stream (live streaming) has changed the Internet a lot!
+
+Few factors which played a significant role in growth of video traffic consumption:
+
+- Emergence of popular OTT content from Hulu, Netflix, Amazon, YouTube, Twitch and others
+- Increasing popularity of events in live streams such as sport events and concerts.
+- Popularization and active growth of placement of amateur videos and web broadcasts on the Web.
+- Ever-growing high definition videos - HD, 4K, 8K, 360, VR and more.
+- Significant growth of connected home screens (TV, STB) and mobile devices.
+- Faster internet connection speed
+- Increased number of operators covering first screen content delivery over IP rather than traditional QAM
+
+**Now!**
+
+Today almost no one can imagine the Internet without videos and videos without the Internet!
+
+The volume of video traffic on the Internet, in total for all forms of consumption (VoD, Live Stream, P2P, HTTP Sharing, IP-TV, etc.) has been about 90% of all existing traffic!
+
+According to Nielsen's estimates, video consumption was over 5 hours per day per person.
+
+![alt_text]({{assets_root}}/images/intro/image3.png "image_tooltip")
+
+
+Nevertheless, viewers have never before had so many options to connect to streaming content on their TV. It can be a compatible multimedia device (for example, Apple TV, Google Chromecast, Amazon Fire TV, Roku etc.),game console or smart TV. The emergence of these devices satisfy the need of consumers to get access to content at the click of a button with a much greater variety of content choices and with wider functionality and convenience (Pause, TimeShift, TV Program Archives, SVoD, etc.)
+
+Several billions of all kinds of 4K devices have already been sold and the penetration of 4K TVs worldwide has reached over 50%.
 
 !!! info ""
-    Руководители Facebook говорят о завершении письменного слова как части бизнес-плана, и что будущее социальной сети связано с видео и все более и более захватывающими видеоформатами, такими как VR 360. Как сказал Мендельсон: «Текст не исчезнет полностью», добавив «Вам придется писать для видео» и «Если бы я делал ставку, я бы сказал: видео, видео, видео».
+
+    Facebook executives talk about completing the written word as part of a business plan, and that the future of the social network lies in video and increasingly immersive video formats like VR 360. As Mendelssohn said, “Text won't disappear entirely,” adding “You have to write for video "and" If I were placing a bet, I would say: video, video, video. "
 
     [https://qz.com/706461/facebook-is-predicting-the-end-of-the-written-word/](https://qz.com/706461/facebook-is-predicting-the-end-of-the-written-word/)
 
-В итоге, Интернет просто обречен быть современной видеоплатформой для глобального вещания (от любительских видеороликов до профессионального контента)!
+In the end, the Internet is doomed for being a modern video platform for global streaming (from amateur video clips to professional content)!
 
-Но возникает вопрос: _Насколько Интернет, в существующем централизованном режиме эксплуатации может удовлетворить реальный спрос в видеосмотрении и текущие потребности ее пользователей?_
+But the question arises: _To what extent can the Internet in the existing centralized mode of operation meet the real demand for video viewing and the current needs of its users?_
 
 !!! info ""
-    Мария Фаррелл, бывший старший исполнительный директор ICANN, организации, которая управляет системой доменных имен в Интернете, говоря о проблемах вызванных централизацией сети Интернет, указывает, что картина в значительной степени скрыта для обычного человека. Среднестатистический пользователь думает, все здорово, я могу смотреть футбол», - говорит она.  Но, тут возникает «Но…»?!
 
-Централизованное интернет-вещание имеет невероятно ограниченные пропускные способности, несоизмеримые затраты и значительно уступает по уровню качества и стабильности прямых трансляций, относительно таких каналов дистрибуции как кабельные и спутниковые сети, что делает такое вещание практически не конкурентноспособным (малопригодным для дистрибуции дорогостоящих и востребованных прямых трансляций спортивных событий и другого линейного контента).
+    Maria Farrell, a former senior executive officer of ICANN, the organization that manages the Internet's domain name system, speaking about the challenges caused by the centralization of the Internet, points out that the picture is largely hidden from the common man. Average user thinks that everything is great and he can watch football», - she said. But, here arises «But…»?!
 
-Таким образом, преодоление технологического разрыва между ограниченными возможностями инфраструктуры Интернета и требованиями к ее производительности, имеет решающее значение для дальнейшего роста и успеха Интернета и его жизнеспособности, как для обычных пользователей, так и для бизнеса.
+Centralized Internet broadcasting has incredibly limited bandwidth, disproportionate costs and is significantly inferior in terms of the quality and stability of live broadcasts, relative to distribution channels such as cable and satellite networks which makes such broadcasting practically uncompetitive (unsuitable for the distribution of expensive and demanded live broadcasts of sports events and other linear content).
+
+Thus, bridging the technological gap between limited capabilities of Internet infrastructure and demands to its performance has a significant meaning in future growth and success of Internet and its resiliency both for common users and for business.
 
 
-## Вызов ВСЕМУ ИНТЕРНЕТУ!
+## Challenge to THE ENTIRE INTERNET
 
-### 1. Невероятный дефицит пропускной способности Сети Интернет
+### 1. Immense shortage of bandwidth of the Internet Web
 
-Международная пропускная способность, на 5 мая 2021 года, составляет 2000 Tbps, две трети из которой используются Google, Facebook, Amazon и Microsoft. (по данным [TeleGeography](https://blog.telegeography.com/2021-international-bandwidth-trends-demand-global-networks))
+As of May 5, 2021 the international bandwidth  is 2,000 Tbps and two-thirds of which is used by Google, Facebook, Amazon and Microsoft. (According to [TeleGeography](https://blog.telegeography.com/2021-international-bandwidth-trends-demand-global-networks))
 
-Пропускные возможности тройки крупнейших международных операторов CDN, которые открыто опубликовали данные: Cloudflare - 20 Tbps; Fastly Inc - 25 Tbps; Limelight Networks – 35 Tbps
+The bandwidth of the three largest international CDN operators that openly published their data: Cloudflare - 20 Tbps; Fastly Inc - 25 Tbps; Limelight Networks – 35 Tbps
 
 <p style="text-align: right">
-<em>Это очень и очень много! </em></p>
+<em>It’s too too much </em></p>
 
 
-Однако, если бы кто-то захотел провести глобальную прямую трансляцию, в качестве от 720p до 2160p (4K), HDR, с частотой 60 кадров (см. [https://support.google.com/youtube/answer/1722171](https://support.google.com/youtube/answer/1722171)), используя существующие стандартные (Unicast) технологии, то получился бы казус!
+However, if somebody decided to hold a global live streaming in a quality from 720p to 2160p (4K), HDR, at 60 frames (look [https://support.google.com/youtube/answer/1722171](https://support.google.com/youtube/answer/1722171)), using current standard (Unicast) techs, then it would be a catastrophe!
 
-Задействовав всю пропускную способность международного интернета и тройки крупнейших операторов CDN , только около 60 млн. зрителей (около 1,3% от всех пользователей Интернета) смогли бы одновременно посмотреть такую прямую трансляцию
+Using the entire bandwidth of the international Internet and the three largest CDN operators, only about 60 million viewers (about 1.3% of all Internet users) could simultaneously watch such a live broadcast
 
-Увы, но даже у интернета есть свои ограничения!
-
-!!! info ""
-    Возьмем, к примеру, церемонии открытия Олимпийских игр, которые по линейному (кабельному/спутниковому) ТВ смотрят свыше 3 млрд. человек!
-
-    Для того, чтобы все эти зрители смогли в Интернете посмотреть открытие олимпиады в хорошем (указанном выше) качестве, при использовании стандартных технологий (unicast), пропускная способность и мощности сети Интернет (включая операторов CDN) должны быть в 50 раз больше существующей!
-
-По оценке Akamai, в prime-time, количество зрителей желающих посмотреть спортивные интернет-трансляции, в прямом эфире, достигает 500 миллионов. «С 500 миллионами онлайн-зрителей нам нужно 1500Tbps (для обеспечения вещания трансляции с битрейтом 1,5 mbps, что в 10 раз меньше, чем необходимо для трансляции в HD1080p ). Сегодня мы делаем 32Tbps, поэтому вы можете увидеть огромный пробел, который мы должны преодолеть», - [говорит директор по выпуску продуктов и маркетингу Akamai, Ян Мэнфорд.](http://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=108594&PageNum=2)
-
-В итоге, чтобы удовлетворить реальный спрос и потребности пользователей сети Интернет, исходя из расчета одновременного подключении к Сети 70% пользователей Сети, для просмотра онлайн-видео, в качестве [от 720p до 2160p (HDR, с частотой 60 кадров),](https://support.google.com/youtube/answer/1722171) при равнопропорциональном распределении смотрения по указанным форматам, необходимость в пропускной способности Интернет будет составлять свыше 100000 Tbps
-
-Резюме:
-
-**Дефицит пропускной способности Сети Интернет: - свыше 100000 Tbps**
-
-Для удовлетворения текущих потребностей пользователей Интернет в онлайн-смотрении, необходимо увеличение существующих пропускных способностей Сети более чем в 50 раз!!!
-
-
-### 2. Интернет не предоставляет никаких гарантий надежности и производительности при ее эксплуатации в режиме централизованной доставки данных
-
-Разработанная как открытая, равноправная и децентрализованная платформа, сеть Интернет не предоставляет никаких гарантий надежности и производительности при ее эксплуатации в режиме централизованной доставки данных. Напротив, широкополосные интернет-коммуникации при сквозной передаче данных подвержены ряду узких мест, которые отрицательно влияют на производительность, включая задержку, потерю пакетов, сбои в сети, неэффективные для таких целей протоколы и межсетевые проблемы.
-
-Теперь, более детально:
+Sadly, even the Internet has its limitations!
 
 !!! info ""
-    Хотя Интернет определяется как единое целое, сейчас он фактически состоит из тысяч различных сетей, каждая из которых обеспечивает доступ к небольшому проценту конечных пользователей. Даже в самой большой сети покрытие составляет не более 5% доступного трафика Интернет (см. рис).
 
-    ![alt_text]({{ assets_root }}/images/intro/image4.png "image_tooltip")
+    For instance, we will take the opening ceremonies of the Olympic Games which are watched by over 3 billion people on linear (cable/satellite) TV!
 
-Фактически, для достижения 90% охвата требуется задействовать более 650 сетей. Это означает, что контент, размещенный на центральном сервере, должен перемещаться по нескольким сетям, чтобы его в итоге получили конечные пользователи.
+    In order for all these viewers to be able to watch the opening of the Olympics on the Internet in good (mentioned before) quality, using standard technologies (unicast), the bandwidth and capacity of the Internet (including CDN operators) must be 50 times more than the existing one!
 
-На практике, межсетевой обмен данными не является эффективным и надежным, так как на него могут оказывать неблагоприятное воздействие ряд факторов. Наиболее значимыми являются:
+According to Akamai estimates, at prime-time the number of viewers who want to watch sport internet broadcasts in live reaches 500 millions. “With 500 million online viewers, we need 1500Tbps (to provide a broadcast with a bitrate of 1.5 mbps, which is 10 times less than what is needed to broadcast in HD1080p). Today we have 32Tbps, so you may see a big gap which we need to bridge», - [says Akamai's director of product and marketing, Ian Manford.](http://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=108594&PageNum=2)
 
-**Перегрузки на точках пиринга (обмена трафиком)** (Peering point congestion).
+As a result, in order to meet the real demand and needs of Internet users, based on the calculation of the simultaneous connection to the Network of 70% of Internet users to watch online video, in quality [from 720p to 2160p (HDR, 60 frames),](https://support.google.com/youtube/answer/1722171) with an equal proportional distribution of views in the indicated formats, the need for Internet bandwidth will be over 100,000 Tbps
 
-Производительность на точках пиринга, где происходит обмен сетевым трафиком, обычно сильно отстает от спроса, что во многом обусловлено экономической структурой Интернета. Деньги аккумулируются на «первой миле» (то есть, на веб-сайте) и на «последней миле» (то есть, у конечных пользователей), стимулируя тем самым инвестиции в инфраструктуру первой и последней мили. При этом, существует мало экономических стимулов для инвестиций в «среднюю милю, так как это большие расходы, с нулевым уровнем дохода, где сети еще и вынуждены сотрудничать с конкурирующими организациями. Таким образом, эти точки обмена становятся узкими местами, которые вызывают потерю пакетов и увеличивают латентность.
+Summary:
 
-**Неэффективные протоколы маршрутизации**.  (Inefficient routing protocols)
+**The shortage of the Internet Web bandwidth is over 100000 Tbps**
 
-Протокол маршрутизации BGP (Border Gateway Protocol ). Несмотря на то, что он отлично справился с масштабированием Интернета, BGP имеет ряд ограничений. Он не был разработан для обеспечения эффективной производительности. Например, несколько маршрутов между местоположениями в Азии фактически направляются через точки пиринга в США, что значительно увеличивает задержку. Кроме того, когда маршруты перестают работать или ухудшаются возможности подключения, BGP может медленно формировать новые маршруты.  BGP основывает свои вычисления маршрутизации на основе информации, предоставленной соседями в киберпространстве, которые, в свою очередь, собирают информацию от своих соседей в киберпространстве и т. д., ничего не зная о топологиях, задержках или перегрузке основных сетей в режиме реального времени. Это хорошо работает, пока информация, содержащаяся в сообщениях BGP, называемых “advertisements”, является точной. Любая ложная информация может распространяться почти мгновенно через Интернет, потому что нет возможности проверить честность или даже личность тех, кто отправляет такие сообщения. Обычные человеческие ошибки или преднамеренные  действия злоумышленников; неправильно сконфигурированные или захваченные маршруты могут быстро распространяться по всему Интернету, вызывая разворот маршрута, раздутые пути и даже широкомасштабные отключения связи.
+It is necessary to increase the existing network bandwidth by more than 50 times to meet the current needs of Internet users in online viewing!!!
 
-Примеры захвата: В 2008 году правительство Пакистана решило заблокировать на территории страны YouTube из-за видео с пророком Мухаммедом. Ошибочные команды в BGP привели к тому, что трафик большинства пользователей YouTube перенаправлялся в Пакистан, из-за чего сайт не работал около двух часов. В 2010 году из-за некорректной команды, отправленной китайским телекоммуникационным оператором China Telecom, трафик военных ведомств США около 18 минут проходил через Китай — и ничто не мешало его перехватывать. Наконец, в 2014 году злоумышленник перенаправил в Канаду трафик 19 провайдеров, для того чтобы украсть биткоины. И это только несколько из случаев, но чаше всего на сбои в работе BGP просто не обращают внимания.
 
-При этом роль BGP нельзя недооценивать, из-за того, что он не вписывается в картину централизованного интернета. Благодаря этому протоколу Интернет остаётся децентрализованной глобальной сетью и продолжает расти!
+### 2. The Internet does not provide any guarantees of reliability and performance when operating in a centralized data delivery mode.
 
-**Ненадежные сети**.
+As it was designed as an open, equal and decentralized platform, the Internet Web does not provide any guarantees of reliability and performance when operating in a centralized data delivery mode. In contrast, end-to-end Internet wide-band communications are subject to a number of bottlenecks that negatively impact performance, including latency, packet loss, network crashes, ineffective for such aims protocols and internetwork problems.
 
-В Интернете все время происходят сбои в работе, вызванные самыми разными причинами: отключением кабелей, неправильно сконфигурированными маршрутизаторами, атаками DDoS, перебоями в подаче электроэнергии, даже землетрясениями и другими стихийными бедствиями. В то время как сбои различаются по масштабу, крупномасштабные события не являются редкостью. В некоторых случаях на устранение неполадок может уходить несколько дней.
+Now for more details:
 
-**Неэффективные протоколы связи**.
+!!! info ""
 
-Протокол TCP, несмотря на то, что он был разработан для обеспечения надежности и предотвращения перегрузок, он несет значительные накладные расходы и может иметь субоптимальную производительность для ссылок с высокой задержкой или потерей пакетов, которые являются общими для широкополосного Интернета. Проблема с перегрузками в средней миле усугубляет проблему, поскольку потеря пакетов вызывает повторную передачу TCP, что еще более замедляет обмен данными.
+    Although the Internet is defined as a whole, it is now actually made up of thousands of different networks where each of which provides access to a small percentage of end users. Even in the largest network, the coverage is no more than 5% of the available Internet traffic (lk. img).
 
-TCP является серьезным узким местом для видео и других больших файлов. Поскольку для каждого отправленного пакета данных требуется подтверждение, пропускная способность (при использовании стандартного TCP) зависит как от латентности сети, так и от RTT (round-trip time). Таким образом, расстояние между сервером и конечным пользователем может стать основным узким местом в скорости загрузки и в качестве просмотра видео. Таблица, приведенная ниже, иллюстрирует резкие результаты этого эффекта. Например, онлайн потоки в HD невозможны, если сервер не находится поблизости.
+    ![alt_text]({{assets_root}}/images/intro/image4.png "image_tooltip")
+
+In fact, over 650 networks are required to reach 90% coverage. This means that content hosted on a central server must transfer through multiple networks in order for it to ultimately reach end users.
+
+In practice, internetwork is not efficient or reliable as it can be negatively affected by a number of factors. The most significant are:
+
+**Peering (data exchange) point congestion** (Peering point congestion).
+
+Peer-to-peer performance where network traffic is exchanged, typically lags well behind demand which is largely due to the economic structure of the Internet. Money accumulates on the “first mile” (that is the website) and the “last mile” (that is the end users), thereby stimulating investment in the infrastructure of the first and last mile. Nevertheless, there is little economic incentive to invest in the “mid-mile” as it is a high cost, zero-income, where networks are forced to partner with competing organizations. Thus, these exchange points become bottlenecks which cause pack loss and increase latency.
+
+**Inefficient routing protocols**.  (Inefficient routing protocols)
+
+Routing protocol BGP (Border Gateway Protocol). Despite it working great with Internet scaling, BGP has a number of limitations.  It was not designed for maintenance of effective productivity. For example, few routes between locations in Asia are basically going across peering points in the US, which increases latency a lot. Besides, when routes stop working or connectivity deteriorates, then BGP can slowly form new routes. BGP bases its routing computations on information provided by its neighbors in cyberspace, which in turn gather information from their neighbors in cyberspace, etc., without knowing anything about topologies, delays, or congestion of the underlying networks in real time. This works well as long as the information in BGP messages called “advertisements” is accurate. Any fake information can spread almost instantly over the Internet, because there is no way to verify the honesty or even the identity of those who send such messages.  This works well as long as the information in BGP messages called “advertisements” is accurate. Any false information can spread almost instantly over the Internet, because there is no way to verify the honesty or even the identity of those who send such messages. Ordinary human mistake or deliberate actions by intruders; misconfigured or captured routes can quickly spread across the Internet, causing route reversals, bloated paths, and even widespread disconnections.
+
+Examples of capture: in 2008 Pakistan government decided to block YouTube on its territory because of video with the prophet Muhammad. Erroneous BGP commands resulted in the traffic of most YouTube users being redirected to Pakistan, leaving the site down for about two hours. In 2010 because of an incorrect command sent by Chinese TV operator China Telecom, traffic of the US military departments went through China for around 18 min and nothing could disturb to capture it. Finally, in 2014 intruders redirected traffic of 19 providers to Canada to steal Bitcoins. And it’s just a few cases but most often no one pays attention to errors in BGP work.
+
+At the same time, the role of BGP should not be underestimated due to the fact that it does not fit into the picture of a centralized Internet. Thanks to this protocol, the Internet remains a decentralized global network and continues to grow!
+
+**Unreliable networks**.
+
+The Internet is experiencing disruptions all the time caused by a variety of reasons: disconnected cables, misconfigured routers, DDoS attacks, power outages, even earthquakes and other natural disasters. While disruptions vary in scale, large-scale events are not uncommon. In some cases troubleshooting can take several days.
+
+**Inefficient network protocols**.
+
+While TCP protocol is designed for reliability and congestion avoidance, it carries significant overhead and can have suboptimal performance for high latency or packet loss links that are common on wide-band Internet. The mid-mile congestion problem deepens the problem as packet loss causes TCP retransmissions, further slowing down the communication.
+
+TCP is a major bottleneck for video and other large files. Since confirmation is required for every data packet sent, bandwidth (when using standard TCP) depends on both network latency and RTT (round-trip time). TCP is a major bottleneck for video and other large files. Since an acknowledgment is required for every data packet sent, throughput (when using standard TCP) depends on both network latency and RTT (round-trip time). Thus, the distance between the server and the end user can become a major bottleneck in download speed and video viewing quality. The table below illustrates the dramatic results of this effect. For example, online streaming in HD is not possible if the server is not nearby.
 
 
 <table>
@@ -331,148 +333,156 @@ TCP является серьезным узким местом для виде�
 </table>
 
 
-**Экономическая масштабируемость.**
+**Economic scalability.**
 
-Экономическое масштабирование - означает наличие достаточного количества ресурсов для удовлетворения мгновенного спроса, будь то во время запланированных событий или неожиданных периодов пикового трафика. Масштабирование централизованной инфраструктуры является дорогостоящим и трудоемким процессом, и трудно заранее прогнозировать потребности в мощности. Отсутствие необходимых ресурсов у вещателей приводит к разочарованию потребителей и потенциальной потери бизнеса, а чрезмерное превышение означает трату денег на неиспользуемую инфраструктуру.
+Economic scalability means the presence of enough resources to meet instant demand both during planned events or unexpected periods of peak traffic. Scaling up a centralized infrastructure is costly and time-consuming, as well as it is difficult to predict capacity needs in advance. Lack of necessary resources on the part of broadcasters leads to consumer disappointment and potential loss of business, but extreme excess means wasting money on unused infrastructure.
 
-При этом, нужно хорошо понимать, что масштабируемость означает не только обеспечение достаточной производительности и пропускной способности исходящих серверов, но и достаточную пропускную способность по всей сети, ко всем конечным пользователям/потребителям.  Это очень и очень серьезная проблема!  Устранение этой проблемы сейчас является самой насущной задачей, решением которой активно занимаются все компании, желающие использовать Интернет в качестве профессиональной системы дистрибуции контента
+At the same time, it should be well understood that scalability means not only providing sufficient performance and bandwidth of outgoing servers, but also sufficient bandwidth throughout the network, to all end users/consumers. This is a very, very serious problem! Fixing this problem is now the most urgent task and the solution is being actively pursued by all companies who want to use the Internet as a professional content distribution system.
 
 
-### 3. Большие расходы на осуществление онлайн-трансляций
+### 3. Large expenses for the implementation of online broadcasts
 
-Для относительно нормальной работы сервисов OTT и качественных трансляций (VoD и Live Stream) необходимо создание собственной инфраструктуры CDN или использование сторонней.
-
-!!! info ""
-    В архитектуре CDN берется оригинальный медиа-контент и копируется на сотни или тысячи своих серверов, которые устанавливаются по всему миру. Поэтому, когда, скажем, вы входите в систему из Амстердама, вместо того, чтобы подключаться к основному серверу вещателя находящемуся в Соединенных Штатах, он будет загружать такую ​​же копию с сервера Амстердама, или который ближе всего к Амстердаму. Это не дает нагрузку на международные и межрегиональные сети, и за счет сокращения расстояния между сервером и клиентом,  делает связь более стабильной и значительно ускоряет передачу данных (увеличивает скорость загрузки конечным пользователям).
-
-    Именно CDN являются причиной того, что трансляции сервисов с огромным количеством пользователей, таких как YouTube , Twich, Facebook и др., могут сейчас смотреть пользователи в разных странах мира, в хорошем качестве и с минимальными задержками.
-
-Создание собственной высококачественной инфраструктуры CDN, соответствующей по уровню и пропускной способности, к примеру Akamai, обойдется в несколько млрд.$ +  миллионные ежемесячные расходы на содержание, а для ее разворачивания понадобиться не мало времени, и все это для того что бы иметь возможность осуществить одну глобальную интернет-трансляцию в HD-качестве (10 mbps) на 10 млн. одновременных зрителей, находящихся в разных точкам мира (не определенной географии).  При этом, будет еще и насущно стоять вопрос экономической масштабируемости (планирование мощности, гибкость, качество), проще говоря: нужно будет решить задачу, чтобы чрезмерное предоставление ресурсов не приводило к лишним расходам, а недостаточное не приводило к низкому качеству и перебоям в обслуживании, и проблема заключается в том что сложно спрогнозировать, будет ли трафик по определенным событиям увеличиваться в 2 или 10 раз выше обычных объемов. В итоге, такое решение (создание собственной CDN) актуально только для крупнейших международных операторов ОТТ (к примеру, таких как YouTube, Netflix  и т.п.), и абсолютно не подходит для международных сервисов не имеющих такую большую аудиторию и также не подходит организаторам вещания каких-то нечастых масштабных событий, к примеру таких как популярные спортивные события, концерты, природные или техногенные катастрофы или важные местные или мировые события, и т.д. и т.п.
+For the relatively normal operation of OTT services and high-quality broadcasts (VoD and Live Stream), you need to create your own CDN infrastructure or use a third-party one.
 
 !!! info ""
-    Один интересный факт: Netflix насчитывающий около 100 млн. пользователей из 190 стран изначально создал собственную инфраструктуру, из огромного парка серверов. В то время как инженеры Netflix написали сотни программ и развернули их на своих серверах, обеспечивая работу более 700 микросервисов, управляющих каждой из многих частей того, что составляет инфраструктуру Netflix, и в итоге оказалось, что всего этого недостаточно, чтобы получить необходимую производительность.  И для увеличения производительности, они приняли решение подключить инфраструктуру Amazon Web Services (AWS), а в последующем, помимо AWS, для увеличения производительности также были еще подключены сети еще нескольких коммерческих операторов CDN, таких гигантов как Akamai, Level 3 и Limelight Networks. Но и этого оказалось недостаточно, но об этом позже (о проблеме «последней мили»)
 
-При задействовании сторонних операторов CDN, таких как Akamai и т.п, необходимо ориентироваться на их свободные ресурсы (с необходимостью их предварительного резервирования для трансляции каких-то масштабных событий) и стоимость их услуг. К примеру: при средней цене услуги CDN – 0,05$ за 1 Гб, стоимость 1 часа трансляции, для 1 млн. одновременных зрителей, в HD (с битрейтом 10 mbps), будет обходится вещателю в размере – 225 000$.  При этом, проблема ограниченных пропускных возможностей существующих стандартных операторов CDN никуда не девается.
+    In the CDN structure, original media content is taken and copied to hundreds or thousands of its servers which are installed around the world. So when you log in from Amsterdam, instead of connecting to the broadcaster's main server located in the United States, it will download the same copy from the server in Amsterdam or whichever is closest to Amsterdam. This does not load international and interregional networks and by reducing the distance between the server and the client, it makes the connection more stable and significantly speeds up data transfer (increases the download speed for end users).
 
+    It is CDNs that are the reason that broadcasts of services with a huge number of users, such as YouTube, Twitch, Facebook, etc., can now be watched by users in different countries of the world in good quality and with minimal delays.
 
-
-### 4. Проблема «последней мили», без решения которой невозможно обеспечить высококачественные уровень трансляции
-
-«Последняя миля» — часть сети, которая физически достигает устройства конечного пользователя (канал, соединяющий конечное (клиентское) устройство с узлом ISP)
-
-В архитектуре, где доставка контента осуществляется исключительно через централизованную CDN и нет своего физического присутствия на «последней миле» (нет прямого доступом к сети ISP, к которой подключен Зритель), нет возможности обеспечения гарантированной и стабильной скорости передачи данных, соответствующей уровню сетевого подключения клиента  к своему Интернет-провайдеру (ISP). К примеру, наличие порта 100 Мбит/с не означает данную скорость на всех участках сети, так как свободная пропускная способность магистрального канала в момент передачи данных может быть всего 10 Мбит/с. Поэтому, чтобы избавиться от претензий со стороны клиентов, вещателю приходится оправдываться перед своими клиентами/зрителями, заявляя, что у них было бы все хорошо с воспроизведением контента,  если бы их Интернет-провайдер был напрямую подключен к сети CDN, обслуживающей сервис/вещателя.
+Creating your own high-quality CDN infrastructure, corresponding in level and bandwidth for example Akamai, will cost several billion $ + million monthly maintenance costs, and it will take a lot of time to deploy it, and all this in order to be able to implement one global webcast in HD quality (10 mbps) for 10 million concurrent viewers located in different parts of the world (not defined geography). At the same time, there will also be an urgent issue of economic scalability (capacity planning, flexibility, quality), in other words: it will be necessary to solve the problem so that excessive provision of resources does not lead to unnecessary costs, and insufficient provision does not lead to low quality and service interruptions, and the problem is that it is difficult to predict whether traffic for certain events will increase 2 or 10 times higher than normal volumes. As a result, such a solution (creating your own CDN) is relevant only for the largest international OTT operators (for example, YouTube, Netflix, etc.), and is absolutely not suitable for international services that do not have such a large audience and is also not suitable for organisers broadcasting some infrequent large-scale events, for example, such as popular sports events, concerts, natural or man-made disasters or important local or world events, etc. etc.
 
 !!! info ""
-    В этом случае, к примеру, чтобы избавится от претензий со стороны клиентов имеющих 4К телевизоры и подключения к сети Интернет  на скорости 100 мбит/с, которые не могут понять, почему им приходится смотреть видео в низком качестве, с битрейтом на уровне 2 мбит/с, вместо заявленного 4К), Netflix поддерживает свой индекс скорости Интернет-провайдеров, создав для этого специальную страничку на своем ресурсе ([ispspeedindex.netflix.com](https://ispspeedindex.netflix.com/)), и постоянной периодичностью еще и публикует индексы скоростей в своем  блоге, благодаря чему потребители могут видеть, какие скорости для потоков Netflix  предоставляют их провайдеры.
 
-Существует множество причин, по которым сервера CDN размещают в больших централизованных региональных центрах обработки данных, а не в очень небольших точках присутствия (points of presence, PoP). Большие библиотеки контента, используемые для доставки VoD, вполне нормально для этого подходят. Тем не менее, для обеспечения высокого качества и стабильности линейного контента (прямого вещание) или популярных выпусков VoD, необходимо доставлять контент из ресурсов CDN, расположенных в небольших PoP, и находясь как можно глубже в сети, «ближе к зрителю». Как правило, операторы должны идентифицировать поставщиков, которые могут помочь им обеспечить устойчивое высокое качество, а также повысить гранулярность и гибкость.
+    One interesting fact: Netflix, with about 100 million users from 190 countries, originally created its own infrastructure from a huge server fleet. While Netflix engineers wrote hundreds of programs and deployed them on their servers, running over 700 micro-services managing each of the many parts of what makes up Netflix's infrastructure, it turns out that all of this is not enough to get the needed performance. And to increase performance, they decided to connect the infrastructure of Amazon Web Services (AWS), and subsequently in addition to AWS, the networks of several other commercial CDN operators, such giants as Akamai, Level 3 and Limelight Networks were also connected to increase performance. But this was not enough, but more on that later (on the problem of the "last mile")
 
-!!! info ""
-    Джо МакНаме, исполнительный директор европейской правозащитной группы EDRi, отметил, что даже если владельцы видео-сервисов строят свою собственную параллельную инфраструктуру (CDN), то их усилия интеграции по вертикали не смогут распространяться на контроль «последней мили». А если нет контроля «последней мили», то нет гарантии стабильности потоков для конечных пользователей Интернет (Зрителей).
+When using third-party CDN operators, such as Akamai, etc., you need to focus on their free resources (with the need to pre-reserve them for broadcasting some large-scale events) and the cost of their services.. For example: with an average price of a CDN service $ 0.05 per 1 GB, the cost of 1 hour of broadcasting for 1 million concurrent viewers in HD (with a bitrate of 10 mbps) will cost the broadcaster $ 225,000. At the same time, the problem of limited bandwidth of existing standard CDN operators does not go away.
 
-Однако по затратам и с точки зрения программного обеспечения и оперативной сложности может возникнуть сложность развертывания и управления множеством широко распространенных серверов. Задача заключаться в том, что вещателям и их  CDN необходимо найти способ размещения своих выделенных или виртуальных серверов «ближе к зрителю», а этой точкой уже является инфраструктура ISP (Интернет-провайдер, услугами которой пользуется Зритель), и это уже означает что нужно индивидуально договариваться об условиях с каждым ISP и нести дополнительные расходы.
 
-!!! info ""
-    К примеру, для решения этой задачи, Netflix реализовал проект под название Open Connect, суть которого заключается в создании еще одного поверхностного слоя CDN, с прямым проникновением в инфраструктуру Интернет-провайдеров (ISP).  [https://openconnect.netflix.com](https://openconnect.netflix.com)
 
-Также, очень важно понимать, что при наличии у вещателя большой аудитории зрителей и трафика который будет составлять значительный % от общего объема всего трафика сети какого-либо ISP, то существует вероятность риска урезания такого трафика Интернет-провайдером, что существенно скажется на качестве трансляций, а в некоторых случаях может даже произойти полная блокировка доступа к такому сервису вещателя, и ISP затребует от вещателя какую-то компенсацию, что в итоге также приведет к дополнительным расходам, даже если они изначально не планировались.
+### 4. The problem of the "last mile" and without fixing it is impossible to provide high-quality broadcasting
 
-Возможно, для тех кто думает что Интернет-провайдерам не должно быть  до этого никакого дела, и их вообще не должно интересовать что и в каком объеме передают его абоненты,  такой аргумент покажется незначительным.  Но, в реалиях, это является очень весомым аргументом, так как по факту абонентам не предоставляются гарантированные выделенные интернет-каналы, и именно благодаря умелому перераспределению трафика, Интернет-провайдеры делают свой бизнес, а абоненты получают недорогие тарифные планы.
+«Last mile» is a part of the Web, which physically reaches the end user (channel connecting end (client) device with ISP net)
+
+In a structure where content delivery is carried out exclusively through a centralized CDN and there is no physical presence at the "last mile" (there is no direct access to the ISP network to which the viewer is connected), there is no way to provide a guaranteed and stable data transfer rate appropriate to the level of the client's network connection to their Internet Service Provider (ISP). For example, if you have 100 Mbit/s port, it does not mean the speed for every user of the Web, since the free bandwidth of the trunk channel at the time of data transfer can be only 10 Mbit/s. Therefore, in order to get rid of claims from customers, the broadcaster has to make excuses to its clients/viewers, stating that they would be fine with the playback of content if their ISP was directly connected to the CDN network serving the service/broadcaster.
 
 !!! info ""
-    Показательным примером реальности и актуальности обозначенной проблемы может послужить конфликт, возникший между Netflix и ISP Verizon. Суть конфликта заключалось в том, что Verizon  заблокировал своим клиентам услуги Netflix, заявил, что Netflix злоупотреблял своим положением в качестве супертяжелого отправителя интернет-трафика (составлявшего 30% пикового трафика на то время), и потребовал у Netflix  компенсацию за предоставления такой полосы.
 
-По факту, как мы видим, чтобы вещателю достичь хорошего уровня производительности в централизованной архитектуре, нужно практически построить свою частную, отдельную сеть Интернет. И это есть одним из возможных вариантов решения. Но кто такое решение может себе позволить и к чему это приведет?!
+    For example, in this case in order to get rid of claims from clients who has 4K TV and connection to the Internet at a speed of 100 Mbit/s and cannot understand why they have to watch videos in low quality with bit rate of 2 Mbit/s, instead of declared 4k), Netflix maintains its index of the speed of Internet providers by creating a special page for this on its resource ([ispspeedindex.netflix.com](https://ispspeedindex.netflix.com/)), and with a constantly publishes speed indices on his blog so that consumers can see what speeds their providers give for Netflix streams.
 
-В случае, если же услуги ISP начнут массово предоставлять непосредственно компании владеющими всевозможными собственными сервисами VoD, Live Stream (к примеру, такие как Google, Facebook, Amazon, Apple и т.п.), а именно к этому они и стремятся (видя в этом один из вариантов оптимального решения проблемы «последней мили» и возможности полного  контроля серфинга пользователей в Сети), то тогда еще и возникнет конфликт бизнес-интересов. Пояснять, какому трафику будет отдаваться предпочтение в такой ситуации, вероятно будет лишним. В этом случае можно будет забыть о каком-либо сетевом нейтралитете, и соответственно единственным кто сможет обеспечить высокие гарантии качества и стабильности трансляции, это будет тот, кому принадлежит ISP!
-
-Хотите ли Вы чтобы вам когда-то пришлось делать выбор между Netflix или YouTube или Apple TV и  др., из понимания того, что делая выбор в пользу какого-то ISP, вы сможете нормально пользоваться только одним из этих сервисов?!  Нужен ли Вам интернет от Google, чтобы не иметь проблем с работой его сервисов или интернет от Facebook, чтобы нормально пользовать его сервисы, и нужен ли Вам вообще такой Интернет, где нужно делать такой выбор?!
-
-!!! cite "Джо МакНаме"
-    Что произойдет, когда у вас есть огромная инфраструктура CDN и доступ к последней миле? Вы попадаете в другой мир
-
-Эта ситуации демонстрирует насколько серьезными и большими могут быть проблемы у вещателей, не имущих доступ к «последней мили», и насколько мрачной может быть ситуация когда у кого-то есть монопольная власть над «последней милей».
-
-
-### 5. Низкий уровень стабильности потока
-
-Размещение серверов в непосредственной близости от конечных пользователей значительно увеличивают стабильность и исходящую пропускную способность всей системы, но это полностью не решает задачу по достижению уровня качества и стабильности, не уступающего таким каналам дистрибуции, как спутниковое и кабельное телевидение.
-
-Проблема заключается в том, что при использовании централизованной технологии (Unicast) Зритель получает поток только от одного единственного сервера, что в совокупности с ранее обозначенными проблемами и ограничениями, очень существенно может влиять на стабильность трансляции, в случае каких-либо сбоев на стороне сервера или на маршруте.
-
-Стандартные Unicast-технологии не позволяют реализовывать сложные сценарии обработки данных и перераспределения видеопотоков так, чтобы в случае проблем с каким-либо из узлов или маршрутом, это не вызывало у Зрителя задержку прямой трансляции или не ухудшило ее качество, а соответственно при использовании такой технологии не может быть никаких гарантий стабильности потока.
-
-Проше говоря, чтобы конкурировать с такими каналами дистрибуции, как спутниковое и кабельное ТВ, то единственной причиной остановки трансляции должно быть только отсутствие/отключение Интернета!
-
-Добиться соответствующих гарантий стабильности потока, можно только посредством технологии позволяющей осуществлять загрузку данных в несколько потоков, одновременно от нескольких серверов и по разным маршрутам, что будет полностью нивелировать возможные проблемы на каком-то из серверов или маршрутов. Но такая реализация - это уже будет не Unicast, а P2P, и это уже совсем другая история.
-
-
-### 6. Огромный экологический урон от централизованной стриминговой индустрии
-
-Около 90% ресурсов Интернета и дата-центров работают на стриминговую индустрию, чтобы обеспечить около 1% от реальных потребностей пользователей в онлайн-смотрении. Соответственно, чтобы покрыть дефицит пропускной способности стандартными методами, нужно в сотни раз увеличить мощности централизованной инфраструктуры. При этом дата-центры уже сейчас используют более 2% мировой электроэнергии и производят такое же количество углеродных выбросов **(свыше 650 млн т/год. CO<sub>2</sub>), **что уже в пять раз превосходит уровень объемов выбросов CO<sub>2</sub>  при майнинге Bitcoins**! **
+There are many reasons why CDN servers are located in large, centralized regional data centers rather than very small points of presence (PoP). Large content libraries which are used for VoD delivery are good enough for that. Still, in order to maintain high quality and stability of linear content (live streaming) or popular VoD episodes there is a need to transmit content from CDN resources, which are located in small PoP and being as deep as possible in the network to be «closer to the viewer». Usually, operators must identify suppliers that can help them ensure consistent high quality, as well as increase granularity and flexibility.
 
 !!! info ""
-    При самых энергоэффективных технологиях, согласно оценкам экспертов, в течение десятилетия на дата-центры и цифровую инфраструктуру будет приходиться уже до 20% мирового потребления электроэнергии и 5,5% выбросов CO<sub>2</sub>
+
+    Joe McName, executive director of European advocacy group EDRi, noted that even if video service owners are building their own parallel infrastructure (CDN), their vertical integration efforts cannot extend to control the "last mile." And if there is no “last mile” control, then there is no guarantee of stability of streams for end users of the Internet (Viewers).
+
+However, in terms of cost, software and operational complexity, it can be difficult to deploy and manage many widely applicable servers. The task is that broadcasters and their CDNs need to find a way to locate their dedicated or virtual servers "closer to the viewer", and this point is already the ISP infrastructure (Internet Service Provider the Viewer uses), so this already means that you need to individually negotiate terms with each ISP and face additional expenses.
+
+!!! info ""
+
+    For example, to solve this task Netflix implemented a project called Open Connect and the aim of it is creation of one more CDN layer with direct integration into Internet-provider (ISP) infrastructure. [https://openconnect.netflix.com](https://openconnect.netflix.com)
+
+Also, it is very important to understand that if the broadcaster has a large audience of viewers and traffic that will compile a significant % of the total volume of all network traffic of any ISP, then there is a risk of such traffic being cut by the Internet provider, which will significantly affect the quality of broadcasts. And in some cases, a complete blocking of access to such a service by the broadcaster may even occur, and the ISP will demand some kind of compensation from the broadcaster which will ultimately also lead to additional costs, even if they were not initially planned.
+
+Perhaps for those who think that Internet providers should not care about this and they should not even be interested in what volume and what subscribers are transmitting, such an argument will seem insignificant. But in reality it is a very meaningful argument as basically subscribers are not provided with guaranteed designated Internet channels, and by doing appropriate redistribution of traffic, Internet providers make business and subscribers get inexpensive tariff plans.
+
+!!! info ""
+
+    The conflict between Netflix and ISP Verizon can provide us as an illustrative example of the reality and relevance of this problem. The essence of the conflict was Verizon blocking Netflix services to its customers, claiming that Netflix abused its position as a heavyweight internet traffic sender (accounting for 30% of peak traffic at the time) and demanded compensation from Netflix for providing such bandwidth.
+
+In fact, in order for a broadcaster to achieve a good level of performance in a centralized architecture, it is practically necessary to build its own private, separate Internet network. And this is one of the possible solutions. But who can afford such a decision and what will it lead to ?!
+
+In case that ISP services begin to massively provide directly to companies that own all kinds of their own VoD, Live Stream services (for example, such as Google, Facebook, Amazon, Apple, etc.), and this is what they strive for (seeing this as one of the options for the optimal solution to the "last mile" problem and the possibility of complete control of users' surfing on the Web), then there will also be a conflict of business interests. It will probably be unnecessary to explain what kind of traffic will be preferred in such a situation. In this case, we can forget about any net neutrality, and respectively the only one who can provide high guarantees of the quality and stability of the broadcast will be the one who owns the ISP!
+
+Do you want you to once have to make a choice between Netflix or YouTube or Apple TV, etc., understanding that by making a choice in favor of some ISP, you can normally use only one of these services?!  Do you need the Internet from Google in order not to have problems with the work of its services or the Internet from Facebook in order to use its services normally and do you need such an Internet at all where you need to make such a choice?!
+
+!!! cite "Joe McName"
+
+    What will happen when you have a large CDN infrastructure and access to the last mile? You will get to another world
+
+This situation demonstrates how serious and big the problems can be for broadcasters without access to the last mile, and how gloomy it can be when someone has monopoly power over the last mile.
+
+
+### 5. Low stream stability
+
+Placing servers in close proximity to end users significantly increases the stability and outgoing bandwidth of the entire system, but this does not completely solve the problem of achieving a level of quality and stability that is not inferior to such distribution channels as satellite and cable TV.
+
+The thing is that during the usage of centralized technology (Unicast) the Viewer gets the stream from one single server and in total with previously mentioned problems and limitations it can significantly influence the stability of broadcast in case of any failures on server or route side.
+
+Standard Unicast technologies do not allow to implement complex scenarios of data processing and redistribution of video streams in a manner which will not cause any latency of live streaming or decline in the quality in case of any problems with net nodes or routes but respectively using such a technology there cannot be any guarantees of stream stability.
+
+Simply speaking, in order to compete with such distribution channels as satellite and cable TV, the only reason for stopping the stream should only be lack/disconnection of the Internet!
+
+It is possible to achieve appropriate guarantees of stream stability only by means of a technology that allows loading data into several streams, simultaneously from several servers and along different routes, which will completely solve possible problems on some of the servers or routes. But such an implementation will no longer be Unicast, but P2P, and that's a completely different story.
+
+
+### 6. Huge environmental damage from a centralized streaming industry
+
+About 90% of Internet resources and data centers work for the streaming industry to provide about 1% of the real needs of users for online viewing. Accordingly, in order to cover the bandwidth deficit using standard methods, it is necessary to increase the capacity of the centralized infrastructure hundreds of times. At the same time, data centers already use more than 2% of the world's electricity and produce the same amount of carbon emissions  **(over 650 mln t/h. CO<sub>2</sub>), **already five times higher than CO <sub>2</sub>  emissions when mining Bitcoins**! **
+
+!!! info ""
+
+    According to experts,  within a decade data centers and digital infrastructure with the most energy efficient technologies will account for up to 20% of global electricity consumption and 5.5% of emissions CO<sub>2</sub>
 
 
 <p style="text-align: right">
-<a href="https://thenextweb.com/news/data-centers-generate-the-same-amount-of-carbon-emissions-as-global-airlines">Ссылка на TNW</a></p>
+<a href="https://thenextweb.com/news/data-centers-generate-the-same-amount-of-carbon-emissions-as-global-airlines">TNW link</a></p>
 
-## Как обстоят ДЕЛА НА ПРАКТИКЕ?
+## How are things going IN PRACTICE??
 
-На практике, как обычно, - все намного сложнее и менее предсказуемо, чем в теории!
+In practice as usual it is more complex and less predictable than in theory!
 
-Чтобы лучше понять, насколько обозначенные сетевые проблемы реально влияют на трансляции и насколько эффективно или неэффективно работают существующие стандартные решения (unicast), ну а также насколько это может быть значимо, особенно для прямых трансляций спортивных событий, приведем несколько исторических примеров:
+To better understand how the identified network problems really affect broadcasts and how efficiently or ineffectively existing standard solutions (unicast) work, as well as how significant it can be, especially for live broadcasts of sports events, here are some historical examples:
 
-Очень значимое для компании Amazon событие, такое как первая прямая трансляция спортивного матча прошла с серьезными проблемами (матч [Chicago Bears-Green Bay Packers](http://www.multichannel.com/news/content/amazon-s-nfl-stream-solid-not-perfect/415594) )
+A very significant event for Amazon, such as the first live broadcast of a sports match went through serious problems (match [Chicago Bears-Green Bay Packers](http://www.multichannel.com/news/content/amazon-s-nfl-stream-solid-not-perfect/415594) )
 
-После Amazon, трансляцию следующего матча  провела Yahoo , и тоже возникли проблемы ([матч NFL, между Baltimore Ravens и Jacksonville Jaguars](http://www.multichannel.com/news/sports/complaints-about-yahoo-s-nfl-live-coverage-stream/415461))
+After Amazon, the next match was broadcast by Yahoo and there were problems too ([match NFL, between Baltimore Ravens and Jacksonville Jaguars](http://www.multichannel.com/news/sports/complaints-about-yahoo-s-nfl-live-coverage-stream/415461))
 
-И с проблемами проведения масштабных прямых трансляций сталкиваются практически все компании, включая Apple (многие до сих пор помнят провал трансляции презентации нового IPhone 6 Plus, который практически открывал новую эру смартфонов).
+And almost all companies, including Apple, face the problems of large-scale live broadcasts (many still remember the failure of the broadcast of the new iPhone 6 Plus presentation which practically opened a new era of smartphones).
 
-Ну и наверно весомым и неоспоримым показателем существующих реалий послужит результат очень значимого в мире спортивного события, с огромным количеством желающих его посмотреть в прямом эфире, и за просмотр которого его эксклюзивный вещатель в США запросил 100$. Возможно, мало у кого будет укладываться в голове, что могут возникнуть какие-то проблемы с трансляцией, за просмотр которой платят по 100$?!
+Probably a valid and undeniable indicator of existing problems may be the result of a very significant sport event in the world with a huge number of people willing to watch it live and for viewing which its exclusive broadcaster in the United States requested $ 100. Perhaps, only few people will accept that there can be some problems with the broadcast for which they pay $ 100?!
 
-27 августа 2017 г., в Лас-Вегасе прошел поединок, названный самый ожидаемым поединком столетия и самым знаковым событием современного бокса — 12-кратный чемпион мира по боксу Флойд Мейвезер-младший сошелся на ринге с бойцом смешанных единоборств Конором МакГрегором.  Прямая трансляция велась по системе pay-per-view (плати за просмотр), с ценою за просмотр в обычном качестве -  $89.95, в HD– $99.95.
+On August 27, 2017, Las Vegas hosted a duel called the most anticipated fight of the century and the most iconic event in modern boxing - 12-time world boxing champion Floyd Mayweather Jr. faced mixed martial arts fighter Conor McGregor in the ring. The live broadcast was carried out using the pay-per-view system with a price per view in normal quality - $ 89.95, in HD - $ 99.95.
 
-Результат : [Разочарование огромного количества людей!](http://ftw.usatoday.com/2017/08/mayweather-vs-mcgregor-streaming-ufc-tv-ppv-pay-per-view-time-online-watch)
+Result: [Disappointment of large amount of people!](http://ftw.usatoday.com/2017/08/mayweather-vs-mcgregor-streaming-ufc-tv-ppv-pay-per-view-time-online-watch)
 
-Все-таки, прямые трансляции – это вам не статичные видеофайлы раздавать (не кино крутить)!
+After all, live broadcasts are not distribution of static video files (no movies)!
 
-И если такие проблемы с прямыми трансляциями наблюдаются у самых крупнейших интернет-гигантов, обладающими многомиллиардными инфраструктурами CDN, да еще и с четко прогнозируемым количеством одновременных зрителей, при невероятно высокой стоимости доступа к просмотру трансляции, то возникает вопрос: - можно ли вообще посредством Интернет обеспечить высококачественную стабильную трансляцию, да еще и на неограниченное (не прогнозируемое) количество зрителей?
+And if such problems with live broadcasts are observed among the largest Internet giants which have multi-billion dollar CDN infrastructures and even with a clearly predictable number of concurrent viewers at an incredibly high cost of access to view the broadcast, then the question arises: - Is it possible to provide via the Internet at all high-quality stable broadcast and even for an unlimited (not predictable) number of viewers?
 
-Прежде чем получить ответ на поставленный вопрос, важно отметить, что по факту «проблемы» не в самой сети Интернет, а в том как ее эксплуатируют. Все обозначенные выше проблемы не имеют никакого значения для одноранговых (peer-to-peer, P2P) сетей с децентрализованной системой хранения и доставки данных, что явно указывает, насколько противоестественной для сети Интернет является централизация, и насколько трудно достичь приемлемых уровней производительности, надежности и экономической масштабируемости, при таком режиме ее эксплуатации.
+Before getting an answer to this question, it is important to note that in fact the "problem" is not in the Internet itself, but in how it is used. All of the above problems are irrelevant for peer-to-peer (P2P) networks with a decentralized data storage and delivery system, which clearly indicates how unnatural centralization is for the Internet and how difficult it is to achieve acceptable levels of performance, reliability and economic scalability with this mode of operation.
 
-**Вот такая она реальность!**
+**That's the reality!**
 
-Теперь вы уже точно знаете, где находятся ограничения и насколько могут существующие пропускные способности сети Интернет удовлетворить реальные потребности в Интернет-смотрении, при использовании стандартных (Unicast) технологий онлайн-вещания!
+Now you already know exactly what the limitations are and how much the existing Internet bandwidth can meet the real needs for Internet viewing, using standard (Unicast) online broadcasting technologies!
 
-## Однако решение есть!
+## But there is a solution!
 
-Все что нужно, так это наконец-то начать использоваться Сеть именно так, как ее и предполагалось использовать изначального (когда она создавалась), с учетом ее архитектуры, акцентированной на одноранговость (P2P, Peer to Peer) и максимальную децентрализацию
+All that is needed is to finally start using the Network exactly as it was intended to be used initially (when it was created), taking into account its architecture, emphasized on peer-to-peer (P2P, Peer to Peer) and maximum decentralization
 
-### Вкратце, о технологии P2P
+### Briefly about P2P tech
 
-Peer-to-peer, или сокращенно P2P сеть, - это вид компьютерных сетей, использующих распределенную архитектуру. Это означает, что все компьютеры или устройства, входящие в нее, предоставляют и используют ресурсы совместно. Компьютеры или устройства, которые являются частью пиринговой сети, называются пирами. Каждый узел одноранговой сети, или пир, равен другим пирам. Привилегированных участников нет, как и нет центрального административного устройства. Таким образом, и только при таких условиях, сеть считается децентрализованной.
+Peer-to-peer, short for P2P network, is a kind of computer network using a distributed architecture. It means that all computers or devices which include it are providing and using resources all-together. Computers or devices which are a part of the peering system are called peers. Every net node of a peer-to-peer system or peer equals to other peers. There are no privileged users as there is no centralized administrative device. Thus, and only under such conditions, the network is considered decentralized.
 
-В некотором роде одноранговые сети - это социалистические сети в цифровом мире. Каждый участник Сети равен другим, и каждый имеет те же права и обязанности, что и другие. Каждое устройство (узел/peer) подключенные к одноранговой Сети является как клиентом, так и выполняет функции сервера, тем самым не только потребляя ресурсы Сети (других участников), а еще и предоставляя Сети (другим участникам) свои собственные ресурсы (аппаратные и сетевые). Каждый ресурс, доступный в пиринговой сети, является общим для всех узлов без участия центрального сервера. Общими ресурсами в сети P2P могут быть:
+In some way, peer-to-peer networks are socialist networks in the digital world. Every network user is equal to others and have the same rights and responsibilities as others. Every device (node/peer) connected to P2P network is considered both as a client and as a server and  Каждое устройство (узел/peer) подключенные к одноранговой Сети является как клиентом, так и выполняет функции сервера, thereby not only consuming the resources of the Network (other participants), but also providing the Network (other participants) with its own resources (hardware and network). Every resource available on the peer-to-peer network is shared by all nodes without the involvement of a central server. Shared resources on a P2P network can be:
 
-- Процессорные мощности
-- Дисковое пространство
-- Пропускная способность сети
+- Processor power
+- Disk space
+- Network bandwidth
 
-### Принцип работы P2P-сети
+### How P2P Network Works
 
-Основная цель одноранговых сетей заключается в совместном использовании ресурсов и совместной работе компьютеров и устройств, предоставлении конкретной услуги или выполнении конкретной задачи. Как упоминалось ранее, децентрализованная сеть используется для совместного использования всех видов вычислительных ресурсов, таких как вычислительная мощность, пропускная способность сети или дисковое пространство.
+The main purpose of peer-to-peer networks is to share resources and work together between computers and devices, to provide a specific service or perform a specific task. As mentioned earlier, a decentralized network is used to share all kinds of computing resources, such as computing power, network bandwidth, or disk space.
 
-Наиболее распространенным вариантом использования пиринговых сетей является обмен файлами в Интернете. Одноранговые сети идеально подходят для обмен файлами в Интернете (распределенного хранения и передачи файлов), поскольку они позволяют подключенным к ним компьютерам получать и отправлять файлы одновременно, используя многочисленное количество источников.
+The most common use case for peer-to-peer networks is Internet file sharing. Peer-to-peer networks are perfect for Internet file sharing (distributed file storage and transfer) because they allow the computers connected to them to receive and send files simultaneously using multiple sources.
 
-Рассмотрим ситуацию: посещая видеохостинг (к примеру, как YouTube), вы загружаете видеофайл (да, если вы не знали, то просматривая любое онлайн-видео в Интернете вы всегда загружаете видеофайл на свое устройство). В этом случае видеохостинг работает как сервер, а ваше устройство выступает в роли клиенте, получающего видеофайл с сервера видеохостинга. Вы можете это сравнить с односторонним движением по однополосной дороге: загружаемый файл - это предназначенный для вас груз, который везет вам один единственный автомобиль, который идет от точки A (видеохостинг) до точки B (ваше устройство), причем по однополосной дороге, где самая незначительная авария или пробка на дороге приводит к значительной задержке доставляемого вам груза, а в случае серьезной аварии или пробки на дороге, груз повторно отправляется по новой дороге, но уже по другому маршруту, где могут возникнуть те же самые проблемы, что в итоге может привести к значительным ухудшениям качества такого сервиса и ущербу доставляемого груза (остановкам на буферизацию, снижению визуального качества онлайн-видео или невозможности его воспроизведения вообще).
+Consider a situation: when visiting a video hosting site (for example, like YouTube), you download a video file (yes, if you did not know, when watching any online video on the Internet, you always download a video file to your device). In this case, the video hosting service acts as a server, and your device acts as a client receiving a video file from the video hosting server.You can compare this to a one-way traffic on a single-lane road: an uploaded file is a cargo intended for you, carried by one single car that goes from point A (video hosting) to point B (your device), and on a single-lane road, where the most a minor accident or traffic jam leads to a significant delay in the cargo delivered to you, and in the event of a serious accident or traffic jam on the road, the cargo is re-sent along a new road, but along a different route, where the same problems may occur, which may eventually lead to significant decline in the quality of such a service and damage to the delivered cargo (stops for buffering, a decrease in the visual quality of online video or the impossibility of playback all).
 
-Если вы загружаете один и тот же файл через одноранговую сеть, используя P2P-протокол для передачи данных, то загрузка файла выполняется по-другому. Файл загружается на ваше устройство по частям, одновременно от многих других устройств, у которых уже есть необходимые вам части файла, а скаченные вами куски файла (обычно размером в 16 кб, к примеру, как для протокола BitTorrent) объединяются в нужный вам исходный файл уже непосредственно на вашем устройстве. В то же время части этого файла также отправляются (загружаются) с вашего устройства другим участникам Сети, которые его запрашивают. Эта ситуация похожа на двухстороннюю дорогу, с не ограненным количеством полос, да еще и с одновременной доставкой данных (частей файла) по разным маршрутам:  нужный вам файл (груз) многократно дублируется, разделяется на части, грузиться на многочисленные авто и отправляется вам одновременно по нескольким маршрутам, где дороги имеют неограниченного количества полос. В свою очередь, вы также становитесь активным участником такого логистического движения, и уже по встречной полосе отправляете имеющиеся у вас в наличии груз (копии полученных вами частей файла) по запросу других участников (пользователей) Сети.
+If you download the same file over a peer-to-peer network using P2P protocol for data transfer, the file download is done differently. The file is downloaded to your device in parts, simultaneously from many other devices that already have the parts of the file you need, and the parts of the file you downloaded (usually 16 kb in size, for example, for the BitTorrent protocol) are combined into the source file you need. At the same time, parts of this file are also sent (downloaded) from your device to other network participants who request it. This situation is similar to a two-way road, with an unlimited number of lanes, and even with the simultaneous delivery of data (parts of a file) along different routes: the file (cargo) you need is duplicated many times, divided into parts, loaded onto numerous cars and sent to you simultaneously by multiple routes where the roads have an unlimited number of lanes. In turn, you also become an active participant in such a logistic movement, and already in the opposite lane send the cargo you have in your possession (copies of the parts of the file you received) at the request of other participants (users) of the Network.
 
-**Эталонная одноранговая (P2P) Сеть является неограниченной в масштабировании, без дефицита ресурсов и пропускных способностей, и не причиняет вред экологии!**
+**The reference peer-to-peer (P2P) network is unlimited in scalability, without shortage of resources and bandwidth, and does not harm the environment!**
 
-Наличие эффективного P2P-протокола и надежного комплексного решения, с возможностью его беспрепятственного внедрения и использования в системе доставки данных, поверх существующей инфраструктуры Интернет, — это и есть то единственное решение всех обозначенных проблем, относящихся к стандартным технологиям Unicast!
+The presence of an effective P2P protocol and a reliable integrated solution, with the possibility of its smooth implementation and use in the data delivery system, on top of the existing Internet infrastructure, is the only solution to all the identified problems related to standard Unicast technologies!
 
 [1]: http://www.wired.co.uk/article/tim-berners-lee
 [2]: http://info.cern.ch/
