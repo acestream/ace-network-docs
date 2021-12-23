@@ -62,7 +62,7 @@ These parameters can be applied to both source and support nodes.
 | --date-end | string | Set stream end time (for streams that are available only at the specified time) |
 | --title | string | human readable title of the stream |
 | --quality | enum | Possible values: auto, SD, HD |
-| --category | enum | Set the stream category. Possible values: informational, entertaining, educational, movies, documentaries, sport, fashion, music, regional, ethnic, religion, teleshop, erotic_18_plus, other_18_plus, cyber_games, amateur, webcam |
+| --category | enum | Set the stream category. Possible values [here][1] |
 | --tag | list | Stream tags (any strings) |
 | --logo-url | string | URL of the stream logo |
 | --description | string | Description of the stream |
@@ -115,7 +115,10 @@ These parameters are specific HLS support node
 | --tracker | list | URL of the tracker |
 | --provider-key | string | Provider key |
 | --sid | string | Provider stream id |
-| --category | enum | Stream category |
+| --category | enum | Stream category. Possible values [here][1] |
 | --country | list | county code ISO-3166 (3 chars) |
 | --language | list | language code ISO-639-3 (3 chars) |
 | --quiet | flag | Don't print output to stdout |
+
+
+[1]: /developers/knowledge-base/list-of-categories.md

@@ -4,5 +4,15 @@ Ace Stream Engine is the core component of Ace Stream software ecosystem. It is 
 
 In this section we will describe all the features that the engine provides to app developers.
 
+All the things you can do with the engine can be divided into three groups:
 
-[1]: get-started.md
+- [connecting to the engine][2]
+- [starting playback][3]
+<!-- - [media servers tasks][4] -->
+- [searching][5]
+
+[1]: api-reference.md
+[2]: connect-to-engine.md
+[3]: start-playback.md
+[4]: media-server.md
+[5]: search.md

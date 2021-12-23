@@ -13,7 +13,7 @@ theme:
     - navigation.tabs
 
 extra:
-  assets_root: "/63db9820/assets"
+  assets_root: "/assets"
 
 extra_javascript:
   - assets/javascript/main.js
@@ -22,7 +22,7 @@ extra_css:
   - assets/css/colors.css
   - assets/css/popup.css
   - assets/css/buttons.css
-  - assets/css/elements.css?1
+  - assets/css/elements.css
 
 markdown_extensions:
   - toc:
@@ -179,11 +179,18 @@ nav:
     - Reference: broadcasting/reference.md
   - Developers:
     - Intro: developers/index.md
-    - Get Started: developers/get-started.md
-    - Running the Engine: developers/running-engine.md
-    - Using Engine on Android: developers/using-engine-on-android.md
-    # - "acestream: protocol": developers/acestream-protocol.md
-    # - What is "Content ID" and "infohash"?: developers/content-id-and-infohash.md
+    - Connect to the Engine: developers/connect-to-engine.md
+    - Start Playback: developers/start-playback.md
+    - Search: developers/search.md
+    # - Media Server: developers/media-server.md
+    - Running the Engine:
+      - Desktop: developers/running-engine-desktop.md
+      - Android: developers/running-engine-android.md
+      - Command Line Options: developers/engine-command-line-options.md
+    - Knowledge Base:
+      - List of Categories: developers/knowledge-base/list-of-categories.md
+      # - "acestream: protocol": developers/acestream-protocol.md
+      # - What is "Content ID" and "infohash"?: developers/content-id-and-infohash.md
     # - Utilities:
     #   - Content ID Generation: developers/utilities/content-id-generation.md
     - API Reference: developers/api-reference.md

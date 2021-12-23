@@ -1,35 +1,6 @@
-# Running the Engine
+# Command Line Options
 
-## Windows
-
-```powershell
-cd \path\to\engine
-
-# Run in GUI mode
-ace_engine.exe
-
-# Run in console mode
-ace_console.exe --client-console
-```
-
-## Linux
-
-```bash
-
-# Run in GUI mode
-/path/to/engine/start-engine --client-gtk
-
-# Run in console mode
-/path/to/engine/start-engine --client-console
-```
-
-
-## Android
-
-Please refer to [Using the Engine on Android][1]
-
-
-## Command Line Options
+The list of engine command line options:
 
 | Name                        | Type   | Description |
 | --------------------------- | ------ | --- |
@@ -47,7 +18,17 @@ Please refer to [Using the Engine on Android][1]
 | --access-token              | string | Set access token to secure node's monitoring interface. |
 | --make-default-access-token | bool   | Generate random access token. Default: `true`. |
 | --use-internal-buffering    | bool   | Enable internal "buffering" module. Default: `false`. |
-
+|  **Logging** |
+| --log-stdout | flag | Log to STDOUT |
+| --log-stderr | flag | Log to STDERR |
+| --log-stdout-level | enum | Set the log level for STDOUT messages. Values: error, info, debug, any |
+| --log-stderr-level | enum | Set the log level for STDERR messages. Values: error, info, debug, any |
+| --log-file | path | Log to file |
+| --log-file-mode | enum | Values: w (write), a (append) |
+| --log-max-size | int | Log file max size in bytes.  |
+| --log-backup-count | int | The maximum number of old log files during rotation. |
+| --log-modules | string | Set log levels for specific modules. To be simple: use `root:D` to enable debug logging |
+| --log-debug | int | Log level (bitmask). To be simple use these two values: 0=minimum logging, 355=verbose logging |
 
 <!--
 TODO:
@@ -59,16 +40,7 @@ TODO:
 --stream-support-node
 --create-hls-transport
 
---log-stdout
---log-stderr
---log-stdout-level
---log-stderr-level
---log-file
---log-file-mode
---log-max-size
---log-backup-count
---log-modules
---log-debug
+
 
 --allow-user-config
 '--user-agent
@@ -135,6 +107,3 @@ TODO:
 --monitor-node-ip
 --ip-filter-config
 -->
-
-
-[1]: using-engine-on-android.md
