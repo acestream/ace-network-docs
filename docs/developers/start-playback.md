@@ -200,4 +200,4 @@ $ curl "http://127.0.0.1:6878/ace/stat/0a4848271c91ce2d8965ce416267c25047dc8141/
 | uploaded | int | Total uploaded (bytes) |
 
 
-[1]: ../api-reference.md
+[1]: api-reference.md
