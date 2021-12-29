@@ -24,7 +24,7 @@ for account in targetAccounts:
 inflationPool.empty()
 ```
 
-## Descriptio
+## Description
 
 - the system pool [`inflationPool`][1] is being redistributed
 - the distribution is performed between special Ace Deposit accounts that have not been changed for at least `ace_deposit_min_lock_interval` seconds

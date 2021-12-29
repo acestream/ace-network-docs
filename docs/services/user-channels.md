@@ -6,11 +6,11 @@ Users are able to create and publish their own channels, which are named groups 
 
 ## Access levels
 
-- private — only creator can services
+- private — only creator has an access
 - limited access — only approved accounts have an access (including conditionally approved, for example, those who paid subscription fee)
-- public access — everyone can see
+- public access — everyone has an access
 
 
-## Оплата доступа
+## Payment for access
 
 The channel's owner can assign a payment policy to their content.

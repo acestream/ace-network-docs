@@ -6,7 +6,7 @@ System smart contract that starts the procedure of redistribution premium pool's
 An operation can be initiated by any account, but the network will only accept one transaction every 24 hours.
 
 
-## Псевдокод
+## Pseudocode
 
 ```python
 

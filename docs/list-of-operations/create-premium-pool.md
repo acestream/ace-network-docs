@@ -6,7 +6,7 @@ When pool is bein created with its own tokens, the network charges comission of 
 
 Threshold: medium
 
-## Параметры
+## Parameters
 
 - `destination` - the public key of the pool to be created
 - `pool settings` - pool's settings

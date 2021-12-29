@@ -6,7 +6,7 @@ Unlink the device from an account.
 Threshold: medium
 
 
-## Параметры
+## Parameters
 
 - `device public key` - the public key of the device that you want to unlink
 
