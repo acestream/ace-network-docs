@@ -54,7 +54,7 @@ The limitations of unicast technologies prevent CDN operators from providing the
 
 !!! info
 
-   Currently Ace Stream users watch videos in real/original 4K format (in accordance with a bitrate standard of 66-85 Mbps) and this is almost 10 times higher than the quality of those "marketing" 4K videos (with a bitrate of 8-10 Mbps.) which you can see everywhere on many OTT services that use centralised content delivery technologies (unicast).
+    Currently Ace Stream users watch videos in real/original 4K format (in accordance with a bitrate standard of 66-85 Mbps) and this is almost 10 times higher than the quality of those "marketing" 4K videos (with a bitrate of 8-10 Mbps.) which you can see everywhere on many OTT services that use centralised content delivery technologies (unicast).
 
 
 ## 3. Decrease in online broadcasting costs up to 99.9%, in relation to standard/centralised CDN.
@@ -85,8 +85,7 @@ An environmentally friendly storage and delivery system that reduces the overall
 
 !!! info
 
-   About 90% of Internet resources and data centers work for the streaming industry in order to provide about 1% of the real needs of users for online viewing. Accordingly, in order to cover the bandwidth deficit using standard methods, it is necessary to increase the capacity of the centralised infrastructure hundreds of times. At the same time, data centers already use more than 2% of the world's electricity and produce the amount of carbon emissions ** (over 650 million tons / year. CO <sub> 2 </sub>), ** which is five times higher than the level of CO <sub> 2 </sub> emissions from mining Bitcoins **! **
-
+    About 90% of Internet resources and data centers work for the streaming industry in order to provide about 1% of the real needs of users for online viewing. Accordingly, in order to cover the bandwidth deficit using standard methods, it is necessary to increase the capacity of the centralised infrastructure hundreds of times. At the same time, data centers already use more than 2% of the world's electricity and produce the amount of carbon emissions ** (over 650 million tons / year. CO <sub> 2 </sub>), ** which is five times higher than the level of CO <sub> 2 </sub> emissions from mining Bitcoins **! **
 
     And if decentralised P2P technologies for storing and delivering data are not actively used for streaming, then data centers will sprang up like mushrooms and according to experts within a decade even with the most energy efficient technologies data centers and digital infrastructure will account for already up to 20% of global electricity consumption and 5.5% of CO emissions <sub> 2 </sub>
 
@@ -109,9 +108,10 @@ In case of ISP services begin to be massively provided directly by the companies
 Do you want at some point being made to decide between Netflix or YouTube or Apple TV, etc., understanding that by making a choice in favour of some ISP, you can properly use only one of these services ?!  Do you need the Internet from Google in order not to have problems with the work of its services or the Internet from Facebook in order to use its services normally, and do you need such an Internet at all, where you need to make such a choice ?!
 
 !!! cite "Joe McNamee"
+
     What happens when you have a huge CDN infrastructure and last mile access? You find yourself in another world.
 
-** Solution: ** By using the bandwidth of network users, and effectively redistributing the load and data streams between them, the Ace Stream P2P CDN technology makes it economically sensible to create/develop large centralised infrastructures, thereby relieving trunk channels and improving the performance of the entire Internet, as well as saving the environment from the consequences of centralised streaming, and ultimately making the Internet what it was originally planned to be and what it should finally become - decentralised, democratic and environmentally friendly!
+**Solution:** By using the bandwidth of network users, and effectively redistributing the load and data streams between them, the Ace Stream P2P CDN technology makes it economically sensible to create/develop large centralised infrastructures, thereby relieving trunk channels and improving the performance of the entire Internet, as well as saving the environment from the consequences of centralised streaming, and ultimately making the Internet what it was originally planned to be and what it should finally become - decentralised, democratic and environmentally friendly!
 
 <p style="text-align: center">
     <em>
