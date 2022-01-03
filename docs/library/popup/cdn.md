@@ -89,6 +89,7 @@ An environmentally friendly storage and delivery system that reduces the overall
 
     And if decentralised P2P technologies for storing and delivering data are not actively used for streaming, then data centers will sprang up like mushrooms and according to experts within a decade even with the most energy efficient technologies data centers and digital infrastructure will account for already up to 20% of global electricity consumption and 5.5% of CO emissions <sub> 2 </sub>
 
+_Anyone who streams or watches videos using standard unicast technology and without Ace Stream, while claiming that he cares about the environment and CO2 emissions, is like someone who claims to be a vegetarian, while eating meat!_
 
 <p style="text-align: right">
         <a href="https://thenextweb.com/news/data-centers-generate-the-same-amount-of-carbon-emissions-as-global-airlines" target="_blank">Link to TNW
