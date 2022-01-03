@@ -130,6 +130,12 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
     Multiply by 0 the carbon footprint of data centers working for the streaming industry (currently over 650 Mtpa CO2, by providing only about 1% of people's actual online viewing needs) and you will know the impact level Ace Stream P2P CDN for the environment and you will also be able to understand what environmental benefits the technology can bring, which provides a significant reduction in the load on data centers and removes the need to expand the parks of centralised CDNs
 
 
+!!! note ""
+
+    An example for assessing investment attractiveness is that the bandwidth of Akamai, the world's largest CDN operator, at the time of the company's capitalisation - $ 11.14 billion, was about 80 Tbps which is many times less than the bandwidth of Ace Stream P2P CDN!
+
+    At the same time it is also necessary to take into account all the costs, restrictions and problems inherent in centralised (unicast) CDNs and which are not in P2P CDN
+
 <p style="text-align: center">
     <em>
         <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/cdn" href="#">
@@ -137,13 +143,6 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
         </a>
     </em>
 </p>
-
-
-!!! note ""
-
-    An example for assessing investment attractiveness is that the bandwidth of Akamai, the world's largest CDN operator, at the time of the company's capitalisation - $ 11.14 billion, was about 80 Tbps which is many times less than the bandwidth of Ace Stream P2P CDN!
-
-    At the same time it is also necessary to take into account all the costs, restrictions and problems inherent in centralised (unicast) CDNs and which are not in P2P CDN
 
 
 ### 4. Decentralised financial and economic system based on one of the most advanced and reliable blockchain technologies in the world.
