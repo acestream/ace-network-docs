@@ -28,6 +28,7 @@ body {
 
 .mdx-home .md-button.mdx-button--first {
     margin-right: 0px;
+    margin-top: 6px;
 }
 
 .md-typeset .mdx-home .md-button--primary {
@@ -79,6 +80,7 @@ body {
     }
     .mdx-home .md-button.mdx-button--first {
         margin-right: 16px;
+        margin-top: 16px;
     }
     .mdx-home {
         padding-top: 7em;
@@ -107,7 +109,7 @@ body {
 
 #my-carousel {
     width: 320px;
-    height: 80px;
+    height: 120px;
     font-size: 14px;
     font-style: italic;
     margin: 24px auto;
@@ -115,12 +117,12 @@ body {
 
 #my-carousel .carousel-item {
     width: 320px;
-    height: 80px;
+    height: 120px;
 }
 
 #my-carousel .carousel-indicators {
     display: flex;
-    bottom: -27px;
+    bottom: -32px;
     z-index: 2;
 }
 
@@ -141,12 +143,15 @@ body {
 @media screen and (min-width: 520px) {
     #my-carousel {
         font-size: 16px;
-        width: 515px;
+        width: 565px;
         height: 80px;
     }
     #my-carousel .carousel-item {
-        width: 515px;
+        width: 565px;
         height: 80px;
+    }
+    #my-carousel .carousel-indicators {
+        bottom: -42px;
     }
     #my-carousel .carousel-indicators > li {
         height: 12px;
