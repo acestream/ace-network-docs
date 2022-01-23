@@ -33,7 +33,7 @@
               </h1>
           </div>
 
-          <div id="my-carousel" class="animate-slide carousel slide _anim__items" data-ride="carousel">
+          <div id="my-carousel" class="animate-slide carousel slide _anim__items">
             <ol class="carousel-indicators">
               <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
               <li data-target="#my-carousel" data-slide-to="1"></li>
@@ -138,69 +138,94 @@
       return isMobile() ? 5000 : 10000;
     }
 
+    function initCarousel() {
+        var $carousel = $('#my-carousel');
+
+        $carousel.carousel({
+          interval: getSliderInterval(),
+        });
+
+        $carousel.on('touchstart', function(event){
+            const xClick = event.originalEvent.touches[0].pageX;
+            $(this).one('touchmove', function(event){
+                const xMove = event.originalEvent.touches[0].pageX;
+                const sensitivityInPx = 5;
+
+                if( Math.floor(xClick - xMove) > sensitivityInPx ){
+                    $(this).carousel('next');
+                }
+                else if( Math.floor(xClick - xMove) < -sensitivityInPx ){
+                    $(this).carousel('prev');
+                }
+            });
+            $(this).on('touchend', function(){
+                $(this).off('touchmove');
+            });
+        });
+    }
+
+    function initAnimation() {
+      const animItems = document.querySelectorAll('body,._anim__items');
+      if (animItems.length > 0) {
+          window.addEventListener('scroll', animOnScroll);
+          function animOnScroll() {
+              for (let index = 0; index < animItems.length; index++) {
+                  const animItem = animItems[index];
+                  const animItemHeight = animItem.offsetHeight;
+                  const animItemOffset = offset(animItem).top;
+                  const animStart = 4;
+
+                  let animItemPoint = window.innerHeight - animItemHeight / animStart;
+                  if (animItemHeight > window.innerHeight) {
+                      animItemPoint = window.innerHeight - window.innerHeight / animStart;
+                  }
+
+                  if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
+                      console.log('docs: anim show');
+                      animItem.classList.add('_active');
+                  } else {
+                      console.log('docs: anim hide');
+                      if (!animItem.classList.contains('_anim__no__hide')) {
+                          animItem.classList.remove('_active');
+                      }
+
+                  }
+              }
+          }
+          function offset(el) {
+              const rect = el.getBoundingClientRect(),
+                  scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+                  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+              return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+          }
+          setTimeout(() => {
+              animOnScroll();
+          }, 500);
+      }
+    }
+
+    function initPage() {
+      initAnimation();
+      setTimeout(function() {
+        initCarousel();
+      }, 5000);
+    }
+
+    function receiveMessage(event) {
+      if(event.data.target === 'acestream-docs-site') {
+        if(event.data.method === 'initPage') {
+          initPage();
+        }
+      }
+    }
+
     $(document).ready(function() {
-      $('#my-carousel').carousel({
-        interval: getSliderInterval()
-      });
-
-      $('#my-carousel').on('touchstart', function(event){
-          const xClick = event.originalEvent.touches[0].pageX;
-          $(this).one('touchmove', function(event){
-              const xMove = event.originalEvent.touches[0].pageX;
-              const sensitivityInPx = 5;
-
-              if( Math.floor(xClick - xMove) > sensitivityInPx ){
-                  $(this).carousel('next');
-              }
-              else if( Math.floor(xClick - xMove) < -sensitivityInPx ){
-                  $(this).carousel('prev');
-              }
-          });
-          $(this).on('touchend', function(){
-              $(this).off('touchmove');
-          });
-      });
+      initPage();
     });
+
+    window.addEventListener('message', receiveMessage, false);
   </script>
 
-  <script>
-        const animItems = document.querySelectorAll('body,._anim__items');
-
-        if (animItems.length > 0) {
-            window.addEventListener('scroll', animOnScroll);
-            function animOnScroll() {
-                for (let index = 0; index < animItems.length; index++) {
-                    const animItem = animItems[index];
-                    const animItemHeight = animItem.offsetHeight;
-                    const animItemOffset = offset(animItem).top;
-                    const animStart = 4;
-
-                    let animItemPoint = window.innerHeight - animItemHeight / animStart;
-                    if (animItemHeight > window.innerHeight) {
-                        animItemPoint = window.innerHeight - window.innerHeight / animStart;
-                    }
-
-                    if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
-                        animItem.classList.add('_active');
-                    } else {
-                        if (!animItem.classList.contains('_anim__no__hide')) {
-                            animItem.classList.remove('_active');
-                        }
-
-                    }
-                }
-            }
-            function offset(el) {
-                const rect = el.getBoundingClientRect(),
-                    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-                    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
-            }
-            setTimeout(() => {
-                animOnScroll();
-            }, 500);
-        }
-    </script>
 {% endblock %}
 
 <!-- Content -->
