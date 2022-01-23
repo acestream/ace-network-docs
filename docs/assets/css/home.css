@@ -57,6 +57,11 @@ body {
     padding-bottom: var(--logo-padding-bottom);
 }
 
+.md-typeset .mdx-home h1 {
+    font-size: 2em;
+    font-weight: 300;
+}
+
 .md-typeset .mdx-home .md-button {
     color: var(--md-primary-bg-color);
     width: var(--home-button-width);
@@ -266,15 +271,20 @@ a:hover {
 }
 
 @media screen and (min-width: 421px) {
-    .mdx-home .md-button {
-        margin-top: 0px;
+    .md-typeset .mdx-home h1 {
+        font-size: 2.25em;
+        font-weight: 100;
+    }
+    .md-typeset .mdx-home .md-button {
+        color: var(--md-primary-bg-color);
+        width: var(--home-button-width);
+        margin-top: 1.6rem;
     }
     .mdx-home .md-button.mdx-button--first {
         margin-right: 0.8rem; /*fixed: 16px*/
-        margin-top: 0.8rem; /*fixed: 16px*/
     }
     .mdx-home {
-        padding-top: 7em;
+        padding-top: 5em;
     }
     .mdx-home__logo {
         padding-bottom: 3em;
@@ -292,7 +302,7 @@ a:hover {
         height: var(--slider-height-desktop);
     }
     #my-carousel .carousel-indicators {
-        bottom: -2.1rem; /*fixed: -42px*/
+        bottom: -2.6rem; /*fixed: -42px*/
     }
     #my-carousel .carousel-indicators > li {
         height: 0.6rem; /*fixed: 12px*/

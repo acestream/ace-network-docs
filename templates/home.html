@@ -1,5 +1,16 @@
 {% extends "base.html" %}
 
+{% block fonts %}
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700&display=fallback">
+  <style>
+    :root {
+      --md-text-font-family: "Roboto";
+      --md-code-font-family: "Roboto Mono";
+    }
+  </style>
+{% endblock %}
+
 {% block styles %}
   <!-- The order is important: load Bootstrap styles before Mkdocs because both contain "reset" stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
