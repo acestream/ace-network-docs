@@ -80,8 +80,9 @@ There is no need to take on trust CDN operators' word for the amount of used tra
 
 ## 6. Carbon-negative
 
-An environmentally friendly storage and delivery system that reduces the overall global level of CO <sub> 2 </sub> emissions from the streaming industry
+An environmentally friendly storage and delivery system that reduces the overall global level of CO<sub>2</sub> emissions from the streaming industry
 
+The Carbon Negative effect is achieved by reducing the load from data centers/CDNs and redistributing it between content consumer devices, which do not bear any additional load. As a result, when someone consumes content through Ace Stream, thereby there is a decrease in the volume of CO2 in the atmosphere. Without the Ace Stream this content would be consumed anyway, but in such case users will use standard unicast technologies with the corresponding level of CO2 emissions.
 
 !!! info
 
@@ -89,7 +90,7 @@ An environmentally friendly storage and delivery system that reduces the overall
 
     And if decentralised P2P technologies for storing and delivering data are not actively used for streaming, then data centers will sprang up like mushrooms and according to experts within a decade even with the most energy efficient technologies data centers and digital infrastructure will account for already up to 20% of global electricity consumption and 5.5% of CO emissions <sub> 2 </sub>
 
-_Anyone who streams or watches videos using standard unicast technology and without Ace Stream, while claiming that he cares about the environment and CO2 emissions, is like someone who claims to be a vegetarian, while eating meat!_
+_Anyone who streams, watches videos and listens to music online using standard unicast technologies and without Ace Stream, while claiming that he cares about the environment and CO2 emissions, is like someone who claims to be a vegetarian, while eating meat!_
 
 <p style="text-align: right">
         <a href="https://thenextweb.com/news/data-centers-generate-the-same-amount-of-carbon-emissions-as-global-airlines" target="_blank">Link to TNW
