@@ -18,11 +18,11 @@ Green CDN with unlimited bandwidth and the lowest cost of storage and data deliv
 
 **Relevance of tasks, unprecedented opportunities and characteristics of Ace Stream P2P CDN**
 
-## 1. At the software level elimination of the 50 times deficit of Internet bandwidth which equals to 100,000 Tbps
+## 1. Elimination at the software level of a 100-fold shortage of Internet bandwidth which equals to 200,000 Tbps
 
-More than 4.5 billion Internet users are connected to the Internet with an average speed around the world: mobile Internet 53 Mbit/s (mbps), and wired 102 Mbit/s (as of 06.06.2021, according to data [https://www.speedtest.net/global-index](https://www.speedtest.net/global-index){target=_blank})
+More than 4.5 billion Internet users are connected to the network with an average speed around the world: mobile internet - 53 Mbps, wired - 102 Mbps (as of 06.06.2021 according to [https://www.speedtest.net/global-index][1]{target=_blank})
 
-As of May 5, 2021, the international bandwidth is 2000 Tbps and two thirds of which is used by Google, Facebook, Amazon и Microsoft. (according to data [TeleGeography](https://blog.telegeography.com/2021-international-bandwidth-trends-demand-global-networks){target=_blank})
+As of May 5, 2021, the international bandwidth is 2000 Tbps and two thirds of which is used by Google, Facebook, Amazon и Microsoft. (according to data [TeleGeography][2]{target=_blank})
 
 The bandwidth of the three largest international CDN operators that openly published their data: Cloudflare  - 20 Tbps; Fastly Inc - 25 Tbps; Limelight Networks – 35 Tbps
 
@@ -31,7 +31,7 @@ The bandwidth of the three largest international CDN operators that openly publi
 
     Using the entire bandwidth of the international Internet and the three largest CDN operators only about 60 million viewers (about 1.3% of all Internet users) could simultaneously watch live broadcasts in quality from 720p to 2160p (4K), HDR, with a frequency 60 frames.
 
-    The calculation was made with an equal proportional distribution of views for the indicated formats, in accordance with the video formats classification and characteristics recommended by Google (look [https://support.google.com/youtube/answer/1722171](https://support.google.com/youtube/answer/1722171){target=_blank}))
+    The calculation was made with an equal proportional distribution of views for the indicated formats, in accordance with the video formats classification and characteristics [recommended by Google][3]{target=_blank}
 
 Effective scalability and unlimited bandwidth of Ace Stream P2P CDN fully covers the bandwidth deficit of the Internet network in excess of 100,000 Tbps, providing the ability to broadcast live to an unlimited number of concurrent viewers
 
@@ -80,22 +80,14 @@ There is no need to take on trust CDN operators' word for the amount of used tra
 
 ## 6. Carbon-negative
 
-An environmentally friendly storage and delivery system that reduces the overall global level of CO<sub>2</sub> emissions from the streaming industry
+An environmentally friendly data storage and delivery system that reduces the overall global CO2 emissions from the streaming industry.
 
-The Carbon Negative effect is achieved by reducing the load from data centers/CDNs and redistributing it between content consumer devices, which do not bear any additional load. As a result, when someone consumes content through Ace Stream, thereby there is a decrease in the volume of CO2 in the atmosphere. Without the Ace Stream this content would be consumed anyway, but in such case users will use standard unicast technologies with the corresponding level of CO2 emissions.
+The "Carbon Negative" effect is achieved by reducing the load from international backbones/data centers/CDNs and redistributing it between devices of content consumers that do not carry any additional energy load. As a result, when someone consumes content through Ace Stream, instead of alternatively consuming the same content through centralized services, there is a decrease in CO2 emissions into the atmosphere, because if Ace Stream P2P technology is not used, then this content will be consumed in any case and in equivalent volumes, but only through unicast technologies with corresponding to such technologies CO2 emissions
 
 !!! info
 
-    About 90% of Internet resources and data centers work for the streaming industry in order to provide about 1% of the real needs of users for online viewing. Accordingly, in order to cover the bandwidth deficit using standard methods, it is necessary to increase the capacity of the centralised infrastructure hundreds of times. At the same time, data centers already use more than 2% of the world's electricity and produce the amount of carbon emissions ** (over 650 million tons / year. CO <sub> 2 </sub>), ** which is five times higher than the level of CO <sub> 2 </sub> emissions from mining Bitcoins **! **
+    More information in a separate documentation section <a href="../../dao-acestream/#1-carbon-negative" target="_top">Carbon Negative</a>
 
-    And if decentralised P2P technologies for storing and delivering data are not actively used for streaming, then data centers will sprang up like mushrooms and according to experts within a decade even with the most energy efficient technologies data centers and digital infrastructure will account for already up to 20% of global electricity consumption and 5.5% of CO emissions <sub> 2 </sub>
-
-_Anyone who streams, watches videos and listens to music online using standard unicast technologies and without Ace Stream, while claiming that he cares about the environment and CO2 emissions, is like someone who claims to be a vegetarian, while eating meat!_
-
-<p style="text-align: right">
-        <a href="https://thenextweb.com/news/data-centers-generate-the-same-amount-of-carbon-emissions-as-global-airlines" target="_blank">Link to TNW
-    </a>
-</p>
 
 ## 7. Exit from the "flat internet"
 
@@ -122,3 +114,8 @@ Do you want at some point being made to decide between Netflix or YouTube or App
         </a>
     </em>
 </p>
+
+
+[1]: https://www.speedtest.net/global-index
+[2]: https://blog.telegeography.com/2021-international-bandwidth-trends-demand-global-networks
+[3]: https://support.google.com/youtube/answer/1722171

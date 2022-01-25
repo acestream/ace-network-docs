@@ -59,7 +59,30 @@ The DAO Ace Stream ecosystem is based on blockchain technology and has no owners
 
 ## Relevance of DAO Ace Stream Solutions
 
-### 1. Decentralized network with incredible multimedia capabilities
+### 1. Carbon-negative!
+
+Ace Stream is a decentralized multimedia network with an environmentally friendly data storage and delivery system that reduces the overall global CO2 emissions and protects the environment from the huge damage caused by the centralized streaming industry and unicast technologies.
+
+!!! info ""
+
+    About 80% of the Internet resources and data centers work for the streaming industry to provide only about 1% of the users' real needs in online viewing. Accordingly, in order to cover the bandwidth deficit using standard methods it is necessary to increase the capacity of the centralized infrastructure hundreds of times. At the same time, the ICT industry already accounts from 3 to 4% of global CO2 emissions (according to [BCG][5]{target=_blank}) and among them ¼ falls directly on data centers/CDN to ensure the processing, storage and delivery of video content
+
+The "Carbon Negative" effect is achieved by reducing the load from international backbones/data centers/CDNs and redistributing it between devices of content consumers that do not carry any additional energy load. As a result, when someone consumes content through Ace Stream, instead of alternatively consuming the same content through centralized services, there is a decrease in CO2 emissions into the atmosphere, because if Ace Stream P2P technology is not used, then this content will be consumed in any case and in equivalent volumes, but only through unicast technologies with corresponding to such technologies CO2 emissions
+
+!!! info ""
+
+    1 hour of video viewing in the decentralized Ace Stream network through P2P technology, instead of alternative viewing the same video through the centralized online-services and unicast technologies, decreases the CO2 emissions into atmosphere for 131 g on average that equals for the average monthly decarbonization rate of one conifer and deciduous tree (86 g and 143 g of carbon capture, one conifer and deciduous tree, respectively) that has been grown for 10 years.
+
+<p style="text-align: center">
+    <em>
+        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/carbon-negative" href="#">
+            Read more
+        </a>
+    </em>
+</p>
+
+
+### 2. Decentralized network with incredible multimedia capabilities
 
 Total immersion into multimedia and metaverse with DAO Ace Stream products and solutions:
 
@@ -86,7 +109,7 @@ Total immersion into multimedia and metaverse with DAO Ace Stream products and s
 </p>
 
 
-### 2. The solution for the "subscriptions fatigue" problem
+### 3. The solution for the "subscriptions fatigue" problem
 
 Function **«Ace ID»** allows content providers and OTT services to instantly provide access to its content on the terms of one-time payment access or on the terms of per-minute tariff automatically receiving payment without need to register/identify users and refill balances on their services/resources.
 
@@ -108,13 +131,13 @@ Service **«Premium Pool»** allows any content providers and OTT services to fo
 </p>
 
 
-### 3. Green CDN with unlimited bandwidth and the lowest cost of storage and data delivery in the world
+### 4. Green CDN with unlimited bandwidth and the lowest cost of storage and data delivery in the world
 
 Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 
-- At the software level elimination of the 50 times deficit of Internet bandwidth which equals to 100,000 Tbps
+- Elimination at the software level of a 100-fold shortage of Internet bandwidth which equals to 200,000 Tbps
 - Maintenance of quality level and broadcast stability on a par with satellite broadcasting with much greater coverage/reach 
-- Decrease in online broadcasting costs up to 99.9%, in relation to standard/centralised CDN.
+- Decrease in online broadcasting costs up to 99.9%, in relation to standard/centralised CDN
 - Reliable and trouble-free network 
 - Transparency of traffic accounting and convenience of mutual settlements
 - Carbon-negative
@@ -127,14 +150,17 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 
     Divide the cost of centralised CDN services by 100 and you get the cost of Ace Stream P2P CDN
 
-    Multiply by 0 the carbon footprint of data centers working for the streaming industry (currently over 650 Mtpa CO2, by providing only about 1% of people's actual online viewing needs) and you will know the impact level Ace Stream P2P CDN for the environment and you will also be able to understand what environmental benefits the technology can bring, which provides a significant reduction in the load on data centers and removes the need to expand the parks of centralised CDNs
+    Multiply by 0 the carbon footprint of the data centers/CDNs that support the streaming industry and you'll find out how much decarbonization an Ace Stream P2P CDN can achieve and the environmental benefits it brings.
 
+    Look at the capitalization of the largest centralized CDNs, compare the above indicators with their similar indicators, and you will be able to assess the investment attractiveness of Ace Stream P2P CDN.
 
-!!! note ""
+!!! note "An example"
 
-    An example for assessing investment attractiveness is that the bandwidth of Akamai, the world's largest CDN operator, at the time of the company's capitalisation - $ 11.14 billion, was about 80 Tbps which is many times less than the bandwidth of Ace Stream P2P CDN!
+    The bandwidth of Akamai, the world's largest CDN operator, at the time of the company's capitalisation in $11.14 billion, was about 80 Tbps which is many times less than the bandwidth of Ace Stream P2P CDN!
 
-    At the same time it is also necessary to take into account all the costs, restrictions and problems inherent in centralised (unicast) CDNs and which are not in P2P CDN
+    At the same time it is also necessary to take into account all the costs, restrictions and problems inherent in centralised (unicast) CDNs and which are not in P2P CDN.
+
+    And of course, be sure to take into account the amount of electricity used or the bandwidth of the CDN operator, and multiply them by the corresponding values (0.38 kg CO2 per 1 kWh and 1 GB ~ 0.072 kWh, respectively) to find out the level of carbon footprint of this centralized CDN in comparison with Ace Stream P2P CDN.
 
 <p style="text-align: center">
     <em>
@@ -145,7 +171,7 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 </p>
 
 
-### 4. Decentralised financial and economic system based on one of the most advanced and reliable blockchain technologies in the world.
+### 5. Decentralised financial and economic system based on one of the most advanced and reliable blockchain technologies in the world.
 
 - **Ace Payments** - a decentralised payment system for direct payments, as well as for micropayments with deferred display in the main Ace Network blockchain when carrying out settlements for traffic and per-minute billing.
 
@@ -174,7 +200,7 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 </p>
 
 
-### 5. 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
+### 6. 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
 
 [**Ace Token (XAT)**][2] - a basic and automatically burned system token backed by an Internet channel with a bandwidth of over 100,000 Tbps, premium content and all services of the Ace Network.
 
@@ -191,7 +217,7 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 </p>
 
 
-### 6. Effective monetisation of linear television on Internet and decentralised networks
+### 7. Effective monetisation of linear television on Internet and decentralised networks
 
 The DAO Ace Stream set of tools for television channels allows broadcasting on the Internet with the following rate: **AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year**, depending on the distribution of the audience by region
 
@@ -210,7 +236,7 @@ The DAO Ace Stream set of tools for television channels allows broadcasting on t
 </p>
 
 
-### 7. Global decentralized betting platform
+### 8. Global decentralized betting platform
 
 This is a place where anyone can become a bookmaker, and existing bookmakers can significantly expand their reach by extending their betting lines to the multi-million audience of Ace Stream.
 
@@ -229,7 +255,7 @@ The best odds, bets and predictions in one click, in live streams.
 </p>
 
 
-### 8. Decentralised messengers, video calls and social networks
+### 9. Decentralised messengers, video calls and social networks
 
 Fully decentralised and extremely secured communication system which cannot be blocked or somehow restricted by anyone or anything.
 
@@ -243,7 +269,7 @@ Fully decentralised and extremely secured communication system which cannot be b
 
 
 <a name="legal-torrent-stream"></a>
-### 9. Unique and effective solution to deal with "pirate" content in P2P-networks 
+### 10. Unique and effective solution to deal with "pirate" content in P2P-networks
 
 **Legal Torrent Stream (LTS)** – a system of legalisation and monetisation of content in peer (P2P, peer to peer) networks.
 
@@ -263,7 +289,7 @@ The copyright holder will receive payment for every minute of the content playba
 </p>
 
 
-### 10. Stimulation and motivation
+### 11. Stimulation and motivation
 
 Automatic reward for users and partners of Network:
 
@@ -284,7 +310,7 @@ Automatic reward for users and partners of Network:
 </p>
 
 
-### 11. Anonymity and Privacy
+### 12. Anonymity and Privacy
 
 *   **Ace Proxy** - proxy and anonymizer structurally similar to Tor
 
@@ -301,7 +327,7 @@ Automatic reward for users and partners of Network:
 </p>
 
 
-### 12. Advertising platforms without negativity, with unique audience and the most effective ad formats
+### 13. Advertising platforms without negativity, with unique audience and the most effective ad formats
 
 DAO Ace Stream includes software products which generate ad inventory and are platforms for placing advertising materials. 
 
@@ -358,7 +384,7 @@ Ads formats, ad Inventory volumes and its cost when the target of 100 mil active
 </p>
 
 
-### 13. DAO Ace Stream platforms for affiliate programs
+### 14. DAO Ace Stream platforms for affiliate programs
 
 In addition to the ability for users to view advertisements for a reward, users of the Ace Surf, Ace Search and Ace Script products will also receive rewards for various actions, according to the CPA (Cost per Action) model. For example, for the purchase of goods/services, for registration etc. Also, users will be provided with various promo codes, coupons and discounts.
 
@@ -392,3 +418,4 @@ Expected level of audience engagement – 35% from all the users per month
 [2]: ../system-tokens/ace-token.md
 [3]: ../system-tokens/ace-asset.md
 [4]: ../system-tokens/ace-coin.md
+[5]: https://www.bcg.com/press/24june2021-telco-sector-game-changer-sustainability-shrinking-carbon-footprints

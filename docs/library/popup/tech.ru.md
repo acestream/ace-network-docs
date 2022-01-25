@@ -49,7 +49,7 @@ Ace Stream использует в основе протокол BitTorrent, к�
 
 <p style="text-align: right">
     <small>
-        <a href="../../../get-started/intro">Статус: в разработке (второй уровень «service layer»)</a>
+        <a href="../../../get-started/intro" target="_top">Статус: в разработке (второй уровень «service layer»)</a>
     </small>
 </p>
 

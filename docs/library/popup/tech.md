@@ -49,7 +49,7 @@ The network is designed in order to meet the needs and maximum efficiency of the
 
 <p style="text-align: right">
     <small>
-        <a href="../../../get-started/intro">Status: in developing (second level «service layer»)</a>
+        <a href="../../../get-started/intro" target="_top">Status: in developing (second level «service layer»)</a>
     </small>
 </p>
 
