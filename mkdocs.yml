@@ -89,6 +89,8 @@ plugins:
           System Smart Contracts: Системные смарт-контракты
           Ace Stream Foundation: Ace Stream Foundation
           Prediction Market: Рынок прогнозов
+          Developers: Разработчикам
+          Broadcasting: Бродкастерам
 
 nav:
   - Home: index.md
