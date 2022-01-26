@@ -25,7 +25,7 @@ Initial rate of XAS token at the start of sales: 1 "Ace Asset" = $1
 
 30% - Ace Stream developers team
 
-70% - for the strategic development and expansion of the service infrastructure of the Ace Network (acquisition of shares in other companies in order to ensure high dynamics of growth in the number of Network users; expanding the service and technological capabilities of the Network; acquiring rights to content for publication on the Web; providing the token with offline financial mechanisms ( financial institutions), for maximum convenience of using tokens in everyday life, when carrying out any mutual settlements; etc.)
+70% - for the strategic development, expansion of the service infrastructure and customer base of the Ace Network (acquisition of shares in other companies in order to ensure high dynamics of growth in the number of Network users; expanding the service and technological capabilities of the Network; acquiring rights to content for publication on the Web; providing the token with offline financial mechanisms ( financial institutions), for maximum convenience of using tokens in everyday life, when carrying out mutual settlements; etc.)
 
 
 [1]: ../glossary/system-settings.md#_3
