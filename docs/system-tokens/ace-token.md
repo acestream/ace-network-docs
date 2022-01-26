@@ -65,7 +65,7 @@ and are subjects of further distribution performed by [Ace Deposit][11] smart co
 
 
 
-## Token recycling/burning
+## Deflationary token (token recycling/burning)
 
 XAT tokens paid for traffic, access to content, or by system smart contracts will be disposed of (burned) by sending them to a non-refundable address on the blockchain, because XAT could only once be used for payment and have to be replaced by XAC tokens.
 
