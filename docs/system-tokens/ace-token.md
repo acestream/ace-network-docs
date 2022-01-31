@@ -86,6 +86,219 @@ This is done in two steps:
 - The next run of the operation [Ace Asset][3] distributes the contents of [`unlockedPool`][4] among the XAS holders
 
 
+## Initial Offering
+
+Private token sale, in the form of direct sales of Ace Token (XAT) tokens to strategic partners and users of Ace Stream.
+
+The period of the private token sale: from 02/01/2022 to 08/01/2022. Attention! The token sale may be suspended ahead of schedule, at any time, by the decision of its organizers.
+
+Participants of the private token sale will be entitled to purchase tokens with a discount of up to 50%, depending on the amount and date of purchase:
+
+<div class="as-nowrap">
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th colspan="6" style="text-align: center;">
+                    2022 year, discount, %
+                </th>
+            </tr>
+            <tr>
+                <th>Purchase Amount, $</th>
+                <th>Feb</th>
+                <th>Mar</th>
+                <th>Apr</th>
+                <th>May</th>
+                <th>Jun</th>
+                <th>Jul</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Up to 1 thousand
+                </td>
+                <td>10</td>
+                <td>9</td>
+                <td>8</td>
+                <td>7</td>
+                <td>6</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>
+                    1-10 thousands
+                </td>
+                <td>15</td>
+                <td>13.5</td>
+                <td>12</td>
+                <td>10.5</td>
+                <td>9</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>
+                    10-100 thousands
+                </td>
+                <td>20</td>
+                <td>18</td>
+                <td>16</td>
+                <td>14</td>
+                <td>12</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>
+                    100-500<br/>thousands
+                </td>
+                <td>25</td>
+                <td>22.5</td>
+                <td>20</td>
+                <td>17.5</td>
+                <td>15</td>
+                <td>12.5</td>
+            </tr>
+            <tr>
+                <td>
+                    500 thousands -
+                    <br/>
+                    1 million
+                </td>
+                <td>30</td>
+                <td>27</td>
+                <td>24</td>
+                <td>21</td>
+                <td>18</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>
+                    1-2 millions
+                </td>
+                <td>32</td>
+                <td>28.8</td>
+                <td>25.6</td>
+                <td>22.4</td>
+                <td>19.2</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>
+                    2-3 millions
+                </td>
+                <td>34</td>
+                <td>30.6</td>
+                <td>27.2</td>
+                <td>23.8</td>
+                <td>20.4</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>
+                    3-4 millions
+                </td>
+                <td>36</td>
+                <td>32.4</td>
+                <td>28.8</td>
+                <td>25.2</td>
+                <td>21.6</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>
+                    4-5 millions
+                </td>
+                <td>38</td>
+                <td>34.2</td>
+                <td>30.4</td>
+                <td>26.6</td>
+                <td>22.8</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>
+                    5-6 millions
+                </td>
+                <td>40</td>
+                <td>36</td>
+                <td>32</td>
+                <td>28</td>
+                <td>24</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>
+                    6-7 millions
+                </td>
+                <td>42</td>
+                <td>37.8</td>
+                <td>33.6</td>
+                <td>29.4</td>
+                <td>25.2</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>
+                    7-8 millions
+                </td>
+                <td>44</td>
+                <td>39.6</td>
+                <td>35.2</td>
+                <td>30.8</td>
+                <td>26.4</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>
+                    8-9 millions
+                </td>
+                <td>46</td>
+                <td>41.4</td>
+                <td>36.8</td>
+                <td>32.2</td>
+                <td>27.6</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>
+                    9-10 millions
+                </td>
+                <td>48</td>
+                <td>43.2</td>
+                <td>38.4</td>
+                <td>33.6</td>
+                <td>28.8</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>
+                    From 10 millions
+                </td>
+                <td>50</td>
+                <td>45</td>
+                <td>40</td>
+                <td>35</td>
+                <td>30</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+The acquisition of tokens within a private token sale is carried out by purchasing the rights to receive a certain amount of tokens according to a smart contract that complies with the ERC-721 standard.
+
+!!! info ""
+
+    ERC-721 - token standard in the Ethereum network
+
+The right to purchase tokens in the amount of up to $1000 is granted to any of the Ace Stream users who have activated any of the premium tariff plans (Smart, Standard, Premium).
+
+Users who have activated the premium tariff on a date prior to 02/01/2022 receive a privileged right to purchase tokens in the amount of up to $10,000 and an additional 10% discount.
+
+To participate in a private token sale, in order to purchase tokens worth more than $1,000, you must submit an appropriate application and receive an invitation from the organizer (Ace Stream).
+
+At the end of the private token sale, it will be possible to purchase tokens directly on the Ace Stream open trading platform, at a market price, but not lower than the face value (1 XAT >= 1$).
+
 
 [1]: ../glossary/system-pools.md#lockedpool
 [2]: ../glossary/system-smart-contracts.md

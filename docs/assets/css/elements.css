@@ -6,6 +6,10 @@ nav.md-tabs {
     opacity: 0.85;
 }
 
+.as-nowrap {
+    white-space: nowrap;
+}
+
 /* Fix language selector position on mobile */
 @media screen and (max-width: 76.1875em) {
     .md-header .md-header__option .md-select .md-select__inner {
