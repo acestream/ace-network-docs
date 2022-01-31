@@ -1,0 +1,1 @@
+Rename "book-menu.svg" to "menu.svg" to use it as the icon for the "menu" button.
