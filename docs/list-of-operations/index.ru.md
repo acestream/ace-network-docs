@@ -19,7 +19,9 @@
 - [Purge Devices](purge-devices.md)
 - [Purge Subscriptions](purge-subscriptions.md)
 - [Reward Uploaders](reward-uploaders.md)
-
+- [System Service Payment](system-service-payment.md)
+- [Non System Service Payment](non-system-service-payment.md)
+- [User Service Payment](user-service-payment.md)
 
 ## Операции
 

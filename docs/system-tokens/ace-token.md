@@ -1,6 +1,6 @@
 # Ace Token (XAT)
 
-**Ace Token (XAT)** is a utility, native system token asset-backed with an Internet bandwidth, premium content and all Ace Network services.
+**Ace Token (XAT)** is a utility, native system token asset-backed with an Ace Stream P2P CDN bandwidth (over 200000 Tbps), premium content and all Ace Network services.
 
 Ace Token gives access to all Ace Network services and facilities and is the sole means of payment for Network fees for account registration and transactions between Network members.
 
@@ -65,9 +65,13 @@ and are subjects of further distribution performed by [Ace Deposit][11] smart co
 
 
 
-## Deflationary token (token recycling/burning)
+## Deflation (token recycling/burning)
 
-XAT tokens paid for traffic, access to content, or by system smart contracts will be disposed of (burned) by sending them to a non-refundable address on the blockchain, because XAT could only once be used for payment and have to be replaced by XAC tokens.
+XAT is a deflationary token.
+
+XAT tokens paid for services of the Ace Network will be disposed of (burned) by sending them to a non-refundable address on the blockchain by the terms of the smart contract [System Service Payment][12].
+
+XAT tokens paid for traffic or access to content will also be disposed of (burned) by sending them to a non-refundable address on the blockchain by the terms of the smart contract [User Service Payment][13]. According to this contract all XAT paid for traffic or access to content could only once be used for payment and have to be replaced by Ace Coin (XAC) tokens.
 
 !!! info
 
@@ -77,7 +81,8 @@ XAT tokens paid for traffic, access to content, or by system smart contracts wil
 ## Unlocking tokens
 
 Tokens from [`lockedPool`][1] are unlocked at the moment of burning a similar
-XATs within the [Ace Coin Issue][7].
+amount of XATs within smart contracts [System Service Payment][12] and
+[User Service Payment][13].
 
 The unlocked tokens should be evenly distributed among [Ace Assets (XAS)][8] holders.
 This is done in two steps:
@@ -310,3 +315,5 @@ At the end of the private token sale, it will be possible to purchase tokens dir
 [9]: ../list-of-operations/inflation.md
 [10]: ../glossary/system-pools.md#inflationpool
 [11]: ../list-of-operations/ace-deposit.md
+[12]: ../list-of-operations/system-service-payment.md
+[13]: ../list-of-operations/user-service-payment.md

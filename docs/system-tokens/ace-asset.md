@@ -3,10 +3,10 @@
 
 **Ace Asset (XAS)** is the utility token purposed to manage other network assets and protocols.
 
-Apart from access to all network's services, XAS gives its owners some privileged rights:
+XAS gives its owners some privileged rights:
 
 - voting for changes in protocols and smart-contracts (described [here][1])
-
+- voting for delegation of rights to "Oracles"
 - participating in network's profit
 
 !!! info
