@@ -50,7 +50,7 @@ plugins:
           About the Project: О проекте
           Finances and Investment: Финансы и инвестиции
           Financial Services, DeFi: Инвестиционные программы, DeFi
-          Crypto Assets and Fees: Криптоактивы и комиссии Сети
+          Crypto Assets of DAO Ace Stream: Криптоактивы DAO Ace Stream
           Token Classification, SEC: Классификация токенов, SEC
           Risk Assessment: Оценка рисков
           DMCA Compliance: Соответствие условиям DMCA
@@ -99,7 +99,7 @@ nav:
     - DAO Ace Stream: library/dao-acestream.md
     - Finances and Investment:
       - Financial Services, DeFi: library/finances.md
-      - Crypto Assets and Fees: library/crypto-assets-and-fees.md
+      - Crypto Assets of DAO Ace Stream: library/crypto-assets-and-fees.md
       - Token Classification, SEC: system-tokens/token-classification.md
       - Risk Assessment: library/risk-assessment.md
     - Why, for whom and for what?: library/usage.md

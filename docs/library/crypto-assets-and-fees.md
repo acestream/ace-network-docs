@@ -1,4 +1,4 @@
-# Crypto Assets and Fees
+# Crypto Assets of DAO Ace Stream
 
 <div id="popup-container" style="display: none;">
     <div id="popup-overlay"></div>
@@ -9,10 +9,9 @@
 </div>
 
 
+100,000,000,000 Ace Tokens ([XAT][1]) is a base crypto asset to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
 
-**System token XAT**
-
-100,000,000,000 [XAT][1] to be distributed among DeFi Ace Assets program participants by the terms of the [system smart contracts][2]
+Payments for services in the Ace Network made in Ace Coin tokens ([XAC][7]) are DAO Ace Stream crypto assets to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
 
 **Below are the services for which fees are charged to the Ace Network, with subsequent distribution to "Ace Assets" DeFi Program members**
 
@@ -41,6 +40,7 @@ Forecast ARPPU per month - $5
 
 A Forecasted Network revenue from the service Premium Pool - **1,8 billion dollars a year** (when reaching the goal of 100 million monthly active users).
 
+<!--
 ### 3. Decentralized prediction market, Ace Bet
 
 **System commission** - 10% of the every bid.
@@ -50,9 +50,9 @@ The anticipated level of audience engagement is 4.5% of the user base.
 Forecast ARPPU per month - from $20 to $50
 
 Forecast Network revenue from the Ace Bet service - from $1.08 billion up to $2.7 billion a year (if you reach the goal of 100 million active users per month)
+-->
 
-
-### 4. Advertising sites
+### 3. Advertising sites
 
 Fee for publishing ads in the Network - 30% of the cost of the publishing
 
@@ -96,7 +96,7 @@ The projected income from advertising in all formats is from $1,862,100,000 to $
 </p>
 
 
-### 5. Affiliate programs
+### 4. Affiliate programs
 
 Affiliate programs, by destination:
 
@@ -126,3 +126,5 @@ Forecast revenue of the Network from affiliate programs - from $2.1 to $4.2 bill
 [3]: ../services/premium-pool.md
 [4]: dao-acestream.md#14
 [5]: dao-acestream.md#15-dao-ace-stream
+[6]: ../services/ace-asset.md
+[7]: ../system-tokens/ace-coin.md
