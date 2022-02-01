@@ -1,6 +1,8 @@
 # Ace Token (XAT)
 
-**Ace Token (XAT)** is a utility, native system token asset-backed with an Ace Stream P2P CDN bandwidth (over 200000 Tbps), premium content and all Ace Network services.
+**Ace Token (XAT)** is a utility, deflationary native system token.
+
+Each token (1 XAT) initially has the following basic backing: 100 GB of traffic in the P2P CDN service; 200,000 video ads impressions, in VAST format; 3-day unlimited access to premium content; other services of the Ace Network, in accordance with the established tariff plans.
 
 Ace Token gives access to all Ace Network services and facilities and is the sole means of payment for Network fees for account registration and transactions between Network members.
 
