@@ -99,7 +99,7 @@ This is done in two steps:
 
 Private token sale, in the form of direct sales of Ace Token (XAT) tokens to strategic partners and users of Ace Stream.
 
-The period of the private token sale: from 02/01/2022 to 08/01/2022. Attention! The token sale may be suspended ahead of schedule, at any time, by the decision of its organizers.
+The period of the private token sale: from 02/13/2022 to 08/12/2022. Attention! The token sale may be suspended ahead of schedule, at any time, by the decision of its organizers.
 
 Participants of the private token sale will be entitled to purchase tokens with a discount of up to 50%, depending on the amount and date of purchase:
 
