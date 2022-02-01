@@ -75,6 +75,8 @@ XAT tokens paid for services of the Ace Network will be disposed of (burned) by 
 
 XAT tokens paid for traffic or access to content will also be disposed of (burned) by sending them to a non-refundable address on the blockchain by the terms of the smart contract [User Service Payment][13]. According to this contract all XAT paid for traffic or access to content could only once be used for payment and have to be replaced by Ace Coin (XAC) tokens.
 
+Examples of Ace Token burning are available [here][14].
+
 !!! info
 
     Once the entire amount of the initial token issue (100 billion) is unlocked and burned, the annual inflation rate will be set to 1% of all tokens issued (100 billion + number of tokens issued by the inflation smart contract).
@@ -317,3 +319,4 @@ At the end of the private token sale, it will be possible to purchase tokens dir
 [11]: ../list-of-operations/ace-deposit.md
 [12]: ../list-of-operations/system-service-payment.md
 [13]: ../list-of-operations/user-service-payment.md
+[14]: examples.md

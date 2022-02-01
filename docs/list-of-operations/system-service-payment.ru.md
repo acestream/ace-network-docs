@@ -82,10 +82,15 @@ def makeSystemServicePayment(sourceAccount, amount, targetPool):
 
 ```
 
+## Примеры
+
+Примеры можно посмотреть [здесь][7]
+
 
 [1]: ../system-tokens/ace-coin.md
 [2]: ../system-tokens/ace-token.md
-[3]: exchange.md
+[3]: ../system-tokens/exchange.md
 [4]: ../services/ace-asset.md
 [5]: ../glossary/system-pools.md#lockedpool
 [6]: ../glossary/system-pools.md#unlockedpool
+[7]: ../system-tokens/examples.md

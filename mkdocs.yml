@@ -91,6 +91,7 @@ plugins:
           Prediction Market: Рынок прогнозов
           Developers: Разработчикам
           Broadcasting: Бродкастерам
+          Examples: Примеры
 
 nav:
   - Home: index.md
@@ -119,6 +120,7 @@ nav:
       - Ace Token (XAT): system-tokens/ace-token.md
       - Ace Asset (XAS): system-tokens/ace-asset.md
       - Ace Coin (XAC): system-tokens/ace-coin.md
+      - Examples: system-tokens/examples.md
       - Token Exchange: system-tokens/exchange.md
     - Traffic Payments:
       - Traffic Price: traffic-payments/traffic-price.md
