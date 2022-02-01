@@ -4,11 +4,22 @@ template: raw_content.html
 
 # 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
 
-**Ace Token (XAT)** - a basic and automatically burned system token backed by an Internet channel with a bandwidth of over 100,000 Tbps, premium content and all services of the Ace Network.
+**Ace Token (XAT)** is a native deflationary system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
 
-**Ace Asset (XAS)** - Ace Network protocol management token and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAT) and commission fees received by DAO Ace Stream for the Services and Services provided by the Network.
+Each token (1 XAT) initially (at the time of issue) has the following basic backing: 100 GB of traffic in the P2P CDN service; 200,000 video ads impressions, in VAST format; 3-day unlimited access to premium content; other services of the Ace Network, in accordance with the established tariff plans.
+
+**Ace Asset (XAS)** is a token purposed to manage network protocols and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAT) and fees received by DAO Ace Stream for the services provided by the Network.
+
+Ace Asset gives its owners some privileged rights:
+
+- voting for changes in protocols and smart-contracts
+- voting for delegation of rights to "Oracles"
+- participating in the distribution of system tokens (XAT) and fees received by DAO Ace Stream for the services provided by the Network
+
 
 **Ace Coin (XAC)** - an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.
+
+Ace Coins are issued automatically as the part of payment process (when paid for services related to content generation). The issuance amount corresponds to **real** need for this digital currency, according to the algorithm embedded in the system.
 
 **A short and simple comparison of mining between Ace Coin and Bitcoin/Chia Coin**
 
