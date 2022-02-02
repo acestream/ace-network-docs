@@ -237,8 +237,8 @@ Users who have activated the premium tariff on a date prior to 02/13/2022 receiv
 
 To participate in a private token sale, in order to purchase tokens worth more than $1,000, you must submit an appropriate application and receive an invitation from the organizer (Ace Stream).
 
-At the end of the private token sale, it will be possible to purchase tokens directly on the Ace Stream open trading platform, at a market price, but not lower than the face value (1 XAS >= 1$).
-
+After the private sale, it will be possible to buy tokens directly on the Ace Stream open trading platform, at a market price.
+In addition, OTC transactions will be available: tokens purchase directly from the organizer (Ace Stream). The sale of tokens by the organizer will be carried out at the market price, but not lower than the face value (1 XAS >= 1$).
 
 [1]: ../glossary/system-settings.md#_3
 [2]: ../services/ace-asset.md
