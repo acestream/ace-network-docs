@@ -300,7 +300,7 @@ The acquisition of tokens within a private token sale is carried out by purchasi
 
 The right to purchase tokens in the amount of up to $1000 is granted to any of the Ace Stream users who have activated any of the premium tariff plans (Smart, Standard, Premium).
 
-Users who have activated the premium tariff on a date prior to 02/01/2022 receive a privileged right to purchase tokens in the amount of up to $10,000 and an additional 10% discount.
+Users who have activated the premium tariff on a date prior to 02/13/2022 receive a privileged right to purchase tokens in the amount of up to $10,000 and an additional 10% discount.
 
 To participate in a private token sale, in order to purchase tokens worth more than $1,000, you must submit an appropriate application and receive an invitation from the organizer (Ace Stream).
 
