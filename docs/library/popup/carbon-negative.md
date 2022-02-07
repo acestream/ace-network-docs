@@ -93,13 +93,13 @@ While using the P2P technology for storing and transmitting data, there is a red
 
 ## Achievement of the "Carbon Negative" effect
 
-When someone consumes content through Ace Stream, instead of alternatively consuming the same content via centralized services, then there is a decrease in CO2 emissions into the atmosphere, since if Ace Stream P2P technology is not used, so the consumption of this content will occur anyway and in equivalent volumes, but only through unicast technologies with CO2 emissions corresponding to such technologies.
+When someone consumes content through Ace Stream, instead of alternatively consuming content via centralized services, then there is a decrease in CO2 emissions into the atmosphere, since if Ace Stream P2P technology is not used, so the consumption of this content will occur anyway and in equivalent volumes, but only through unicast technologies with CO2 emissions corresponding to such technologies.
 
 As a result, Ace Stream P2P technology eliminates the huge environmental damage caused by data centers and centralized CDNs, while also providing broadcasters (content providers) with the opportunity to provide global broadcasting to an unlimited number of viewers at minimal cost, where the viewer will receive super-speed and super-quality!
 
 And if we once again draw an analogy with trees, solely in terms of their impact on decarbonization, then it would also be quite appropriate to draw one more conclusion:
 
-**Monthly viewing of 1 hour of video in the decentralized Ace Stream network via P2P technology, instead of alternative viewing the same video through centralized online services via unicast technologies, is the equivalent to planting one tree and growing it for 10 years!**
+**Monthly viewing of 1 hour of video in the decentralized Ace Stream network via P2P technology, instead of alternative viewing video through centralized online services via unicast technologies, is the equivalent to planting one tree and growing it for 10 years!**
 
 !!! note "Note to those who care about the environment"
 
