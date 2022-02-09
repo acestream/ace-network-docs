@@ -203,3 +203,4 @@ nav:
     #   - Content ID Generation: developers/utilities/content-id-generation.md
     - API Reference: developers/api-reference.md
     - Old Engine API (deprecated): developers/old-engine-api.md
+  - Products: products/index.md
