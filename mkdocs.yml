@@ -92,6 +92,7 @@ plugins:
           Developers: Разработчикам
           Broadcasting: Бродкастерам
           Examples: Примеры
+          Roadmap: Дорожная карта
 
 nav:
   - Home: index.md
@@ -105,6 +106,7 @@ nav:
       - Risk Assessment: library/risk-assessment.md
     - Why, for whom and for what?: library/usage.md
     - DMCA Compliance: library/dmca.md
+    - Roadmap: roadmap/index.md
   - Ace Network:
     - Welcome: welcome.md
     - Get Started:
