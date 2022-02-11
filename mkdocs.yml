@@ -93,9 +93,10 @@ plugins:
           Broadcasting: Бродкастерам
           Examples: Примеры
           Roadmap: Дорожная карта
+          Home: На главную
 
 nav:
-  - Home: index.md
+  - Home: https://acestream.org/
   - About the Project:
     - Unexplored Internet: library/intro.md
     - DAO Ace Stream: library/dao-acestream.md
