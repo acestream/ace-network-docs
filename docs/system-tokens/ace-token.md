@@ -292,7 +292,7 @@ Participants of the private token sale will be entitled to purchase tokens with 
     </tbody>
 </table>
 
-The acquisition of tokens within a private token sale is carried out by purchasing the rights to receive a certain amount of tokens according to a smart contract that complies with the ERC-721 standard.
+The acquisition of tokens within a private token sale is carried out by purchasing the rights to receive a certain amount of tokens.
 
 As the result of buying Ace Stream releases the NFT (ERC-721) bound to amount of tokens sold to the person or organisation. Such NFTs guarantees their exchange for Ace Stream tokes when main network is operational. Circulation of NFT issued by private sell is not limited.
 
