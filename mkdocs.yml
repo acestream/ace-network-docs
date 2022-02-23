@@ -54,7 +54,7 @@ plugins:
           Token Classification, SEC: Классификация токенов, SEC
           Risk Assessment: Оценка рисков
           DMCA Compliance: Соответствие условиям DMCA
-          Why, for whom and for what?: Кому это нужно
+          The network that everyone needs!: Сеть, которая нужна всем!
           Foreword: Преамбула
           Network's Architecture: Архитектура Сети
           Performance Considerations: Производительность
@@ -105,7 +105,7 @@ nav:
       - Crypto Assets of DAO Ace Stream: library/crypto-assets-and-fees.md
       - Token Classification, SEC: system-tokens/token-classification.md
       - Risk Assessment: library/risk-assessment.md
-    - Why, for whom and for what?: library/usage.md
+    - The network that everyone needs!: library/usage.md
     - DMCA Compliance: library/dmca.md
     - Roadmap: roadmap/index.md
   - Ace Network:

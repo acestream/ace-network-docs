@@ -1,4 +1,6 @@
-# Why, for whom and for what?
+# Ace Network - the decentralized network that everyone needs!
+
+Who needs DAO Ace Stream and Ace Network and why?
 
 ## Content providers
 
@@ -56,7 +58,7 @@ Who want to gain access to unique multi-million audience with the ability to pla
 
 ## Investors and traders
 
-Understanding the limitations of the centralised Internet and the relevance of a solution covering 50 times the bandwidth deficit (over 100,000 Tbit/s) to meet the real needs of Internet users and the media market as a whole.
+Understanding the limitations of the centralised technologies and the relevance of a solution covering a 100-fold shortage of Internet bandwidth to meet the real needs of Internet users and the media market as a whole.
 
 Who prefers to invest in already working solutions and existing projects with a long history of development.
 
