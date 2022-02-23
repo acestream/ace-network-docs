@@ -9,8 +9,12 @@ Token: [XAT][1]
 
 Filled with tokens by the network's startup procedure (details described in [Ace Token][1])
 
-This pool is controlled by the Ace Token supply mechanism. Initially, all tokens in this pool are locked and cannot be used by any accounts until they are unlocked by burning Ace Tokens as [Ace Coins are emitted][8]
+This pool is controlled by the Ace Token supply mechanism. Initially, all tokens in this pool are locked and cannot be used by any accounts until they are unlocked by burning Ace Tokens during the execution of the following smart contracts:
 
+- [System Service Payment][10]
+- [Non System Service Payment][11]
+- [User Service Payment][12]
+- [Add Broadcasting Rights Contract][13]
 
 ### unlockedPool
 
@@ -67,3 +71,7 @@ Accumulates commissions from premium pools. Re-distributes by [Ace Asset][3] sys
 [7]: ../services/ace-deposit.md
 [8]: ../system-tokens/ace-coin.md
 [9]: ../system-tokens/ace-asset.md
+[10]: ../list-of-operations/system-service-payment.md
+[11]: ../list-of-operations/non-system-service-payment.md
+[12]: ../list-of-operations/user-service-payment.md
+[13]: ../list-of-operations/add-broadcasting-rights-contract.md

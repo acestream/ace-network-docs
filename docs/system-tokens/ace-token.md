@@ -15,7 +15,7 @@ While exchange rate of Ace Token changes, the cost of services in the Ace Stream
 
 XATs are pre-issued during system startup procedure, there issuance is 100,000,000,000 XAT.
 
-90% of the tokens from the total issue will initially be locked in a special account ([`lockedPool`][1]), which only the [system smart contracts][2] have access to.
+90% of the tokens from the total issue will initially be locked in a special account ([`lockedPool`][1]), which only the [system smart contracts][2] and some types of [oracles][17] have access to.
 
 10% of the initially unlocked tokens are distributed to the following programs:
 
@@ -85,8 +85,13 @@ Examples of Ace Token burning are available [here][14].
 ## Unlocking tokens
 
 Tokens from [`lockedPool`][1] are unlocked at the moment of burning a similar
-amount of XATs within smart contracts [System Service Payment][12] and
-[User Service Payment][13].
+amount of XATs within following smart contracts:
+
+- [System Service Payment][12]
+- [Non System Service Payment][15]
+- [User Service Payment][13]
+- [Add Broadcasting Rights Contract][16]
+
 
 The unlocked tokens should be evenly distributed among [Ace Assets (XAS)][8] holders.
 This is done in two steps:
@@ -322,3 +327,6 @@ In addition, OTC transactions will be available: tokens purchase directly from t
 [12]: ../list-of-operations/system-service-payment.md
 [13]: ../list-of-operations/user-service-payment.md
 [14]: examples.md
+[15]: ../list-of-operations/non-system-service-payment.md
+[16]: ../list-of-operations/add-broadcasting-rights-contract.md
+[17]: ../network-participants/oracles.md

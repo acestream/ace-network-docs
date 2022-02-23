@@ -3,8 +3,13 @@
 
 The [operations][1] described here are specific to the Ace Network, they are additional to and extend Stellar's list of [standard operations][2].
 
-There are two kinds of operations: system smart contracts and standard operations.
-Instead of other operations, system smart contracts could:
+There are three kinds of operations: system smart contracts, standard operations and oracle's operations.
+
+Standard operations can be executed by any account.
+
+Oracle's operations can be executed only by oracles (it's a special account type).
+
+System smart contracts could:
 
 -  be intiated on the network by any account, but not more frequently than a specified interval
 -  affect some subset of accounts without requiring the signature of each affected account
@@ -24,7 +29,7 @@ Instead of other operations, system smart contracts could:
 - [User Service Payment](user-service-payment.md)
 
 
-## Operations
+## Standard Operations
 
 - [Add Device](add-device.md)
 - [Buy Single Access](buy-single-access.md)
@@ -32,6 +37,10 @@ Instead of other operations, system smart contracts could:
 - [Create Premium Pool](create-premium-pool.md)
 - [Remove Device](remove-device.md)
 
+## Oracle's Operations
+
+- [Add Rights Holder](add-rights-holder.md)
+- [Add Broadcasting Rights Contract](add-broadcasting-rights-contract.md)
 
 [1]: ../glossary/operations.md
 [2]: https://developers.stellar.org/docs/start/list-of-operations/
