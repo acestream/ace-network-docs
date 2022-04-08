@@ -32,7 +32,7 @@ Initial rate of XAS token at the start of sales: 1 "Ace Asset" = $1
 
 Private token sale, in the form of direct sales of Ace Asset (XAS) tokens to strategic partners and users of Ace Stream.
 
-The period of the private token sale: from 03/01/2022 to 08/31/2022. Attention! The token sale may be suspended ahead of schedule, at any time, by the decision of its organizers.
+The period of the private token sale: from 06/01/2022 to 11/31/2022. Attention! The token sale may be suspended ahead of schedule, at any time, by the decision of its organizers.
 
 Participants of the private token sale will be entitled to purchase tokens with a discount of up to 50%, depending on the amount and date of purchase:
 
@@ -46,12 +46,12 @@ Participants of the private token sale will be entitled to purchase tokens with 
         </tr>
         <tr>
             <th>Amount</th>
-            <th>03.2022</th>
-            <th>04.2022</th>
-            <th>05.2022</th>
             <th>06.2022</th>
             <th>07.2022</th>
             <th>08.2022</th>
+            <th>09.2022</th>
+            <th>10.2022</th>
+            <th>11.2022</th>
         </tr>
     </thead>
     <tbody>
@@ -235,7 +235,7 @@ As the result of buying Ace Stream releases the NFT (ERC-721) bound to amount of
 
 The right to purchase tokens in the amount of up to $1000 is granted to any of the Ace Stream users who have activated any of the premium tariff plans (Smart, Standard, Premium).
 
-Users who have activated the premium tariff on a date prior to 03/01/2022 receive a privileged right to purchase tokens in the amount of up to $10,000 and an additional 10% discount.
+Users who have activated the premium tariff on a date prior to 06/01/2022 receive a privileged right to purchase tokens in the amount of up to $10,000 and an additional 10% discount.
 
 To participate in a private token sale, in order to purchase tokens worth more than $1,000, you must submit an appropriate application and receive an invitation from the organizer (Ace Stream).
 
