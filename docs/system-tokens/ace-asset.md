@@ -21,13 +21,15 @@ XAS is issued in a one-time amount of 10,000,000,000 XAS.
 Initial rate of XAS token at the start of sales: 1 "Ace Asset" = $1
 
 
+<!--
 ## Token distribution
 
 30% - Ace Stream developers team
 
 70% - for the strategic development, expansion of the service infrastructure and customer base of the Ace Network (acquisition of shares in other companies in order to ensure high dynamics of growth in the number of Network users; expanding the service and technological capabilities of the Network; acquiring rights to content for publication on the Web; providing the token with offline financial mechanisms ( financial institutions), for maximum convenience of using tokens in everyday life, when carrying out mutual settlements; etc.)
+-->
 
-
+<!--
 ## Initial Offering
 
 Private token sale, in the form of direct sales of Ace Asset (XAS) tokens to strategic partners and users of Ace Stream.
@@ -241,6 +243,7 @@ To participate in a private token sale, in order to purchase tokens worth more t
 
 After the private sale, it will be possible to buy tokens directly on the Ace Stream open trading platform, at a market price.
 In addition, OTC transactions will be available: tokens purchase directly from the organizer (Ace Stream). The sale of tokens by the organizer will be carried out at the market price, but not lower than the face value (1 XAS >= 1$).
+-->
 
 [1]: ../glossary/system-settings.md#_3
 [2]: ../services/ace-asset.md

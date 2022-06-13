@@ -99,7 +99,7 @@ This is done in two steps:
 - Unlocking is performed by transferring tokens from [`lockedPool`][1] to [`unlockedPool`][4]
 - The next run of the operation [Ace Asset][3] distributes the contents of [`unlockedPool`][4] among the XAS holders
 
-
+<!--
 ## Initial Offering
 
 Private token sale, in the form of direct sales of Ace Token (XAT) tokens to strategic partners and users of Ace Stream.
@@ -313,6 +313,7 @@ To participate in a private token sale, in order to purchase tokens worth more t
 
 After the private sale, it will be possible to buy tokens directly on the Ace Stream open trading platform, at a market price.
 In addition, OTC transactions will be available: tokens purchase directly from the organizer (Ace Stream). The sale of tokens by the organizer will be carried out at the market price, but not lower than the face value (1 XAT >= 1$).
+-->
 
 [1]: ../glossary/system-pools.md#lockedpool
 [2]: ../glossary/system-smart-contracts.md
