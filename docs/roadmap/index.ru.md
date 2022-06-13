@@ -13,64 +13,64 @@
 
         var events = [
             {
-                date: 'Q2 - 2022',
+                date: 'Q3 - 2022',
                 content: 'Ace Network Docs Detalization'
             },
             {
-                date: 'Q2 - 2022',
+                date: 'Q3 - 2022',
                 content: 'Base Network Launch'
             },
             {
-                date: 'Q2 - 2022',
+                date: 'Q3 - 2022',
                 content: 'Wallet and Blockchain Tools<small>Wallet beta release, blockchain explorer</small>'
             },
             {
-                date: 'Q3 - 2022',
+                date: 'Q4 - 2023',
                 content: 'Prediction Market<small>Decentralized betting platform</small>'
             },
             {
-                date: 'Q3 - 2022',
+                date: 'Q4 - 2023',
                 content: 'Ace Meta Search<small>Beta release of Ace Meta Search</small>'
             },
             {
-                date: 'Q3 - 2022',
+                date: 'Q4 - 2023',
                 content: 'NFT Experience in Ace Network'
             },
             {
-                date: 'Q3 - 2022',
+                date: 'Q4 - 2023',
                 content: 'Decentralized Exchange (DEX)'
             },
             {
-                date: 'Q3 - 2022',
+                date: 'Q4 - 2023',
                 content: 'Ace Stream Live TV<small>for desktop and smartphones</small>'
             },
             {
-                date: 'Q4 - 2022',
+                date: 'Q1 - 2023',
                 content: 'Ace Media Hub'
             },
 
             {
-                date: 'Q1 - 2023',
+                date: 'Q2 - 2023',
                 content: 'Ace Network Level 1 Launch'
             },
             {
-                date: 'Q1 - 2023',
+                date: 'Q2 - 2023',
                 content: 'Ace Stream Engine SDK Release'
             },
             {
-                date: 'Q1 - 2023',
+                date: 'Q2 - 2023',
                 content: 'Ace Surf Release'
             },
             {
-                date: 'Q1 - 2023',
+                date: 'Q2 - 2023',
                 content: 'Ace ID Release<small>Decentralized Identity</small>'
             },
             {
-                date: 'Q2 - 2023',
+                date: 'Q3 - 2023',
                 content: 'Ace Network Levels 2 and 3 Launch'
             },
             {
-                date: 'Q2 - 2023',
+                date: 'Q3 - 2023',
                 content: 'Decentralized Content Moderation'
             },
         ];
