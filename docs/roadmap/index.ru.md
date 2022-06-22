@@ -25,23 +25,23 @@
                 content: 'Wallet and Blockchain Tools<small>Wallet beta release, blockchain explorer</small>'
             },
             {
-                date: 'Q4 - 2023',
+                date: 'Q4 - 2022',
                 content: 'Prediction Market<small>Decentralized betting platform</small>'
             },
             {
-                date: 'Q4 - 2023',
+                date: 'Q4 - 2022',
                 content: 'Ace Meta Search<small>Beta release of Ace Meta Search</small>'
             },
             {
-                date: 'Q4 - 2023',
+                date: 'Q4 - 2022',
                 content: 'NFT Experience in Ace Network'
             },
             {
-                date: 'Q4 - 2023',
+                date: 'Q4 - 2022',
                 content: 'Decentralized Exchange (DEX)'
             },
             {
-                date: 'Q4 - 2023',
+                date: 'Q4 - 2022',
                 content: 'Ace Stream Live TV<small>for desktop and smartphones</small>'
             },
             {
