@@ -162,6 +162,7 @@ nav:
       - Non System Service Payment: list-of-operations/non-system-service-payment.md
       - Add Rights Holder: list-of-operations/add-rights-holder.md
       - Add Broadcasting Rights Contract: list-of-operations/add-broadcasting-rights-contract.md
+      - Unlock System Tokens: list-of-operations/unlock-system-tokens.md
     - Software: software/index.md
     - NFT: nft/index.md
     - Prediction Market: prediction-market/index.md

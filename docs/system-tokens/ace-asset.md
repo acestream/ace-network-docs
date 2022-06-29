@@ -11,15 +11,15 @@ XAS gives its owners some privileged rights:
 
 !!! info
 
-    To obtain rights to DAO Ace Stream assets, the owners of these tokens have to register in the [Ace Assets][2] DeFi program
+    To obtain rights to Ace Stream DAO assets, the owners of these tokens have to register in the [Ace Assets][2] DeFi program
 
-
+<!--
 ## Token issuing
 
 XAS is issued in a one-time amount of 10,000,000,000 XAS.
 
 Initial rate of XAS token at the start of sales: 1 "Ace Asset" = $1
-
+-->
 
 <!--
 ## Token distribution
