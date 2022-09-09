@@ -4,7 +4,7 @@
 
 To start broadcasting you need to install the Ace Stream Engine software.
 
-The latest versions are [here][1]{target=_blank}.
+The latest versions are [here][1].
 
 There is no special software for broadcasting - the same software is used both
 for the client node and for broadcasting. We call this software "the engine".
@@ -27,4 +27,4 @@ Currently, the engine supports following inputs:
 - HLS
 
 
-[1]: https://wiki.acestream.media/Download
+[1]: ../products/index.md
