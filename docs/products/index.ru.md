@@ -59,11 +59,8 @@
 ## Linux
 
 - Ubuntu 18: [amd64][53]
-- Ubuntu 16: [amd64][54]
-- Ubuntu 14: [amd64][55]
-- Ubuntu 12: [amd64][56]
-- Debian 9: [amd64][57]
-- Debian 8: [amd64][58]
+- Debian 10: [amd64][54]
+- Debian 9: [amd64][55]
 
 **Подробности**
 
@@ -127,10 +124,7 @@
 [50]: https://play.google.com/apps/testing/org.acestream.core
 [51]: https://play.google.com/apps/testing/org.acestream.core.atv
 [52]: https://play.google.com/apps/testing/org.acestream.live
-[53]: https://download.acestream.media/linux/acestream_3.1.49_ubuntu_18.04_x86_64.tar.gz
-[54]: https://download.acestream.media/linux/acestream_3.1.16_ubuntu_16.04_x86_64.tar.gz
-[55]: https://download.acestream.media/linux/acestream_3.1.16_ubuntu_14.04_x86_64.tar.gz
-[56]: https://download.acestream.media/linux/acestream_3.1.16_ubuntu_12.04_x86_64.tar.gz
-[57]: https://download.acestream.media/linux/acestream_3.1.49_debian_9.9_x86_64.tar.gz
-[58]: https://download.acestream.media/linux/acestream_3.1.49_debian_8.11_x86_64.tar.gz
+[53]: https://download.acestream.media/linux/acestream_3.1.74_ubuntu_18.04_x86_64.tar.gz
+[54]: https://download.acestream.media/linux/acestream_3.1.74_debian_10.5_x86_64.tar.gz
+[55]: https://download.acestream.media/linux/acestream_3.1.74_debian_9.9_x86_64.tar.gz
 [59]: https://forum.acestream.media/
