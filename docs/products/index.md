@@ -58,7 +58,7 @@ If you want to become an Android beta tester, please visit one of these links:
 
 ## Linux
 
-- Ubuntu 18: [amd64][53]
+- Ubuntu 18: [amd64/py3.7][56] | [amd64/py2.7][53]
 - Debian 10: [amd64][54]
 - Debian 9: [amd64][55]
 
@@ -89,9 +89,6 @@ You can find more info about linux builds and packages prepared by community on 
 [19]: https://download.acestream.media/products/acestream-engine-beta/android-tv/armv8_64/latest
 [20]: https://download.acestream.media/products/acestream-engine-beta/android-tv/x86_64/latest
 [21]: https://play.google.com/store/apps/details?id=org.acestream.core
-
-
-
 [22]: https://download.acestream.media/products/android/acestream-core/armv7/latest
 [23]: https://download.acestream.media/products/android/acestream-core/x86/latest
 [24]: https://download.acestream.media/products/android/acestream-core/armv8_64/latest
@@ -126,4 +123,5 @@ You can find more info about linux builds and packages prepared by community on 
 [53]: https://download.acestream.media/linux/acestream_3.1.74_ubuntu_18.04_x86_64.tar.gz
 [54]: https://download.acestream.media/linux/acestream_3.1.74_debian_10.5_x86_64.tar.gz
 [55]: https://download.acestream.media/linux/acestream_3.1.74_debian_9.9_x86_64.tar.gz
+[56]: https://download.acestream.media/linux/acestream_3.1.74_ubuntu_18.04_x86_64_py3.7.tar.gz
 [59]: https://forum.acestream.media/
