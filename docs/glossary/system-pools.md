@@ -25,6 +25,15 @@ Accumulates unlocked tokens from `lockedPool`
 Re-distributed by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program
 
 
+### xasLockedPool
+
+Token: [XAS][9]
+
+Filled with tokens by XAS issuing procedure (details described in [Ace Asset][9])
+
+Initially, all tokens in this pool are locked and cannot be used by any accounts until they are unlocked by smart contract [Unlock System Tokens][14]
+
+
 ### inflationPool
 
 Token: [XAT][1]
@@ -75,3 +84,4 @@ Accumulates commissions from premium pools. Re-distributes by [Ace Asset][3] sys
 [11]: ../list-of-operations/non-system-service-payment.md
 [12]: ../list-of-operations/user-service-payment.md
 [13]: ../list-of-operations/add-broadcasting-rights-contract.md
+[14]: ../list-of-operations/unlock-system-tokens.md

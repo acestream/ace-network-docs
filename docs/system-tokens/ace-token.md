@@ -22,12 +22,7 @@ All the issued and unlocked tokens are distributed with smart contracts to the f
 - 5% - for "Ace Stream DAO" development purposes
 - 5% - marketing programs
 - 10% - airdrop, under the program of incentives (encouragement and funding) for the creation and placement of exclusive premium content in the Ace Network
-- 70% - for the Ace Stream DAO strategic development: software development; expansion of the service infrastructure and customer base of the Ace Network (acquisition of shares in other companies in order to ensure high dynamics of growth in the number of network users; expanding the service and technological capabilities of the Network; acquiring rights to content for publication on the Web; providing the token with offline financial mechanisms ( financial institutions), for maximum convenience of using tokens in everyday life when carrying out mutual settlements; liquidity maintenance; etc.)
-
-    !!! info
-
-        Tokens intended for the strategic development of Ace Stream DAO are credited to a special account in the Network and are used exclusively to fund programmes approved by Network Participants (holders of Ace Stream DAO governance tokens). Funding programmes are approved through a decentralised voting mechanism.
-
+- 70% - acquiring rights to content for publication in the Ace Stream Network
 - 10% - charity and non-profit projects
 
 
@@ -39,7 +34,6 @@ Tokens from [`lockedPool`][1] are unlocked when DAO assets are created and incre
 - [Non System Service Payment][15]
 - [User Service Payment][13]
 - [Add Broadcasting Rights Contract][16]
-- [Unlock System Tokens][18]
 
 
 ## Deflation (token recycling/burning)
@@ -325,4 +319,3 @@ In addition, OTC transactions will be available: tokens purchase directly from t
 [15]: ../list-of-operations/non-system-service-payment.md
 [16]: ../list-of-operations/add-broadcasting-rights-contract.md
 [17]: ../network-participants/oracles.md
-[18]: ../list-of-operations/unlock-system-tokens.md

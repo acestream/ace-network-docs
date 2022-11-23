@@ -25,6 +25,13 @@
 
 Распределяется смарт-контрактом [Ace Asset][3] в рамках программы [Ace Asset][4]
 
+### xasLockedPool
+
+Токен: [XAS][9]
+
+Пополняется в момент эмиссии XAS (подробности в разделе [Ace Asset][9])
+
+Токены в данном пуле заблокированы - не могут быть использованы ни одним аккаунтом. Токены из данного пула могут быть разблокированы исключительно смарт-контрактом [Unlock System Tokens][14]
 
 ### inflationPool
 
@@ -85,3 +92,4 @@
 [11]: ../list-of-operations/non-system-service-payment.md
 [12]: ../list-of-operations/user-service-payment.md
 [13]: ../list-of-operations/add-broadcasting-rights-contract.md
+[14]: ../list-of-operations/unlock-system-tokens.md

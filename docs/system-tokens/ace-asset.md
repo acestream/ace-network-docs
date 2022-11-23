@@ -13,21 +13,31 @@ XAS gives its owners some privileged rights:
 
     To obtain rights to Ace Stream DAO assets, the owners of these tokens have to register in the [Ace Assets][2] DeFi program
 
-<!--
 ## Token issuing
 
-XAS is issued in a one-time amount of 10,000,000,000 XAS.
+The initial issuance is 10,000,000,000 XAS
 
-Initial rate of XAS token at the start of sales: 1 "Ace Asset" = $1
--->
+The initial rate of XAS token at the start of sales: 1 "Ace Asset" = $1
 
-<!--
+90% of the tokens from the total issue will initially be locked in a special account ([`xasLockedPool`][3]), which only the [Unlock System Tokens][4] smart contract has access to.
+
 ## Token distribution
 
 30% - Ace Stream developers team
 
-70% - for the strategic development, expansion of the service infrastructure and customer base of the Ace Network (acquisition of shares in other companies in order to ensure high dynamics of growth in the number of Network users; expanding the service and technological capabilities of the Network; acquiring rights to content for publication on the Web; providing the token with offline financial mechanisms ( financial institutions), for maximum convenience of using tokens in everyday life, when carrying out mutual settlements; etc.)
--->
+70% - for the Ace Stream DAO strategic development:
+
+- software development;
+- expansion of the service infrastructure and customer base of the Ace Network (acquisition of shares in other companies in order to ensure high dynamics of growth in the number of network users;
+- expanding the service and technological capabilities of the Network;
+- acquisition of shares in content generating organizations in order to obtain exclusive rights to broadcast popular broadcasts in the Ace Stream Network;
+- providing the token with offline financial mechanisms (financial institutions), for maximum convenience of using tokens in everyday life when carrying out mutual settlements;
+- liquidity maintenance;
+- etc.
+
+!!! info
+
+    Tokens intended for the strategic development of Ace Stream DAO are credited to a special account in the Network and are used exclusively to fund programmes approved by Network Participants (holders of Ace Stream DAO governance tokens). Funding programmes approval and XAS tokens unlocking is done through a decentralised voting mechanism.
 
 <!--
 ## Initial Offering
@@ -247,3 +257,5 @@ In addition, OTC transactions will be available: tokens purchase directly from t
 
 [1]: ../glossary/system-settings.md#_3
 [2]: ../services/ace-asset.md
+[3]: ../glossary/system-pools.md#xaslockedpool
+[4]: ../list-of-operations/unlock-system-tokens.md
