@@ -12,7 +12,7 @@
 
 ### Ace Stream Media
 
-- Google Play: [https://play.google.com/store/apps/details?id=org.acestream.media][3]
+<!-- - Google Play: [https://play.google.com/store/apps/details?id=org.acestream.media][3] -->
 - стабильная версия: [ARMv7 (32 bit)][4] | [x86][5] | [ARMv8 (64 bit)][6] | [x86_64][7]
 - бета версия: [ARMv7 (32 bit)][8] | [x86][9] | [ARMv8 (64 bit)][10] | [x86_64][11]
 
@@ -26,7 +26,7 @@
 
 ### Ace Stream Engine
 
-- Google Play: [https://play.google.com/store/apps/details?id=org.acestream.core][21]
+<!-- - Google Play: [https://play.google.com/store/apps/details?id=org.acestream.core][21] -->
 - стабильная версия: [ARMv7 (32 bit)][22] | [x86][23] | [ARMv8 (64 bit)][24] | [x86_64][25]
 - бета версия: [ARMv7 (32 bit)][26] | [x86][27] | [ARMv8 (64 bit)][28] | [x86_64][29]
 
@@ -40,11 +40,12 @@
 
 ### Ace Stream LiveTV
 
-- Google Play: [https://play.google.com/store/apps/details?id=org.acestream.live][39]
+<!-- - Google Play: [https://play.google.com/store/apps/details?id=org.acestream.live][39] -->
 - стабильная версия: [ARMv7 (32 bit)][40] | [x86][41] | [ARMv8 (64 bit)][42] | [x86_64][43]
 - бета версия: [ARMv7 (32 bit)][44] | [x86][45] | [ARMv8 (64 bit)][46] | [x86_64][47]
 
 
+<!--
 ### Стать бета-тестировщиком
 
 Если вы желаете стать бета-тестировщиком на Android, перейдите по соответствующей ссылке:
@@ -54,11 +55,11 @@
 - Ace Stream Engine: [https://play.google.com/apps/testing/org.acestream.core][50]
 - Ace Stream Engine for Android TV: [https://play.google.com/apps/testing/org.acestream.core.atv][51]
 - Ace Stream LiveTV: [https://play.google.com/apps/testing/org.acestream.live][52]
-
+-->
 
 ## Linux
 
-- Ubuntu 18: [amd64/py3.7][56] | [amd64/py2.7][53]
+- Ubuntu 18: [amd64/py3.8][57] | [amd64/py3.7][56] | [amd64/py2.7][53]
 - Debian 10: [amd64][54]
 - Debian 9: [amd64][55]
 
@@ -124,5 +125,6 @@
 [53]: https://download.acestream.media/linux/acestream_3.1.74_ubuntu_18.04_x86_64.tar.gz
 [54]: https://download.acestream.media/linux/acestream_3.1.74_debian_10.5_x86_64.tar.gz
 [55]: https://download.acestream.media/linux/acestream_3.1.74_debian_9.9_x86_64.tar.gz
-[56]: https://download.acestream.media/linux/acestream_3.1.74_ubuntu_18.04_x86_64_py3.7.tar.gz
+[56]: https://download.acestream.media/linux/acestream_3.1.75rc4_ubuntu_18.04_x86_64_py3.7.tar.gz
+[57]: https://download.acestream.media/linux/acestream_3.1.75rc4_ubuntu_18.04_x86_64_py3.8.tar.gz
 [59]: https://forum.acestream.media/
