@@ -25,7 +25,9 @@ The initial rate of XAS token at the start of sales: 1 "Ace Asset" = $1
 
 30% - Ace Stream developers team
 
-70% - for the Ace Stream DAO strategic development:
+70% - to investors
+
+Investor's funds are used for the Ace Stream DAO strategic development:
 
 - software development;
 - expansion of the service infrastructure and customer base of the Ace Network (acquisition of shares in other companies in order to ensure high dynamics of growth in the number of network users;
