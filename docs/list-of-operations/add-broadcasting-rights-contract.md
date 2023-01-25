@@ -12,7 +12,7 @@ Threshold: medium
 - `dateStart` - timestamp of the contract start
 - `dateEnd` - timestamp of the contract end
 - `duration` - total duration of the broadcasting according to the contract (in seconds)
-- `value` - total value of the contract in XAT
+- `value` - total value of the contract in XAB
 
 This operation registers the contract from the real (offchain) world in the blockchain
-and unlocks `value` XAT if there are any locked tokens.
+and unlocks `value` XAB if there are any locked tokens.

@@ -1,6 +1,6 @@
 # Add device
 
-Links device to the account. Operation moves 0.1XAT from linking account to [`txFeePool`][1]
+Links device to the account. Operation moves 0.1XAB from linking account to [`txFeePool`][1]
 
 
 Threshold: medium

@@ -34,9 +34,9 @@ Now let's look at an example of how these peers interact:
 
 1. `UserA` receives 3 Gb (3072 Mb) of traffic from `UserB`. As `UserA` has no tokens, then he receives traffic on credit. This means that `UserA` has owed `UserB` 3072 Мb. `UserA` credit limit has decreased to  7168 (10240 - 3072).
 2. `UserA` receives 7 Gb (7168 Мb) of traffic from UserС. As `UserA` has no tokens, then he receives traffic on credit. This means that `UserA` has owed `UserC` 7168 Мb. `UserA` credit limit has decreased to 0. `UserC` stops providing data to `UserA`, as he exceeded credit limit and cannot pay for traffic. 
-3. `UserA` refills his paying for services account for 0.2 XAT.
+3. `UserA` refills his paying for services account for 0.2 XAB.
 
-    Current currency rate XAT/XAC: 1 XAT = 1 XAC.
+    Current currency rate XAB/XAC: 1 XAB = 1 XAC.
 
     Current cost of 1 Gb traffic: 0.01 XAC.
 
@@ -44,11 +44,11 @@ Now let's look at an example of how these peers interact:
 
     - `UserB` receives 0.03 XAC (minus system commission) - payment for 3 Gb traffic which was given on credit
     - `UserC` receives 0.07 XAC (minus system commission) - payment for 7 Gb traffic which was given on credit
-    - from `UserA` account writes off 0.1 XAT
+    - from `UserA` account writes off 0.1 XAB
     - UserA` credit limit `increased to 10240
-4. `UserA` receives 15 GB (15360 MB) of traffic from `UserD`. The XAT/XAC rate and the traffic cost are the same as in point 3. `UserA` has 0.1 XAT on the account and this is enough to pay for 10 GB traffic. The remaining 5 GB of traffic `UserA` takes from` UserD` on credit:
+4. `UserA` receives 15 GB (15360 MB) of traffic from `UserD`. The XAB/XAC rate and the traffic cost are the same as in point 3. `UserA` has 0.1 XAB on the account and this is enough to pay for 10 GB traffic. The remaining 5 GB of traffic `UserA` takes from` UserD` on credit:
     - `UserD` receives 0.1 XAC (minus system commission)
-    - from `UserA` account writes off 0.1 XAT
+    - from `UserA` account writes off 0.1 XAB
     - `UserA` credit limit decreased to 5120
     - `UserA` has owed `UserD` 5 Gb traffic
 

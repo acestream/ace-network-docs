@@ -18,7 +18,7 @@ Small fixed fee charged for transaction processing. Documented in Stellar's [htt
 
 ## Premium pool fee
 
-One-time payment of 1000XAT charged from premium pool creator.
+One-time payment of 1000XAB charged from premium pool creator.
 
 
 ## Token creation fee

@@ -4,17 +4,17 @@ template: raw_content.html
 
 # 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
 
-**Ace Token (XAT)** is a native deflationary system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
+**Ace Byte (XAB)** is a native deflationary system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
 
-Each token (1 XAT) initially (at the time of issue) has the following basic backing: 100 GB of traffic in the P2P CDN service; 200,000 video ads impressions, in VAST format; 3-day unlimited access to premium content; other services of the Ace Network, in accordance with the established tariff plans.
+Each token (1 XAB) initially (at the time of issue) has the following basic backing: 100 GB of traffic in the P2P CDN service; 200,000 video ads impressions, in VAST format; 3-day unlimited access to premium content; other services of the Ace Network, in accordance with the established tariff plans.
 
-**Ace Asset (XAS)** is a token purposed to manage network protocols and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAT) and fees received by DAO Ace Stream for the services provided by the Network.
+**Ace Asset (XAS)** is a token purposed to manage network protocols and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAB) and fees received by DAO Ace Stream for the services provided by the Network.
 
 Ace Asset gives its owners some privileged rights:
 
 - voting for changes in protocols and smart-contracts
 - voting for delegation of rights to "Oracles"
-- participating in the distribution of system tokens (XAT) and fees received by DAO Ace Stream for the services provided by the Network
+- participating in the distribution of system tokens (XAB) and fees received by DAO Ace Stream for the services provided by the Network
 
 
 **Ace Coin (XAC)** - an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.

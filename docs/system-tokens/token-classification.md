@@ -1,6 +1,6 @@
 # Token Classification, SEC
 
-Below are listed criteria by which DAO Ace Stream and [XAT][2] and [XAS][3] could be estimated by regulators
+Below are listed criteria by which DAO Ace Stream and [XAB][2] and [XAS][3] could be estimated by regulators
 
 1. There are no dependencies on 3rd-parties' actions :
 
@@ -17,10 +17,10 @@ Below are listed criteria by which DAO Ace Stream and [XAT][2] and [XAS][3] coul
 *Examples of how tokens can be used within the Network:*
 
 - Purpose of tokens
-    - Transaction fees - could be paid only by token [XAT][2]
+    - Transaction fees - could be paid only by token [XAB][2]
     - Voting for changes to the Network's system protocols and smart contracts - payable by token only [XAS][3]
 
-- General purpose tokens (accept [XAT][2] and/or [XAS][3] as payment)
+- General purpose tokens (accept [XAB][2] and/or [XAS][3] as payment)
 
     - To pay for traffic (P2P CDN)
     - Payment for access to content published on the Network
@@ -37,5 +37,5 @@ Explanation: Token holders can receive income and thus be affected by the profit
 
 
 [1]: ../library/finances.md
-[2]: ../system-tokens/ace-token.md
+[2]: ../system-tokens/ace-byte.md
 [3]: ../system-tokens/ace-asset.md

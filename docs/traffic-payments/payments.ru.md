@@ -1,6 +1,6 @@
 # Оплата трафика
 
-Трафик может быть оплачен системными токенам [XAC][5] и [XAT][6].
+Трафик может быть оплачен системными токенам [XAC][5] и [XAB][6].
 
 Оплата трафика выполняется автоматически со [счета для оплаты сервисов][1]
 в рамках работы системы [учета трафика и времени][2]
@@ -19,7 +19,7 @@
 [2]: ../get-started/traffic-time-accounting.md
 [4]: ../glossary/system-pools.md#trafficfeepool
 [5]: ../system-tokens/ace-coin.md
-[6]: ../system-tokens/ace-token.md
+[6]: ../system-tokens/ace-byte.md
 [7]: ../list-of-operations/system-service-payment.md
 [8]: ../list-of-operations/user-service-payment.md
 [9]: ../system-tokens/examples.md

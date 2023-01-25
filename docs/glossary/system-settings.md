@@ -24,7 +24,7 @@ Current value: 30%
 
 ### premium_pool_create_fee
 One-time payment charged to create[the premium pool][5]
-Current value: 1000 XAT
+Current value: 1000 XAB
 
 ### premium_pool_emission_fee
 Network's stake in tokens minted by [the premium pool][5]
@@ -42,7 +42,7 @@ Minimal depositing term for [XAS][6] to participate in [Ace Asset][2].
 Current value: 1209600 seconds (14 days)
 
 ### ace_deposit_min_lock_interval
-Minimal depositing term for XAT to participate in [Ace Deposit][4].
+Minimal depositing term for XAB to participate in [Ace Deposit][4].
 Current value: 2419200 seconds (28 days)
 
 ### traffic_credit_limit
@@ -54,7 +54,7 @@ List of oracles that have rights to identify copyright holders
 
 ### add_device_fee
 One-time fee to link new node to the account
-Current value: 0.1 XAT
+Current value: 0.1 XAB
 
 
 ## Voting

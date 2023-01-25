@@ -6,14 +6,14 @@
 ## Алгоритм оплаты
 
 - если на счету плательщика достаточно [XAC][1] для оплаты, то используются только [XAC][1]
-- если на счету недостаточно [XAC][1], то разница оплачивается за счет [XAT][2]:
-    - с помощью [модуля обмена][3] рассчитывается необходимое количество XAT
-    - данное количество XAT списывается с плательщика
-    - списанные XAT сжигаются, выполняется автоматическая эмиссия соответствующего количества XAC, которые зачисляются получателю платежа
-    - если [`lockedPool`][5] не пустой, такое же количество XAT вводится в оборот (перемещается из [`lockedPool`][5] в [`unlockedPool`][6])
+- если на счету недостаточно [XAC][1], то разница оплачивается за счет [XAB][2]:
+    - с помощью [модуля обмена][3] рассчитывается необходимое количество XAB
+    - данное количество XAB списывается с плательщика
+    - списанные XAB сжигаются, выполняется автоматическая эмиссия соответствующего количества XAC, которые зачисляются получателю платежа
+    - если [`lockedPool`][5] не пустой, такое же количество XAB вводится в оборот (перемещается из [`lockedPool`][5] в [`unlockedPool`][6])
 
 <!--
-- если на счету недостаточно [XAT][2], то разница может оплачиваться за счет [XAS][4]
+- если на счету недостаточно [XAB][2], то разница может оплачиваться за счет [XAS][4]
     - с помощью модуля обмена токенов рассчитывается необходимое количество [XAS][4]
     - данное количество [XAS][4] списывается с плательщика и зачисляется получателю
 -->
@@ -44,24 +44,24 @@ def makeUserServicePayment(sourceAccount, targetAccount, amount):
         # Amount of XAC needed to complete the payment
         xacToEmit = amount - xacAcount
 
-        # Amount of XAT needed based on system DEX exchange rate
-        exchangeRate = DEX.getRate('XAC', 'XAT')
-        xatAmount = xacToEmit * exchangeRate
+        # Amount of XAB needed based on system DEX exchange rate
+        exchangeRate = DEX.getRate('XAC', 'XAB')
+        xabAmount = xacToEmit * exchangeRate
 
-        if sourceAccount.balance.xat >= xatAmount:
+        if sourceAccount.balance.xab >= xabAmount:
             # Move `xacAmount` XAC from the source account to the target account
             sourceAccount.balance.xac -= xacAmount
             targetAccount.balance.xac += xacAmount
 
-            # Burn `xatAmount` XAT from the source account
-            sourceAccount.balance.xat -= xatAmount
-            System.BLACKHOLE.balance.xat += xatAmount
+            # Burn `xabAmount` XAB from the source account
+            sourceAccount.balance.xab -= xabAmount
+            System.BLACKHOLE.balance.xab += xabAmount
 
             # Emit `xacToEmit` XAC and add them to the target account
             targetAccount.balance.xac += xacToEmit
 
-            # Unlock at most `xatAmount` XAT
-            toUnlock = min(xatAmount, System.lockedPool.amount)
+            # Unlock at most `xabAmount` XAB
+            toUnlock = min(xabAmount, System.lockedPool.amount)
             if toUnlock > 0:
                 System.lockedPool.amount -= toUnlock
                 System.unlockedPool.amount += toUnlock
@@ -76,7 +76,7 @@ def makeUserServicePayment(sourceAccount, targetAccount, amount):
 
 
 [1]: ../system-tokens/ace-coin.md
-[2]: ../system-tokens/ace-token.md
+[2]: ../system-tokens/ace-byte.md
 [3]: ../system-tokens/exchange.md
 [4]: ../system-tokens/ace-asset.md
 [5]: ../glossary/system-pools.md#lockedpool

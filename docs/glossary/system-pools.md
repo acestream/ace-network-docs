@@ -5,11 +5,11 @@ System pools accumulate tokens for further re-distribution accordingly to condit
 
 ### lockedPool
 
-Token: [XAT][1]
+Token: [XAB][1]
 
-Filled with tokens by the network's startup procedure (details described in [Ace Token][1])
+Filled with tokens by the network's startup procedure (details described in [Ace Byte][1])
 
-This pool is controlled by the Ace Token supply mechanism. Initially, all tokens in this pool are locked and cannot be used by any accounts until they are unlocked by burning Ace Tokens during the execution of the following smart contracts:
+This pool is controlled by the Ace Byte supply mechanism. Initially, all tokens in this pool are locked and cannot be used by any accounts until they are unlocked by burning Ace Bytes during the execution of the following smart contracts:
 
 - [System Service Payment][10]
 - [Non System Service Payment][11]
@@ -18,7 +18,7 @@ This pool is controlled by the Ace Token supply mechanism. Initially, all tokens
 
 ### unlockedPool
 
-Token: [XAT][1]
+Token: [XAB][1]
 
 Accumulates unlocked tokens from `lockedPool`
 
@@ -36,7 +36,7 @@ Initially, all tokens in this pool are locked and cannot be used by any accounts
 
 ### inflationPool
 
-Token: [XAT][1]
+Token: [XAB][1]
 
 Replenishes by [Inflation][5]  system smart contract
 
@@ -45,7 +45,7 @@ Re-distributed by [Ace Deposit][6] system smart contract for sake of [Ace Deposi
 
 ### txFeePool
 
-Token: [XAT][1]
+Token: [XAB][1]
 
 Accumulates transaction processing fees, is not a subject of re-distribution for now, but will be periodically re-distributed between second layer validators in the future.
 
@@ -66,13 +66,13 @@ Accumulates commissions from content access fees. Re-distributes by [Ace Asset][
 
 ### premiumFeePool
 
-Token: [XAT][1], [XAC][8], Tokenы пулов
+Token: [XAB][1], [XAC][8], Tokenы пулов
 
 Accumulates commissions from premium pools. Re-distributes by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program.
 
 
 
-[1]: ../system-tokens/ace-token.md
+[1]: ../system-tokens/ace-byte.md
 [3]: ../list-of-operations/ace-asset.md
 [4]: ../services/ace-asset.md
 [5]: ../list-of-operations/inflation.md

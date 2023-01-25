@@ -1,6 +1,6 @@
 # Create Premium Pool
 
-The operation creates the premium pool and withdraws one-time fee of 1000 XAT from the initiator's account (tokens are transferred to [`premiumFeePool`][1])
+The operation creates the premium pool and withdraws one-time fee of 1000 XAB from the initiator's account (tokens are transferred to [`premiumFeePool`][1])
 
 When pool is bein created with its own tokens, the network charges comission of 30% of issuance (tokens are transferred to [`premiumFeePool`][1])
 

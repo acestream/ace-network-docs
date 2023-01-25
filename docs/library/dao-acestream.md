@@ -202,9 +202,9 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 
 ### 6. 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
 
-[**Ace Token (XAT)**][2] is a native deflationary system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
+[**Ace Byte (XAB)**][2] is a native deflationary system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
 
-[**Ace Asset (XAS)**][3] is a token purposed to manage network protocols and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAT) and fees received by DAO Ace Stream for the services provided by the Network.
+[**Ace Asset (XAS)**][3] is a token purposed to manage network protocols and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAB) and fees received by DAO Ace Stream for the services provided by the Network.
 
 [**Ace Coin (XAC)**][4] - an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.
 
@@ -415,7 +415,7 @@ Expected level of audience engagement – 35% from all the users per month
 
 
 [1]: finances.md
-[2]: ../system-tokens/ace-token.md
+[2]: ../system-tokens/ace-byte.md
 [3]: ../system-tokens/ace-asset.md
 [4]: ../system-tokens/ace-coin.md
 [5]: https://www.bcg.com/press/24june2021-telco-sector-game-changer-sustainability-shrinking-carbon-footprints

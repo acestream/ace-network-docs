@@ -9,7 +9,7 @@
 </div>
 
 
-100,000,000,000 Ace Tokens ([XAT][1]) is a base crypto asset to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
+100,000,000,000 Ace Bytes ([XAB][1]) is a base crypto asset to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
 
 Payments for services in the Ace Network made in Ace Coin tokens ([XAC][7]) are DAO Ace Stream crypto assets to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
 
@@ -121,7 +121,7 @@ Forecast revenue of the Network from affiliate programs - from $2.1 to $4.2 bill
     </em>
 </p>
 
-[1]: ../system-tokens/ace-token.md
+[1]: ../system-tokens/ace-byte.md
 [2]: ../glossary/system-smart-contracts.md
 [3]: ../services/premium-pool.md
 [4]: dao-acestream.md#14

@@ -13,11 +13,11 @@ Ace Network. Следует отметить, что сюда не попада�
 ## Алгоритм оплаты
 
 - если на счету плательщика достаточно [XAC][1] для оплаты, то используются только [XAC][1]
-- если на счету недостаточно [XAC][1], то разница оплачивается за счет [XAT][2]:
-    - с помощью [модуля обмена][3] рассчитывается необходимое количество XAT
-    - данное количество XAT списывается с плательщика и сжигается
-    - если в [`lockedPool`][5] есть такое же количество XAT, то они вводятся в оборот (перемещаются из [`lockedPool`][5] в [`unlockedPool`][6])
-    - если [`lockedPool`][5] пустой (т.е. все XAT уже разблокированы), то выполняется автоматическая эмиссия соответствующего количества XAC, которые переводятся в системный пул `targetPool` для последующего распределения между участниками программы [Ace Assets][4]
+- если на счету недостаточно [XAC][1], то разница оплачивается за счет [XAB][2]:
+    - с помощью [модуля обмена][3] рассчитывается необходимое количество XAB
+    - данное количество XAB списывается с плательщика и сжигается
+    - если в [`lockedPool`][5] есть такое же количество XAB, то они вводятся в оборот (перемещаются из [`lockedPool`][5] в [`unlockedPool`][6])
+    - если [`lockedPool`][5] пустой (т.е. все XAB уже разблокированы), то выполняется автоматическая эмиссия соответствующего количества XAC, которые переводятся в системный пул `targetPool` для последующего распределения между участниками программы [Ace Assets][4]
 
 
 ## Псевдокод
@@ -45,37 +45,37 @@ def makeSystemServicePayment(sourceAccount, amount, targetPool):
         # Amount of XAC needed to complete the payment
         amountLeft = amount - xacAcount
 
-        # Amount of XAT needed based on system DEX exchange rate
-        exchangeRate = DEX.getRate('XAC', 'XAT')
-        xatAmount = amountLeft * exchangeRate
+        # Amount of XAB needed based on system DEX exchange rate
+        exchangeRate = DEX.getRate('XAC', 'XAB')
+        xabAmount = amountLeft * exchangeRate
 
-        if sourceAccount.balance.xat >= xatAmount:
+        if sourceAccount.balance.xab >= xabAmount:
             # Move `xacAmount` XAC from the source account to the target pool
             sourceAccount.balance.xac -= xacAmount
             targetPool.balance.xac += xacAmount
 
-            # Burn `xatAmount` XAT from the source account
-            sourceAccount.balance.xat -= xatAmount
-            System.BLACKHOLE.balance.xat += xatAmount
+            # Burn `xabAmount` XAB from the source account
+            sourceAccount.balance.xab -= xabAmount
+            System.BLACKHOLE.balance.xab += xabAmount
 
-            if System.lockedPool.amount >= xatAmount:
-                # Unlock `xatAmount` XAT
-                System.lockedPool.amount -= xatAmount
-                System.unlockedPool.amount += xatAmount
+            if System.lockedPool.amount >= xabAmount:
+                # Unlock `xabAmount` XAB
+                System.lockedPool.amount -= xabAmount
+                System.unlockedPool.amount += xabAmount
             else:
-                # How many XAT to unlock (all available)
+                # How many XAB to unlock (all available)
                 toUnlock = System.lockedPool.amount
 
-                # How many XAT should be replaced with XAC
-                xatToReplace = xatAmount - toUnlock
+                # How many XAB should be replaced with XAC
+                xabToReplace = xabAmount - toUnlock
 
-                # Unlock `toUnlock` XAT
+                # Unlock `toUnlock` XAB
                 if toUnlock > 0:
                     System.lockedPool.amount -= toUnlock
                     System.unlockedPool.amount += toUnlock
 
                 # emit `xacToEmit` XAC based on system DEX exchage rate
-                xacToEmit = xatToReplace / exchangeRate
+                xacToEmit = xabToReplace / exchangeRate
                 targetPool.balance.xac += xacToEmit
         else:
             raise Exception('not enough tokens')
@@ -88,7 +88,7 @@ def makeSystemServicePayment(sourceAccount, amount, targetPool):
 
 
 [1]: ../system-tokens/ace-coin.md
-[2]: ../system-tokens/ace-token.md
+[2]: ../system-tokens/ace-byte.md
 [3]: ../system-tokens/exchange.md
 [4]: ../services/ace-asset.md
 [5]: ../glossary/system-pools.md#lockedpool

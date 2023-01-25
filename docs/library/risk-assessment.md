@@ -69,7 +69,7 @@ Development programs aimed at ensuring active growth of the network audience [Ac
 
 1. Standard (industrial) kit of marketing tools
 
-    A budget for marketing programs is 5 billions [XAT][5]
+    A budget for marketing programs is 5 billions [XAB][5]
 
 2. Decentralised system of stimulation and motivation
 
@@ -112,6 +112,6 @@ The distribution of funds and payments are carried out in a decentralised manner
 [2]: https://chrome.google.com/webstore/detail/ace-script/mjbepbhonbojpoaenhckjocchgfiaofo
 [3]: https://awe.acestream.me/scripts/acestream/P2P_Search
 [4]: ../welcome.md
-[5]: ../system-tokens/ace-token.md
+[5]: ../system-tokens/ace-byte.md
 [6]: finances.md
 [7]: dmca.md

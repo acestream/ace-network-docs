@@ -121,7 +121,7 @@ nav:
       - Traffic and time accounting: get-started/traffic-time-accounting.md
     - System Tokens:
       - Overview: system-tokens/index.md
-      - Ace Token (XAT): system-tokens/ace-token.md
+      - Ace Byte (XAB): system-tokens/ace-byte.md
       - Ace Asset (XAS): system-tokens/ace-asset.md
       - Ace Coin (XAC): system-tokens/ace-coin.md
       - Examples: system-tokens/examples.md

@@ -35,7 +35,7 @@ Any Ace Network's account is able to create pools by performing [Create Premium 
 - confirming pool's properties
 - deciding who should be billed for pool's traffic (either broadcasters or watchers)
 - deciding if the pool would need its own token or not
-- paying system fee of 1000XAT to create a pool with specified parameters
+- paying system fee of 1000XAB to create a pool with specified parameters
 
 As a result, a special account to represent the newly created pool and store its parameters will be created. Owners of the pool will be signors of this special account.
 
