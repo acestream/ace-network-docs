@@ -4,7 +4,7 @@ Ace Assets is the program that participants are privileged to obtain [DAO Ace St
 
 All issued [XAB][3] tokens, including inflationary issues, are subject to distribution among the participants of the Ace Assets DeFi program by the terms of system smart contracts.
 
-Payments for services in Ace Network made in [XAC][1] tokens are subject to distribution among the participants of the Ace Assets DeFi program by the terms of system smart contracts.
+Payments for services in Ace Network made in [XAT][1] tokens are subject to distribution among the participants of the Ace Assets DeFi program by the terms of system smart contracts.
 
 
 ## Participating in Ace Assets
@@ -32,7 +32,7 @@ To become the participant of this program, the account owner has to deposit XAS 
 The redistributions perform by the [Ace Assets][2] smart contract, which runs once a day to make transfers described above.
 
 
-[1]: ../system-tokens/ace-coin.md
+[1]: ../system-tokens/ace-time.md
 [2]: ../list-of-operations/ace-asset.md
 [3]: ../system-tokens/ace-byte.md
 [4]: ../system-tokens/ace-asset.md

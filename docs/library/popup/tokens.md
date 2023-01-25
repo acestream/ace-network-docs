@@ -17,23 +17,23 @@ Ace Asset gives its owners some privileged rights:
 - participating in the distribution of system tokens (XAB) and fees received by DAO Ace Stream for the services provided by the Network
 
 
-**Ace Coin (XAC)** - an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.
+**Ace Time (XAT)** - an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.
 
-Ace Coins are issued automatically as the part of payment process (when paid for services related to content generation). The issuance amount corresponds to **real** need for this digital currency, according to the algorithm embedded in the system.
+Ace Times are issued automatically as the part of payment process (when paid for services related to content generation). The issuance amount corresponds to **real** need for this digital currency, according to the algorithm embedded in the system.
 
-**A short and simple comparison of mining between Ace Coin and Bitcoin/Chia Coin**
+**A short and simple comparison of mining between Ace Time and Bitcoin/Chia Coin**
 
 Cryptocurrencies and their positioning:
 
 - **Bitcoin - «digital gold»** (the first and the most popular cryptocurrency in the world)
 - **Chia Coin - «green coin»** (new green alternative to Bitcoin)
-- **Ace Coin - «coin of life»** (generated digital concentration of positive emotions and pleasure of people received by them in the process of creating a coin that saves the Internet and the Environment from the consequences of centralised streaming)
+- **Ace Time - «coin of life»** (generated digital concentration of positive emotions and pleasure of people received by them in the process of creating a coin that saves the Internet and the Environment from the consequences of centralised streaming)
 
 About miners:
 
 - **Bitcoin miners - digging and mining!**
 - **Chia Coin miners - plotting and farming!**
-- **Ace Coin miners - chilling!**
+- **Ace Time miners - chilling!**
 
 About mining:
 
@@ -61,7 +61,7 @@ Farming – formation and development of structures of "farms" from SSD and HDD 
 Advantage is that this model is a "more green way of Bitcoin mining".
 
 
-- **Ace Coin mining** enjoyment of watching videos and listening to music with guaranteed rewards for generating content.
+- **Ace Time mining** enjoyment of watching videos and listening to music with guaranteed rewards for generating content.
 
 !!! info ""
     Term «Generation of content» means publishing, seeding and proxying content.

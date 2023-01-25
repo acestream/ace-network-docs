@@ -11,7 +11,7 @@
 
 100,000,000,000 Ace Bytes ([XAB][1]) is a base crypto asset to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
 
-Payments for services in the Ace Network made in Ace Coin tokens ([XAC][7]) are DAO Ace Stream crypto assets to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
+Payments for services in the Ace Network made in Ace Time tokens ([XAT][7]) are DAO Ace Stream crypto assets to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
 
 **Below are the services for which fees are charged to the Ace Network, with subsequent distribution to "Ace Assets" DeFi Program members**
 
@@ -127,4 +127,4 @@ Forecast revenue of the Network from affiliate programs - from $2.1 to $4.2 bill
 [4]: dao-acestream.md#14
 [5]: dao-acestream.md#15-dao-ace-stream
 [6]: ../services/ace-asset.md
-[7]: ../system-tokens/ace-coin.md
+[7]: ../system-tokens/ace-time.md

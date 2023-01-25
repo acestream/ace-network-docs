@@ -1,6 +1,6 @@
 # Traffic Price
 
-The price of traffic in the system is expressed in XAC and is automatically adjusted based on the level of traffic consumption.
+The price of traffic in the system is expressed in XAT and is automatically adjusted based on the level of traffic consumption.
 
 Level of traffic consumption (`trafficRate`) it is the ratio of the amount of consumed video traffic to the time spent on viewing video content within the entire Network for the whole time of its operation.
 
@@ -10,7 +10,7 @@ Level of traffic consumption (`trafficRate`) it is the ratio of the amount of co
 Initially, the system code contains the following constants:
 
 ```python
-# Initial traffic price: 0.01 XAC per 1 Gb
+# Initial traffic price: 0.01 XAT per 1 Gb
 initialTrafficPrice = 0.01
 
 # Initial rate: 1 Gb per 1 hour expressed in bytes per second
@@ -32,9 +32,9 @@ The initial price is set by Ace Stream based on its own understanding and assess
 
 ## Example
 
-If the current level of traffic consumption is 600,000 bytes/s, then 1 GB traffic will cost approximately 0.005 XAC. Calculation formula:
+If the current level of traffic consumption is 600,000 bytes/s, then 1 GB traffic will cost approximately 0.005 XAT. Calculation formula:
 
 ```python
-# approx. 0.005 XAC per 1 Gb
+# approx. 0.005 XAT per 1 Gb
 trafficPrice = 0.01 * 298261 / 600000 ~= 0.005
 ```

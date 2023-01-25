@@ -9,7 +9,7 @@ or [trustline][3].
 There are three system tokens in the Ace Network:
 
 - [Ace Byte (XAB)][4] - Ace Netwok's basic system token
-- [Ace Coin (XAC)][5] - algorithmic stablecoin
+- [Ace Time (XAT)][5] - algorithmic stablecoin
 - [Ace Asset (XAS)][6] - DAO Ace Stream protocol and asset management token
 
 !!! info
@@ -21,5 +21,5 @@ There are three system tokens in the Ace Network:
 [2]: https://developers.stellar.org/docs/issuing-assets/anatomy-of-an-asset/#issuer
 [3]: https://developers.stellar.org/docs/issuing-assets/anatomy-of-an-asset/#trustlines
 [4]: ace-byte.md
-[5]: ace-coin.md
+[5]: ace-time.md
 [6]: ace-asset.md

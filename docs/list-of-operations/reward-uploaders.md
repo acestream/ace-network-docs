@@ -83,7 +83,7 @@ for broadcaster in broadcasters:
 
         Suppose there is one brodcaster in the network that pays for traffic, and the account of this brodcaster at the time of launching the `Reward Uploaders` smart contract contains the following data:
 
-        - rewards pool: 1.1 XAC
+        - rewards pool: 1.1 XAT
         - list of candidates who gave >= 1 GB of traffic:
             - userA: uploaded 60 GB
             - userB: uploaded 70 GB
@@ -94,9 +94,9 @@ for broadcaster in broadcasters:
 
         - total number of lots: `60 + 70 + 2 + 85 = 217`
         - the number of winning lots: `floor(217 / 2) = 2`.
-        - winnings per lot: ` 1.1 / 2 = 0.55 XAC`.
+        - winnings per lot: ` 1.1 / 2 = 0.55 XAT`.
 
-        The `Reward Uploaders` smart contract randomly selects 2 of the 217 lots and awards 0.55 XAC to the owners of those lots. If both winning lots belong to the same owner, they receives 1.1 XAC.
+        The `Reward Uploaders` smart contract randomly selects 2 of the 217 lots and awards 0.55 XAT to the owners of those lots. If both winning lots belong to the same owner, they receives 1.1 XAT.
 
 
 

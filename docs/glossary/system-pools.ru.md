@@ -55,7 +55,7 @@
 
 ### trafficFeePool
 
-Токен: [XAC][8], [XAS][9]
+Токен: [XAT][8], [XAS][9]
 
 Пополняется за счет комиссий на транзакции по расчету за трафик.
 
@@ -64,7 +64,7 @@
 
 ### contentAccessFeePool
 
-Токен: [XAC][8], [XAS][9]
+Токен: [XAT][8], [XAS][9]
 
 Пополняется за счет комиссий на транзакции по оплате доступа к контенту.
 
@@ -73,7 +73,7 @@
 
 ### premiumFeePool
 
-Токен: [XAB][1], [XAC][8], токены пулов
+Токен: [XAB][1], [XAT][8], токены пулов
 
 Пополняется за счет комиссий, связанных с работой премиум пулов.
 
@@ -86,7 +86,7 @@
 [5]: ../list-of-operations/inflation.md
 [6]: ../list-of-operations/ace-deposit.md
 [7]: ../services/ace-deposit.md
-[8]: ../system-tokens/ace-coin.md
+[8]: ../system-tokens/ace-time.md
 [9]: ../system-tokens/ace-asset.md
 [10]: ../list-of-operations/system-service-payment.md
 [11]: ../list-of-operations/non-system-service-payment.md

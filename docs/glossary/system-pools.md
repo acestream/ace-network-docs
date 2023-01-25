@@ -52,21 +52,21 @@ Accumulates transaction processing fees, is not a subject of re-distribution for
 
 ### trafficFeePool
 
-Tokens: [XAC][8], [XAS][9]
+Tokens: [XAT][8], [XAS][9]
 
 Accumulates commissions from traffic fees. Re-distributes by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program.
 
 
 ### contentAccessFeePool
 
-Tokens: [XAC][8], [XAS][9]
+Tokens: [XAT][8], [XAS][9]
 
 Accumulates commissions from content access fees. Re-distributes by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program.
 
 
 ### premiumFeePool
 
-Token: [XAB][1], [XAC][8], Tokenы пулов
+Token: [XAB][1], [XAT][8], Tokenы пулов
 
 Accumulates commissions from premium pools. Re-distributes by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program.
 
@@ -78,7 +78,7 @@ Accumulates commissions from premium pools. Re-distributes by [Ace Asset][3] sys
 [5]: ../list-of-operations/inflation.md
 [6]: ../list-of-operations/ace-deposit.md
 [7]: ../services/ace-deposit.md
-[8]: ../system-tokens/ace-coin.md
+[8]: ../system-tokens/ace-time.md
 [9]: ../system-tokens/ace-asset.md
 [10]: ../list-of-operations/system-service-payment.md
 [11]: ../list-of-operations/non-system-service-payment.md

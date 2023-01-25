@@ -1,6 +1,6 @@
 # Payment for Traffic
 
-Traffic can be paid with system tokens [XAC][5] and [XAB][6].
+Traffic can be paid with system tokens [XAT][5] and [XAB][6].
 
 Payment for traffic is carried out automatically from [account for payment for services][1]
 within the work of the system [traffic and time accounting][2]
@@ -18,7 +18,7 @@ An example is available [here][9]
 [1]: ../glossary/special-accounts.md#_2
 [2]: ../get-started/traffic-time-accounting.md
 [4]: ../glossary/system-pools.md#trafficfeepool
-[5]: ../system-tokens/ace-coin.md
+[5]: ../system-tokens/ace-time.md
 [6]: ../system-tokens/ace-byte.md
 [7]: ../list-of-operations/system-service-payment.md
 [8]: ../list-of-operations/user-service-payment.md

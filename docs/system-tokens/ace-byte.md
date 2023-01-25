@@ -8,7 +8,7 @@ Ace Byte gives access to all Ace Network services and facilities and is the sole
 
 The starting rate of Ace Byte after the initial issuance will be fixed at the level of 1 XAB = $1.
 
-While exchange rate of Ace Byte changes, the cost of services in the Ace Stream system will be adjusted automatically. Calculations are based on the initial and actual cost of services linked to the U.S. dollar, and furtherly will be linked to the Ace Coin cryptocurrency (XAC), which will be the main means of payment for settlements in Ace Stream system.
+While exchange rate of Ace Byte changes, the cost of services in the Ace Stream system will be adjusted automatically. Calculations are based on the initial and actual cost of services linked to the U.S. dollar, and furtherly will be linked to the Ace Time cryptocurrency (XAT), which will be the main means of payment for settlements in Ace Stream system.
 
 
 ## Issuing
@@ -42,7 +42,7 @@ XAB is a deflationary token.
 
 XAB tokens paid for services of the Ace Network will be disposed of (burned) by sending them to a non-refundable address on the blockchain by the terms of the smart contract [System Service Payment][12].
 
-XAB tokens paid for traffic or access to content will also be disposed of (burned) by sending them to a non-refundable address on the blockchain by the terms of the smart contract [User Service Payment][13]. According to this contract all XAB paid for traffic or access to content could only once be used for payment and have to be replaced by Ace Coin (XAC) tokens.
+XAB tokens paid for traffic or access to content will also be disposed of (burned) by sending them to a non-refundable address on the blockchain by the terms of the smart contract [User Service Payment][13]. According to this contract all XAB paid for traffic or access to content could only once be used for payment and have to be replaced by Ace Time (XAT) tokens.
 
 Examples of Ace Byte burning are available [here][14].
 
@@ -308,7 +308,7 @@ In addition, OTC transactions will be available: tokens purchase directly from t
 [3]: ../list-of-operations/ace-asset.md
 [4]: ../glossary/system-pools.md#unlockedpool
 [5]: ../services/ace-asset.md
-[7]: ../system-tokens/ace-coin.md
+[7]: ../system-tokens/ace-time.md
 [8]: ../system-tokens/ace-asset.md
 [9]: ../list-of-operations/inflation.md
 [10]: ../glossary/system-pools.md#inflationpool

@@ -4,8 +4,8 @@ The "Non System Service Payment" module is a system smart contract responsible f
 
 All the payments in this category are done in [XAB][2] only.
 
-Payment with [XAC][1] is possible, but in such case the network performs an automatic exchange
-XAC -> XAB on built-in DEX (decentralized exchange) before making a transaction.
+Payment with [XAT][1] is possible, but in such case the network performs an automatic exchange
+XAT -> XAB on built-in DEX (decentralized exchange) before making a transaction.
 Such an exchange is outside the scope of this smart contract, therefore, in this section
 only payment in XAB is described.
 
@@ -43,7 +43,7 @@ def makeNonSystemServicePayment(sourceAccount, amount):
 ```
 
 
-[1]: ../system-tokens/ace-coin.md
+[1]: ../system-tokens/ace-time.md
 [2]: ../system-tokens/ace-byte.md
 [5]: ../glossary/system-pools.md#lockedpool
 [6]: ../glossary/system-pools.md#unlockedpool

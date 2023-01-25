@@ -12,12 +12,12 @@ Ace Network. Следует отметить, что сюда не попада�
 
 ## Алгоритм оплаты
 
-- если на счету плательщика достаточно [XAC][1] для оплаты, то используются только [XAC][1]
-- если на счету недостаточно [XAC][1], то разница оплачивается за счет [XAB][2]:
+- если на счету плательщика достаточно [XAT][1] для оплаты, то используются только [XAT][1]
+- если на счету недостаточно [XAT][1], то разница оплачивается за счет [XAB][2]:
     - с помощью [модуля обмена][3] рассчитывается необходимое количество XAB
     - данное количество XAB списывается с плательщика и сжигается
     - если в [`lockedPool`][5] есть такое же количество XAB, то они вводятся в оборот (перемещаются из [`lockedPool`][5] в [`unlockedPool`][6])
-    - если [`lockedPool`][5] пустой (т.е. все XAB уже разблокированы), то выполняется автоматическая эмиссия соответствующего количества XAC, которые переводятся в системный пул `targetPool` для последующего распределения между участниками программы [Ace Assets][4]
+    - если [`lockedPool`][5] пустой (т.е. все XAB уже разблокированы), то выполняется автоматическая эмиссия соответствующего количества XAT, которые переводятся в системный пул `targetPool` для последующего распределения между участниками программы [Ace Assets][4]
 
 
 ## Псевдокод
@@ -27,32 +27,32 @@ Ace Network. Следует отметить, что сюда не попада�
 def makeSystemServicePayment(sourceAccount, amount, targetPool):
     """
     sourceAccount - the payer account
-    amount - amount of payment in XAC
+    amount - amount of payment in XAT
     targetPool - system pool that will receive the payment
     """
-    if sourceAccount.balance.xac >= amount:
-        # Source account has enough XAC
+    if sourceAccount.balance.xat >= amount:
+        # Source account has enough XAT
 
-        # Move `amount` XAC from the source account to the target pool
-        sourceAccount.balance.xac -= amount
-        targetPool.balance.xac += amount
+        # Move `amount` XAT from the source account to the target pool
+        sourceAccount.balance.xat -= amount
+        targetPool.balance.xat += amount
     else:
-        # Source account doesn't have enough XAC
+        # Source account doesn't have enough XAT
 
-        # Amount of XAC user has
-        xacAmount = sourceAccount.balance.xac
+        # Amount of XAT user has
+        xatAmount = sourceAccount.balance.xat
 
-        # Amount of XAC needed to complete the payment
-        amountLeft = amount - xacAcount
+        # Amount of XAT needed to complete the payment
+        amountLeft = amount - xatAcount
 
         # Amount of XAB needed based on system DEX exchange rate
-        exchangeRate = DEX.getRate('XAC', 'XAB')
+        exchangeRate = DEX.getRate('XAT', 'XAB')
         xabAmount = amountLeft * exchangeRate
 
         if sourceAccount.balance.xab >= xabAmount:
-            # Move `xacAmount` XAC from the source account to the target pool
-            sourceAccount.balance.xac -= xacAmount
-            targetPool.balance.xac += xacAmount
+            # Move `xatAmount` XAT from the source account to the target pool
+            sourceAccount.balance.xat -= xatAmount
+            targetPool.balance.xat += xatAmount
 
             # Burn `xabAmount` XAB from the source account
             sourceAccount.balance.xab -= xabAmount
@@ -66,7 +66,7 @@ def makeSystemServicePayment(sourceAccount, amount, targetPool):
                 # How many XAB to unlock (all available)
                 toUnlock = System.lockedPool.amount
 
-                # How many XAB should be replaced with XAC
+                # How many XAB should be replaced with XAT
                 xabToReplace = xabAmount - toUnlock
 
                 # Unlock `toUnlock` XAB
@@ -74,9 +74,9 @@ def makeSystemServicePayment(sourceAccount, amount, targetPool):
                     System.lockedPool.amount -= toUnlock
                     System.unlockedPool.amount += toUnlock
 
-                # emit `xacToEmit` XAC based on system DEX exchage rate
-                xacToEmit = xabToReplace / exchangeRate
-                targetPool.balance.xac += xacToEmit
+                # emit `xatToEmit` XAT based on system DEX exchage rate
+                xatToEmit = xabToReplace / exchangeRate
+                targetPool.balance.xat += xatToEmit
         else:
             raise Exception('not enough tokens')
 
@@ -87,7 +87,7 @@ def makeSystemServicePayment(sourceAccount, amount, targetPool):
 Примеры можно посмотреть [здесь][7]
 
 
-[1]: ../system-tokens/ace-coin.md
+[1]: ../system-tokens/ace-time.md
 [2]: ../system-tokens/ace-byte.md
 [3]: ../system-tokens/exchange.md
 [4]: ../services/ace-asset.md
