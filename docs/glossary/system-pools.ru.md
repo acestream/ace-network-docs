@@ -12,9 +12,7 @@
 Данный пул предназначен для контроля количества Ace Byte в обороте. Все токены в данном пуле заблокированы - не могут быть использованы ни одним аккаунтом. Токены из данного пула разблокируются (выводятся в оборот) в момент сжигания Ace Byte в процессе работы следующих смарт-контрактов:
 
 - [System Service Payment][10]
-- [Non System Service Payment][11]
 - [User Service Payment][12]
-- [Add Broadcasting Rights Contract][13]
 
 
 ### unlockedPool
@@ -89,7 +87,5 @@
 [8]: ../system-tokens/ace-time.md
 [9]: ../system-tokens/ace-asset.md
 [10]: ../list-of-operations/system-service-payment.md
-[11]: ../list-of-operations/non-system-service-payment.md
 [12]: ../list-of-operations/user-service-payment.md
-[13]: ../list-of-operations/add-broadcasting-rights-contract.md
 [14]: ../list-of-operations/unlock-system-tokens.md

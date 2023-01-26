@@ -7,7 +7,7 @@
 
 - если на счету плательщика достаточно [XAT][1] для оплаты, то используются только [XAT][1]
 - если на счету недостаточно [XAT][1], то разница оплачивается за счет [XAB][2]:
-    - с помощью [модуля обмена][3] рассчитывается необходимое количество XAB
+    - с помощью контракта [TrafficPriceManager][3] рассчитывается необходимое количество XAB
     - данное количество XAB списывается с плательщика
     - списанные XAB сжигаются, выполняется автоматическая эмиссия соответствующего количества XAT, которые зачисляются получателю платежа
     - если [`lockedPool`][5] не пустой, такое же количество XAB вводится в оборот (перемещается из [`lockedPool`][5] в [`unlockedPool`][6])
@@ -44,9 +44,9 @@ def makeUserServicePayment(sourceAccount, targetAccount, amount):
         # Amount of XAT needed to complete the payment
         xatToEmit = amount - xatAcount
 
-        # Amount of XAB needed based on system DEX exchange rate
-        exchangeRate = DEX.getRate('XAT', 'XAB')
-        xabAmount = xatToEmit * exchangeRate
+        # Calculate amount of XAB required to mint one XAT
+        xatPrice = TrafficPriceManager.getXATPrice()
+        xabAmount = xatToEmit * xatPrice
 
         if sourceAccount.balance.xab >= xabAmount:
             # Move `xatAmount` XAT from the source account to the target account
@@ -77,7 +77,7 @@ def makeUserServicePayment(sourceAccount, targetAccount, amount):
 
 [1]: ../system-tokens/ace-time.md
 [2]: ../system-tokens/ace-byte.md
-[3]: ../system-tokens/exchange.md
+[3]: ../list-of-operations/traffic-price-manager.md
 [4]: ../system-tokens/ace-asset.md
 [5]: ../glossary/system-pools.md#lockedpool
 [6]: ../glossary/system-pools.md#unlockedpool

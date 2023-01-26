@@ -12,7 +12,7 @@ receive a fee (for example, system payments related to prediction market).
 
 - if the payer has enough [XAT][1] then only [XAT][1] are used
 - if the payer is short of XAT then the difference is paid with [XAB][2]:
-    - the required amount of XAB is calculated with the [exchange module][3]
+    - the required amount of XAB is calculated with the [TrafficPriceManager][3] contract
     - this amount of XAB is being charged from the payer and burned
     - if the [`lockedPool`][5] is not empty then the same amount of XAB is put into circulation (moved from [`lockedPool`][5] to [`unlockedPool`][6])
     - if the [`lockedPool`][5] is empty (i.e. all XAB are already unlocked) then the corresponding amount of XAT is automatically created and credited to the system pool `targetPool` (to be distributed by the terms of [Ace Assets][4])
@@ -43,9 +43,9 @@ def makeSystemServicePayment(sourceAccount, amount, targetPool):
         # Amount of XAT needed to complete the payment
         amountLeft = amount - xatAcount
 
-        # Amount of XAB needed based on system DEX exchange rate
-        exchangeRate = DEX.getRate('XAT', 'XAB')
-        xabAmount = amountLeft * exchangeRate
+        # Calculate amount of XAB required to mint one XAT
+        xatPrice = TrafficPriceManager.getXATPrice()
+        xabAmount = amountLeft * xatPrice
 
         if sourceAccount.balance.xab >= xabAmount:
             # Move `xatAmount` XAT from the source account to the target pool
@@ -72,8 +72,8 @@ def makeSystemServicePayment(sourceAccount, amount, targetPool):
                     System.lockedPool.amount -= toUnlock
                     System.unlockedPool.amount += toUnlock
 
-                # emit `xatToEmit` XAT based on system DEX exchage rate
-                xatToEmit = xabToReplace / exchangeRate
+                # emit `xatToEmit` XAT based on `xatPrice`
+                xatToEmit = xabToReplace / xatPrice
                 targetPool.balance.xat += xatToEmit
         else:
             raise Exception('not enough tokens')
@@ -87,7 +87,7 @@ Examples are available [here][7]
 
 [1]: ../system-tokens/ace-time.md
 [2]: ../system-tokens/ace-byte.md
-[3]: ../system-tokens/exchange.md
+[3]: ../list-of-operations/traffic-price-manager.md
 [4]: ../services/ace-asset.md
 [5]: ../glossary/system-pools.md#lockedpool
 [6]: ../glossary/system-pools.md#unlockedpool

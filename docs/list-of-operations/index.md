@@ -25,22 +25,19 @@ System smart contracts could:
 - [Purge Subscriptions](purge-subscriptions.md)
 - [Reward Uploaders](reward-uploaders.md)
 - [System Service Payment](system-service-payment.md)
-- [Non System Service Payment](non-system-service-payment.md)
 - [User Service Payment](user-service-payment.md)
-
+- [Traffic Price Manager](traffic-price-manager.md)
 
 ## Standard Operations
 
 - [Add Device](add-device.md)
 - [Buy Single Access](buy-single-access.md)
 - [Buy Subscription](buy-subscription.md)
-- [Create Premium Pool](create-premium-pool.md)
 - [Remove Device](remove-device.md)
 
 ## Oracle's Operations
 
 - [Add Rights Holder](add-rights-holder.md)
-- [Add Broadcasting Rights Contract](add-broadcasting-rights-contract.md)
 
 [1]: ../glossary/operations.md
 [2]: https://developers.stellar.org/docs/start/list-of-operations/

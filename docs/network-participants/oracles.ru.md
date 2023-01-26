@@ -20,12 +20,6 @@
 Данный оракул имеет полномочия для привязки идентификатора контента к правообладателю (операция [`Add Rights Holder`][3]).
 
 
-### Оракул по управлению правами на трансляцию контента
-
-Данный оракул имеет полномочия для регистрации в Сети контракта с правами на трансляцию контента (операция [`Add Broadcasting Rights Contract`][4]).
-
-
 [1]: ../glossary/system-settings.md#_3
 [2]: ../system-tokens/ace-asset.md
 [3]: ../list-of-operations/add-rights-holder.md
-[4]: ../list-of-operations/add-broadcasting-rights-contract.md

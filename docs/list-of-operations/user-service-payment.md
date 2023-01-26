@@ -6,7 +6,7 @@ The "User Service Payment" module is a system smart contract responsible for pro
 
 - if the payer has enough [XAT][1] then only [XAT][1] are used
 - if the payer is short of XAT then the difference is paid with [XAB][2]:
-    - the required amount of XAB is calculated with the [exchange module][3]
+    - the required amount of XAB is calculated with the [TrafficPriceManager][3] contract
     - this amount of XAB is being charged from the payer
     - all the charged XAB are burned, the corresponding amount of XAT is automatically created and credited to the payee
     - if the [`lockedPool`][5] is not empty then the same amount of XAB is put into circulation (moved from [`lockedPool`][5] to [`unlockedPool`][6])
@@ -37,9 +37,9 @@ def makeUserServicePayment(sourceAccount, targetAccount, amount):
         # Amount of XAT needed to complete the payment
         xatToEmit = amount - xatAcount
 
-        # Amount of XAB needed based on system DEX exchange rate
-        exchangeRate = DEX.getRate('XAT', 'XAB')
-        xabAmount = xatToEmit * exchangeRate
+        # Calculate amount of XAB required to mint one XAT
+        xatPrice = TrafficPriceManager.getXATPrice()
+        xabAmount = xatToEmit * xatPrice
 
         if sourceAccount.balance.xab >= xabAmount:
             # Move `xatAmount` XAT from the source account to the target account
@@ -70,7 +70,7 @@ Examples are available [here][7]
 
 [1]: ../system-tokens/ace-time.md
 [2]: ../system-tokens/ace-byte.md
-[3]: ../system-tokens/exchange.md
+[3]: ../list-of-operations/traffic-price-manager.md
 [4]: ../system-tokens/ace-asset.md
 [5]: ../glossary/system-pools.md#lockedpool
 [6]: ../glossary/system-pools.md#unlockedpool

@@ -18,12 +18,7 @@ The list of oracles is stored in the system settings.
 
 This oracle has the authority to bind the content identifier to the copyright holder (operation [`Add Rights Holder`][3]).
 
-### Broadcasting Rights Oracle
-
-This oracle has the authority to register a contract with the rights for broadcasting in the Ace Network (operation [`Add Broadcasting Rights Contract`][4]).
-
 
 [1]: ../glossary/system-settings.md#_3
 [2]: ../system-tokens/ace-asset.md
 [3]: ../list-of-operations/add-rights-holder.md
-[4]: ../list-of-operations/add-broadcasting-rights-contract.md

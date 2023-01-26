@@ -6,7 +6,7 @@ template: raw_content.html
 
 **Ace Byte (XAB)** is a native deflationary system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
 
-Each token (1 XAB) initially (at the time of issue) has the following basic backing: 100 GB of traffic in the P2P CDN service; 200,000 video ads impressions, in VAST format; 3-day unlimited access to premium content; other services of the Ace Network, in accordance with the established tariff plans.
+Each token (1 XAB) initially (at the time of issue) has the following basic backing: 100 GB of traffic in the P2P CDN service; 200 video ads impressions, in VAST format; 3-day unlimited access to premium content; other services of the Ace Network, in accordance with the established tariff plans.
 
 **Ace Asset (XAS)** is a token purposed to manage network protocols and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAB) and fees received by DAO Ace Stream for the services provided by the Network.
 

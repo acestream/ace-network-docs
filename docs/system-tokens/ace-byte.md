@@ -2,7 +2,7 @@
 
 **Ace Byte (XAB)** is a utility, deflationary native system token.
 
-Each token (1 XAB) initially has the following basic backing: 100 GB of traffic in the P2P CDN service; 200,000 video ads impressions, in VAST format; 3-day unlimited access to premium content; other services of the Ace Network, in accordance with the established tariff plans.
+Each token (1 XAB) initially has the following basic backing: 100 GB of traffic in the P2P CDN service; 200 video ads impressions, in VAST format; 3-day unlimited access to premium content; other services of the Ace Network, in accordance with the established tariff plans.
 
 Ace Byte gives access to all Ace Network services and facilities and is the sole means of payment for Network fees for account registration and transactions between Network members.
 
@@ -31,9 +31,7 @@ All the issued and unlocked tokens are distributed with smart contracts to the f
 Tokens from [`lockedPool`][1] are unlocked when DAO assets are created and increased, and at the moment of burning a similar amount of XABs within following smart contracts:
 
 - [System Service Payment][12]
-- [Non System Service Payment][15]
 - [User Service Payment][13]
-- [Add Broadcasting Rights Contract][16]
 
 
 ## Deflation (token recycling/burning)
@@ -316,6 +314,4 @@ In addition, OTC transactions will be available: tokens purchase directly from t
 [12]: ../list-of-operations/system-service-payment.md
 [13]: ../list-of-operations/user-service-payment.md
 [14]: examples.md
-[15]: ../list-of-operations/non-system-service-payment.md
-[16]: ../list-of-operations/add-broadcasting-rights-contract.md
 [17]: ../network-participants/oracles.md

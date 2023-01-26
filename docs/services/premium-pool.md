@@ -10,36 +10,6 @@ A premium pool is one or more broadcasters who share a common billing policy. Te
 All properties can be changed only through the procedure of voting of pool's owners.
 
 
-## Copyrights
-
-Premium pools may be automatically dismantled if owners fail to provide evidence of copyright ownership. Ace Network has oracles entitled to resolve copyright disputes, and the majority of oracles can decide to stop premium pools because of copyright violations.
-
-
-## Pool-specific Tokens
-
-Pools are able to issue their own tokens. In that case, where owners had chosen to have their own token, the full amount of such tokens should be minted as part of the pool's creation procedure.
-
-The pool may operate minted tokens as with local currency, for example — demand payment for the pool's content in the pool's tokens.
-
-
-## Authomated exchange of pool specific-tokens
-
-If a user wishes to pay for the pool's content with system tokens, the pool-specific tokens could be automatically bought on the system's internal [exchange][11].
-
-
-
-## Pool creation
-
-Any Ace Network's account is able to create pools by performing [Create Premium Pool][1] operation, that includes:
-
-- confirming pool's properties
-- deciding who should be billed for pool's traffic (either broadcasters or watchers)
-- deciding if the pool would need its own token or not
-- paying system fee of 1000XAB to create a pool with specified parameters
-
-As a result, a special account to represent the newly created pool and store its parameters will be created. Owners of the pool will be signors of this special account.
-
-
 ## Broadcasting from the pools
 
 If brodcaster is listed in pool's settings and want to start publishing content they have to specify pool's public key in transport file.
@@ -182,7 +152,6 @@ Access control is fully decentralized and is carried out by network nodes. Each 
 
 
 
-[1]: ../list-of-operations/create-premium-pool.md
 [2]: #_3
 [3]: ../glossary/transport-file.md
 [4]: ../glossary/system-settings.md

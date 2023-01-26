@@ -155,13 +155,11 @@ nav:
       - Add Device: list-of-operations/add-device.md
       - Buy Single Access: list-of-operations/buy-single-access.md
       - Buy Subscription: list-of-operations/buy-subscription.md
-      - Create Premium Pool: list-of-operations/create-premium-pool.md
       - Remove Device: list-of-operations/remove-device.md
       - System Service Payment: list-of-operations/system-service-payment.md
       - User Service Payment: list-of-operations/user-service-payment.md
-      - Non System Service Payment: list-of-operations/non-system-service-payment.md
+      - Traffic Price Manager: list-of-operations/traffic-price-manager.md
       - Add Rights Holder: list-of-operations/add-rights-holder.md
-      - Add Broadcasting Rights Contract: list-of-operations/add-broadcasting-rights-contract.md
       - Unlock System Tokens: list-of-operations/unlock-system-tokens.md
     - Software: software/index.md
     - NFT: nft/index.md
