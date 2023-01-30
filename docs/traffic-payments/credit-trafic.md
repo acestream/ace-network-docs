@@ -36,19 +36,15 @@ Now let's look at an example of how these peers interact:
 2. `UserA` receives 7 Gb (7168 Мb) of traffic from UserС. As `UserA` has no tokens, then he receives traffic on credit. This means that `UserA` has owed `UserC` 7168 Мb. `UserA` credit limit has decreased to 0. `UserC` stops providing data to `UserA`, as he exceeded credit limit and cannot pay for traffic. 
 3. `UserA` refills his paying for services account for 0.2 XAB.
 
-    Current currency rate XAB/XAT: 1 XAB = 1 XAT.
-
-    Current cost of 1 Gb traffic: 0.01 XAT.
-
     System smart contract covers `UserA` credits:
 
-    - `UserB` receives 0.03 XAT (minus system commission) - payment for 3 Gb traffic which was given on credit
-    - `UserC` receives 0.07 XAT (minus system commission) - payment for 7 Gb traffic which was given on credit
-    - from `UserA` account writes off 0.1 XAB
+    - `UserB` receives 0.03 XAB (minus system commission) - payment for 3 Gb traffic which was given on credit
+    - `UserC` receives 0.07 XAB (minus system commission) - payment for 7 Gb traffic which was given on credit
+    - `UserA` is charged 0.1 XAB
     - UserA` credit limit `increased to 10240
-4. `UserA` receives 15 GB (15360 MB) of traffic from `UserD`. The XAB/XAT rate and the traffic cost are the same as in point 3. `UserA` has 0.1 XAB on the account and this is enough to pay for 10 GB traffic. The remaining 5 GB of traffic `UserA` takes from` UserD` on credit:
-    - `UserD` receives 0.1 XAT (minus system commission)
-    - from `UserA` account writes off 0.1 XAB
+4. `UserA` receives 15 GB (15360 MB) of traffic from `UserD`. `UserA` has 0.1 XAB and this is enough to pay for 10 GB traffic. The remaining 5 GB of traffic `UserA` takes from` UserD` on credit:
+    - `UserD` receives 0.1 XAB (minus system commission)
+    - `UserA` is charged 0.1 XAB
     - `UserA` credit limit decreased to 5120
     - `UserA` has owed `UserD` 5 Gb traffic
 
