@@ -10,13 +10,8 @@
 ## Псевдокод
 
 ```python
-
 # Find all unprocessed subscriptions
-subscriptions = [ account.getUnprocessedSubscriptions() in system.accounts if
-  account.hasUnprocessedSubscriptions()
-]
-
-for subscription in subscriptions:
+for subscription in findUnprocessedSubscriptions():
   # Get watch duration as a list of tuples (broadcaster, duration) where:
   # - broadcaster: broadcaster's account
   # - duration: total duration of watching broadcaster's content by
@@ -36,22 +31,32 @@ for subscription in subscriptions:
 
   # The amount of tokens to distribute among broadcasters is stored in
   # the "broadcastersShare" field of the subscription
-  tokensToDistribute = subscription.broadcastersShare
+  tokensToDistribute = subscription.totalToShare
 
   # Distribute tokens to broadcasters proportionally to the watch duration
   for (broadcaster, duration) in watchDuration:
     addTokens(broadcaster, tokensToDistribute * duration / totalDuration)
 
-  # Remove processed subscription from the ledger
-  removeSubscription(subscription.owner, subscription.id)
+  # Mark period as processed
+  markAsProcessed(subscription.id, subscription.currentPeriod)
 
 ```
 
 
 ## Описание
 
-- найти все необработанные подписки (это подписки, срок действия которых закончился, но доход от них еще не был распределен между бродкастерами)
+- найти все необработанные подписки премиум пула (это подписки, с момента активации которых прошло более 28 дней, либо срок действия которых закончился, но доход за соответствующий период еще не был распределен между участниками)
 - с каждой найденной подпиской провести такие операции:
-    - получить из второго уровня информацию о времени просмотра за период действия подписки (каких бродкастеров из данного пула смотрел владелец подписки и сколько времени)
-    - токены в поле `broadcastersShare` подписки распределить между бродкастерами пропорционально времени просмотра
-    - удалить обработанную подписку
+    - получить из второго уровня информацию о времени просмотра за необработанный период (каких участников премиум пула смотрел владелец подписки и сколько времени)
+    - распределить такое количество токенов между участниками (пропорционально времени просмотра):
+
+      `toShare` = `totalToShare` * `periodDuration` / `totalDuration`
+
+      где
+
+        - `toShare` - сколько токенов распределить
+        - `totalToShare` - общее количество токенов, которые должны быть распределены в рамках данной подписки
+        - `periodDuration` - длительность периода, за который выполняется начисление
+        - `totalDuration` - длительность подписки
+
+    - отменить период как обработанный

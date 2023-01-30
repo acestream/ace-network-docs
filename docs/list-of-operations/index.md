@@ -18,15 +18,12 @@ System smart contracts could:
 ## System smart contracts
 
 - [Ace Asset](ace-asset.md)
-- [Ace Deposit](ace-deposit.md)
 - [Distribute Subscriptions](distribute-subscriptions.md)
-- [Inflation](inflation.md)
 - [Purge Devices](purge-devices.md)
 - [Purge Subscriptions](purge-subscriptions.md)
 - [Reward Uploaders](reward-uploaders.md)
-- [System Service Payment](system-service-payment.md)
-- [User Service Payment](user-service-payment.md)
-- [Traffic Price Manager](traffic-price-manager.md)
+- [AceByte Manager](ace-byte-manager.md)
+- [AceTime Manager](ace-time-manager.md)
 
 ## Standard Operations
 

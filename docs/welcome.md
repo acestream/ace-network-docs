@@ -6,9 +6,9 @@ Here you can find common description of the system and its components, technical
 
 ## Library
 
-If you are new to DAO Ace Stream, then we offer you to start with this sections:
+If you are new to Ace Stream DAO, then we offer you to start with this sections:
 
-- [DAO Ace Stream][2]
+- [Ace Stream DAO][2]
 - [Finances and investments][3]
 - [Why, for whom and for what?][4]
 

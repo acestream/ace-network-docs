@@ -22,14 +22,6 @@ Current value: 30%
 Ace Stream Foundation's stake in [Ace Asset][2] token distribution.
 Current value: 30%
 
-### premium_pool_create_fee
-One-time payment charged to create[the premium pool][5]
-Current value: 1000 XAB
-
-### premium_pool_emission_fee
-Network's stake in tokens minted by [the premium pool][5]
-Current value: 30%.
-
 ### premium_pool_access_fee
 Network's stake in content access payments in [the premium pool][5]
 Current value: 30%
@@ -40,10 +32,6 @@ System premium pool settings, TBD in separate document
 ### ace_asset_min_lock_interval
 Minimal depositing term for [XAS][6] to participate in [Ace Asset][2].
 Current value: 1209600 seconds (14 days)
-
-### ace_deposit_min_lock_interval
-Minimal depositing term for XAB to participate in [Ace Deposit][4].
-Current value: 2419200 seconds (28 days)
 
 ### traffic_credit_limit
 Maximum amount of traffic units that could be borrowed by the account
@@ -66,6 +54,5 @@ Voting is the self-governance procedure that specifies how [Ace Assets (XAS)][6]
 [1]: ../network-participants/copyright-holders.md
 [2]: ../services/ace-asset.md
 [3]: https://developers.stellar.org/docs/run-core-node/network-upgrades/
-[4]: ../services/ace-deposit.md
 [5]: ../services/premium-pool.md
 [6]: ../system-tokens/ace-asset.md

@@ -4,7 +4,7 @@ template: raw_content.html
 
 # Advertising platforms without negativity, with unique audience and the most effective ad formats
 
-DAO Ace Stream includes software products which generate ad inventory and are platforms for placing advertising materials
+Ace Stream DAO includes software products which generate ad inventory and are platforms for placing advertising materials
 
 Term «unique audience» means Internet users who are unreachable for advertisers to show ad impressions in certain formats via other networks and platforms.  
 
@@ -94,7 +94,7 @@ Ad spending in the Search Advertising segment is projected to reach US$174,975m 
 
 > The “Ad Spending” box shows the forecasted development of the selected market (market segment) for each year.
 
-Using Metasearch as the default search engine on mobile and desktop devices makes Metasearch the only source (platform) for advertisers through which it will be possible to access our users for displaying search ads. This means that 100% of the total search advertising budget allocated by advertisers per Internet user can be determined as the real market value of the DAO Ace Stream inventory volume.
+Using Metasearch as the default search engine on mobile and desktop devices makes Metasearch the only source (platform) for advertisers through which it will be possible to access our users for displaying search ads. This means that 100% of the total search advertising budget allocated by advertisers per Internet user can be determined as the real market value of the Ace Stream DAO inventory volume.
 
 The average ad spending per internet user in the Search Advertising segment is projected to amount to US$36.82 in 2021;
 
@@ -102,7 +102,7 @@ The average ad spending per internet user in the Search Advertising segment is p
 
 > Average spending on search advertising per internet user per each year
 
-The cost of the search ad inventory held by DAO Ace Stream, according to statistics and predictions:
+The cost of the search ad inventory held by Ace Stream DAO, according to statistics and predictions:
 
 - **$ 36.82, per Metasearch user (Desktop + Mobile) in 2021**
 - **$ 37.44, per Metasearch user (Desktop + Mobile) in 2022**
@@ -129,7 +129,7 @@ The "Out-stream" video ad format includes Ad Banners/Display, Rich Media and Spo
 
 > Advertising costs **In-stream** excluding "Social Media Ad Video" and "Out-stream" by years
 
-The Ace Surf browser and the Ace Script extension (with the corresponding script) will by default replace any third-party In-stream video advertising with their own on all sites visited by the user, including all kinds of social media, which we deliberately do not take into account in the predictions of this section in order to predict as accurately as possible volumes of possible video inventory of DAO Ace Stream. In addition to replacing advertising on sites, the functionality of DAO Ace Stream products will almost 100% cover all user needs in terms of his requests and preferences for video content, thereby removing the need to use any third-party applications intended for watching TV with a movie. , TV series, sporting events, etc., which account for the bulk (almost 100%) of In-stream video ad impressions (outside Social Media). Taking this into account, it can be predicted that DAO Ace Stream will become the only source (platform) for advertisers through which it will be possible to get access to our users for displaying video ads in the In-stream format (outside of Social Media). This means that almost 100% of the total budget for in-stream video advertising (outside of Social Media) allocated by advertisers per Internet user can be determined as the real market value of the DAO Ace Stream inventory volume
+The Ace Surf browser and the Ace Script extension (with the corresponding script) will by default replace any third-party In-stream video advertising with their own on all sites visited by the user, including all kinds of social media, which we deliberately do not take into account in the predictions of this section in order to predict as accurately as possible volumes of possible video inventory of Ace Stream DAO. In addition to replacing advertising on sites, the functionality of Ace Stream DAO products will almost 100% cover all user needs in terms of his requests and preferences for video content, thereby removing the need to use any third-party applications intended for watching TV with a movie. , TV series, sporting events, etc., which account for the bulk (almost 100%) of In-stream video ad impressions (outside Social Media). Taking this into account, it can be predicted that Ace Stream DAO will become the only source (platform) for advertisers through which it will be possible to get access to our users for displaying video ads in the In-stream format (outside of Social Media). This means that almost 100% of the total budget for in-stream video advertising (outside of Social Media) allocated by advertisers per Internet user can be determined as the real market value of the Ace Stream DAO inventory volume
 
 Average video ad spend is projected to reach US $ 6.43 per internet user in 2021
 
@@ -137,13 +137,13 @@ Average video ad spend is projected to reach US $ 6.43 per internet user in 2021
 
 > Average expenses for in-stream video advertising (excluding Social Media) per Internet user per each year
 
-The cost of in-stream video advertising inventory held by DAO Ace Stream, according to statistics and predictions:
+The cost of in-stream video advertising inventory held by Ace Stream DAO, according to statistics and predictions:
 
 - **6.43 $ per user Ace Surf (Desktop + Mobile) in 2021**
 - **6.58 $ per user Ace Surf (Desktop + Mobile) in 2022**
 - **6.57 $ per user Ace Surf (Desktop + Mobile) in 2023**
 
-**The expected volume of annual inventory, when reaching the target of 100 million users of the Ace Surf browser, as well as other basic DAO Ace Stream products for 2023:**
+**The expected volume of annual inventory, when reaching the target of 100 million users of the Ace Surf browser, as well as other basic Ace Stream DAO products for 2023:**
 
 The volume of annual advertising inventory is 131.4 billion impressions with a total value of $ 657 million and an average CPM of $ 5
 
@@ -164,7 +164,7 @@ Powerful ad formats such as branding, notifications, and systemic advertisements
 
 These formats are included in the Ad Banners/Display, Rich Media segment and refer to the advertisers' budgets allocated for such an advertising segment.
 
-The volume and cost estimate of DAO Ace Stream ad inventory for the specified formats will directly depend on the frequency settings for such ads (which will be set by default or directly by the user through the settings). At the moment, there is still no decision on the frequency of impressions which will be optimal for the user and which will be set by default, that's why we provide an approximate amount of inventory and its cost.
+The volume and cost estimate of Ace Stream DAO ad inventory for the specified formats will directly depend on the frequency settings for such ads (which will be set by default or directly by the user through the settings). At the moment, there is still no decision on the frequency of impressions which will be optimal for the user and which will be set by default, that's why we provide an approximate amount of inventory and its cost.
 
 **Estimated volume of annual inventory, when reaching the target of 100 million users:**
 

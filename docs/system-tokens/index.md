@@ -9,8 +9,8 @@ or [trustline][3].
 There are three system tokens in the Ace Network:
 
 - [Ace Byte (XAB)][4] - Ace Netwok's basic system token
-- [Ace Time (XAT)][5] - algorithmic stablecoin
-- [Ace Asset (XAS)][6] - DAO Ace Stream protocol and asset management token
+- [Ace Time (XAT)][5] - algorithmic utility token
+- [Ace Asset (XAS)][6] - Ace Stream DAO protocol and asset management token
 
 !!! info
 

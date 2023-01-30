@@ -43,7 +43,7 @@ Ace Stream technology can work as an independent fully functional decentralised 
 
 A blockchain is used to synchronise the Network, but the interaction between its Participants is more like a direct relationship without intermediaries and unnecessary costs.
 
-The Blockchain of the Network was created on the basis of the Stellar software platform and supplemented with a second level "service layer" which is designed to ensure the operation of smart contracts within the framework of "DAO Ace Stream".
+The Blockchain of the Network was created on the basis of the Stellar software platform and supplemented with a second level "service layer" which is designed to ensure the operation of smart contracts within the framework of "Ace Stream DAO".
 
 The network is designed in order to meet the needs and maximum efficiency of the media market participants and their convenient interaction with the possibility of direct access to end users of multimedia products in all parts of the world.
 

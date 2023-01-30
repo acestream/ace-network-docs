@@ -9,8 +9,8 @@
 В Ace Network есть три системных токена:
 
 - [Ace Byte (XAB)][4] - базовый системный токен Ace Netwok
-- [Ace Time (XAT)][5] - алгоритмический стейблкойн (stablecoin)
-- [Ace Asset (XAS)][6] - токен управления протоколами и активами DAO Ace Stream
+- [Ace Time (XAT)][5] - алгоритмический утилитарный токен
+- [Ace Asset (XAS)][6] - токен управления протоколами и активами Ace Stream DAO
 
 !!! info
 

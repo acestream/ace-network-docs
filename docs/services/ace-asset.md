@@ -1,6 +1,6 @@
 # «Ace Assets» program
 
-Ace Assets is the program that participants are privileged to obtain [DAO Ace Stream cryptoassets][5] by participation in the redistribution of system tokens ([XAB][3]) and commissions taken by DAO Ace Stream for services provided by the Network.
+Ace Assets is the program that participants are privileged to obtain [Ace Stream DAO cryptoassets][5] by participation in the redistribution of system tokens ([XAB][3]) and commissions taken by Ace Stream DAO for services provided by the Network.
 
 All issued [XAB][3] tokens, including inflationary issues, are subject to distribution among the participants of the Ace Assets DeFi program by the terms of system smart contracts.
 

@@ -8,7 +8,7 @@ _Ace Stream takes Internet broadcasting to a new level and openes up new horizon
 
 **Effective monetisation of linear TV on the Internet and decentralised networks**
 
-The DAO Ace Stream toolkit for television channels allows broadcasting on the Internet with the following indicator **AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year**, depending on the distribution of the audience by region.
+The Ace Stream DAO toolkit for television channels allows broadcasting on the Internet with the following indicator **AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year**, depending on the distribution of the audience by region.
 
 **Average AARPU for TV** (based on data from international analytical services) **over $ 40 per year**
 

@@ -1,6 +1,6 @@
 # Buy One-time Access
 
-To buy one-time access to content in the premium pool
+To buy one-time access to content in the premium pool or from single broadcaster.
 
 Threshold: medium
 
@@ -10,5 +10,3 @@ Threshold: medium
 - `broadcaster` - broadcaster's account
 - `content id` - content identifier
 - `content type` - type of content, Live or VOD
-
-To buy access in the system pool, you must set the value of  `pool` parameter to `system`

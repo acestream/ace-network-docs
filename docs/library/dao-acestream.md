@@ -1,4 +1,4 @@
-# DAO Ace Stream
+# Ace Stream DAO
 
 <div id="popup-container" style="display: none;">
     <div id="popup-overlay"></div>
@@ -14,24 +14,24 @@
 
     Over 30 million active users and around 50 thousand new installations of Ace Stream software per day (applications for desktop, mobile, stb, browser plugins). And all this at the stage of solely the most basic applications and functions implementation, without any marketing/advertising costs and without any financial incentives and motivation of the Network Participants! (Detailed information, by audience ...)
 
-DAO Ace Stream marks the next planned development stage of the Ace Stream project which has already become the world's most popular decentralised solution for online streaming using P2P (peer to peer) technology
+Ace Stream DAO marks the next planned development stage of the Ace Stream project which has already become the world's most popular decentralised solution for online streaming using P2P (peer to peer) technology
 
 !!! info ""
 
     Term: DAO (decentralised autonomic organisation) — it is a complex form of smart contracts in which the rules of a decentralised organisation are written in the contract code and the management takes place through tokens
 
-**DAO Ace Stream** — it is a decentralised platform with multiple friendly services and apps which are based on paradigm of divided system without dependance on the connection to central control servers 
+**Ace Stream DAO** — it is a decentralised platform with multiple friendly services and apps which are based on paradigm of divided system without dependance on the connection to central control servers
 
-The DAO Ace Stream ecosystem is based on blockchain technology and has no owners in the traditional sense and anyway it belongs to the public
+The Ace Stream DAO ecosystem is based on blockchain technology and has no owners in the traditional sense and anyway it belongs to the public
 
 
 !!! note ""
 
     An open and completely decentralised Network with Onion Routing, with a search engine and DApps, in the form of an add-on over the Internet (second-level Internet network) which cannot be blocked or have restricted access to its content without blocking the Internet itself
 
-    The software operates in a decentralised open network with a transparent economy which is based on established software algorithms presented in public smart contracts (open software codes) with complete decentralisation of the regulation of relations, management mechanisms and mutual settlements between its Participants.DAO Ace Stream rules are followed by the protocol itself (program code), actors and social consensus of its Users / Participants.
+    The software operates in a decentralised open network with a transparent economy which is based on established software algorithms presented in public smart contracts (open software codes) with complete decentralisation of the regulation of relations, management mechanisms and mutual settlements between its Participants.Ace Stream DAO rules are followed by the protocol itself (program code), actors and social consensus of its Users / Participants.
 
-    No individual can influence the work of DAO Ace Stream!
+    No individual can influence the work of Ace Stream DAO!
 
 <p style="text-align: right">
     <strong><em>We make the impossible possible!</em></strong>
@@ -57,7 +57,7 @@ The DAO Ace Stream ecosystem is based on blockchain technology and has no owners
 </p>
 
 
-## Relevance of DAO Ace Stream Solutions
+## Relevance of Ace Stream DAO Solutions
 
 ### 1. Carbon-negative!
 
@@ -84,7 +84,7 @@ The "Carbon Negative" effect is achieved by reducing the load from international
 
 ### 2. Decentralized network with incredible multimedia capabilities
 
-Total immersion into multimedia and metaverse with DAO Ace Stream products and solutions:
+Total immersion into multimedia and metaverse with Ace Stream DAO products and solutions:
 
 - The embodiment of ideas and requests from the multi-million audience of Ace Stream in the decentralized media browser Ace Surf
 - Web3 (DApps, decentralization of communications, data storage and transmission)
@@ -188,8 +188,7 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
     - one-time paid access to content
 
 - **Ace DeFi** - unique investment programs DeFi **([read more][1])**
-- **Ace Assets** - participation in the percentage distribution of DAO Ace Stream cryptoassets
-- **Ace Deposit** - charging interest on a deposit
+- **Ace Assets** - participation in the percentage distribution of Ace Stream DAO cryptoassets
 
 <p style="text-align: center">
     <em>
@@ -202,11 +201,11 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 
 ### 6. 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
 
-[**Ace Byte (XAB)**][2] is a native deflationary system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
+[**Ace Byte (XAB)**][2] is a native system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
 
-[**Ace Asset (XAS)**][3] is a token purposed to manage network protocols and backed by the assets of DAO Ace Stream which gives the right to participate in the distribution of system tokens (XAB) and fees received by DAO Ace Stream for the services provided by the Network.
+[**Ace Asset (XAS)**][3] is a token purposed to manage network protocols and backed by the assets of Ace Stream DAO which gives the right to participate in the distribution of system tokens (XAB) and fees received by Ace Stream DAO for the services provided by the Network.
 
-[**Ace Time (XAT)**][4] - an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.
+[**Ace Time (XAT)**][4] is an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.
 
 <p style="text-align: center">
     <em>
@@ -219,7 +218,7 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 
 ### 7. Effective monetisation of linear television on Internet and decentralised networks
 
-The DAO Ace Stream set of tools for television channels allows broadcasting on the Internet with the following rate: **AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year**, depending on the distribution of the audience by region
+The Ace Stream DAO set of tools for television channels allows broadcasting on the Internet with the following rate: **AARPU (Average Ad Revenue per User) - from $ 13.68 to $ 136.8 per year**, depending on the distribution of the audience by region
 
 **The average AARPU rate for TV ** (according to international analytics services) **over 40$ per year**  
 
@@ -296,7 +295,7 @@ Automatic reward for users and partners of Network:
 *   for providing the Network with its hardware and network resources;
 *   for posting and distribution of high quality content;
 *   for developing and creating your own apps and services;
-*   for distribution DAO Ace Stream apps (for apps dev, OEMs)
+*   for distribution Ace Stream DAO apps (for apps dev, OEMs)
 *   for content moderation in the Network
 *   for viewing ads
 *   for taking part in DeFi programs
@@ -329,7 +328,7 @@ Automatic reward for users and partners of Network:
 
 ### 13. Advertising platforms without negativity, with unique audience and the most effective ad formats
 
-DAO Ace Stream includes software products which generate ad inventory and are platforms for placing advertising materials. 
+Ace Stream DAO includes software products which generate ad inventory and are platforms for placing advertising materials.
 
 100% guarantee there will be no user negativity when viewing ads
 
@@ -361,7 +360,7 @@ Ads formats, ad Inventory volumes and its cost when the target of 100 mil active
 
 *   **In-stream video ads**
 
-    The predicted annual volume of advertising inventory, when reaching the target of 100 million users of the Ace Surf browser as well as other basic DAO Ace Stream products - 131.4 billion impressions, with a total value of $ 657 million, with an average CPM of $ 5
+    The predicted annual volume of advertising inventory, when reaching the target of 100 million users of the Ace Surf browser as well as other basic Ace Stream DAO products - 131.4 billion impressions, with a total value of $ 657 million, with an average CPM of $ 5
 
     Average number of ad impressions per user - 1314 per year. 
 
@@ -384,7 +383,7 @@ Ads formats, ad Inventory volumes and its cost when the target of 100 mil active
 </p>
 
 
-### 14. DAO Ace Stream platforms for affiliate programs
+### 14. Ace Stream DAO platforms for affiliate programs
 
 In addition to the ability for users to view advertisements for a reward, users of the Ace Surf, Ace Search and Ace Script products will also receive rewards for various actions, according to the CPA (Cost per Action) model. For example, for the purchase of goods/services, for registration etc. Also, users will be provided with various promo codes, coupons and discounts.
 

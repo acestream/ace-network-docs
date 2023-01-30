@@ -10,7 +10,7 @@ Ace Network has a builtin prediction market called "Ace Bet".
 
 System integration with Ace Stream protocols allows automatic placement of interactive blocks of bets / predictions in live streams, with the ability to make live bets directly in the player window, in one click and without having to pass tedious registration procedures.
 
-DAO Ace Stream doesn't receive fees (doesn't receive income) from the prediction market. Participants are charged only system payments for processing operations, which are automatically burned after the market closes.
+Ace Stream DAO doesn't receive fees (doesn't receive income) from the prediction market. Participants are charged only system payments for processing operations, which are automatically burned after the market closes.
 
 <p style="text-align: center">
     <em>

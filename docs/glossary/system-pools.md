@@ -3,26 +3,6 @@
 System pools accumulate tokens for further re-distribution accordingly to conditions specified in system smart contracts. Every pool is the special account accessible only by system smart contracts, technically implemented as a field in `LedgerHeader` structure.
 
 
-### lockedPool
-
-Token: [XAB][1]
-
-Filled with tokens by the network's startup procedure (details described in [Ace Byte][1])
-
-This pool is controlled by the Ace Byte supply mechanism. Initially, all tokens in this pool are locked and cannot be used by any accounts until they are unlocked by burning Ace Bytes during the execution of the following smart contracts:
-
-- [System Service Payment][10]
-- [User Service Payment][12]
-
-### unlockedPool
-
-Token: [XAB][1]
-
-Accumulates unlocked tokens from `lockedPool`
-
-Re-distributed by [Ace Asset][3] system smart contract for sake of [Ace Asset][4] program
-
-
 ### xasLockedPool
 
 Token: [XAS][9]
@@ -30,15 +10,6 @@ Token: [XAS][9]
 Filled with tokens by XAS issuing procedure (details described in [Ace Asset][9])
 
 Initially, all tokens in this pool are locked and cannot be used by any accounts until they are unlocked by smart contract [Unlock System Tokens][14]
-
-
-### inflationPool
-
-Token: [XAB][1]
-
-Replenishes by [Inflation][5]  system smart contract
-
-Re-distributed by [Ace Deposit][6] system smart contract for sake of [Ace Deposit][7] program
 
 
 ### txFeePool
@@ -73,11 +44,6 @@ Accumulates commissions from premium pools. Re-distributes by [Ace Asset][3] sys
 [1]: ../system-tokens/ace-byte.md
 [3]: ../list-of-operations/ace-asset.md
 [4]: ../services/ace-asset.md
-[5]: ../list-of-operations/inflation.md
-[6]: ../list-of-operations/ace-deposit.md
-[7]: ../services/ace-deposit.md
 [8]: ../system-tokens/ace-time.md
 [9]: ../system-tokens/ace-asset.md
-[10]: ../list-of-operations/system-service-payment.md
-[12]: ../list-of-operations/user-service-payment.md
 [14]: ../list-of-operations/unlock-system-tokens.md

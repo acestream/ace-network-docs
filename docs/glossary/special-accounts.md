@@ -13,12 +13,6 @@ It is highly recommended to top up such accounts with amounts which are intended
 Account to participate in  [Ace Asset][3] program
 
 
-## Счет Ace Deposit
-
-Account to participate in  [Ace Deposit][4] program
-
-
 [1]: accounts-and-devices.md
 [2]: system-smart-contracts.md
 [3]: ../services/ace-asset.md
-[4]: ../services/ace-deposit.md

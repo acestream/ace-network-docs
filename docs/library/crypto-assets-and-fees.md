@@ -1,4 +1,4 @@
-# Crypto Assets of DAO Ace Stream
+# Crypto Assets of Ace Stream DAO
 
 <div id="popup-container" style="display: none;">
     <div id="popup-overlay"></div>
@@ -11,7 +11,7 @@
 
 100,000,000,000 Ace Bytes ([XAB][1]) is a base crypto asset to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
 
-Payments for services in the Ace Network made in Ace Time tokens ([XAT][7]) are DAO Ace Stream crypto assets to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
+Payments for services in the Ace Network made in Ace Time tokens ([XAT][7]) are Ace Stream DAO crypto assets to be distributed among DeFi [Ace Assets][6] program participants by the terms of the system smart contracts.
 
 **Below are the services for which fees are charged to the Ace Network, with subsequent distribution to "Ace Assets" DeFi Program members**
 
@@ -32,7 +32,9 @@ Brief explanation: Ace Network's effectiveness is based on an economic model in 
 
 System pool - 30% of the content access price
 
-Commercial broadcasts and private/individual pools - 10% of the plan + a one-time fixed fee when activating the Premium Pool service.
+Personalized pools without creating content provider tokens (without using the Ace Maker financial protocol) - 30% of the content access price + one-time fixed fee to create premium pool
+
+Commercial (paid) broadcasts without creating a pool - 30% of the content access price
 
 Assumed level of audience engagement - 30% of all users
 
@@ -76,7 +78,7 @@ The projected annual advertising inventory - 684,101,250,000 ad views, with a to
 
   The average number of ad impressions per user - 1,314 per year.
 
-  The projected annual volume of advertising inventory, when reaching the goal of 100 million users of the Ace Surf browser, as well as other basic DAO Ace Stream products - 131,400,000,000 displays, worth $ 657 million, with an average CPM of $ 5.
+  The projected annual volume of advertising inventory, when reaching the goal of 100 million users of the Ace Surf browser, as well as other basic Ace Stream DAO products - 131,400,000,000 displays, worth $ 657 million, with an average CPM of $ 5.
 
 - Other advertising formats, such as "branding," "notifications," and "ads in system notifications"**
 

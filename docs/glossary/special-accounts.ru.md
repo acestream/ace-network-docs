@@ -19,12 +19,6 @@
 Cчет для участия в программе [Ace Asset][3]
 
 
-## Счет Ace Deposit
-
-Cчет для участия в программе [Ace Deposit][4]
-
-
 [1]: accounts-and-devices.md
 [2]: system-smart-contracts.md
 [3]: ../services/ace-asset.md
-[4]: ../services/ace-deposit.md

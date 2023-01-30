@@ -4,7 +4,7 @@ template: raw_content.html
 
 # Decentralised financial and economic system based on one of the most advanced and reliable blockchain technologies in the world.
 
-Finances and economics are the basis for stability and reliability of any system, especially the decentralised one. Thats why in such an important and responsible part of the DAO Ace Stream project we did not begin to reinvent "wheel" and conduct experiments on users of the Ace Network, but decided to take as a basis one of the most advanced and reliable specialised platforms (blockchain technology - Stellar), and make our own custom “tuning” without violating the fundamental basis of the platform, but simply by adding the necessary “body kit” (additional functionality required for DAO Ace Stream to work)
+Finances and economics are the basis for stability and reliability of any system, especially the decentralised one. Thats why in such an important and responsible part of the Ace Stream DAO project we did not begin to reinvent "wheel" and conduct experiments on users of the Ace Network, but decided to take as a basis one of the most advanced and reliable specialised platforms (blockchain technology - Stellar), and make our own custom “tuning” without violating the fundamental basis of the platform, but simply by adding the necessary “body kit” (additional functionality required for Ace Stream DAO to work)
 
 Components of the financial and economic system:
 
@@ -25,8 +25,7 @@ Components of the financial and economic system:
 
 - **Ace DeFi** - unique investment programs DeFi
 
-    - **Ace Assets** - participation in the percentage distribution of DAO Ace Stream cryptoassets
-    - **Ace Deposit** - charging interest on a deposit
+    - **Ace Assets** - participation in the percentage distribution of Ace Stream DAO cryptoassets
 
 <p style="text-align: center">
     <em>

@@ -13,7 +13,7 @@ The same way the research from October 2019 [TV Time and United Talent Agency](h
 
     Source: [https://blog.irdeto.com/video-entertainment/pirates-are-primed-to-compete-in-the-streaming-wars/](https://blog.irdeto.com/video-entertainment/pirates-are-primed-to-compete-in-the-streaming-wars/){target=_blank}
 
-In order to fix this problem within the DAO Ace Stream project, especially for content providers and OTT special components/services are prepared:
+In order to fix this problem within the Ace Stream DAO project, especially for content providers and OTT special components/services are prepared:
 
 
 - Function **«Ace ID»** allows content providers and OTT services instantly provide access to its content on terms of one time payment or per minute tariff and automatically get payment without the need to register/identify users and to refill balance on their services/resources.

@@ -2,7 +2,7 @@
 template: raw_content.html
 ---
 
-# DAO Ace Stream platforms for affiliate programs 
+# Ace Stream DAO platforms for affiliate programs
 
 In addition to the ability for users to view advertisements for a reward, users of the Ace Surf, Ace Search and Ace Script products will also receive rewards for various actions, according to the CPA (Cost per Action) model. For example, for the purchase of goods/services, for registration, etc. Also, users will be provided with various promo codes, coupons and discounts.
 
@@ -28,7 +28,7 @@ Other sections/tabs will be added as we receive interesting offers from partners
 Affiliate programs will work not only when using the Ace Search functionality, but also through the SmartLink function, which will be implemented in the Ace Surf browser and the Ace Script extension
 
 Function **«SmartLink»** - when following to affiliate sites the user will be automatically
-link with the partner code DAO Ace Stream, allowing the user to
+link with the partner code Ace Stream DAO, allowing the user to
 receive bonuses/rewards, according to the terms of the partner site.
 
 Function **«Site Plus»** - when visiting partner sites the user will have access to additional functionality and capabilities that are not provided by the site itself.
@@ -45,7 +45,7 @@ Example of implementation:
     - The ability for users to place bets in the player's full-screen mode, during a live broadcast of a sporting event
 
     !!! note "Note"
-        Watching broadcasts directly on the sites of betting partnerships will be available only to those users for whom betting partnerships pay DAO Ace Stream a reward. The minimum fixed payment per month for one user/player is $ 10 per stream and plus the distribution of income when using an interactive block of bets over broadcasts
+        Watching broadcasts directly on the sites of betting partnerships will be available only to those users for whom betting partnerships pay Ace Stream DAO a reward. The minimum fixed payment per month for one user/player is $ 10 per stream and plus the distribution of income when using an interactive block of bets over broadcasts
 
 Approximate **ARPPU** (eng. Average revenue per paying user) a month while joining affiliate programs is **from 5 to 10$**
 

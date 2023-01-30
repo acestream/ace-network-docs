@@ -4,7 +4,7 @@ template: raw_content.html
 
 # Decentralized network with incredible multimedia capabilities
 
-DAO Ace Stream products and solutions:
+Ace Stream DAO products and solutions:
 
 ## Ace Surf - embodies ideas about what a browser should be
 
@@ -19,7 +19,7 @@ This browser is more than just a window to the Internet: it is an alternate real
 
 ## Web3 (DApps, decentralization of communications, data storage and transmission)
 
-Decentralized analogues of such popular services as Netflix, YouTube, Twitch, Hulu, Amazon Prime Video, HBO, ESPN +, etc., with additional functionality and advanced capabilities this is what DAO Ace Stream technologies and tools provide.
+Decentralized analogues of such popular services as Netflix, YouTube, Twitch, Hulu, Amazon Prime Video, HBO, ESPN +, etc., with additional functionality and advanced capabilities this is what Ace Stream DAO technologies and tools provide.
 
 
 ## Effective and decentralized search for multimedia content

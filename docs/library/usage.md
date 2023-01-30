@@ -1,6 +1,6 @@
 # Ace Network - the decentralized network that everyone needs!
 
-Who needs DAO Ace Stream and Ace Network and why?
+Who needs Ace Stream DAO and Ace Network and why?
 
 ## Content providers
 
@@ -38,7 +38,7 @@ To solve problems related to the distribution of unlicensed content, as well as 
 
 ## Device manufacturers and software developers
 
-Who want to provide their users with the unique capabilities of the Ace Network services and receive additional income through DAO Ace Stream affiliate programs.
+Who want to provide their users with the unique capabilities of the Ace Network services and receive additional income through Ace Stream DAO affiliate programs.
 
 
 ## CDN providers
@@ -48,7 +48,7 @@ Who want to significantly expand their bandwidth without any additional investme
 
 ##  DApps developers and Web 3.0 enthusiasts
 
-Who clearly see the concept of fully decentralised analogs of YouTube, Twitch, Instagram, Facebook, etc., knowing full well that heavy content (video, audio, photo) and communications between users form the basis of these services and that DAO Ace Stream has the necessary technological capabilities for such an implementation.
+Who clearly see the concept of fully decentralised analogs of YouTube, Twitch, Instagram, Facebook, etc., knowing full well that heavy content (video, audio, photo) and communications between users form the basis of these services and that Ace Stream DAO has the necessary technological capabilities for such an implementation.
 
 
 ## Advertisers
@@ -66,6 +66,6 @@ Who cares about the absence of technological risks related to the implementation
 
 For whom it will be a significant indicator that there are 30 million active Internet users and about 50 thousand new installations of Ace Stream software per day (applications for desktop, mobile, STB, browser extensions) for which not a single cent was spent (only organic growth, without any marketing/advertising costs and without any financial incentives for users).
 
-Who considers it absolutely real that the Network will achieve the figure of 100 million users after the launch of the second stage of the project (called "DAO Ace Stream") and having carefully studied the basic products, utilities and services of the project will be able to predict the capitalisation of the Network's assets and their final cost, based on the fact of reaching this figure.
+Who considers it absolutely real that the Network will achieve the figure of 100 million users after the launch of the second stage of the project (called "Ace Stream DAO") and having carefully studied the basic products, utilities and services of the project will be able to predict the capitalisation of the Network's assets and their final cost, based on the fact of reaching this figure.
 
-Who will be able to appreciate the uniqueness and value of the Network tokens, along with the attractiveness of the DeFi programs of DAO Ace Stream.
+Who will be able to appreciate the uniqueness and value of the Network tokens, along with the attractiveness of the DeFi programs of Ace Stream DAO.

@@ -1,6 +1,6 @@
 # Risk Assessment
 
-## Reliability of the DAO Ace Stream project
+## Reliability of the Ace Stream DAO project
 
 Ace Stream is not just another loud declarations and promises of a startup that does not have a long history of development, ready-made products and its own audience.
 
@@ -22,7 +22,7 @@ As a result, all the initial work on the release of products into production wil
 
 ## Minimal risk in reaching target audience coverage
 
-DAO Ace Stream is based on the popular Ace Stream project with an initial focus on distributing new products to its own multi-million audience.
+Ace Stream DAO is based on the popular Ace Stream project with an initial focus on distributing new products to its own multi-million audience.
 
 At the same time, it is important to consider that Ace Stream products have been installed by over 100 million unique users! However, retention was only 30% (about 30 million active users).
 
@@ -32,7 +32,7 @@ The good news is that we know the reason for bad retention and what needs to be 
 !!! note ""
     *Question:* why 70% of users who downloaded Ace Stream software are lost?
 
-    *Answer:* everything that was offered before the release of DAO Ace Stream was very difficult for casual users.
+    *Answer:* everything that was offered before the release of Ace Stream DAO was very difficult for casual users.
 
 The main audience of Ace Stream software products is advanced Internet users (geeks). Of course, at the stage of creating and testing the technology this was a huge advantage, since thanks to such an audience we were able to receive the activity and high-quality feedback necessary for development. But at a certain stage of development the problem of audience retention has become urgent and more than relevant.
 
@@ -52,9 +52,9 @@ b.  The relevance of Ace Stream technologies and the great interest of Internet 
 !!! note ""
     We just do what many people need and what has no analogues in the world so that is the fundamental basis of Ace Stream and the only marketing tool that served to develop the first stage of the project and ensured the existing audience reach
 
-The new basic (anchor) applications that will be implemented as part of the DAO Ace Stream project are convenient and intuitive for the average Internet user, thereby solving the problem of audience retention.
+The new basic (anchor) applications that will be implemented as part of the Ace Stream DAO project are convenient and intuitive for the average Internet user, thereby solving the problem of audience retention.
 
-Basic DAO Ace Stream apps:
+Basic Ace Stream DAO apps:
 
 - **Ace Media + P2P Search** - local media server with a decentralised system for publishing and searching for content and with the ability to catalog and synchronise it between any user applications and with the function of playing content on remote devices and TV, via communication protocols Ace Cast, AirPlay, Google Cast, etc.
 - **Ace Surf** - multimedia browser
@@ -78,7 +78,7 @@ Development programs aimed at ensuring active growth of the network audience [Ac
     - for providing the Network with its hardware and network resources;
     - for posting and distribution of high quality content;  
     - for developing and creating your own apps and services;
-    - for distribution DAO Ace Stream apps» (for apps dev, OEMs)  
+    - for distribution Ace Stream DAO apps» (for apps dev, OEMs)
     - for content moderation in the Network
     - for viewing ads
     - for taking part in [DeFi][6] 
@@ -90,7 +90,7 @@ Ace Stream technologies and products are absolutely legal and operate in full co
 
 The risk of "dependence on third parties" means the need to place applications in markets owned by third-party companies and acting within the framework of their interests, which on the basis of their own policies independently decide which application to be in the market and which not, regardless of how legal. Market owners act in the interests of their own companies and very often use their monopoly position to prevent the placement of applications in their market that will compete with the products and services of the market owner. This is undoubtedly a significant drawback, but such is the market and all projects that create applications for Android and iOS are exposed to this risk. At the same time, this must be taken into account in order to initially build the correct strategy, in which this risk and possible losses in the event of a risky event will be minimised.
 
-Diversification strategy of the designated risk in the DAO Ace Stream project:
+Diversification strategy of the designated risk in the Ace Stream DAO project:
 
 - Absolutely separate (independent, isolated) applications are created and are interconnected only at the level of well-thought-out software integrations (via API, with user-friendly usability).
 
@@ -103,7 +103,7 @@ Diversification strategy of the designated risk in the DAO Ace Stream project:
 
 ## DeFi program reliability and payment guarantee
 
-DAO Ace Stream and [DeFi][6] programs work in decentralised network with open source and transparent economy which is based on programs algorithms given in public smart contracts (open source codes) with complete decentralisation of regulation of relations, economic mechanisms and mutual settlements between its Participants. DAO Ace Stream rules are followed by the protocol itself (program code), node operators and social consensus of its Users/Participants.
+Ace Stream DAO and [DeFi][6] programs work in decentralised network with open source and transparent economy which is based on programs algorithms given in public smart contracts (open source codes) with complete decentralisation of regulation of relations, economic mechanisms and mutual settlements between its Participants. Ace Stream DAO rules are followed by the protocol itself (program code), node operators and social consensus of its Users/Participants.
 
 The distribution of funds and payments are carried out in a decentralised manner and in an automatic mode, in accordance with the terms of a smart contract without any possibilities of manual control and interference in the operation of the system.
 
