@@ -1,4 +1,4 @@
-site_name: DAO Ace Stream
+site_name: Ace Stream DAO
 theme:
   name: material
   custom_dir: templates
@@ -100,7 +100,7 @@ nav:
   - Home: https://acestream.org/
   - About the Project:
     - Unexplored Internet: library/intro.md
-    - DAO Ace Stream: library/dao-acestream.md
+    - Ace Stream DAO: library/dao-acestream.md
     - Finances and Investment:
       - Ace Assets DeFi Program: library/ace-asset.md
       - Token Classification, SEC: system-tokens/token-classification.md
