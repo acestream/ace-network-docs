@@ -171,49 +171,27 @@ Unprecedented capabilities and characteristics of Ace Stream P2P CDN:
 </p>
 
 
-### 5. Decentralised financial and economic system based on one of the most advanced and reliable blockchain technologies in the world.
+### 5. "Ace Assets" incentive program
 
-- **Ace Payments** - a decentralised payment system for direct payments, as well as for micropayments with deferred display in the main Ace Network blockchain when carrying out settlements for traffic and per-minute billing.
-
-    !!! info ""
-        The current limit for the stable operation of the blockchain when making direct payments is 2000 transactions per second (T / s) and when making micropayments for traffic and time is 172 million active daily users without any limit on the number of transactions per second.
-
-- **Ace Offer** - a mechanism for emission of digital assets (tokens) secured by the rights of access to content (video, audio, photo), with personalised conditions of the emitter. 
-- **Ace DEX** - a decentralised stock exchange for trading content rights / licenses and other digital assets.  
-
-- **Ace Billing** - a decentralised billing for the following tariff plans: 
-
-    - subscriptions for different periods of time
-    - per-minute tariffication of online broadcasts 
-    - one-time paid access to content
-
-- **Ace DeFi** - unique investment programs DeFi **([read more][1])**
-- **Ace Assets** - participation in the percentage distribution of Ace Stream DAO cryptoassets
+Ace Assets is a DeFi incentive program for Ace Stream DAO members
 
 <p style="text-align: center">
     <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/finances" href="#">
+        <a class="md-button mdx-button--transparent-light" href="../ace-asset/">
             Read more
         </a>
     </em>
 </p>
 
 
-### 6. 100% backed tokens and algorithmic stablecoin that generates pleasure and saves the environment
+### 6. 100% backed tokens and algorithmic stablecoin
 
 [**Ace Byte (XAB)**][2] is a native system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
 
 [**Ace Asset (XAS)**][3] is a token purposed to manage network protocols and backed by the assets of Ace Stream DAO which gives the right to participate in the distribution of system tokens (XAB) and fees received by Ace Stream DAO for the services provided by the Network.
 
-[**Ace Time (XAT)**][4] is an algorithmic stablecoin of the Ace Network which is not pegged to fiat money and commodity, but is provided with the most valuable resource of the online world - traffic volumes and the most valuable resource of the offline world - a person's life time which he spends on the consumption of digital content.
+[**Ace Time (XAT)**][4] is an algorithmic internal system token backed by the amount of traffic consumed in relation to one hour of content playback.
 
-<p style="text-align: center">
-    <em>
-        <a class="md-button mdx-button--transparent-light open-popup" data-url="../popup/tokens" href="#">
-            Read more
-        </a>
-    </em>
-</p>
 
 
 ### 7. Effective monetisation of linear television on Internet and decentralised networks

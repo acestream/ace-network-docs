@@ -8,12 +8,8 @@
 
 Если вы не знакомы с Ace Stream DAO, предлагаем вам начать с этих разделов:
 
-- [Вступление][1]
-- [Ace Stream DAO][2]
-- [Финансы и инвестиции][3]
-- [Кому это нужно][4]
+- [Ace Stream DAO][1]
+- [Кому это нужно][2]
 
-[1]: get-started/foreword.md
-[2]: library/dao-acestream.md
-[3]: library/finances.md
-[4]: library/usage.md
+[1]: library/dao-acestream.md
+[2]: library/usage.md

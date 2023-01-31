@@ -31,11 +31,10 @@ Below are listed criteria by which Ace Stream DAO and [XAB][2] and [XAS][3] coul
 
 5. Owners/holders of tokens do not receive any income and are not affected by the profit made by the Network from the sale of services.
 
-Explanation: Token holders can receive income and thus be affected by the profit/loss of the Network  only if they are participated in DeFi programs Ace Stream DAO. To become members they have to pass registration procedure and deposit their tokens into special accounts served by the smart contracts of one or another DeFi program ([more about DeFi programs][1])
+Explanation: Token holders can receive income and thus be affected by the profit/loss of the Network  only if they are participated in DeFi programs Ace Stream DAO. To become members they have to pass registration procedure and deposit their tokens into special accounts served by the smart contracts of one or another DeFi program
 
 
 
 
-[1]: ../library/finances.md
 [2]: ../system-tokens/ace-byte.md
 [3]: ../system-tokens/ace-asset.md

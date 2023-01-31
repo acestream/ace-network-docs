@@ -81,7 +81,7 @@ Development programs aimed at ensuring active growth of the network audience [Ac
     - for distribution Ace Stream DAO apps» (for apps dev, OEMs)
     - for content moderation in the Network
     - for viewing ads
-    - for taking part in [DeFi][6] 
+    - for taking part in DeFi
 
 
 ## Minimising the risk of removing products from any app markets
@@ -103,7 +103,7 @@ Diversification strategy of the designated risk in the Ace Stream DAO project:
 
 ## DeFi program reliability and payment guarantee
 
-Ace Stream DAO and [DeFi][6] programs work in decentralised network with open source and transparent economy which is based on programs algorithms given in public smart contracts (open source codes) with complete decentralisation of regulation of relations, economic mechanisms and mutual settlements between its Participants. Ace Stream DAO rules are followed by the protocol itself (program code), node operators and social consensus of its Users/Participants.
+Ace Stream DAO and DeFi programs work in decentralised network with open source and transparent economy which is based on programs algorithms given in public smart contracts (open source codes) with complete decentralisation of regulation of relations, economic mechanisms and mutual settlements between its Participants. Ace Stream DAO rules are followed by the protocol itself (program code), node operators and social consensus of its Users/Participants.
 
 The distribution of funds and payments are carried out in a decentralised manner and in an automatic mode, in accordance with the terms of a smart contract without any possibilities of manual control and interference in the operation of the system.
 
@@ -113,5 +113,4 @@ The distribution of funds and payments are carried out in a decentralised manner
 [3]: https://awe.acestream.me/scripts/acestream/P2P_Search
 [4]: ../welcome.md
 [5]: ../system-tokens/ace-byte.md
-[6]: finances.md
 [7]: dmca.md

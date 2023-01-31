@@ -1,6 +1,6 @@
 # Ace Time (XAT)
 
-**Ace Time (XAT)** is an algorithmic token backed by the amount of traffic consumed in relation to one hour of video and/or audio content playback. Ace Time tokens can be used to pay for traffic to deliver 1 hour of content within Ace Stream P2P CDN, regardless of the amount of GB used.
+**Ace Time (XAT)** is an algorithmic internal system token backed by the amount of traffic consumed in relation to one hour of content playback. Ace Time tokens can be used to pay for traffic to deliver 1 hour of content within Ace Stream P2P CDN, regardless of the amount of GB used.
 
 AceTime tokens are not in free circulation, but perform an exclusively technical role and serve to optimize mutual settlements when creating tokenized tariff packages with time reference.
 
