@@ -17,9 +17,9 @@
 
 ### Оракул по управлению правообладателями
 
-Данный оракул имеет полномочия для привязки идентификатора контента к правообладателю (операция [`Add Rights Holder`][3]).
+Данный оракул имеет полномочия для привязки идентификатора контента к правообладателю (метод `bind` контракта [`Copyrights Manager`][3]).
 
 
 [1]: ../glossary/system-settings.md#_3
 [2]: ../system-tokens/ace-asset.md
-[3]: ../list-of-operations/add-rights-holder.md
+[3]: ../list-of-operations/copyrights-manager.md

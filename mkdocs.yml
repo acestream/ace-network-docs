@@ -154,7 +154,7 @@ nav:
       - Remove Device: list-of-operations/remove-device.md
       - AceByte Manager: list-of-operations/ace-byte-manager.md
       - AceTime Manager: list-of-operations/ace-time-manager.md
-      - Add Rights Holder: list-of-operations/add-rights-holder.md
+      - Copyrights Manager: list-of-operations/copyrights-manager.md
       - Unlock System Tokens: list-of-operations/unlock-system-tokens.md
     - Software: software/index.md
     - NFT: nft/index.md

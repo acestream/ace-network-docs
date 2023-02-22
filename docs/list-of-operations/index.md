@@ -34,7 +34,7 @@ System smart contracts could:
 
 ## Oracle's Operations
 
-- [Add Rights Holder](add-rights-holder.md)
+- [Copyrights Manager](copyrights-manager.md)
 
 [1]: ../glossary/operations.md
 [2]: https://developers.stellar.org/docs/start/list-of-operations/

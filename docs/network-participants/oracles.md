@@ -16,9 +16,9 @@ The list of oracles is stored in the system settings.
 
 ### Right Holders Oracle
 
-This oracle has the authority to bind the content identifier to the copyright holder (operation [`Add Rights Holder`][3]).
+This oracle has the authority to bind the content identifier to the copyright holder (method `bind` of [`Copyrights Manager`][3] contract).
 
 
 [1]: ../glossary/system-settings.md#_3
 [2]: ../system-tokens/ace-asset.md
-[3]: ../list-of-operations/add-rights-holder.md
+[3]: ../list-of-operations/copyrights-manager.md
