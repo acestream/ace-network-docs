@@ -70,8 +70,8 @@ Billing settings apply to all content connected to the pool.
 
 #### Subscription
 
-To create a "personalized pool" on a "subscription" basis, it is necessary to issue content provider tokens in the Ace Maker protocol, with the appropriate parameters.
-<!-- The mechanics of creating a pool is described in detail here (link to Ace Maker) -->
+To create a "personalized pool" on a "subscription" basis, it is necessary to issue content provider tokens in the [Ace Maker][7] protocol, with the appropriate parameters.
+<!-- The mechanics of creating a pool is described in detail here (link to [Ace Maker][7]) -->
 
 Scheme of work of a personalized pool, on a subscription basis:
 
@@ -91,13 +91,13 @@ The purchase and activation of a subscription is carried out by means of a token
 
 #### Per-minute billing and one-time access
 
-Organizers can create "personalized pools" on a per-minute billing basis or on a one-time basis, without using the Ace Maker protocol and without issuing their tokens, provided that all broadcasters (pool members) provide access to their content under the same conditions.
+Organizers can create "personalized pools" on a per-minute billing basis or on a one-time basis, without using the [Ace Maker][7] protocol and without issuing their tokens, provided that all broadcasters (pool members) provide access to their content under the same conditions.
 
 In addition to the type of access (per-minute billing or one-time access), in the billing settings, you must specify who pays for the traffic - the user or the broadcaster. For one-time access, it is possible to specify both options by assigning them a different price (i.e. give the user a choice of two access options - with and without traffic included).
 
-Ace Bytes (XAB) tokens are used for payment, as well as Ace Coins (stablecoins of the Ace Maker protocol)
+Ace Bytes (XAB) tokens are used for payment, as well as Ace Coins (stablecoins of the [Ace Maker][7] protocol)
 
-To create a "personalized pool" on the terms of "Per-minute billing" and/or "One-time access", without using the Ace Maker protocol and without issuing your own tokens, you need to pay the Network a one-time fee of 10 XAB. In addition to the one-time fee, the Network charges a fee of 30% from each content access payment.
+To create a "personalized pool" on the terms of "Per-minute billing" and/or "One-time access", without using the [Ace Maker][7] protocol and without issuing your own tokens, you need to pay the Network a one-time fee of 10 XAB. In addition to the one-time fee, the Network charges a fee of 30% from each content access payment.
 
 
 ##### Per-minute billing
@@ -157,3 +157,4 @@ Access control is fully decentralized and is carried out by network nodes. Each 
 [4]: ../list-of-operations/buy-single-access.md
 [5]: ../services/billing.md
 [6]: ../traffic-payments/lottery-system.md
+[7]: https://acemakerdao.com/

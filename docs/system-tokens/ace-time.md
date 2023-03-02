@@ -10,7 +10,7 @@ AceTime tokens are not in free circulation, but perform an exclusively technical
 There is no initial issuance of XAT.
 
 Ace Time is issued automatically during encapsulation into other time-based tokens.
-For example, when encapsulated in tokens of copyright holders within the Ace Maker protocol.
+For example, when encapsulated in tokens of copyright holders within the [Ace Maker][3] protocol.
 
 Ace Time tokens are created by the [AceTimeManager][2] smart contract at the time of encapsulation.
 To create one Ace Time token, you need to burn Ace Byte tokens in an amount that corresponds to
@@ -28,3 +28,4 @@ Technically, the Ace Time token is represented by a set of several tokens, each 
 
 [1]: ../traffic-payments/payments.md
 [2]: ../list-of-operations/ace-time-manager.md
+[3]: https://acemakerdao.com/

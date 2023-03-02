@@ -15,7 +15,7 @@ The starting rate of Ace Byte after the initial issuance: 1 XAB = $1.
 
 During the network launch there will be an initial issuance of 1.5 billions XAB that will be distributed:
 
-- 1 billion XAB are transferred to the Ace Maker protocol, for internal circulation (for encapsulation in tokens of copyright holders). Ace Maker redeems this volume of XAB for stablecoins, at a 75% discount, without the possibility of their withdrawal from the protocol (i.e. without the possibility of their direct placement and sale on the market)
+- 1 billion XAB are transferred to the [Ace Maker][9] protocol, for internal circulation (for encapsulation in tokens of copyright holders). [Ace Maker][9] redeems this volume of XAB for stablecoins, at a 75% discount, without the possibility of their withdrawal from the protocol (i.e. without the possibility of their direct placement and sale on the market)
 
 - 500 million XAB credited to the DAO treasury account, for the operation of the DAO, the formation of a reserve fund and maintaining liquidity
 
@@ -47,3 +47,4 @@ Funds received from the sale of XAB tokens are distributed by smart contracts fo
 [5]: ../services/ace-asset.md
 [7]: ../system-tokens/ace-time.md
 [8]: ../system-tokens/ace-asset.md
+[9]: https://acemakerdao.com/

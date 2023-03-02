@@ -45,7 +45,7 @@ Brief explanation: Ace Network's effectiveness is based on an economic model in 
 
 System pool - 30% of the content access price
 
-Personalized pools without creating content provider tokens (without using the Ace Maker financial protocol) - 30% of the content access price + one-time fixed fee to create premium pool
+Personalized pools without creating content provider tokens (without using the [Ace Maker][7] financial protocol) - 30% of the content access price + one-time fixed fee to create premium pool
 
 Commercial (paid) broadcasts without creating a pool - 30% of the content access price
 
@@ -146,3 +146,4 @@ The redistributions perform by the [Ace Assets][2] smart contract, which runs on
 [3]: ../system-tokens/ace-byte.md
 [4]: ../system-tokens/ace-asset.md
 [6]: ../services/premium-pool.md
+[7]: https://acemakerdao.com/

@@ -30,7 +30,7 @@ transferred to account B minus system commission:
 
 Payment for traffic with AceTime tokens is possible only if
 third-party tokens are used that encapsulate the AceTime token (for example, tokens
-of copyrights holders in the Ace Maker protocol).
+of copyrights holders in the [Ace Maker][4] protocol).
 
 At the moment of using the copyright holder token, the AceTime token is released from it,
 then burned and converted into 0.03 AceByte (this is the amount of AceByte required
@@ -49,3 +49,4 @@ to access the content and accordingly 100 AceTimeMultimedia were released to pay
 [1]: ace-time.md
 [2]: ace-byte.md
 [3]: ../list-of-operations/ace-time-manager.md
+[4]: https://acemakerdao.com/
