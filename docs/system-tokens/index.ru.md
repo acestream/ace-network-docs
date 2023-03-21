@@ -10,7 +10,7 @@
 
 - [Ace Byte (XAB)][4] - базовый системный токен Ace Netwok
 - [Ace Time (XAT)][5] - алгоритмический утилитарный токен
-- [Ace Asset (XAS)][6] - токен управления протоколами и активами Ace Stream DAO
+- [Ace Stream Token (AST)][6] - токен управления протоколами и активами Ace Stream DAO
 
 !!! info
 
@@ -21,4 +21,4 @@
 [3]: https://developers.stellar.org/docs/issuing-assets/anatomy-of-an-asset/#trustlines
 [4]: ace-byte.md
 [5]: ace-time.md
-[6]: ace-asset.md
+[6]: ace-stream-token.md

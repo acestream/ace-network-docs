@@ -188,7 +188,7 @@ Ace Assets is a DeFi incentive program for Ace Stream DAO members
 
 [**Ace Byte (XAB)**][2] is a native system token backed by: an Internet channel with a bandwidth of over 200,000 Tbps; premium content and all services of the Ace Network.
 
-[**Ace Asset (XAS)**][3] is a token purposed to manage network protocols and backed by the assets of Ace Stream DAO which gives the right to participate in the distribution of system tokens (XAB) and fees received by Ace Stream DAO for the services provided by the Network.
+[**Ace Stream Token (AST)**][3] is a token purposed to manage network protocols and backed by the assets of Ace Stream DAO which gives the right to participate in the distribution of system tokens (XAB) and fees received by Ace Stream DAO for the services provided by the Network.
 
 [**Ace Time (XAT)**][4] is an algorithmic internal system token backed by the amount of traffic consumed in relation to one hour of content playback.
 
@@ -393,6 +393,6 @@ Expected level of audience engagement – 35% from all the users per month
 
 [1]: finances.md
 [2]: ../system-tokens/ace-byte.md
-[3]: ../system-tokens/ace-asset.md
+[3]: ../system-tokens/ace-stream-token.md
 [4]: ../system-tokens/ace-time.md
 [5]: https://www.bcg.com/press/24june2021-telco-sector-game-changer-sustainability-shrinking-carbon-footprints

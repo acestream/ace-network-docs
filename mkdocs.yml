@@ -122,7 +122,7 @@ nav:
       - Overview: system-tokens/index.md
       - Ace Byte (XAB): system-tokens/ace-byte.md
       - Ace Time (XAT): system-tokens/ace-time.md
-      - Ace Asset (XAS): system-tokens/ace-asset.md
+      - Ace Stream Token (AST): system-tokens/ace-stream-token.md
       - Examples: system-tokens/examples.md
       - Token Exchange: system-tokens/exchange.md
     - Traffic Payments:

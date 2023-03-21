@@ -10,7 +10,7 @@ There are three system tokens in the Ace Network:
 
 - [Ace Byte (XAB)][4] - Ace Netwok's basic system token
 - [Ace Time (XAT)][5] - algorithmic utility token
-- [Ace Asset (XAS)][6] - Ace Stream DAO protocol and asset management token
+- [Ace Stream Token (AST)][6] - Ace Stream DAO protocol and asset management token
 
 !!! info
 
@@ -22,4 +22,4 @@ There are three system tokens in the Ace Network:
 [3]: https://developers.stellar.org/docs/issuing-assets/anatomy-of-an-asset/#trustlines
 [4]: ace-byte.md
 [5]: ace-time.md
-[6]: ace-asset.md
+[6]: ace-stream-token.md

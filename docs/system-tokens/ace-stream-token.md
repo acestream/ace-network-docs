@@ -1,9 +1,9 @@
-# Ace Asset (XAS)
+# Ace Stream Token (AST)
 
 
-**Ace Asset (XAS)** is the utility token purposed to manage other network assets and protocols.
+**Ace Stream Token (AST)** is the utility token purposed to manage other network assets and protocols.
 
-XAS gives its owners some privileged rights:
+AST gives its owners some privileged rights:
 
 - voting for changes in protocols and smart-contracts (described [here][1])
 - voting for delegation of rights to "Oracles"
@@ -15,11 +15,11 @@ XAS gives its owners some privileged rights:
 
 ## Token issuing
 
-The initial issuance is 10,000,000,000 XAS
+The initial issuance is 10,000,000,000 AST
 
-The initial rate of XAS token at the start of sales: 1 "Ace Asset" = $1
+The initial rate of AST token at the start of sales: 1 "Ace Stream Token" = $1
 
-90% of the tokens from the total issue will initially be locked in a special account ([`xasLockedPool`][3]), which only the [Unlock System Tokens][4] smart contract has access to.
+90% of the tokens from the total issue will initially be locked in a special account ([`astLockedPool`][3]), which only the [Unlock System Tokens][4] smart contract has access to.
 
 ## Token distribution
 
@@ -39,12 +39,12 @@ Investor's funds are used for the Ace Stream DAO strategic development:
 
 !!! info
 
-    Tokens intended for the strategic development of Ace Stream DAO are credited to a special account in the Network and are used exclusively to fund programmes approved by Network Participants (holders of Ace Stream DAO governance tokens). Funding programmes approval and XAS tokens unlocking is done through a decentralised voting mechanism.
+    Tokens intended for the strategic development of Ace Stream DAO are credited to a special account in the Network and are used exclusively to fund programmes approved by Network Participants (holders of Ace Stream DAO governance tokens). Funding programmes approval and AST tokens unlocking is done through a decentralised voting mechanism.
 
 <!--
 ## Initial Offering
 
-Private token sale, in the form of direct sales of Ace Asset (XAS) tokens to strategic partners and users of Ace Stream.
+Private token sale, in the form of direct sales of Ace Stream Token (AST) tokens to strategic partners and users of Ace Stream.
 
 The period of the private token sale: from 06/01/2022 to 11/31/2022. Attention! The token sale may be suspended ahead of schedule, at any time, by the decision of its organizers.
 
@@ -254,10 +254,10 @@ Users who have activated the premium tariff on a date prior to 06/01/2022 receiv
 To participate in a private token sale, in order to purchase tokens worth more than $1,000, you must submit an appropriate application and receive an invitation from the organizer (Ace Stream).
 
 After the private sale, it will be possible to buy tokens directly on the Ace Stream open trading platform, at a market price.
-In addition, OTC transactions will be available: tokens purchase directly from the organizer (Ace Stream). The sale of tokens by the organizer will be carried out at the market price, but not lower than the face value (1 XAS >= 1$).
+In addition, OTC transactions will be available: tokens purchase directly from the organizer (Ace Stream). The sale of tokens by the organizer will be carried out at the market price, but not lower than the face value (1 AST >= 1$).
 -->
 
 [1]: ../glossary/system-settings.md#_3
 [2]: ../services/ace-asset.md
-[3]: ../glossary/system-pools.md#xaslockedpool
+[3]: ../glossary/system-pools.md#astLockedPool
 [4]: ../list-of-operations/unlock-system-tokens.md

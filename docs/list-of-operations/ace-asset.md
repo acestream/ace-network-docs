@@ -40,7 +40,7 @@ for pool in pools:
     - [`premiumFeePool`][2]
 - `ace_asset_adf_share` percent of the pools' content is transferred to an account managed by the Ace Stream Foundation
 - the rest is distributed among the special Ace Asset accounts, which have not changed for at least `ace_asset_min_lock_interval` seconds
-- distribution is performed in proportion to the number of XAS in the special account
+- distribution is performed in proportion to the number of AST in the special account
 - tokens received as a result of distribution are credited to the special account holder's account
 - the special account is not modified during the operation, so each such account will take part in the next distribution operation in 24 hours (if the account's owner does not modify it)
 - after redistribution, all participating pools are reset to zero

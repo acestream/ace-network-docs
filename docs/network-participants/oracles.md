@@ -7,7 +7,7 @@ Each oracle is represented by a separate business entity that can play such a ro
 
 ## Adding and removing oracles
 
-Adding and removing oracles is done solely by [vote][1] of the [XAS][2] holders.
+Adding and removing oracles is done solely by [vote][1] of the [AST][2] holders.
 
 The list of oracles is stored in the system settings.
 
@@ -20,5 +20,5 @@ This oracle has the authority to bind the content identifier to the copyright ho
 
 
 [1]: ../glossary/system-settings.md#_3
-[2]: ../system-tokens/ace-asset.md
+[2]: ../system-tokens/ace-stream-token.md
 [3]: ../list-of-operations/copyrights-manager.md

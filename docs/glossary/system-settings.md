@@ -4,7 +4,7 @@ System settings that define system's econo,y and system smart contracts' behavio
 
 Basic settings are stored in the main blockchain (in `ledgerHeader`).
 
-Change of basic settings can only be performed by the network's governance procedures, for example, by voting of [Ace Assets (XAS)][6] owners.
+Change of basic settings can only be performed by the network's governance procedures, for example, by voting of [Ace Stream Token (AST)][6] owners.
 
 
 ## Список настроек
@@ -30,7 +30,7 @@ Current value: 30%
 System premium pool settings, TBD in separate document
 
 ### ace_asset_min_lock_interval
-Minimal depositing term for [XAS][6] to participate in [Ace Asset][2].
+Minimal depositing term for [AST][6] to participate in [Ace Asset][2].
 Current value: 1209600 seconds (14 days)
 
 ### traffic_credit_limit
@@ -47,7 +47,7 @@ Current value: 0.1 XAB
 
 ## Voting
 
-Voting is the self-governance procedure that specifies how [Ace Assets (XAS)][6] holders can change the network. For now voting is expected to get done by third party voting system, decisions made by XAS owners should be implemented by validators as part of [system upgrade][3] process. In future integral voting subsystem should be integrated in Ace Network directly.
+Voting is the self-governance procedure that specifies how [Ace Stream Token (AST)][6] holders can change the network. For now voting is expected to get done by third party voting system, decisions made by AST owners should be implemented by validators as part of [system upgrade][3] process. In future integral voting subsystem should be integrated in Ace Network directly.
 
 
 
@@ -55,4 +55,4 @@ Voting is the self-governance procedure that specifies how [Ace Assets (XAS)][6]
 [2]: ../services/ace-asset.md
 [3]: https://developers.stellar.org/docs/run-core-node/network-upgrades/
 [5]: ../services/premium-pool.md
-[6]: ../system-tokens/ace-asset.md
+[6]: ../system-tokens/ace-stream-token.md

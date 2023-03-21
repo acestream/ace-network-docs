@@ -8,14 +8,14 @@
     </div>
 </div>
 
-Ace Assets is a De-Fi incentive program for "Ace Asset (XAS)" token holders that entitles its members to receive payouts from the Ace Stream DAO reward pool.
+Ace Assets is a De-Fi incentive program for "Ace Stream Token (AST)" token holders that entitles its members to receive payouts from the Ace Stream DAO reward pool.
 
 
 ## Activation and deactivation of "Ace Assets" program
 
-[XAS][4] tokens are required to participate in the "Ace Assets" program and receive payments from the reward pool
+[AST][4] tokens are required to participate in the "Ace Assets" program and receive payments from the reward pool
 
-To obtain the rights to own crypto assets of the Network and to participate in their distribution, you need to deposit XAS tokens on a specialized account of your personal wallet, with the same name "Ace Asset", after which these tokens will be automatically linked to the smart contact [Ace Assets][2] and participate in this program.
+To obtain the rights to own crypto assets of the Network and to participate in their distribution, you need to deposit AST tokens on a specialized account of your personal wallet, with the same name "Ace Asset", after which these tokens will be automatically linked to the smart contact [Ace Assets][2] and participate in this program.
 
 The owner of tokens at any time can withdraw them (partially or completely) from the Ace Assets program by transferring them to the main account of his wallet, and use them to pay for services and services of the Network
 
@@ -144,6 +144,6 @@ The redistributions perform by the [Ace Assets][2] smart contract, which runs on
 [1]: ../system-tokens/ace-time.md
 [2]: ../list-of-operations/ace-asset.md
 [3]: ../system-tokens/ace-byte.md
-[4]: ../system-tokens/ace-asset.md
+[4]: ../system-tokens/ace-stream-token.md
 [6]: ../services/premium-pool.md
 [7]: https://acemakerdao.com/
