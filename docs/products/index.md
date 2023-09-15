@@ -26,10 +26,14 @@ Here you can find the links the latest versions of Ace Stream software for all a
 
 ### Ace Stream Engine
 
-<!-- - Google Play: [https://play.google.com/store/apps/details?id=org.acestream.core][21] -->
 - stable version: [ARMv7 (32 bit)][22] | [x86][23] | [ARMv8 (64 bit)][24] | [x86_64][25]
 - beta version: [ARMv7 (32 bit)][26] | [x86][27] | [ARMv8 (64 bit)][28] | [x86_64][29]
 
+
+### Ace Stream (New)
+
+<!-- - Google Play: [https://play.google.com/store/apps/details?id=org.acestream.node][21] -->
+- stable version: [ARMv7 (32 bit)][60] | [x86][61] | [ARMv8 (64 bit)][62] | [x86_64][63]
 
 ### Ace Stream Engine for Android TV
 
@@ -89,7 +93,7 @@ You can find more info about linux builds and packages prepared by community on 
 [18]: https://download.acestream.media/products/acestream-engine-beta/android-tv/x86/latest
 [19]: https://download.acestream.media/products/acestream-engine-beta/android-tv/armv8_64/latest
 [20]: https://download.acestream.media/products/acestream-engine-beta/android-tv/x86_64/latest
-[21]: https://play.google.com/store/apps/details?id=org.acestream.core
+[21]: https://play.google.com/store/apps/details?id=org.acestream.node
 [22]: https://download.acestream.media/products/android/acestream-core/armv7/latest
 [23]: https://download.acestream.media/products/android/acestream-core/x86/latest
 [24]: https://download.acestream.media/products/android/acestream-core/armv8_64/latest
@@ -127,3 +131,7 @@ You can find more info about linux builds and packages prepared by community on 
 [56]: https://download.acestream.media/linux/acestream_3.1.75rc4_ubuntu_18.04_x86_64_py3.7.tar.gz
 [57]: https://download.acestream.media/linux/acestream_3.1.75rc4_ubuntu_18.04_x86_64_py3.8.tar.gz
 [59]: https://forum.acestream.media/
+[60]: https://download.acestream.media/products/android/acestream-node/armv7/latest
+[61]: https://download.acestream.media/products/android/acestream-node/x86/latest
+[62]: https://download.acestream.media/products/android/acestream-node/armv8_64/latest
+[63]: https://download.acestream.media/products/android/acestream-node/x86_64/latest
