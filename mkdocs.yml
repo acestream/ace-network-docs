@@ -183,7 +183,7 @@ nav:
       - Configuring public and private nodes: broadcasting/administration/public-private-nodes.md
       - Node HTTP Interface: broadcasting/administration/node-http-interface.md
       # - Logging: broadcasting/administration/logging.md
-      - Moving the source node: broadcasting/administration/moving-the-source-node.md
+      - Relocating the Source Node: broadcasting/administration/relocating-the-source-node.md
       # - Traffic Filtration: broadcasting/administration/traffic-filtration.md
     - Reference: broadcasting/reference.md
   - Developers:
